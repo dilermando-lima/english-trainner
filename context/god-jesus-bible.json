@@ -1,0 +1,317 @@
+{
+  "name": "Deus, Jesus e Bíblia",
+  "sentences": [
+    {
+      "QE": "Do you believe in God?",
+      "QP": "Você acredita em Deus?",
+      "AE": "Yes, I do. I have always believed.",
+      "AP": "Sim. Sempre acreditei."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She goes to church every Sunday.",
+      "AP": "Ela vai à igreja todo domingo."
+    },
+    {
+      "QE": "What does the Bible say about that?",
+      "QP": "O que a Bíblia diz sobre isso?",
+      "AE": "It says we should love one another.",
+      "AP": "Diz que devemos amar uns aos outros."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He prays before every meal.",
+      "AP": "Ele ora antes de cada refeição."
+    },
+    {
+      "QE": "Do you read the Bible?",
+      "QP": "Você lê a Bíblia?",
+      "AE": "Yes, I try to read a little every day.",
+      "AP": "Sim, tento ler um pouco todo dia."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Jesus taught us to forgive.",
+      "AP": "Jesus nos ensinou a perdoar."
+    },
+    {
+      "QE": "What is your favorite Bible verse?",
+      "QP": "Qual é seu versículo favorito?",
+      "AE": "The Lord is my shepherd. Psalm twenty-three.",
+      "AP": "O Senhor é meu pastor. Salmo vinte e três."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We thank God for our blessings.",
+      "AP": "Agradecemos a Deus pelas bênçãos."
+    },
+    {
+      "QE": "Do you go to church?",
+      "QP": "Você vai à igreja?",
+      "AE": "Yes, I go with my family.",
+      "AP": "Sim, vou com minha família."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "God is love. That is what I believe.",
+      "AP": "Deus é amor. É no que acredito."
+    },
+    {
+      "QE": "How do you practice your faith?",
+      "QP": "Como você pratica sua fé?",
+      "AE": "I pray, read the Bible, and help others.",
+      "AP": "Oro, leio a Bíblia e ajudo o próximo."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She believes Jesus is the Son of God.",
+      "AP": "Ela acredita que Jesus é o Filho de Deus."
+    },
+    {
+      "QE": "What do you think about prayer?",
+      "QP": "O que você acha da oração?",
+      "AE": "Prayer gives me peace and strength.",
+      "AP": "A oração me dá paz e força."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He gives thanks to God every morning.",
+      "AP": "Ele agradece a Deus toda manhã."
+    },
+    {
+      "QE": "Have you read the New Testament?",
+      "QP": "Você leu o Novo Testamento?",
+      "AE": "Yes, I have read it several times.",
+      "AP": "Sim, já li várias vezes."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We ask God for guidance.",
+      "AP": "Pedimos orientação a Deus."
+    },
+    {
+      "QE": "What does faith mean to you?",
+      "QP": "O que a fé significa para você?",
+      "AE": "It means trusting God in everything.",
+      "AP": "Significa confiar em Deus em tudo."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Jesus died for our sins.",
+      "AP": "Jesus morreu por nossos pecados."
+    },
+    {
+      "QE": "Do you celebrate Easter?",
+      "QP": "Você celebra a Páscoa?",
+      "AE": "Yes, we celebrate the resurrection.",
+      "AP": "Sim, celebramos a ressurreição."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She finds comfort in the Psalms.",
+      "AP": "Ela encontra consolo nos Salmos."
+    },
+    {
+      "QE": "How did you come to believe?",
+      "QP": "Como você passou a acreditar?",
+      "AE": "My family taught me from a young age.",
+      "AP": "Minha família me ensinou desde criança."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "God works in mysterious ways.",
+      "AP": "Deus age de formas misteriosas."
+    },
+    {
+      "QE": "What do you pray for?",
+      "QP": "Pelo que você ora?",
+      "AE": "I pray for my family and for peace.",
+      "AP": "Oro pela minha família e pela paz."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He goes to Bible study on Wednesdays.",
+      "AP": "Ele vai ao estudo bíblico às quartas."
+    },
+    {
+      "QE": "Do you believe in life after death?",
+      "QP": "Você acredita na vida após a morte?",
+      "AE": "Yes, I believe in heaven.",
+      "AP": "Sim, acredito no céu."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "The Bible is the word of God.",
+      "AP": "A Bíblia é a palavra de Deus."
+    },
+    {
+      "QE": "What is the Golden Rule?",
+      "QP": "Qual é a regra de ouro?",
+      "AE": "Do unto others as you would have them do unto you.",
+      "AP": "Faça aos outros o que quer que façam a você."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She sings in the church choir.",
+      "AP": "Ela canta no coral da igreja."
+    },
+    {
+      "QE": "Do you tithe?",
+      "QP": "Você dá o dízimo?",
+      "AE": "Yes, I give ten percent to the church.",
+      "AP": "Sim, dou dez por cento à igreja."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Jesus performed many miracles.",
+      "AP": "Jesus realizou muitos milagres."
+    },
+    {
+      "QE": "How do you explain suffering?",
+      "QP": "Como você explica o sofrimento?",
+      "AE": "I believe God has a plan we cannot see.",
+      "AP": "Acredito que Deus tem um plano que não vemos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We pray for those in need.",
+      "AP": "Oramos por quem precisa."
+    },
+    {
+      "QE": "What is Christmas about for you?",
+      "QP": "O que é o Natal para você?",
+      "AE": "It is about the birth of Jesus.",
+      "AP": "É sobre o nascimento de Jesus."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He reads a devotional every morning.",
+      "AP": "Ele lê um devocional toda manhã."
+    },
+    {
+      "QE": "Do you believe in forgiveness?",
+      "QP": "Você acredita no perdão?",
+      "AE": "Yes. Jesus taught us to forgive.",
+      "AP": "Sim. Jesus nos ensinou a perdoar."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "God bless you.",
+      "AP": "Deus te abençoe."
+    },
+    {
+      "QE": "What role does church play in your life?",
+      "QP": "Que papel a igreja tem na sua vida?",
+      "AE": "It is where I find community and grow.",
+      "AP": "É onde encontro comunidade e cresço."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She believes in the power of prayer.",
+      "AP": "Ela acredita no poder da oração."
+    },
+    {
+      "QE": "Have you ever had a spiritual experience?",
+      "QP": "Você já teve uma experiência espiritual?",
+      "AE": "Yes, I felt God's presence once.",
+      "AP": "Sim, senti a presença de Deus uma vez."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "The Lord gives and the Lord takes away.",
+      "AP": "O Senhor dá e o Senhor tira."
+    },
+    {
+      "QE": "What do you think about grace?",
+      "QP": "O que você acha da graça?",
+      "AE": "We do not deserve it, but God gives it.",
+      "AP": "Não merecemos, mas Deus nos dá."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He volunteers at the church soup kitchen.",
+      "AP": "Ele é voluntário no sopão da igreja."
+    },
+    {
+      "QE": "Do you believe in angels?",
+      "QP": "Você acredita em anjos?",
+      "AE": "Yes, the Bible speaks of them.",
+      "AP": "Sim, a Bíblia fala deles."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Jesus is the way, the truth, and the life.",
+      "AP": "Jesus é o caminho, a verdade e a vida."
+    },
+    {
+      "QE": "How do you share your faith?",
+      "QP": "Como você compartilha sua fé?",
+      "AE": "By how I live and treat others.",
+      "AP": "Pela forma como vivo e trato os outros."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We celebrate the Lord's Supper monthly.",
+      "AP": "Celebramos a Santa Ceia todo mês."
+    },
+    {
+      "QE": "What gives you hope?",
+      "QP": "O que te dá esperança?",
+      "AE": "My faith in God gives me hope.",
+      "AP": "Minha fé em Deus me dá esperança."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She teaches Sunday school.",
+      "AP": "Ela dá aula na escola dominical."
+    },
+    {
+      "QE": "Do you fast?",
+      "QP": "Você jejua?",
+      "AE": "Yes, sometimes during Lent.",
+      "AP": "Sim, às vezes na Quaresma."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "God is with us. We are never alone.",
+      "AP": "Deus está conosco. Nunca estamos sós."
+    },
+    {
+      "QE": "What does the cross mean to you?",
+      "QP": "O que a cruz significa para você?",
+      "AE": "It means sacrifice and redemption.",
+      "AP": "Significa sacrifício e redenção."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He believes everyone can be saved.",
+      "AP": "Ele acredita que todos podem ser salvos."
+    }
+  ]
+}

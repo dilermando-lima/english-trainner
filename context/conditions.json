@@ -1,0 +1,317 @@
+{
+  "name": "Condicionais",
+  "sentences": [
+    {
+      "QE": "What would you do if you won the lottery?",
+      "QP": "O que você faria se ganhasse na loteria?",
+      "AE": "I would travel the world.",
+      "AP": "Eu viajaria o mundo."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "If it rains, we will stay home.",
+      "AP": "Se chover, ficaremos em casa."
+    },
+    {
+      "QE": "What happens if you miss the bus?",
+      "QP": "O que acontece se você perder o ônibus?",
+      "AE": "I will take a taxi.",
+      "AP": "Vou pegar um táxi."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "If I had known, I would have told you.",
+      "AP": "Se eu soubesse, teria te contado."
+    },
+    {
+      "QE": "Would you help me if I asked?",
+      "QP": "Você me ajudaria se eu pedisse?",
+      "AE": "Of course I would.",
+      "AP": "Claro que sim."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "If you heat water to 100 degrees, it boils.",
+      "AP": "Se você aquecer água a 100 graus, ela ferve."
+    },
+    {
+      "QE": "What if he does not come?",
+      "QP": "E se ele não vier?",
+      "AE": "We will start without him.",
+      "AP": "Começaremos sem ele."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "If I were you, I would apologize.",
+      "AP": "Se eu fosse você, pediria desculpas."
+    },
+    {
+      "QE": "What would you do if you had more time?",
+      "QP": "O que você faria se tivesse mais tempo?",
+      "AE": "I would learn to play piano.",
+      "AP": "Aprenderia a tocar piano."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "If you call me, I will answer.",
+      "AP": "Se você me ligar, atenderei."
+    },
+    {
+      "QE": "What if the plan fails?",
+      "QP": "E se o plano falhar?",
+      "AE": "We have a backup plan.",
+      "AP": "Temos um plano B."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "If she had studied, she would have passed.",
+      "AP": "Se ela tivesse estudado, teria passado."
+    },
+    {
+      "QE": "Do you get angry if someone is late?",
+      "QP": "Você fica bravo se alguém se atrasar?",
+      "AE": "It depends how late.",
+      "AP": "Depende de quanto atraso."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "If you need anything, just ask.",
+      "AP": "Se precisar de algo, é só pedir."
+    },
+    {
+      "QE": "What would have happened if you had left?",
+      "QP": "O que teria acontecido se você tivesse saído?",
+      "AE": "I would have missed the news.",
+      "AP": "Teria perdido a notícia."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "If the weather is nice, we will have a picnic.",
+      "AP": "Se o tempo estiver bom, faremos um piquenique."
+    },
+    {
+      "QE": "Would you come if I invited you?",
+      "QP": "Você viria se eu te convidasse?",
+      "AE": "Yes, I would love to.",
+      "AP": "Sim, adoraria."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "If I had had more money, I would have bought it.",
+      "AP": "Se eu tivesse tido mais dinheiro, teria comprado."
+    },
+    {
+      "QE": "What do you do if you feel sick?",
+      "QP": "O que você faz se se sentir mal?",
+      "AE": "I rest and drink water.",
+      "AP": "Descanso e bebo água."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "If you mix red and blue, you get purple.",
+      "AP": "Se você misturar vermelho e azul, obtém roxo."
+    },
+    {
+      "QE": "What if she says no?",
+      "QP": "E se ela disser não?",
+      "AE": "Then we will try something else.",
+      "AP": "Aí tentaremos outra coisa."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "If he had called, I would have answered.",
+      "AP": "Se ele tivesse ligado, eu teria atendido."
+    },
+    {
+      "QE": "Will you go if it is sunny?",
+      "QP": "Você vai se estiver sol?",
+      "AE": "Yes, I will go to the beach.",
+      "AP": "Sim, vou à praia."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "If you work hard, you will succeed.",
+      "AP": "Se você trabalhar duro, terá sucesso."
+    },
+    {
+      "QE": "What would you say if you saw him?",
+      "QP": "O que você diria se o visse?",
+      "AE": "I would say hello and ask how he is.",
+      "AP": "Diria oi e perguntaria como ele está."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "If they offer you the job, take it.",
+      "AP": "Se te oferecerem o emprego, aceite."
+    },
+    {
+      "QE": "What happens if you press this button?",
+      "QP": "O que acontece se você apertar este botão?",
+      "AE": "The machine starts.",
+      "AP": "A máquina liga."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "If I had time, I would help you.",
+      "AP": "Se eu tivesse tempo, te ajudaria."
+    },
+    {
+      "QE": "Do you get nervous if you speak in public?",
+      "QP": "Você fica nervoso ao falar em público?",
+      "AE": "A little, but I manage.",
+      "AP": "Um pouco, mas me viro."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "If it had not rained, we would have gone out.",
+      "AP": "Se não tivesse chovido, teríamos saído."
+    },
+    {
+      "QE": "What would you buy if you had a million?",
+      "QP": "O que você compraria se tivesse um milhão?",
+      "AE": "I would buy a house and a car.",
+      "AP": "Compraria uma casa e um carro."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "If you see him, tell him to call me.",
+      "AP": "Se você o vir, diga para me ligar."
+    },
+    {
+      "QE": "What if we run out of time?",
+      "QP": "E se acabarmos o tempo?",
+      "AE": "We will continue next week.",
+      "AP": "Continuamos na próxima semana."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "If she were here, she would know what to do.",
+      "AP": "Se ela estivesse aqui, saberia o que fazer."
+    },
+    {
+      "QE": "Will they cancel if it snows?",
+      "QP": "Eles cancelarão se nevar?",
+      "AE": "Probably. They usually do.",
+      "AP": "Provavelmente. Geralmente cancelam."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "If you had told me, I would have waited.",
+      "AP": "Se você tivesse me dito, eu teria esperado."
+    },
+    {
+      "QE": "What do you do if you lose your keys?",
+      "QP": "O que você faz se perder as chaves?",
+      "AE": "I call a locksmith.",
+      "AP": "Chamo um chaveiro."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "If I could, I would change the past.",
+      "AP": "Se eu pudesse, mudaria o passado."
+    },
+    {
+      "QE": "Would she agree if we asked?",
+      "QP": "Ela concordaria se pedíssemos?",
+      "AE": "I think she would.",
+      "AP": "Acho que sim."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "If you do not hurry, you will be late.",
+      "AP": "Se você não se apressar, vai se atrasar."
+    },
+    {
+      "QE": "What would have changed if you had stayed?",
+      "QP": "O que teria mudado se você tivesse ficado?",
+      "AE": "Maybe we would still be together.",
+      "AP": "Talvez ainda estaríamos juntos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "If the store is open, I will buy milk.",
+      "AP": "Se a loja estiver aberta, comprarei leite."
+    },
+    {
+      "QE": "Do you get tired if you do not sleep well?",
+      "QP": "Você fica cansado se não dormir bem?",
+      "AE": "Yes, I need at least seven hours.",
+      "AP": "Sim, preciso de pelo menos sete horas."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "If they had left earlier, they would have arrived.",
+      "AP": "Se tivessem saído mais cedo, teriam chegado."
+    },
+    {
+      "QE": "What if nobody shows up?",
+      "QP": "E se ninguém aparecer?",
+      "AE": "We will have more food for ourselves.",
+      "AP": "Teremos mais comida para nós."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "If you want to succeed, practice every day.",
+      "AP": "Se quiser ter sucesso, pratique todo dia."
+    },
+    {
+      "QE": "Would they help if we paid them?",
+      "QP": "Eles ajudariam se pagássemos?",
+      "AE": "I am not sure. We can ask.",
+      "AP": "Não tenho certeza. Podemos perguntar."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "If I had your number, I would call you.",
+      "AP": "Se eu tivesse seu número, te ligaria."
+    },
+    {
+      "QE": "What do you do if the internet is down?",
+      "QP": "O que você faz se a internet cair?",
+      "AE": "I use my phone data.",
+      "AP": "Uso os dados do celular."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "If he asks, tell him the truth.",
+      "AP": "Se ele perguntar, diga a verdade."
+    },
+    {
+      "QE": "What would you do if you were me?",
+      "QP": "O que você faria se fosse eu?",
+      "AE": "I would talk to her first.",
+      "AP": "Falaria com ela primeiro."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "If we had known, we would have come earlier.",
+      "AP": "Se soubéssemos, teríamos vindo mais cedo."
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "name": "Falando sobre lugares",
+  "sentences": [
+    {
+      "QE": "Where do you live?",
+      "QP": "Onde você mora?",
+      "AE": "I live in the center of town.",
+      "AP": "Moro no centro da cidade."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "The beach is twenty minutes from here.",
+      "AP": "A praia fica a vinte minutos daqui."
+    },
+    {
+      "QE": "Have you been to that restaurant?",
+      "QP": "Você já foi naquele restaurante?",
+      "AE": "Yes, the food is great there.",
+      "AP": "Sim, a comida é ótima lá."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She works near the train station.",
+      "AP": "Ela trabalha perto da estação de trem."
+    },
+    {
+      "QE": "What is your favorite place in the city?",
+      "QP": "Qual é seu lugar favorito na cidade?",
+      "AE": "I love the park by the river.",
+      "AP": "Adoro o parque perto do rio."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "The supermarket is on the corner.",
+      "AP": "O supermercado fica na esquina."
+    },
+    {
+      "QE": "Where is the nearest pharmacy?",
+      "QP": "Onde fica a farmácia mais perto?",
+      "AE": "There is one two blocks from here.",
+      "AP": "Tem uma a duas quadras daqui."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He moved to a bigger apartment.",
+      "AP": "Ele se mudou para um apartamento maior."
+    },
+    {
+      "QE": "Do you like living in the suburbs?",
+      "QP": "Você gosta de morar no subúrbio?",
+      "AE": "Yes, it is quiet and green.",
+      "AP": "Sim, é tranquilo e verde."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "The museum is closed on Mondays.",
+      "AP": "O museu fecha às segundas."
+    },
+    {
+      "QE": "Where did you go on vacation?",
+      "QP": "Onde você foi nas férias?",
+      "AE": "We went to the mountains.",
+      "AP": "Fomos para a serra."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "There is a nice café down the street.",
+      "AP": "Tem um café legal na rua."
+    },
+    {
+      "QE": "How far is the airport?",
+      "QP": "Quão longe fica o aeroporto?",
+      "AE": "It is about forty minutes by car.",
+      "AP": "Fica a cerca de quarenta minutos de carro."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She lives in a small village.",
+      "AP": "Ela mora em uma vila pequena."
+    },
+    {
+      "QE": "What is there to do around here?",
+      "QP": "O que há para fazer por aqui?",
+      "AE": "There are parks, shops, and restaurants.",
+      "AP": "Há parques, lojas e restaurantes."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "The office is on the fifth floor.",
+      "AP": "O escritório fica no quinto andar."
+    },
+    {
+      "QE": "Where do you usually meet friends?",
+      "QP": "Onde você costuma encontrar os amigos?",
+      "AE": "We meet at the bar on Main Street.",
+      "AP": "Nos encontramos no bar da rua principal."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I prefer places with a view.",
+      "AP": "Prefiro lugares com vista."
+    },
+    {
+      "QE": "Is it safe to walk there at night?",
+      "QP": "É seguro andar lá à noite?",
+      "AE": "Yes, it is a safe neighborhood.",
+      "AP": "Sim, é um bairro seguro."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "The bus stop is right in front.",
+      "AP": "A parada de ônibus fica bem na frente."
+    },
+    {
+      "QE": "Where can I find a good hotel?",
+      "QP": "Onde encontro um bom hotel?",
+      "AE": "There are several near the square.",
+      "AP": "Há vários perto da praça."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He has a house in the countryside.",
+      "AP": "Ele tem uma casa no interior."
+    },
+    {
+      "QE": "Do you know this area well?",
+      "QP": "Você conhece bem esta região?",
+      "AE": "Yes, I have lived here for years.",
+      "AP": "Sim, moro aqui há anos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "The library is next to the school.",
+      "AP": "A biblioteca fica ao lado da escola."
+    },
+    {
+      "QE": "What is the best way to get there?",
+      "QP": "Qual é a melhor forma de chegar lá?",
+      "AE": "Take the metro. It is faster.",
+      "AP": "Pegue o metrô. É mais rápido."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She wants to live by the sea.",
+      "AP": "Ela quer morar perto do mar."
+    },
+    {
+      "QE": "Where is the restroom?",
+      "QP": "Onde fica o banheiro?",
+      "AE": "It is at the end of the hall.",
+      "AP": "Fica no final do corredor."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "This place gets crowded on weekends.",
+      "AP": "Este lugar enche nos fins de semana."
+    },
+    {
+      "QE": "Have you ever been to the north?",
+      "QP": "Você já foi ao norte?",
+      "AE": "Yes, I visited last year.",
+      "AP": "Sim, visitei no ano passado."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "The gym is in the basement.",
+      "AP": "A academia fica no subsolo."
+    },
+    {
+      "QE": "Where do you want to move?",
+      "QP": "Para onde você quer se mudar?",
+      "AE": "I am thinking about the coast.",
+      "AP": "Estou pensando na costa."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "There is no parking here.",
+      "AP": "Não há estacionamento aqui."
+    },
+    {
+      "QE": "What is the address?",
+      "QP": "Qual é o endereço?",
+      "AE": "It is 45 Oak Street, apartment 3.",
+      "AP": "É Rua do Carvalho 45, apto 3."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He works in a tall building downtown.",
+      "AP": "Ele trabalha em um prédio alto no centro."
+    },
+    {
+      "QE": "Is there a bank nearby?",
+      "QP": "Tem um banco perto?",
+      "AE": "Yes, there is one across the street.",
+      "AP": "Sim, tem um do outro lado da rua."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "The city is very crowded.",
+      "AP": "A cidade é muito movimentada."
+    },
+    {
+      "QE": "Where did you grow up?",
+      "QP": "Onde você cresceu?",
+      "AE": "I grew up in a small town.",
+      "AP": "Cresci em uma cidade pequena."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She likes places that are quiet.",
+      "AP": "Ela gosta de lugares tranquilos."
+    },
+    {
+      "QE": "How do I get to the mall?",
+      "QP": "Como chego ao shopping?",
+      "AE": "Go straight and turn left at the light.",
+      "AP": "Siga em frente e vire à esquerda no sinal."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "The hotel has a pool and a gym.",
+      "AP": "O hotel tem piscina e academia."
+    },
+    {
+      "QE": "Where is the best place to eat?",
+      "QP": "Onde é o melhor lugar para comer?",
+      "AE": "Try the Italian place on the corner.",
+      "AP": "Experimente o italiano na esquina."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I have never been to that part of town.",
+      "AP": "Nunca fui àquela parte da cidade."
+    },
+    {
+      "QE": "Do you live in a house or apartment?",
+      "QP": "Você mora em casa ou apartamento?",
+      "AE": "I live in an apartment.",
+      "AP": "Moro em apartamento."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "The park is full of people today.",
+      "AP": "O parque está cheio de gente hoje."
+    },
+    {
+      "QE": "Where should I sit?",
+      "QP": "Onde devo sentar?",
+      "AE": "Anywhere you like. Sit where you want.",
+      "AP": "Onde quiser. Sente onde preferir."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He is looking for a place to rent.",
+      "AP": "Ele está procurando um lugar para alugar."
+    },
+    {
+      "QE": "What is it like to live there?",
+      "QP": "Como é morar lá?",
+      "AE": "It is nice. Very peaceful.",
+      "AP": "É bom. Muito tranquilo."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "The street is closed for construction.",
+      "AP": "A rua está fechada por obras."
+    },
+    {
+      "QE": "Where is the meeting room?",
+      "QP": "Onde fica a sala de reuniões?",
+      "AE": "It is on the second floor.",
+      "AP": "Fica no segundo andar."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She moved to a new neighborhood.",
+      "AP": "Ela se mudou para um bairro novo."
+    },
+    {
+      "QE": "Is this place easy to find?",
+      "QP": "Este lugar é fácil de encontrar?",
+      "AE": "Yes, it is right on the main road.",
+      "AP": "Sim, fica na avenida principal."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I love places with good food.",
+      "AP": "Adoro lugares com boa comida."
+    }
+  ]
+}

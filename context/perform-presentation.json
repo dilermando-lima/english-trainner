@@ -1,0 +1,317 @@
+{
+  "name": "Fazer uma apresentação",
+  "sentences": [
+    {
+      "QE": "How do you start a presentation?",
+      "QP": "Como você começa uma apresentação?",
+      "AE": "I introduce myself and state the main goal.",
+      "AP": "Me apresento e digo o objetivo principal."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She practices her slides the night before.",
+      "AP": "Ela ensaia os slides na véspera."
+    },
+    {
+      "QE": "Are you nervous about presenting?",
+      "QP": "Você está nervoso para apresentar?",
+      "AE": "A bit. But I am well prepared.",
+      "AP": "Um pouco. Mas estou bem preparado."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I will present the results in ten minutes.",
+      "AP": "Apresentarei os resultados em dez minutos."
+    },
+    {
+      "QE": "What is the main point?",
+      "QP": "Qual é o ponto principal?",
+      "AE": "The main point is that sales grew twenty percent.",
+      "AP": "O ponto principal é que as vendas cresceram vinte por cento."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He uses a pointer to highlight key data.",
+      "AP": "Ele usa um ponteiro para destacar dados importantes."
+    },
+    {
+      "QE": "Do you take questions at the end?",
+      "QP": "Você aceita perguntas no final?",
+      "AE": "Yes, I will take questions after the last slide.",
+      "AP": "Sim, aceito perguntas após o último slide."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We need to rehearse one more time.",
+      "AP": "Precisamos ensaiar mais uma vez."
+    },
+    {
+      "QE": "How long is your presentation?",
+      "QP": "Quanto tempo dura sua apresentação?",
+      "AE": "About twenty minutes plus Q and A.",
+      "AP": "Cerca de vinte minutos mais perguntas."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She speaks clearly and at a steady pace.",
+      "AP": "Ela fala com clareza e em ritmo constante."
+    },
+    {
+      "QE": "What if someone asks a hard question?",
+      "QP": "E se alguém fizer uma pergunta difícil?",
+      "AE": "I say I will follow up later if I do not know.",
+      "AP": "Digo que retorno depois se não souber."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I always make eye contact with the audience.",
+      "AP": "Sempre faço contato visual com a plateia."
+    },
+    {
+      "QE": "Do you use notes?",
+      "QP": "Você usa anotações?",
+      "AE": "Yes, brief notes. I do not read them.",
+      "AP": "Sim, anotações breves. Não leio."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He ended with a strong call to action.",
+      "AP": "Ele terminou com um forte apelo à ação."
+    },
+    {
+      "QE": "How do you handle technical issues?",
+      "QP": "Como você lida com problemas técnicos?",
+      "AE": "I have a backup. And I can talk without slides.",
+      "AP": "Tenho backup. E consigo falar sem slides."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "The presentation went well. Good feedback.",
+      "AP": "A apresentação foi bem. Bom feedback."
+    },
+    {
+      "QE": "What is on the next slide?",
+      "QP": "O que tem no próximo slide?",
+      "AE": "The next slide shows the timeline.",
+      "AP": "O próximo slide mostra o cronograma."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She summarized the key takeaways at the end.",
+      "AP": "Ela resumiu os principais pontos no final."
+    },
+    {
+      "QE": "Do you use stories or just data?",
+      "QP": "Você usa histórias ou só dados?",
+      "AE": "Both. A short story then the numbers.",
+      "AP": "Os dois. Uma história curta e depois os números."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I will send the deck after the meeting.",
+      "AP": "Enviarei a apresentação após a reunião."
+    },
+    {
+      "QE": "How do you keep the audience engaged?",
+      "QP": "Como você mantém a audiência engajada?",
+      "AE": "I ask questions and use simple language.",
+      "AP": "Faço perguntas e uso linguagem simples."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He was asked to present to the board.",
+      "AP": "Pediriam para ele apresentar ao conselho."
+    },
+    {
+      "QE": "What do you do if you forget something?",
+      "QP": "O que você faz se esquecer algo?",
+      "AE": "I move on. I can add it in Q and A.",
+      "AP": "Sigo em frente. Posso acrescentar no Q e A."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We have fifteen minutes left. Any questions?",
+      "AP": "Temos quinze minutos. Alguma pergunta?"
+    },
+    {
+      "QE": "Do you practice in front of someone?",
+      "QP": "Você ensaia na frente de alguém?",
+      "AE": "Yes, my colleague gives me feedback.",
+      "AP": "Sim, meu colega me dá feedback."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She opened with a surprising statistic.",
+      "AP": "Ela abriu com uma estatística surpreendente."
+    },
+    {
+      "QE": "How many slides do you have?",
+      "QP": "Quantos slides você tem?",
+      "AE": "Twelve. I keep it short.",
+      "AP": "Doze. Mantenho curto."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I need to fix the chart on slide seven.",
+      "AP": "Preciso corrigir o gráfico no slide sete."
+    },
+    {
+      "QE": "What is your closing message?",
+      "QP": "Qual é sua mensagem de encerramento?",
+      "AE": "We can achieve this if we work together.",
+      "AP": "Podemos alcançar isso se trabalharmos juntos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He spoke for thirty minutes without notes.",
+      "AP": "Ele falou trinta minutos sem anotações."
+    },
+    {
+      "QE": "Do you record the presentation?",
+      "QP": "Você grava a apresentação?",
+      "AE": "Yes, for those who cannot attend.",
+      "AP": "Sim, para quem não puder comparecer."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Let me move to the next section.",
+      "AP": "Deixe-me passar para a próxima seção."
+    },
+    {
+      "QE": "How do you introduce the team?",
+      "QP": "Como você apresenta a equipe?",
+      "AE": "I show a slide with names and roles.",
+      "AP": "Mostro um slide com nomes e funções."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She was very confident. Great delivery.",
+      "AP": "Ela foi muito confiante. Ótima entrega."
+    },
+    {
+      "QE": "What if the projector does not work?",
+      "QP": "E se o projetor não funcionar?",
+      "AE": "I have a PDF on my laptop as backup.",
+      "AP": "Tenho um PDF no laptop como backup."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I will go through the agenda first.",
+      "AP": "Vou passar pela agenda primeiro."
+    },
+    {
+      "QE": "Do you use handouts?",
+      "QP": "Você usa material impresso?",
+      "AE": "Sometimes. For long or technical talks.",
+      "AP": "Às vezes. Para palestras longas ou técnicas."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He paused for effect before the conclusion.",
+      "AP": "Ele fez uma pausa antes da conclusão."
+    },
+    {
+      "QE": "How do you thank the audience?",
+      "QP": "Como você agradece a plateia?",
+      "AE": "Thank you for your time and attention.",
+      "AP": "Obrigado pelo tempo e pela atenção."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We had a full room. Over fifty people.",
+      "AP": "A sala estava cheia. Mais de cinquenta pessoas."
+    },
+    {
+      "QE": "What do you wear for a big presentation?",
+      "QP": "O que você veste para uma apresentação importante?",
+      "AE": "Business casual. Nothing too flashy.",
+      "AP": "Social. Nada chamativo."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She answered every question confidently.",
+      "AP": "Ela respondeu cada pergunta com confiança."
+    },
+    {
+      "QE": "How do you manage time?",
+      "QP": "Como você controla o tempo?",
+      "AE": "I set a timer and skip slides if needed.",
+      "AP": "Uso um timer e pulo slides se precisar."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I will share my screen now.",
+      "AP": "Vou compartilhar minha tela agora."
+    },
+    {
+      "QE": "Do you use videos in your slides?",
+      "QP": "Você usa vídeos nos slides?",
+      "AE": "One short clip. No more than two minutes.",
+      "AP": "Um clipe curto. No máximo dois minutos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He got a standing ovation.",
+      "AP": "Ele recebeu uma salva de palmas."
+    },
+    {
+      "QE": "What is the best way to end?",
+      "QP": "Qual é a melhor forma de terminar?",
+      "AE": "Summarize, thank them, and open for questions.",
+      "AP": "Resumir, agradecer e abrir para perguntas."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Please hold your questions until the end.",
+      "AP": "Por favor guardem as perguntas para o final."
+    },
+    {
+      "QE": "How do you calm your nerves?",
+      "QP": "Como você acalma os nervos?",
+      "AE": "I breathe deeply and focus on the message.",
+      "AP": "Respiro fundo e foco na mensagem."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She made the complex topic easy to follow.",
+      "AP": "Ela tornou o tema complexo fácil de seguir."
+    },
+    {
+      "QE": "What feedback did you get?",
+      "QP": "Que feedback você recebeu?",
+      "AE": "They said it was clear and useful.",
+      "AP": "Disseram que foi claro e útil."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I will now open the floor for discussion.",
+      "AP": "Agora abro para discussão."
+    }
+  ]
+}

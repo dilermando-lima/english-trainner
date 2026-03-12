@@ -1,0 +1,317 @@
+{
+  "name": "Apresentar-se",
+  "sentences": [
+    {
+      "QE": "What is your name?",
+      "QP": "Qual é o seu nome?",
+      "AE": "My name is Carlos. Nice to meet you.",
+      "AP": "Meu nome é Carlos. Prazer em conhecê-lo."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I am from Brazil. I have been here for two years.",
+      "AP": "Sou do Brasil. Estou aqui há dois anos."
+    },
+    {
+      "QE": "Where do you work?",
+      "QP": "Onde você trabalha?",
+      "AE": "I work at a tech company downtown.",
+      "AP": "Trabalho em uma empresa de tecnologia no centro."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She introduced herself to the whole team.",
+      "AP": "Ela se apresentou para toda a equipe."
+    },
+    {
+      "QE": "What do you do?",
+      "QP": "O que você faz?",
+      "AE": "I am a software engineer. I build web apps.",
+      "AP": "Sou engenheiro de software. Desenvolvo aplicações web."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Let me introduce myself. I am Ana.",
+      "AP": "Deixe-me me apresentar. Sou a Ana."
+    },
+    {
+      "QE": "How long have you lived here?",
+      "QP": "Há quanto tempo você mora aqui?",
+      "AE": "I have lived here for five years.",
+      "AP": "Moro aqui há cinco anos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He gave a short intro at the meeting.",
+      "AP": "Ele fez uma breve apresentação na reunião."
+    },
+    {
+      "QE": "Do you have any hobbies?",
+      "QP": "Você tem algum hobby?",
+      "AE": "I like to read and play guitar.",
+      "AP": "Gosto de ler e tocar violão."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I am new here. This is my first week.",
+      "AP": "Sou novo aqui. É minha primeira semana."
+    },
+    {
+      "QE": "Can you tell me a bit about yourself?",
+      "QP": "Pode contar um pouco sobre você?",
+      "AE": "Sure. I am a designer. I love travel and coffee.",
+      "AP": "Claro. Sou designer. Adoro viagens e café."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She said her name and shook hands.",
+      "AP": "Ela disse o nome e cumprimentou."
+    },
+    {
+      "QE": "What brought you here?",
+      "QP": "O que te trouxe para cá?",
+      "AE": "Work. I got a job offer last year.",
+      "AP": "Trabalho. Recebi uma oferta no ano passado."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I prefer to keep my intro short.",
+      "AP": "Prefiro manter minha apresentação curta."
+    },
+    {
+      "QE": "Are you married?",
+      "QP": "Você é casado?",
+      "AE": "No, I am single. I have a dog though.",
+      "AP": "Não, sou solteiro. Mas tenho um cachorro."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He mentioned his background in marketing.",
+      "AP": "Ele mencionou sua formação em marketing."
+    },
+    {
+      "QE": "How do you pronounce your name?",
+      "QP": "Como se pronuncia seu nome?",
+      "AE": "It is pronounced João. Like the Portuguese way.",
+      "AP": "Pronuncia-se João. No jeito português."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I am happy to be here. Thank you for having me.",
+      "AP": "Estou feliz em estar aqui. Obrigado por me receber."
+    },
+    {
+      "QE": "What is your role?",
+      "QP": "Qual é sua função?",
+      "AE": "I am the project manager for this initiative.",
+      "AP": "Sou o gerente de projeto desta iniciativa."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She shared her contact info at the end.",
+      "AP": "Ela passou o contato no final."
+    },
+    {
+      "QE": "Do you speak other languages?",
+      "QP": "Você fala outros idiomas?",
+      "AE": "Yes. Portuguese, English, and some Spanish.",
+      "AP": "Sim. Português, inglês e um pouco de espanhol."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I am here to learn and contribute.",
+      "AP": "Estou aqui para aprender e contribuir."
+    },
+    {
+      "QE": "What are you passionate about?",
+      "QP": "Pelo que você é apaixonado?",
+      "AE": "Technology and teaching. I love both.",
+      "AP": "Tecnologia e ensino. Amo os dois."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He told us where he was from and what he does.",
+      "AP": "Ele nos disse de onde é e o que faz."
+    },
+    {
+      "QE": "How do you spell your name?",
+      "QP": "Como se soletra seu nome?",
+      "AE": "M-A-R-I-A. Maria.",
+      "AP": "M-A-R-I-A. Maria."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I kept my introduction to three sentences.",
+      "AP": "Mantive minha apresentação em três frases."
+    },
+    {
+      "QE": "What is your background?",
+      "QP": "Qual é sua formação?",
+      "AE": "I studied engineering. Then I moved to product.",
+      "AP": "Estudei engenharia. Depois migrei para produto."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She added a fun fact about herself.",
+      "AP": "Ela acrescentou uma curiosidade sobre si."
+    },
+    {
+      "QE": "Can you repeat your name?",
+      "QP": "Pode repetir seu nome?",
+      "AE": "Sure. It is Pedro. P-E-D-R-O.",
+      "AP": "Claro. É Pedro. P-E-D-R-O."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I am excited to join the team.",
+      "AP": "Estou animado para me juntar à equipe."
+    },
+    {
+      "QE": "What do you like to do in your free time?",
+      "QP": "O que você gosta de fazer no tempo livre?",
+      "AE": "I run, cook, and watch series.",
+      "AP": "Corro, cozinho e assisto séries."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He gave his name and role. That was it.",
+      "AP": "Ele disse nome e função. Só isso."
+    },
+    {
+      "QE": "Where did you study?",
+      "QP": "Onde você estudou?",
+      "AE": "I studied at the university here in town.",
+      "AP": "Estudei na universidade aqui da cidade."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I try to be friendly when I introduce myself.",
+      "AP": "Tento ser amigável quando me apresento."
+    },
+    {
+      "QE": "What should we call you?",
+      "QP": "Como devemos te chamar?",
+      "AE": "Just Carlos is fine. Or Carl if you prefer.",
+      "AP": "Só Carlos está bom. Ou Carl se preferir."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She introduced herself and asked about us.",
+      "AP": "Ela se apresentou e perguntou sobre nós."
+    },
+    {
+      "QE": "How do you want to be introduced?",
+      "QP": "Como você quer ser apresentado?",
+      "AE": "As the new lead for the design team.",
+      "AP": "Como o novo líder da equipe de design."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I am the one who sent the email yesterday.",
+      "AP": "Sou quem enviou o e-mail ontem."
+    },
+    {
+      "QE": "What is your title?",
+      "QP": "Qual é seu cargo?",
+      "AE": "I am a senior developer. Team lead actually.",
+      "AP": "Sou desenvolvedor sênior. Na verdade líder de equipe."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He made a joke during his intro. Everyone laughed.",
+      "AP": "Ele fez uma piada na apresentação. Todos riram."
+    },
+    {
+      "QE": "Have we met before?",
+      "QP": "Já nos conhecemos?",
+      "AE": "I do not think so. I would remember.",
+      "AP": "Acho que não. Eu lembraria."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I kept it professional but warm.",
+      "AP": "Mantive profissional mas caloroso."
+    },
+    {
+      "QE": "What is the best way to reach you?",
+      "QP": "Qual é a melhor forma de te contactar?",
+      "AE": "Email or Slack. I check both often.",
+      "AP": "E-mail ou Slack. Verifico os dois com frequência."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She said she was looking forward to working with us.",
+      "AP": "Ela disse que estava ansiosa para trabalhar conosco."
+    },
+    {
+      "QE": "Do you have a nickname?",
+      "QP": "Você tem apelido?",
+      "AE": "Some people call me Mike. My name is Miguel.",
+      "AP": "Alguns me chamam de Mike. Meu nome é Miguel."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I introduced myself to everyone in the room.",
+      "AP": "Me apresentei a todos na sala."
+    },
+    {
+      "QE": "What should I know about you?",
+      "QP": "O que devo saber sobre você?",
+      "AE": "I am a quick learner. I ask a lot of questions.",
+      "AP": "Aprendo rápido. Faço muitas perguntas."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He kept his intro under a minute.",
+      "AP": "Ele manteve a apresentação em menos de um minuto."
+    },
+    {
+      "QE": "How do you like to start a meeting?",
+      "QP": "Como você gosta de começar uma reunião?",
+      "AE": "Quick intros if we have new people.",
+      "AP": "Apresentações rápidas se tivermos pessoas novas."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I am the new intern. Starting today.",
+      "AP": "Sou o novo estagiário. Começando hoje."
+    },
+    {
+      "QE": "What do you want us to remember about you?",
+      "QP": "O que você quer que lembremos sobre você?",
+      "AE": "That I am here to help. Just ask.",
+      "AP": "Que estou aqui para ajudar. É só pedir."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She wrote a short bio for the website.",
+      "AP": "Ela escreveu uma breve bio para o site."
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "name": "Viagens e férias",
+  "sentences": [
+    {
+      "QE": "Where did you go on vacation?",
+      "QP": "Onde você foi nas férias?",
+      "AE": "We went to the beach. It was wonderful.",
+      "AP": "Fomos à praia. Foi maravilhoso."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I am packing for my trip tomorrow.",
+      "AP": "Estou fazendo as malas para minha viagem amanhã."
+    },
+    {
+      "QE": "How long was your trip?",
+      "QP": "Quanto tempo foi sua viagem?",
+      "AE": "Two weeks. We could have stayed longer.",
+      "AP": "Duas semanas. Poderíamos ter ficado mais."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She loves to travel alone sometimes.",
+      "AP": "Ela adora viajar sozinha às vezes."
+    },
+    {
+      "QE": "Do you prefer beach or mountains?",
+      "QP": "Você prefere praia ou montanha?",
+      "AE": "Beach. I love the sun and the sea.",
+      "AP": "Praia. Adoro o sol e o mar."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We booked a flight for next month.",
+      "AP": "Reservamos um voo para o mês que vem."
+    },
+    {
+      "QE": "What did you do there?",
+      "QP": "O que você fez lá?",
+      "AE": "We visited museums and tried local food.",
+      "AP": "Visitamos museus e provamos a comida local."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He is going on a business trip next week.",
+      "AP": "Ele vai fazer uma viagem a trabalho na próxima semana."
+    },
+    {
+      "QE": "Did you have a good time?",
+      "QP": "Você se divertiu?",
+      "AE": "Yes, it was one of the best trips ever.",
+      "AP": "Sim, foi uma das melhores viagens."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I need to renew my passport.",
+      "AP": "Preciso renovar meu passaporte."
+    },
+    {
+      "QE": "How do you choose where to go?",
+      "QP": "Como você escolhe para onde ir?",
+      "AE": "I look at budget, weather, and interests.",
+      "AP": "Olho orçamento, tempo e interesses."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We rented a car at the airport.",
+      "AP": "Alugamos um carro no aeroporto."
+    },
+    {
+      "QE": "Do you like long flights?",
+      "QP": "Você gosta de voos longos?",
+      "AE": "Not really. I try to sleep or watch movies.",
+      "AP": "Não muito. Tento dormir ou assistir filmes."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She takes too many photos when she travels.",
+      "AP": "Ela tira fotos demais quando viaja."
+    },
+    {
+      "QE": "What is your dream destination?",
+      "QP": "Qual é seu destino dos sonhos?",
+      "AE": "Japan. I have wanted to go for years.",
+      "AP": "Japão. Quero ir há anos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We stayed in a small hotel by the sea.",
+      "AP": "Ficamos em um hotel pequeno à beira-mar."
+    },
+    {
+      "QE": "Do you buy travel insurance?",
+      "QP": "Você compra seguro de viagem?",
+      "AE": "Yes, always. Better safe than sorry.",
+      "AP": "Sim, sempre. Melhor prevenir."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He got lost in the old town. No phone signal.",
+      "AP": "Ele se perdeu na cidade velha. Sem sinal."
+    },
+    {
+      "QE": "How was the food?",
+      "QP": "Como estava a comida?",
+      "AE": "Amazing. We ate something new every day.",
+      "AP": "Incrível. Comemos algo novo todo dia."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I am saving money for my next vacation.",
+      "AP": "Estou juntando dinheiro para as próximas férias."
+    },
+    {
+      "QE": "Do you prefer hotels or Airbnb?",
+      "QP": "Você prefere hotel ou Airbnb?",
+      "AE": "Airbnb for longer stays. Hotel for short.",
+      "AP": "Airbnb para estadias longas. Hotel para curtas."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We had a layover in Miami for six hours.",
+      "AP": "Tivemos escala em Miami por seis horas."
+    },
+    {
+      "QE": "What did you bring back?",
+      "QP": "O que você trouxe de lá?",
+      "AE": "Souvenirs and lots of chocolate.",
+      "AP": "Lembranças e muito chocolate."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She always overpacks. Her bag is huge.",
+      "AP": "Ela sempre leva coisas demais. A mala é enorme."
+    },
+    {
+      "QE": "How do you deal with jet lag?",
+      "QP": "Como você lida com o jet lag?",
+      "AE": "I try to sleep on the plane and stay up until local bedtime.",
+      "AP": "Tento dormir no avião e ficar acordado até a noite local."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "The flight was delayed by three hours.",
+      "AP": "O voo atrasou três horas."
+    },
+    {
+      "QE": "Do you plan everything or go with the flow?",
+      "QP": "Você planeja tudo ou deixa rolar?",
+      "AE": "A bit of both. Main things planned.",
+      "AP": "Um pouco dos dois. Coisas principais planejadas."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We took a cruise last year. It was relaxing.",
+      "AP": "Fizemos um cruzeiro no ano passado. Foi relaxante."
+    },
+    {
+      "QE": "What was the best part?",
+      "QP": "Qual foi a melhor parte?",
+      "AE": "The sunset from the terrace. Unforgettable.",
+      "AP": "O pôr do sol do terraço. Inesquecível."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He missed his connecting flight.",
+      "AP": "Ele perdeu o voo de conexão."
+    },
+    {
+      "QE": "Do you travel for work?",
+      "QP": "Você viaja a trabalho?",
+      "AE": "Sometimes. Once or twice a month.",
+      "AP": "Às vezes. Uma ou duas vezes por mês."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I love the freedom of a road trip.",
+      "AP": "Adoro a liberdade de uma viagem de carro."
+    },
+    {
+      "QE": "How much did the trip cost?",
+      "QP": "Quanto custou a viagem?",
+      "AE": "Around two thousand for two people.",
+      "AP": "Cerca de dois mil para duas pessoas."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We are thinking of going to Europe next summer.",
+      "AP": "Estamos pensando em ir à Europa no próximo verão."
+    },
+    {
+      "QE": "Do you like guided tours?",
+      "QP": "Você gosta de tours guiados?",
+      "AE": "Sometimes. For history I prefer a guide.",
+      "AP": "Às vezes. Para história prefiro um guia."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She had her wallet stolen on the train.",
+      "AP": "Ela teve a carteira roubada no trem."
+    },
+    {
+      "QE": "What is your favorite type of vacation?",
+      "QP": "Qual é seu tipo de férias favorito?",
+      "AE": "Active. Hiking, exploring, not just lying around.",
+      "AP": "Ativo. Caminhadas, explorar, não só deitado."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I need to check in online before the flight.",
+      "AP": "Preciso fazer check-in online antes do voo."
+    },
+    {
+      "QE": "Have you ever missed a flight?",
+      "QP": "Você já perdeu um voo?",
+      "AE": "Yes, once. I overslept. It was expensive.",
+      "AP": "Sim, uma vez. Dormi demais. Foi caro."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We went camping. No Wi-Fi for a week.",
+      "AP": "Fomos acampar. Sem Wi-Fi por uma semana."
+    },
+    {
+      "QE": "Do you learn basic phrases before traveling?",
+      "QP": "Você aprende frases básicas antes de viajar?",
+      "AE": "Yes. Please, thank you, and where is the bathroom.",
+      "AP": "Sim. Por favor, obrigado e onde fica o banheiro."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He prefers all-inclusive resorts.",
+      "AP": "Ele prefere resorts all-inclusive."
+    },
+    {
+      "QE": "What would you do differently?",
+      "QP": "O que você faria diferente?",
+      "AE": "I would stay longer and see fewer places.",
+      "AP": "Ficaria mais tempo e veria menos lugares."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I always get a window seat when I can.",
+      "AP": "Sempre pego janela quando posso."
+    },
+    {
+      "QE": "Do you send postcards?",
+      "QP": "Você manda cartões postais?",
+      "AE": "I used to. Now I just send photos.",
+      "AP": "Costumava. Agora só mando fotos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We had perfect weather the whole time.",
+      "AP": "Tivemos tempo perfeito o tempo todo."
+    },
+    {
+      "QE": "How do you remember your trips?",
+      "QP": "Como você guarda as lembranças das viagens?",
+      "AE": "Photos, a journal, and a few souvenirs.",
+      "AP": "Fotos, um diário e algumas lembranças."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She is afraid of flying. She takes something to relax.",
+      "AP": "Ela tem medo de voar. Toma algo para relaxar."
+    },
+    {
+      "QE": "What is the worst trip you have had?",
+      "QP": "Qual foi a pior viagem que você teve?",
+      "AE": "Lost luggage and food poisoning. Not fun.",
+      "AP": "Mala perdida e intoxicação. Não foi legal."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I like to arrive at the airport early.",
+      "AP": "Gosto de chegar ao aeroporto cedo."
+    },
+    {
+      "QE": "Do you travel light?",
+      "QP": "Você viaja leve?",
+      "AE": "I try to. One carry-on when possible.",
+      "AP": "Tento. Só bagagem de mão quando possível."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We are going to visit family abroad.",
+      "AP": "Vamos visitar a família no exterior."
+    },
+    {
+      "QE": "How many countries have you been to?",
+      "QP": "Quantos países você já visitou?",
+      "AE": "About fifteen. I want to see more.",
+      "AP": "Cerca de quinze. Quero conhecer mais."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He never checks a bag. Only carry-on.",
+      "AP": "Ele nunca despacha mala. Só bagagem de mão."
+    },
+    {
+      "QE": "What do you do on a staycation?",
+      "QP": "O que você faz em férias em casa?",
+      "AE": "Explore my city. Rest. No schedule.",
+      "AP": "Explorar minha cidade. Descansar. Sem agenda."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I need a vacation after this vacation.",
+      "AP": "Preciso de férias depois dessas férias."
+    }
+  ]
+}

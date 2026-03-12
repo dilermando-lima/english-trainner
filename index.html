@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>English Trainer</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="app-header">
+        <div class="brand">
+          <span class="brand-title">English Trainer</span>
+          <span class="brand-subtitle">Frases inglês para português</span>
+        </div>
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Alternar tema">
+          <span class="theme-icon theme-icon-sun" aria-hidden="true">☀</span>
+          <span class="theme-icon theme-icon-moon hidden" aria-hidden="true">🌙</span>
+        </button>
+      </header>
+
+      <!-- Top: context selector + progress bar -->
+      <section class="top-bar">
+        <div class="context-select-wrapper">
+          <select id="contextSelect" class="field-select">
+            <option value="" disabled selected>Escolha um contexto...</option>
+          </select>
+          <div id="contextLoadProgress" class="context-load-progress hidden" aria-hidden="true">
+            <div class="context-load-progress-bar"></div>
+            <span class="context-load-progress-label">Carregando contexto...</span>
+          </div>
+        </div>
+        <div class="progress-wrapper">
+          <div class="progress-header">
+            <span id="progressText">0 / 0</span>
+          </div>
+          <div class="progress-bar">
+            <div id="progressFill" class="progress-fill"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Middle: sentences -->
+      <main class="app-main">
+        <div class="sentence-card">
+          <div id="blockSentences" class="block-sentences">
+            <div id="blockQuestion" class="sentence-question">
+              <p id="englishQuestion" class="sentence-text">—</p>
+              <p id="portugueseQuestion" class="sentence-text">—</p>
+            </div>
+            <div class="sentence-answer">
+              <p id="englishAnswer" class="sentence-text">—</p>
+              <p id="portugueseAnswer" class="sentence-text">—</p>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- Bottom: all buttons -->
+      <footer class="controls-bar">
+        <button id="playNormalBtn" class="btn btn-play btn-play-normal" disabled>
+          ▶ Ouvir
+        </button>
+        <button id="listenAllBtn" class="btn btn-play btn-listen-all" disabled>
+          Ouvir todos
+        </button>
+        <button id="prevBtn" class="btn btn-nav btn-prev" disabled>
+          ◀ Anterior
+        </button>
+        <button id="nextBtn" class="btn btn-nav btn-next" disabled>
+          Próximo ▶
+        </button>
+      </footer>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

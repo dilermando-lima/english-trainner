@@ -1,0 +1,317 @@
+{
+  "name": "Pedir desculpas",
+  "sentences": [
+    {
+      "QE": "Why did you not call?",
+      "QP": "Por que você não ligou?",
+      "AE": "I am sorry. I completely forgot. It will not happen again.",
+      "AP": "Desculpe. Esqueci completamente. Não vai se repetir."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I apologize for the delay. We had a technical issue.",
+      "AP": "Peço desculpas pelo atraso. Tivemos um problema técnico."
+    },
+    {
+      "QE": "Did you mean to say that?",
+      "QP": "Você quis dizer isso?",
+      "AE": "No. I am sorry. I did not mean to hurt you.",
+      "AP": "Não. Desculpe. Não quis te magoar."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She apologized and offered to fix it.",
+      "AP": "Ela se desculpou e se ofereceu para consertar."
+    },
+    {
+      "QE": "Can you forgive me?",
+      "QP": "Você pode me perdoar?",
+      "AE": "I am really sorry. I hope you can forgive me.",
+      "AP": "Sinto muito. Espero que possa me perdoar."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I owe you an apology. I was wrong.",
+      "AP": "Devo um pedido de desculpas. Eu estava errado."
+    },
+    {
+      "QE": "Why are you sorry?",
+      "QP": "Por que você está pedindo desculpas?",
+      "AE": "Because I was rude. I should not have said that.",
+      "AP": "Porque fui grosseiro. Não deveria ter dito aquilo."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He said he was sorry and shook her hand.",
+      "AP": "Ele disse que sentia muito e apertou a mão dela."
+    },
+    {
+      "QE": "Do you accept my apology?",
+      "QP": "Você aceita minhas desculpas?",
+      "AE": "I accept your apology. Let us move on.",
+      "AP": "Aceito suas desculpas. Vamos seguir em frente."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I am so sorry for your loss.",
+      "AP": "Sinto muito pela sua perda."
+    },
+    {
+      "QE": "What should I say to apologize?",
+      "QP": "O que devo dizer para me desculpar?",
+      "AE": "Say you are sorry and that you will do better.",
+      "AP": "Diga que sente muito e que vai melhorar."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She wrote a note to apologize.",
+      "AP": "Ela escreveu um bilhete para se desculpar."
+    },
+    {
+      "QE": "How do I make it up to you?",
+      "QP": "Como posso compensar?",
+      "AE": "You do not have to. Your apology is enough.",
+      "AP": "Não precisa. Suas desculpas são suficientes."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I apologize for the inconvenience.",
+      "AP": "Peço desculpas pelo inconveniente."
+    },
+    {
+      "QE": "Are you really sorry?",
+      "QP": "Você realmente sente muito?",
+      "AE": "Yes, I am. I feel terrible about it.",
+      "AP": "Sim. Me sinto péssimo com isso."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He apologized in front of everyone.",
+      "AP": "Ele se desculpou na frente de todos."
+    },
+    {
+      "QE": "What if they do not accept?",
+      "QP": "E se eles não aceitarem?",
+      "AE": "You did your part. Give them time.",
+      "AP": "Você fez sua parte. Dê tempo a eles."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I am sorry I missed the meeting.",
+      "AP": "Desculpe ter perdido a reunião."
+    },
+    {
+      "QE": "How do you apologize formally?",
+      "QP": "Como você se desculpa formalmente?",
+      "AE": "I would like to offer my sincere apologies.",
+      "AP": "Gostaria de oferecer minhas sinceras desculpas."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She accepted his apology. They are fine now.",
+      "AP": "Ela aceitou as desculpas dele. Estão bem agora."
+    },
+    {
+      "QE": "Can I say I am sorry in an email?",
+      "QP": "Posso pedir desculpas por e-mail?",
+      "AE": "Yes, but for big things a call is better.",
+      "AP": "Sim, mas para coisas grandes uma ligação é melhor."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I apologize for the confusion. Here is the correct info.",
+      "AP": "Peço desculpas pela confusão. Aqui está a informação correta."
+    },
+    {
+      "QE": "Do you regret it?",
+      "QP": "Você se arrepende?",
+      "AE": "Yes, I do. I wish I could take it back.",
+      "AP": "Sim. Queria poder voltar atrás."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He said sorry and promised to fix the mistake.",
+      "AP": "Ele pediu desculpas e prometeu corrigir o erro."
+    },
+    {
+      "QE": "What is the best way to apologize?",
+      "QP": "Qual é a melhor forma de pedir desculpas?",
+      "AE": "Be sincere. Do not make excuses. Say what you will do.",
+      "AP": "Seja sincero. Não dê desculpas. Diga o que fará."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I am sorry for the typo in the report.",
+      "AP": "Desculpe pelo erro de digitação no relatório."
+    },
+    {
+      "QE": "Should I apologize in person?",
+      "QP": "Devo me desculpar pessoalmente?",
+      "AE": "If possible, yes. It shows you mean it.",
+      "AP": "Se possível, sim. Mostra que você está falando sério."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She apologized for being late. Traffic was bad.",
+      "AP": "Ela se desculpou por estar atrasada. O trânsito estava ruim."
+    },
+    {
+      "QE": "How many times have you apologized?",
+      "QP": "Quantas vezes você já se desculpou?",
+      "AE": "I have apologized twice. I hope it is enough.",
+      "AP": "Já me desculpei duas vezes. Espero que seja suficiente."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I owe you an apology for yesterday.",
+      "AP": "Devo desculpas por ontem."
+    },
+    {
+      "QE": "Do you think they will forgive you?",
+      "QP": "Você acha que vão te perdoar?",
+      "AE": "I hope so. I will give them space.",
+      "AP": "Espero que sim. Vou dar espaço a eles."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He apologized but she was still upset.",
+      "AP": "Ele se desculpou mas ela ainda estava chateada."
+    },
+    {
+      "QE": "What if it was not entirely your fault?",
+      "QP": "E se não foi totalmente sua culpa?",
+      "AE": "You can still say you are sorry for your part.",
+      "AP": "Ainda pode dizer que sente muito pela sua parte."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I am sorry to hear that. Is there anything I can do?",
+      "AP": "Sinto muito por ouvir isso. Posso fazer algo?"
+    },
+    {
+      "QE": "How do you say sorry without saying sorry?",
+      "QP": "Como pedir desculpas sem dizer desculpe?",
+      "AE": "You can say I regret that or I take responsibility.",
+      "AP": "Pode dizer lamento isso ou assumo a responsabilidade."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She apologized and gave a small gift.",
+      "AP": "Ela se desculpou e deu um presentinho."
+    },
+    {
+      "QE": "Is it too late to apologize?",
+      "QP": "É tarde demais para pedir desculpas?",
+      "AE": "It is never too late. Better late than never.",
+      "AP": "Nunca é tarde. Antes tarde do que nunca."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I sincerely apologize for the error.",
+      "AP": "Peço sinceras desculpas pelo erro."
+    },
+    {
+      "QE": "Do you apologize too much?",
+      "QP": "Você pede desculpas demais?",
+      "AE": "Sometimes. I am working on it.",
+      "AP": "Às vezes. Estou trabalhando nisso."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He apologized to the whole team.",
+      "AP": "Ele se desculpou com toda a equipe."
+    },
+    {
+      "QE": "What do you say after someone apologizes?",
+      "QP": "O que dizer quando alguém se desculpa?",
+      "AE": "Thank you for apologizing. Or It is okay.",
+      "AP": "Obrigado por se desculpar. Ou Está tudo bem."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I am sorry I could not help more.",
+      "AP": "Desculpe não poder ajudar mais."
+    },
+    {
+      "QE": "Should you apologize by text?",
+      "QP": "Deve pedir desculpas por mensagem?",
+      "AE": "For small things, yes. For serious things, no.",
+      "AP": "Para coisas pequenas, sim. Para coisas sérias, não."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She accepted his apology with a smile.",
+      "AP": "Ela aceitou as desculpas dele com um sorriso."
+    },
+    {
+      "QE": "How do you apologize at work?",
+      "QP": "Como pedir desculpas no trabalho?",
+      "AE": "Be professional. Acknowledge the impact. Propose a fix.",
+      "AP": "Seja profissional. Reconheça o impacto. Proponha uma solução."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I apologize for any inconvenience caused.",
+      "AP": "Peço desculpas por qualquer inconveniente causado."
+    },
+    {
+      "QE": "Do you feel better after apologizing?",
+      "QP": "Você se sente melhor depois de pedir desculpas?",
+      "AE": "Yes. It was the right thing to do.",
+      "AP": "Sim. Era a coisa certa a fazer."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He apologized and asked for another chance.",
+      "AP": "Ele se desculpou e pediu outra chance."
+    },
+    {
+      "QE": "What is a sincere apology?",
+      "QP": "O que é um pedido de desculpas sincero?",
+      "AE": "One where you mean it and do not make excuses.",
+      "AP": "Aquele em que você está falando sério e não dá desculpas."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I am sorry for the misunderstanding.",
+      "AP": "Desculpe pelo mal-entendido."
+    },
+    {
+      "QE": "Can you apologize too much?",
+      "QP": "Pode pedir desculpas demais?",
+      "AE": "Yes. It can seem like you lack confidence.",
+      "AP": "Sim. Pode parecer que você falta confiança."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She said she was sorry and hugged him.",
+      "AP": "Ela disse que sentia muito e o abraçou."
+    }
+  ]
+}

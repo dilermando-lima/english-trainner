@@ -1,0 +1,317 @@
+{
+  "name": "Tarefas domésticas",
+  "sentences": [
+    {
+      "QE": "Who does the laundry at your house?",
+      "QP": "Quem lava roupa na sua casa?",
+      "AE": "I do. I do it on Sundays.",
+      "AP": "Eu lavo. Faço aos domingos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She always forgets to take out the trash.",
+      "AP": "Ela sempre esquece de levar o lixo."
+    },
+    {
+      "QE": "Do you help with the dishes?",
+      "QP": "Você ajuda a lavar a louça?",
+      "AE": "Yes, we take turns. I wash, she dries.",
+      "AP": "Sim, nos revezamos. Eu lavo, ela seca."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He mows the lawn every two weeks.",
+      "AP": "Ele corta a grama a cada duas semanas."
+    },
+    {
+      "QE": "What chores do you hate the most?",
+      "QP": "Qual tarefa você mais odeia?",
+      "AE": "Ironing. I avoid it as much as I can.",
+      "AP": "Passar roupa. Evito o máximo que posso."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We need to vacuum the living room.",
+      "AP": "Precisamos aspirar a sala."
+    },
+    {
+      "QE": "Do you make your bed every day?",
+      "QP": "Você arruma a cama todo dia?",
+      "AE": "Yes, I do. It takes two minutes.",
+      "AP": "Sim. Leva dois minutos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She sweeps the kitchen floor every night.",
+      "AP": "Ela varre o chão da cozinha toda noite."
+    },
+    {
+      "QE": "Who cooks in your family?",
+      "QP": "Quem cozinha na sua família?",
+      "AE": "We both do. We split the cooking.",
+      "AP": "Nós dois. Dividimos a cozinha."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I have to clean the bathroom this weekend.",
+      "AP": "Tenho que limpar o banheiro neste fim de semana."
+    },
+    {
+      "QE": "Do you do grocery shopping?",
+      "QP": "Você faz compras?",
+      "AE": "Yes, I go every Saturday morning.",
+      "AP": "Sim, vou todo sábado de manhã."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He fixes things around the house. He is handy.",
+      "AP": "Ele conserta coisas em casa. Ele é habilidoso."
+    },
+    {
+      "QE": "What is your least favorite chore?",
+      "QP": "Qual é sua tarefa menos favorita?",
+      "AE": "Cleaning the oven. It is so tedious.",
+      "AP": "Limpar o forno. É tão chato."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We need to change the sheets.",
+      "AP": "Precisamos trocar os lençóis."
+    },
+    {
+      "QE": "Do you water the plants?",
+      "QP": "Você rega as plantas?",
+      "AE": "Yes, I water them twice a week.",
+      "AP": "Sim, rego duas vezes por semana."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She organizes the closet every season.",
+      "AP": "Ela organiza o armário a cada estação."
+    },
+    {
+      "QE": "How do you divide the chores?",
+      "QP": "Como vocês dividem as tarefas?",
+      "AE": "We have a list. We each pick what we prefer.",
+      "AP": "Temos uma lista. Cada um escolhe o que prefere."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I forgot to load the dishwasher.",
+      "AP": "Esqueci de colocar a louça na lava-louças."
+    },
+    {
+      "QE": "Do you hire someone to clean?",
+      "QP": "Você contrata alguém para limpar?",
+      "AE": "Yes, once a week. It helps a lot.",
+      "AP": "Sim, uma vez por semana. Ajuda muito."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He takes care of the yard. I do the inside.",
+      "AP": "Ele cuida do quintal. Eu cuido do interior."
+    },
+    {
+      "QE": "What chores did you do today?",
+      "QP": "Quais tarefas você fez hoje?",
+      "AE": "I did the laundry and folded the clothes.",
+      "AP": "Lavei roupa e dobrei as roupas."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We need to dust the furniture.",
+      "AP": "Precisamos tirar o pó dos móveis."
+    },
+    {
+      "QE": "Do you clean the fridge often?",
+      "QP": "Você limpa a geladeira com frequência?",
+      "AE": "Once a month. We throw away old stuff.",
+      "AP": "Uma vez por mês. Jogamos fora o que está velho."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She is in charge of paying the bills.",
+      "AP": "Ela é responsável por pagar as contas."
+    },
+    {
+      "QE": "Who takes out the recycling?",
+      "QP": "Quem leva a reciclagem?",
+      "AE": "I do. We have bins in the garage.",
+      "AP": "Eu levo. Temos caixas na garagem."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I need to wipe the counters.",
+      "AP": "Preciso limpar as bancadas."
+    },
+    {
+      "QE": "Do you have a chore chart?",
+      "QP": "Vocês têm um quadro de tarefas?",
+      "AE": "Yes, for the kids. They get an allowance.",
+      "AP": "Sim, para as crianças. Elas ganham mesada."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He always leaves his clothes on the floor.",
+      "AP": "Ele sempre deixa as roupas no chão."
+    },
+    {
+      "QE": "What do you do to keep the house tidy?",
+      "QP": "O que você faz para manter a casa arrumada?",
+      "AE": "I tidy up every night. Ten-minute rule.",
+      "AP": "Arrumo toda noite. Regra dos dez minutos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We share the chores. Nobody does everything.",
+      "AP": "Dividimos as tarefas. Ninguém faz tudo."
+    },
+    {
+      "QE": "Do you wash the car?",
+      "QP": "Você lava o carro?",
+      "AE": "Sometimes. Or we go to the car wash.",
+      "AP": "Às vezes. Ou vamos ao lava-rápido."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She cleans the windows when they get dirty.",
+      "AP": "Ela limpa as janelas quando ficam sujas."
+    },
+    {
+      "QE": "How often do you deep clean?",
+      "QP": "Com que frequência você faz uma limpeza pesada?",
+      "AE": "Once a month. We do it together.",
+      "AP": "Uma vez por mês. Fazemos juntos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I have to unload the dishwasher.",
+      "AP": "Tenho que esvaziar a lava-louças."
+    },
+    {
+      "QE": "Do you make a list of chores?",
+      "QP": "Você faz lista de tarefas?",
+      "AE": "Yes. It helps me stay on top of things.",
+      "AP": "Sim. Ajuda a não acumular."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He does the heavy lifting. I do the rest.",
+      "AP": "Ele faz o trabalho pesado. Eu faço o resto."
+    },
+    {
+      "QE": "What chore do you do first?",
+      "QP": "Qual tarefa você faz primeiro?",
+      "AE": "I start with the kitchen. Then the bathroom.",
+      "AP": "Começo pela cozinha. Depois o banheiro."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We need to replace the air filter.",
+      "AP": "Precisamos trocar o filtro do ar."
+    },
+    {
+      "QE": "Do you enjoy any chores?",
+      "QP": "Você gosta de alguma tarefa?",
+      "AE": "I like folding laundry. I find it relaxing.",
+      "AP": "Gosto de dobrar roupa. Acho relaxante."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She feeds the pets and cleans their area.",
+      "AP": "Ela alimenta os bichos e limpa o espaço deles."
+    },
+    {
+      "QE": "Who empties the trash?",
+      "QP": "Quem esvazia o lixo?",
+      "AE": "Whoever notices it is full. Usually me.",
+      "AP": "Quem notar que está cheio. Geralmente eu."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I need to mop the floor. It is sticky.",
+      "AP": "Preciso passar pano no chão. Está grudento."
+    },
+    {
+      "QE": "Do you do chores on weekdays?",
+      "QP": "Você faz tarefas nos dias de semana?",
+      "AE": "Small ones. Dishes, quick tidy. Big ones on weekends.",
+      "AP": "Pequenas. Louça, arrumação rápida. Grandes no fim de semana."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He is responsible for the garage.",
+      "AP": "Ele é responsável pela garagem."
+    },
+    {
+      "QE": "What if someone does not do their chore?",
+      "QP": "E se alguém não fizer sua tarefa?",
+      "AE": "We remind them. Sometimes we switch.",
+      "AP": "Lembramos. Às vezes trocamos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We ran out of detergent. I need to buy more.",
+      "AP": "Acabou o detergente. Preciso comprar mais."
+    },
+    {
+      "QE": "Do you clean before guests come?",
+      "QP": "Você limpa antes de receber visitas?",
+      "AE": "Yes, always. We do a quick run-through.",
+      "AP": "Sim, sempre. Fazemos uma passada rápida."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She puts away the groceries. I carry them in.",
+      "AP": "Ela guarda as compras. Eu carrego."
+    },
+    {
+      "QE": "What is the first thing you clean?",
+      "QP": "Qual é a primeira coisa que você limpa?",
+      "AE": "The kitchen. It is the heart of the house.",
+      "AP": "A cozinha. É o coração da casa."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I need to scrub the tub. It has stains.",
+      "AP": "Preciso esfregar a banheira. Tem manchas."
+    },
+    {
+      "QE": "Do you do chores together or alone?",
+      "QP": "Vocês fazem tarefas juntos ou sozinhos?",
+      "AE": "Mix. Some together, some we split.",
+      "AP": "Misturado. Algumas juntos, algumas dividimos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He forgot to run the washing machine.",
+      "AP": "Ele esqueceu de ligar a máquina de lavar."
+    }
+  ]
+}

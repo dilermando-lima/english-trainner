@@ -1,0 +1,305 @@
+{
+  "name": "Presente perfeito",
+  "sentences": [
+    {
+      "QE": "Have you finished your report?",
+      "QP": "Você terminou seu relatório?",
+      "AE": "Yes, I have finished it.",
+      "AP": "Sim, terminei."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She has lived in this city for ten years.",
+      "AP": "Ela mora nesta cidade há dez anos."
+    },
+    {
+      "QE": "Has he ever been to Europe?",
+      "QP": "Ele já esteve na Europa?",
+      "AE": "No, he has never been there.",
+      "AP": "Não, ele nunca esteve lá."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We have known each other since 2015.",
+      "AP": "Nos conhecemos desde 2015."
+    },
+    {
+      "QE": "Have they left already?",
+      "QP": "Eles já saíram?",
+      "AE": "Yes, they have just left.",
+      "AP": "Sim, acabaram de sair."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I have already seen that movie.",
+      "AP": "Já vi aquele filme."
+    },
+    {
+      "QE": "How long have you worked here?",
+      "QP": "Há quanto tempo você trabalha aqui?",
+      "AE": "I have worked here for three years.",
+      "AP": "Trabalho aqui há três anos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She has written five emails today.",
+      "AP": "Ela escreveu cinco e-mails hoje."
+    },
+    {
+      "QE": "Have you eaten lunch yet?",
+      "QP": "Você já almoçou?",
+      "AE": "Not yet. I will eat soon.",
+      "AP": "Ainda não. Vou almoçar em breve."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He has never tried sushi.",
+      "AP": "Ele nunca experimentou sushi."
+    },
+    {
+      "QE": "Has she called you?",
+      "QP": "Ela te ligou?",
+      "AE": "Yes, she has called twice.",
+      "AP": "Sim, ligou duas vezes."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "They have been married for twenty years.",
+      "AP": "Eles são casados há vinte anos."
+    },
+    {
+      "QE": "Have you done your homework?",
+      "QP": "Você fez sua lição de casa?",
+      "AE": "Yes, I have done it.",
+      "AP": "Sim, já fiz."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I have lost my keys.",
+      "AP": "Perdi minhas chaves."
+    },
+    {
+      "QE": "How many times have you been there?",
+      "QP": "Quantas vezes você esteve lá?",
+      "AE": "I have been there three times.",
+      "AP": "Estive lá três vezes."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We have just arrived at the airport.",
+      "AP": "Acabamos de chegar ao aeroporto."
+    },
+    {
+      "QE": "Has he made dinner?",
+      "QP": "Ele fez o jantar?",
+      "AE": "Yes, he has made pasta.",
+      "AP": "Sim, fez massa."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She has gone to the supermarket.",
+      "AP": "Ela foi ao supermercado."
+    },
+    {
+      "QE": "Have they found a new apartment?",
+      "QP": "Eles encontraram um apartamento novo?",
+      "AE": "Not yet. They are still looking.",
+      "AP": "Ainda não. Ainda estão procurando."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I have taken many photos today.",
+      "AP": "Tirei muitas fotos hoje."
+    },
+    {
+      "QE": "Have you read this book?",
+      "QP": "Você leu este livro?",
+      "AE": "Yes, I have read it twice.",
+      "AP": "Sim, li duas vezes."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He has given me good advice.",
+      "AP": "Ele me deu bons conselhos."
+    },
+    {
+      "QE": "Has she ever ridden a horse?",
+      "QP": "Ela já andou a cavalo?",
+      "AE": "Yes, she has ridden many times.",
+      "AP": "Sim, já andou várias vezes."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We have had this car since last year.",
+      "AP": "Temos este carro desde o ano passado."
+    },
+    {
+      "QE": "Have you spoken to the manager?",
+      "QP": "Você falou com o gerente?",
+      "AE": "Yes, I have spoken to him.",
+      "AP": "Sim, falei com ele."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "They have broken the window.",
+      "AP": "Eles quebraram a janela."
+    },
+    {
+      "QE": "How long have you studied English?",
+      "QP": "Há quanto tempo você estuda inglês?",
+      "AE": "I have studied for five years.",
+      "AP": "Estudo há cinco anos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She has driven to work every day.",
+      "AP": "Ela tem ido de carro ao trabalho todo dia."
+    },
+    {
+      "QE": "Have you forgotten something?",
+      "QP": "Você esqueceu algo?",
+      "AE": "Yes, I have forgotten my wallet.",
+      "AP": "Sim, esqueci minha carteira."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He has begun a new project.",
+      "AP": "Ele começou um novo projeto."
+    },
+    {
+      "QE": "Has the meeting started?",
+      "QP": "A reunião começou?",
+      "AE": "Yes, it has just started.",
+      "AP": "Sim, acabou de começar."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I have built a new shelf.",
+      "AP": "Construí uma prateleira nova."
+    },
+    {
+      "QE": "Have they chosen a date?",
+      "QP": "Eles escolheram uma data?",
+      "AE": "Yes, they have chosen Saturday.",
+      "AP": "Sim, escolheram sábado."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She has come back from vacation.",
+      "AP": "Ela voltou das férias."
+    },
+    {
+      "QE": "Have you run today?",
+      "QP": "Você correu hoje?",
+      "AE": "Yes, I have run five miles.",
+      "AP": "Sim, corri oito quilômetros."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We have bought a new house.",
+      "AP": "Compramos uma casa nova."
+    },
+    {
+      "QE": "Has he brought the documents?",
+      "QP": "Ele trouxe os documentos?",
+      "AE": "Yes, he has brought them.",
+      "AP": "Sim, trouxe."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "They have left the building.",
+      "AP": "Eles saíram do prédio."
+    },
+    {
+      "QE": "Have you felt better today?",
+      "QP": "Você se sentiu melhor hoje?",
+      "AE": "A bit. Still tired.",
+      "AP": "Um pouco. Ainda cansado."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I have put the keys on the table.",
+      "AP": "Coloquei as chaves na mesa."
+    },
+    {
+      "QE": "Has she cut her hair?",
+      "QP": "Ela cortou o cabelo?",
+      "AE": "Yes, she has cut it short.",
+      "AP": "Sim, cortou curto."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He has set the table for dinner.",
+      "AP": "Ele pôs a mesa para o jantar."
+    },
+    {
+      "QE": "Have they hit the deadline?",
+      "QP": "Eles bateram o prazo?",
+      "AE": "Yes, they have finished on time.",
+      "AP": "Sim, terminaram no prazo."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She has let the cat out.",
+      "AP": "Ela deixou o gato sair."
+    },
+    {
+      "QE": "Have you shut the door?",
+      "QP": "Você fechou a porta?",
+      "AE": "Yes, I have shut it.",
+      "AP": "Sim, fechei."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We have split the bill.",
+      "AP": "Dividimos a conta."
+    },
+    {
+      "QE": "Has the news spread?",
+      "QP": "A notícia se espalhou?",
+      "AE": "Yes, everyone knows.",
+      "AP": "Sim, todo mundo sabe."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "It has cost a lot of money.",
+      "AP": "Custou muito dinheiro."
+    },
+    {
+      "QE": "Have you hurt yourself?",
+      "QP": "Você se machucou?",
+      "AE": "Yes, I have hurt my knee.",
+      "AP": "Sim, machuquei o joelho."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She has seen that show before.",
+      "AP": "Ela já viu esse programa."
+    }
+  ]
+}

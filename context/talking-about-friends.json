@@ -1,0 +1,305 @@
+{
+  "name": "Falando sobre amigos",
+  "sentences": [
+    {
+      "QE": "Who is your best friend?",
+      "QP": "Quem é seu melhor amigo?",
+      "AE": "His name is Pedro. We have been friends since school.",
+      "AP": "O nome dele é Pedro. Somos amigos desde a escola."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She has a lot of friends. She is very social.",
+      "AP": "Ela tem muitos amigos. É muito sociável."
+    },
+    {
+      "QE": "How did you meet?",
+      "QP": "Como vocês se conheceram?",
+      "AE": "We met at a party. We just clicked.",
+      "AP": "Nos conhecemos em uma festa. Demos certo."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He is like a brother to me.",
+      "AP": "Ele é como um irmão para mim."
+    },
+    {
+      "QE": "Do you see your friends often?",
+      "QP": "Você vê seus amigos com frequência?",
+      "AE": "We try to meet every two weeks.",
+      "AP": "Tentamos nos encontrar a cada duas semanas."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We have been friends for over twenty years.",
+      "AP": "Somos amigos há mais de vinte anos."
+    },
+    {
+      "QE": "What do you like about your friends?",
+      "QP": "O que você gosta nos seus amigos?",
+      "AE": "They are loyal and we always have fun.",
+      "AP": "São leais e sempre nos divertimos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She introduced me to her circle. Great people.",
+      "AP": "Ela me apresentou ao círculo dela. Gente ótima."
+    },
+    {
+      "QE": "Do you have childhood friends?",
+      "QP": "Você tem amigos de infância?",
+      "AE": "Yes, two. We still talk every month.",
+      "AP": "Sim, dois. Ainda conversamos todo mês."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He is always there when I need him.",
+      "AP": "Ele está sempre lá quando preciso."
+    },
+    {
+      "QE": "What do you do with your friends?",
+      "QP": "O que você faz com seus amigos?",
+      "AE": "We go out to eat, watch games, or just talk.",
+      "AP": "Saimos para comer, assistir jogos ou só conversar."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I made a new friend at work last week.",
+      "AP": "Fiz um amigo novo no trabalho na semana passada."
+    },
+    {
+      "QE": "How do you stay in touch?",
+      "QP": "Como vocês mantêm contato?",
+      "AE": "WhatsApp mostly. And we meet when we can.",
+      "AP": "WhatsApp na maioria. E nos encontramos quando podemos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She is my closest friend. I tell her everything.",
+      "AP": "Ela é minha amiga mais próxima. Conto tudo a ela."
+    },
+    {
+      "QE": "Have you ever had a fight with a friend?",
+      "QP": "Você já brigou com um amigo?",
+      "AE": "Yes. We made up. Stronger now.",
+      "AP": "Sim. Nos reconciliamos. Mais fortes agora."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He moved away but we still video call.",
+      "AP": "Ele se mudou mas ainda fazemos videochamada."
+    },
+    {
+      "QE": "What makes a good friend?",
+      "QP": "O que faz um bom amigo?",
+      "AE": "Trust, support, and being there in bad times.",
+      "AP": "Confiança, apoio e estar presente nos momentos ruins."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We have a group chat. We talk every day.",
+      "AP": "Temos um grupo. Falamos todo dia."
+    },
+    {
+      "QE": "Do you prefer few close friends or many?",
+      "QP": "Você prefere poucos amigos próximos ou muitos?",
+      "AE": "Few close ones. Quality over quantity.",
+      "AP": "Poucos próximos. Qualidade em vez de quantidade."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She stood by me when I was going through a hard time.",
+      "AP": "Ela ficou ao meu lado quando passei por um momento difícil."
+    },
+    {
+      "QE": "How often do you make new friends?",
+      "QP": "Com que frequência você faz novos amigos?",
+      "AE": "Not often. I am shy. But when I do, it sticks.",
+      "AP": "Não com frequência. Sou tímido. Mas quando faço, dura."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He is the funniest person I know.",
+      "AP": "Ele é a pessoa mais engraçada que conheço."
+    },
+    {
+      "QE": "What do you do when a friend is sad?",
+      "QP": "O que você faz quando um amigo está triste?",
+      "AE": "I listen. I offer to help. I stay in touch.",
+      "AP": "Ouço. Ofereço ajuda. Mantenho contato."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We lost touch for a few years. We reconnected.",
+      "AP": "Perdemos contato por alguns anos. Nos reconectamos."
+    },
+    {
+      "QE": "Do you have friends from other countries?",
+      "QP": "Você tem amigos de outros países?",
+      "AE": "Yes, a few from work and from travel.",
+      "AP": "Sim, alguns do trabalho e de viagens."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She always remembers my birthday.",
+      "AP": "Ela sempre lembra do meu aniversário."
+    },
+    {
+      "QE": "What was the best thing a friend did for you?",
+      "QP": "Qual foi a melhor coisa que um amigo fez por você?",
+      "AE": "He helped me move. And listened for hours.",
+      "AP": "Ele me ajudou a mudar. E me ouviu por horas."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We disagree sometimes but we respect each other.",
+      "AP": "Discordamos às vezes mas nos respeitamos."
+    },
+    {
+      "QE": "How do you make new friends as an adult?",
+      "QP": "Como fazer novos amigos na vida adulta?",
+      "AE": "Through work, hobbies, or neighbors. It takes effort.",
+      "AP": "Pelo trabalho, hobbies ou vizinhos. Exige esforço."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He is more like family than a friend.",
+      "AP": "Ele é mais como família do que amigo."
+    },
+    {
+      "QE": "Do you have a friend group?",
+      "QP": "Você tem um grupo de amigos?",
+      "AE": "Yes. We are six. We have known each other forever.",
+      "AP": "Sim. Somos seis. Nos conhecemos há muito tempo."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She is honest. She tells me what I need to hear.",
+      "AP": "Ela é honesta. Me diz o que preciso ouvir."
+    },
+    {
+      "QE": "What do you value most in friendship?",
+      "QP": "O que você mais valoriza na amizade?",
+      "AE": "Loyalty and being able to be yourself.",
+      "AP": "Lealdade e poder ser você mesmo."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We try to do a trip together once a year.",
+      "AP": "Tentamos fazer uma viagem juntos uma vez por ano."
+    },
+    {
+      "QE": "Have you ever lost a friend?",
+      "QP": "Você já perdeu um amigo?",
+      "AE": "Yes. We grew apart. It happens.",
+      "AP": "Sim. Nos afastamos. Acontece."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He always has my back. I have his.",
+      "AP": "Ele sempre me defende. Eu defendo ele."
+    },
+    {
+      "QE": "What do you talk about with friends?",
+      "QP": "Sobre o que você fala com os amigos?",
+      "AE": "Everything. Work, life, dreams, problems.",
+      "AP": "De tudo. Trabalho, vida, sonhos, problemas."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She is the first person I call with good news.",
+      "AP": "Ela é a primeira pessoa que ligo com boas notícias."
+    },
+    {
+      "QE": "Do you believe in best friends for life?",
+      "QP": "Você acredita em melhores amigos para a vida?",
+      "AE": "Yes. I have two. I hope we stay close forever.",
+      "AP": "Sim. Tenho dois. Espero que permaneçamos próximos para sempre."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We met online. We have been friends for five years.",
+      "AP": "Nos conhecemos online. Somos amigos há cinco anos."
+    },
+    {
+      "QE": "How do you support a friend in trouble?",
+      "QP": "Como você apoia um amigo em dificuldade?",
+      "AE": "Listen. Do not judge. Offer practical help.",
+      "AP": "Ouvir. Não julgar. Oferecer ajuda prática."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He is my go-to person for advice.",
+      "AP": "Ele é minha pessoa de confiança para conselhos."
+    },
+    {
+      "QE": "What is your favorite memory with friends?",
+      "QP": "Qual é sua melhor lembrança com amigos?",
+      "AE": "A trip we took in college. We still talk about it.",
+      "AP": "Uma viagem que fizemos na faculdade. Ainda falamos disso."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She knows me better than I know myself sometimes.",
+      "AP": "Ela me conhece melhor do que eu mesmo às vezes."
+    },
+    {
+      "QE": "Do you have friends at work?",
+      "QP": "Você tem amigos no trabalho?",
+      "AE": "Yes. A few. We have lunch and hang out sometimes.",
+      "AP": "Sim. Alguns. Almoçamos e saímos às vezes."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We do not need to talk every day. We just know.",
+      "AP": "Não precisamos falar todo dia. Só sabemos."
+    },
+    {
+      "QE": "What would you do for a friend?",
+      "QP": "O que você faria por um amigo?",
+      "AE": "Almost anything. Within reason. They would do the same.",
+      "AP": "Quase qualquer coisa. Dentro do razoável. Eles fariam o mesmo."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He threw me a surprise party. I had no idea.",
+      "AP": "Ele fez uma festa surpresa para mim. Não tinha ideia."
+    },
+    {
+      "QE": "How do you keep long-distance friendships?",
+      "QP": "Como você mantém amizades à distância?",
+      "AE": "Regular calls. Visiting when we can. Staying in the loop.",
+      "AP": "Ligações regulares. Visitar quando podemos. Manter-se informado."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She is the kind of friend everyone needs.",
+      "AP": "Ela é o tipo de amiga que todo mundo precisa."
+    }
+  ]
+}

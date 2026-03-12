@@ -1,0 +1,317 @@
+{
+  "name": "Culinária",
+  "sentences": [
+    {
+      "QE": "How do you make pasta?",
+      "QP": "Como você faz massa?",
+      "AE": "Boil water, add salt, then cook the pasta.",
+      "AP": "Ferva água, adicione sal e cozinhe a massa."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I am cooking dinner tonight.",
+      "AP": "Estou cozinhando o jantar hoje à noite."
+    },
+    {
+      "QE": "What ingredients do you need for the cake?",
+      "QP": "Quais ingredientes você precisa para o bolo?",
+      "AE": "Flour, eggs, sugar, and butter.",
+      "AP": "Farinha, ovos, açúcar e manteiga."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She always adds garlic to the sauce.",
+      "AP": "Ela sempre adiciona alho ao molho."
+    },
+    {
+      "QE": "Can you chop the onions?",
+      "QP": "Pode picar as cebolas?",
+      "AE": "Sure, I will do it now.",
+      "AP": "Claro, vou fazer agora."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Preheat the oven to 180 degrees.",
+      "AP": "Pré-aqueça o forno a 180 graus."
+    },
+    {
+      "QE": "How long should I bake the bread?",
+      "QP": "Por quanto tempo devo assar o pão?",
+      "AE": "About thirty minutes.",
+      "AP": "Cerca de trinta minutos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We need to stir the soup every few minutes.",
+      "AP": "Precisamos mexer a sopa a cada poucos minutos."
+    },
+    {
+      "QE": "Do you like spicy food?",
+      "QP": "Você gosta de comida picante?",
+      "AE": "Yes, I love it.",
+      "AP": "Sim, adoro."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Add a pinch of salt to taste.",
+      "AP": "Adicione uma pitada de sal a gosto."
+    },
+    {
+      "QE": "Should I peel the potatoes?",
+      "QP": "Devo descascar as batatas?",
+      "AE": "Yes, then cut them into cubes.",
+      "AP": "Sim, depois corte em cubos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He is grilling the meat outside.",
+      "AP": "Ele está grelhando a carne lá fora."
+    },
+    {
+      "QE": "What is your favorite recipe?",
+      "QP": "Qual é sua receita favorita?",
+      "AE": "I love my grandmother's lasagna.",
+      "AP": "Adoro a lasanha da minha avó."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Mix the flour and sugar first.",
+      "AP": "Misture a farinha e o açúcar primeiro."
+    },
+    {
+      "QE": "Can you pass me the olive oil?",
+      "QP": "Pode me passar o azeite?",
+      "AE": "Here it is.",
+      "AP": "Aqui está."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Let the dough rest for an hour.",
+      "AP": "Deixe a massa descansar por uma hora."
+    },
+    {
+      "QE": "How do you know when the chicken is done?",
+      "QP": "Como você sabe quando o frango está pronto?",
+      "AE": "The juice should run clear.",
+      "AP": "O suco deve sair transparente."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She is frying the eggs for breakfast.",
+      "AP": "Ela está fritando os ovos para o café."
+    },
+    {
+      "QE": "Do you want to help me in the kitchen?",
+      "QP": "Quer me ajudar na cozinha?",
+      "AE": "Yes, what can I do?",
+      "AP": "Sim, o que posso fazer?"
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Season the steak with salt and pepper.",
+      "AP": "Tempere o bife com sal e pimenta."
+    },
+    {
+      "QE": "What temperature for the roast?",
+      "QP": "Qual temperatura para o assado?",
+      "AE": "One hundred eighty Celsius.",
+      "AP": "Cento e oitenta graus Celsius."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We are making a salad for lunch.",
+      "AP": "Estamos fazendo uma salada para o almoço."
+    },
+    {
+      "QE": "Should I use fresh or dried herbs?",
+      "QP": "Devo usar ervas frescas ou secas?",
+      "AE": "Fresh is better if you have them.",
+      "AP": "Frescas são melhores se tiver."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Slice the tomatoes thinly.",
+      "AP": "Corte os tomates em fatias finas."
+    },
+    {
+      "QE": "How much water for the rice?",
+      "QP": "Quanta água para o arroz?",
+      "AE": "Two cups of water per cup of rice.",
+      "AP": "Duas xícaras de água por xícara de arroz."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He has never cooked Italian food.",
+      "AP": "Ele nunca cozinhou comida italiana."
+    },
+    {
+      "QE": "Can you taste this and tell me if it needs salt?",
+      "QP": "Pode provar e me dizer se precisa de sal?",
+      "AE": "It needs a little more.",
+      "AP": "Precisa de um pouco mais."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Cover the pan and simmer for twenty minutes.",
+      "AP": "Tampe a panela e deixe ferver por vinte minutos."
+    },
+    {
+      "QE": "Do you follow recipes or improvise?",
+      "QP": "Você segue receitas ou improvisa?",
+      "AE": "I like to improvise sometimes.",
+      "AP": "Gosto de improvisar às vezes."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Wash the vegetables before cutting.",
+      "AP": "Lave os legumes antes de cortar."
+    },
+    {
+      "QE": "What kind of sauce goes with this?",
+      "QP": "Que tipo de molho combina com isso?",
+      "AE": "A white sauce would work well.",
+      "AP": "Um molho branco cairia bem."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She is baking cookies for the party.",
+      "AP": "Ela está assando biscoitos para a festa."
+    },
+    {
+      "QE": "Is the water boiling yet?",
+      "QP": "A água já está fervendo?",
+      "AE": "Almost. Give it another minute.",
+      "AP": "Quase. Mais um minuto."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Remove from heat and let it cool.",
+      "AP": "Retire do fogo e deixe esfriar."
+    },
+    {
+      "QE": "How do you make the sauce less thick?",
+      "QP": "Como você deixa o molho menos grosso?",
+      "AE": "Add a bit of water or milk.",
+      "AP": "Adicione um pouco de água ou leite."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "They are having a barbecue on Sunday.",
+      "AP": "Eles vão fazer churrasco no domingo."
+    },
+    {
+      "QE": "Can you recommend a good cookbook?",
+      "QP": "Pode recomendar um bom livro de receitas?",
+      "AE": "I like the one by Jamie Oliver.",
+      "AP": "Gosto do do Jamie Oliver."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Knead the dough until it is smooth.",
+      "AP": "Sove a massa até ficar lisa."
+    },
+    {
+      "QE": "What do you put in your smoothie?",
+      "QP": "O que você coloca no seu smoothie?",
+      "AE": "Banana, spinach, and almond milk.",
+      "AP": "Banana, espinafre e leite de amêndoa."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I always burn the toast.",
+      "AP": "Sempre queimo a torrada."
+    },
+    {
+      "QE": "Should we order takeout tonight?",
+      "QP": "Devemos pedir delivery hoje à noite?",
+      "AE": "I would rather cook at home.",
+      "AP": "Prefiro cozinhar em casa."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Grate the cheese over the pasta.",
+      "AP": "Rale o queijo por cima da massa."
+    },
+    {
+      "QE": "How many eggs for the omelet?",
+      "QP": "Quantos ovos para a omelete?",
+      "AE": "Two or three is enough.",
+      "AP": "Dois ou três é suficiente."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She learned to cook from her mother.",
+      "AP": "Ela aprendeu a cozinhar com a mãe."
+    },
+    {
+      "QE": "Do you have a food processor?",
+      "QP": "Você tem um processador de alimentos?",
+      "AE": "Yes, it is in the cabinet.",
+      "AP": "Sim, está no armário."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Let the meat marinate overnight.",
+      "AP": "Deixe a carne marinar durante a noite."
+    },
+    {
+      "QE": "What is the secret to fluffy pancakes?",
+      "QP": "Qual é o segredo de panquecas fofas?",
+      "AE": "Do not overmix the batter.",
+      "AP": "Não misture demais a massa."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We need to defrost the chicken.",
+      "AP": "Precisamos descongelar o frango."
+    },
+    {
+      "QE": "Can you set the table?",
+      "QP": "Pode pôr a mesa?",
+      "AE": "Sure, I will do it.",
+      "AP": "Claro, vou fazer."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He prefers to eat out on Fridays.",
+      "AP": "Ele prefere comer fora às sextas."
+    },
+    {
+      "QE": "How do you keep the salad fresh?",
+      "QP": "Como você mantém a salada fresca?",
+      "AE": "Store it in an airtight container.",
+      "AP": "Guarde em um pote hermético."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Dinner is ready. Come to the table.",
+      "AP": "O jantar está pronto. Venham para a mesa."
+    }
+  ]
+}

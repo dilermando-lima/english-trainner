@@ -1,0 +1,317 @@
+{
+  "name": "Pedir direções",
+  "sentences": [
+    {
+      "QE": "Excuse me, where is the nearest bank?",
+      "QP": "Com licença, onde fica o banco mais perto?",
+      "AE": "Go straight and turn left at the corner.",
+      "AP": "Siga em frente e vire à esquerda na esquina."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I am looking for the train station. Can you help?",
+      "AP": "Estou procurando a estação de trem. Pode ajudar?"
+    },
+    {
+      "QE": "How do I get to the museum?",
+      "QP": "Como chego ao museu?",
+      "AE": "Take the first right, then go two blocks.",
+      "AP": "Pegue a primeira à direita, depois duas quadras."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She asked a passerby for directions.",
+      "AP": "Ela pediu informação a um pedestre."
+    },
+    {
+      "QE": "Is there a pharmacy nearby?",
+      "QP": "Tem uma farmácia perto?",
+      "AE": "Yes, there is one across the street.",
+      "AP": "Sim, tem uma do outro lado da rua."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He got lost. He had to ask for help.",
+      "AP": "Ele se perdeu. Teve que pedir ajuda."
+    },
+    {
+      "QE": "Which way is the city center?",
+      "QP": "Para que lado fica o centro?",
+      "AE": "That way. About ten minutes on foot.",
+      "AP": "Para lá. Uns dez minutos a pé."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Turn right at the traffic light. You will see it.",
+      "AP": "Vire à direita no semáforo. Você verá."
+    },
+    {
+      "QE": "Can you point me to the bus stop?",
+      "QP": "Pode me indicar a parada de ônibus?",
+      "AE": "It is at the end of this street.",
+      "AP": "Fica no final desta rua."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I need to find the post office.",
+      "AP": "Preciso encontrar os correios."
+    },
+    {
+      "QE": "Where is the restroom?",
+      "QP": "Onde fica o banheiro?",
+      "AE": "Down the hall, on your left.",
+      "AP": "No corredor, à sua esquerda."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She gave me clear directions. I found it easily.",
+      "AP": "Ela me deu direções claras. Encontrei fácil."
+    },
+    {
+      "QE": "How far is it from here?",
+      "QP": "Fica longe daqui?",
+      "AE": "Not far. Five or ten minutes walking.",
+      "AP": "Não é longe. Cinco ou dez minutos a pé."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Go past the park and then turn left.",
+      "AP": "Passe pelo parque e depois vire à esquerda."
+    },
+    {
+      "QE": "Is this the right way to the airport?",
+      "QP": "Este é o caminho certo para o aeroporto?",
+      "AE": "No, you need to go back. Take the other road.",
+      "AP": "Não, você precisa voltar. Pegue a outra estrada."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He did not know the area. He used his phone.",
+      "AP": "Ele não conhecia a região. Usou o celular."
+    },
+    {
+      "QE": "Can you show me on the map?",
+      "QP": "Pode me mostrar no mapa?",
+      "AE": "Sure. We are here. The place is there.",
+      "AP": "Claro. Estamos aqui. O lugar é ali."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Walk straight until you see the church. Then turn right.",
+      "AP": "Caminhe em frente até ver a igreja. Depois vire à direita."
+    },
+    {
+      "QE": "Where can I find a taxi?",
+      "QP": "Onde encontro um táxi?",
+      "AE": "There is a taxi stand next to the hotel.",
+      "AP": "Há um ponto de táxi ao lado do hotel."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I am lost. I cannot find my hotel.",
+      "AP": "Estou perdido. Não encontro meu hotel."
+    },
+    {
+      "QE": "What is the best way to get there?",
+      "QP": "Qual é a melhor forma de chegar lá?",
+      "AE": "By bus. Number twenty-two. It stops in front.",
+      "AP": "De ônibus. Número vinte e dois. Para na frente."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She told me to follow the main road.",
+      "AP": "Ela me disse para seguir a via principal."
+    },
+    {
+      "QE": "Is it within walking distance?",
+      "QP": "Dá para ir a pé?",
+      "AE": "Yes, it is. About seven minutes.",
+      "AP": "Sim. Uns sete minutos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Take the second left. The building is on the right.",
+      "AP": "Pegue a segunda à esquerda. O prédio fica à direita."
+    },
+    {
+      "QE": "Do I need to take a bus?",
+      "QP": "Preciso pegar ônibus?",
+      "AE": "You can walk. It is not that far.",
+      "AP": "Pode ir a pé. Não é tão longe."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He asked for directions in broken English.",
+      "AP": "Ele pediu direções em inglês quebrado."
+    },
+    {
+      "QE": "Where is the nearest metro station?",
+      "QP": "Onde fica a estação de metrô mais perto?",
+      "AE": "Two blocks down. You cannot miss it.",
+      "AP": "Duas quadras abaixo. Não tem como errar."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Keep going straight. Do not turn.",
+      "AP": "Continue em frente. Não vire."
+    },
+    {
+      "QE": "Can I walk there from here?",
+      "QP": "Posso ir a pé daqui?",
+      "AE": "Yes, but it will take about twenty minutes.",
+      "AP": "Sim, mas levará uns vinte minutos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She pointed and said it is that way.",
+      "AP": "Ela apontou e disse que é para lá."
+    },
+    {
+      "QE": "Which bus goes to the beach?",
+      "QP": "Qual ônibus vai para a praia?",
+      "AE": "Bus number five. It leaves from the square.",
+      "AP": "Ônibus número cinco. Sai da praça."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I followed the directions but still got lost.",
+      "AP": "Segui as direções mas ainda me perdi."
+    },
+    {
+      "QE": "Where should I turn?",
+      "QP": "Onde devo virar?",
+      "AE": "At the next intersection. Turn left.",
+      "AP": "No próximo cruzamento. Vire à esquerda."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "The hotel is behind the shopping mall.",
+      "AP": "O hotel fica atrás do shopping."
+    },
+    {
+      "QE": "Is there a shortcut?",
+      "QP": "Tem um atalho?",
+      "AE": "Yes. Cut through the park. It is faster.",
+      "AP": "Sim. Corte pelo parque. É mais rápido."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He gave me wrong directions. I went the wrong way.",
+      "AP": "Ele me deu direções erradas. Fui pelo caminho errado."
+    },
+    {
+      "QE": "How do I get back to the hotel?",
+      "QP": "Como volto para o hotel?",
+      "AE": "Retrace your steps. Or take a taxi.",
+      "AP": "Refaça o caminho. Ou pegue um táxi."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "It is on the corner of Main Street and Oak.",
+      "AP": "Fica na esquina da Rua Principal com a Rua do Carvalho."
+    },
+    {
+      "QE": "Can you repeat that? I did not catch it.",
+      "QP": "Pode repetir? Não entendi.",
+      "AE": "Sure. Go straight, then turn right at the light.",
+      "AP": "Claro. Siga em frente, depois vire à direita no sinal."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She used Google Maps to find the way.",
+      "AP": "Ela usou o Google Maps para encontrar o caminho."
+    },
+    {
+      "QE": "Where is the entrance?",
+      "QP": "Onde fica a entrada?",
+      "AE": "Around the back. The front is under construction.",
+      "AP": "Nos fundos. A frente está em obras."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Walk for about five minutes. You will see a sign.",
+      "AP": "Caminhe uns cinco minutos. Você verá uma placa."
+    },
+    {
+      "QE": "Am I going the right way?",
+      "QP": "Estou indo pelo caminho certo?",
+      "AE": "Yes, you are. Keep going.",
+      "AP": "Sim. Continue."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He did not speak the language. He used gestures.",
+      "AP": "Ele não falava o idioma. Usou gestos."
+    },
+    {
+      "QE": "Which direction is north?",
+      "QP": "Para que lado fica o norte?",
+      "AE": "North is that way. Toward the mountains.",
+      "AP": "O norte é para lá. Em direção às montanhas."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "The building is next to the supermarket.",
+      "AP": "O prédio fica ao lado do supermercado."
+    },
+    {
+      "QE": "Do you know where the library is?",
+      "QP": "Você sabe onde fica a biblioteca?",
+      "AE": "Yes. It is on the university campus.",
+      "AP": "Sim. Fica no campus da universidade."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I thanked her for the directions.",
+      "AP": "Agradeci pelas direções."
+    },
+    {
+      "QE": "How long does it take to get there?",
+      "QP": "Quanto tempo leva para chegar lá?",
+      "AE": "By car, ten minutes. On foot, thirty.",
+      "AP": "De carro, dez minutos. A pé, trinta."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Take the first exit at the roundabout.",
+      "AP": "Pegue a primeira saída na rotatória."
+    },
+    {
+      "QE": "Is it easy to find?",
+      "QP": "É fácil de encontrar?",
+      "AE": "Yes. There is a big sign. You cannot miss it.",
+      "AP": "Sim. Tem uma placa grande. Não tem como errar."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She drew a small map on a napkin.",
+      "AP": "Ela desenhou um mapa pequeno em um guardanapo."
+    }
+  ]
+}

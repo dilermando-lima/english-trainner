@@ -1,0 +1,317 @@
+{
+  "name": "Desejos e vontades",
+  "sentences": [
+    {
+      "QE": "What do you wish for?",
+      "QP": "O que você deseja?",
+      "AE": "I wish I could travel more.",
+      "AP": "Queria poder viajar mais."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I want to learn how to cook.",
+      "AP": "Quero aprender a cozinhar."
+    },
+    {
+      "QE": "Do you want to go out tonight?",
+      "QP": "Você quer sair hoje à noite?",
+      "AE": "I would like to, but I am tired.",
+      "AP": "Gostaria, mas estou cansado."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She wishes she had more free time.",
+      "AP": "Ela queria ter mais tempo livre."
+    },
+    {
+      "QE": "What would you like to do?",
+      "QP": "O que você gostaria de fazer?",
+      "AE": "I would like to see a movie.",
+      "AP": "Gostaria de ver um filme."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I hope to visit Japan one day.",
+      "AP": "Espero visitar o Japão um dia."
+    },
+    {
+      "QE": "Do you wish you had studied more?",
+      "QP": "Você queria ter estudado mais?",
+      "AE": "Sometimes. But I am happy now.",
+      "AP": "Às vezes. Mas estou feliz agora."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He wants to get a new job.",
+      "AP": "Ele quer conseguir um emprego novo."
+    },
+    {
+      "QE": "What is your biggest desire?",
+      "QP": "Qual é seu maior desejo?",
+      "AE": "To have a family and a peaceful life.",
+      "AP": "Ter uma família e uma vida tranquila."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I wish it would stop raining.",
+      "AP": "Queria que parasse de chover."
+    },
+    {
+      "QE": "Would you like some coffee?",
+      "QP": "Você gostaria de um café?",
+      "AE": "Yes, please. I would love some.",
+      "AP": "Sim, por favor. Adoraria."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "They wish they could afford a house.",
+      "AP": "Eles gostariam de poder comprar uma casa."
+    },
+    {
+      "QE": "What do you hope to achieve?",
+      "QP": "O que você espera alcançar?",
+      "AE": "I hope to finish my degree next year.",
+      "AP": "Espero terminar minha faculdade no ano que vem."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I want to be healthier.",
+      "AP": "Quero ser mais saudável."
+    },
+    {
+      "QE": "Do you wish you had said something?",
+      "QP": "Você queria ter dito algo?",
+      "AE": "Yes, I regret staying quiet.",
+      "AP": "Sim, me arrependo de ter ficado calado."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She would like to meet you.",
+      "AP": "Ela gostaria de te conhecer."
+    },
+    {
+      "QE": "What would you like to eat?",
+      "QP": "O que você gostaria de comer?",
+      "AE": "I would like a salad, please.",
+      "AP": "Gostaria de uma salada, por favor."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I wish I had known earlier.",
+      "AP": "Queria ter sabido antes."
+    },
+    {
+      "QE": "Do you want to change jobs?",
+      "QP": "Você quer trocar de emprego?",
+      "AE": "I am thinking about it.",
+      "AP": "Estou pensando nisso."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He hopes to get promoted soon.",
+      "AP": "Ele espera ser promovido em breve."
+    },
+    {
+      "QE": "What do you desire most?",
+      "QP": "O que você mais deseja?",
+      "AE": "Peace of mind and good health.",
+      "AP": "Paz de espírito e boa saúde."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I want to spend more time with my kids.",
+      "AP": "Quero passar mais tempo com meus filhos."
+    },
+    {
+      "QE": "Would you like to try this?",
+      "QP": "Você gostaria de experimentar isso?",
+      "AE": "Sure, I would love to.",
+      "AP": "Claro, adoraria."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We wish we had more vacation days.",
+      "AP": "Gostaríamos de ter mais dias de férias."
+    },
+    {
+      "QE": "What do you hope for the future?",
+      "QP": "O que você espera do futuro?",
+      "AE": "I hope for a better world for everyone.",
+      "AP": "Espero um mundo melhor para todos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I would like to speak to the manager.",
+      "AP": "Gostaria de falar com o gerente."
+    },
+    {
+      "QE": "Do you wish you could go back?",
+      "QP": "Você queria poder voltar?",
+      "AE": "Sometimes, but life goes forward.",
+      "AP": "Às vezes, mas a vida segue em frente."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She wants to start her own business.",
+      "AP": "Ela quer abrir o próprio negócio."
+    },
+    {
+      "QE": "What would make you happy?",
+      "QP": "O que te deixaria feliz?",
+      "AE": "A trip to the beach would be nice.",
+      "AP": "Uma viagem à praia seria ótimo."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I wish you could come to the party.",
+      "AP": "Queria que você pudesse vir à festa."
+    },
+    {
+      "QE": "Do you want to learn something new?",
+      "QP": "Você quer aprender algo novo?",
+      "AE": "Yes, I want to learn to play guitar.",
+      "AP": "Sim, quero aprender a tocar violão."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He would like to work from home.",
+      "AP": "Ele gostaria de trabalhar de casa."
+    },
+    {
+      "QE": "What do you long for?",
+      "QP": "Pelo que você anseia?",
+      "AE": "I long for a simpler life.",
+      "AP": "Anseio por uma vida mais simples."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I hope we can meet again soon.",
+      "AP": "Espero que possamos nos encontrar em breve."
+    },
+    {
+      "QE": "Would you like to join us?",
+      "QP": "Você gostaria de se juntar a nós?",
+      "AE": "I would like to. Thank you.",
+      "AP": "Gostaria. Obrigado."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "They want to buy a car next year.",
+      "AP": "Eles querem comprar um carro no ano que vem."
+    },
+    {
+      "QE": "What is something you have always wanted?",
+      "QP": "O que você sempre quis?",
+      "AE": "I have always wanted to write a book.",
+      "AP": "Sempre quis escrever um livro."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I wish I were taller.",
+      "AP": "Queria ser mais alto."
+    },
+    {
+      "QE": "Do you hope to retire early?",
+      "QP": "Você espera se aposentar cedo?",
+      "AE": "Yes, that is the plan.",
+      "AP": "Sim, esse é o plano."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She would love to visit Paris.",
+      "AP": "Ela adoraria visitar Paris."
+    },
+    {
+      "QE": "What would you like to achieve?",
+      "QP": "O que você gostaria de alcançar?",
+      "AE": "I would like to speak fluent English.",
+      "AP": "Gostaria de falar inglês fluente."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I want to save enough to travel.",
+      "AP": "Quero juntar o suficiente para viajar."
+    },
+    {
+      "QE": "Do you wish things were different?",
+      "QP": "Você queria que as coisas fossem diferentes?",
+      "AE": "In some ways, yes.",
+      "AP": "De certa forma, sim."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We would like to order now.",
+      "AP": "Gostaríamos de pedir agora."
+    },
+    {
+      "QE": "What do you want from life?",
+      "QP": "O que você quer da vida?",
+      "AE": "Happiness and meaningful work.",
+      "AP": "Felicidade e um trabalho com sentido."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I wish you all the best.",
+      "AP": "Desejo tudo de melhor a você."
+    },
+    {
+      "QE": "Would you like me to help?",
+      "QP": "Você gostaria que eu ajudasse?",
+      "AE": "Yes, that would be great.",
+      "AP": "Sim, seria ótimo."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He wants to improve his English.",
+      "AP": "Ele quer melhorar o inglês dele."
+    },
+    {
+      "QE": "What do you dream of doing?",
+      "QP": "O que você sonha em fazer?",
+      "AE": "I dream of opening a café.",
+      "AP": "Sonho em abrir um café."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I hope you get better soon.",
+      "AP": "Espero que você melhore logo."
+    },
+    {
+      "QE": "Do you want to stay or leave?",
+      "QP": "Você quer ficar ou sair?",
+      "AE": "I want to stay a bit longer.",
+      "AP": "Quero ficar mais um pouco."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She wishes she could sing.",
+      "AP": "Ela queria saber cantar."
+    }
+  ]
+}

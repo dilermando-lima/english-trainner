@@ -1,0 +1,317 @@
+{
+  "name": "Falando sobre ele e ela",
+  "sentences": [
+    {
+      "QE": "How is he?",
+      "QP": "Como ele está?",
+      "AE": "He is doing well. He got a new job.",
+      "AP": "Ele está bem. Conseguiu um emprego novo."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She works at a hospital.",
+      "AP": "Ela trabalha em um hospital."
+    },
+    {
+      "QE": "What does she do?",
+      "QP": "O que ela faz?",
+      "AE": "She is a teacher. She teaches math.",
+      "AP": "Ela é professora. Ensina matemática."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He lives in São Paulo with his family.",
+      "AP": "Ele mora em São Paulo com a família."
+    },
+    {
+      "QE": "Where does he work?",
+      "QP": "Onde ele trabalha?",
+      "AE": "He works from home now.",
+      "AP": "Ele trabalha de casa agora."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She loves to read and travel.",
+      "AP": "Ela adora ler e viajar."
+    },
+    {
+      "QE": "Does he like sports?",
+      "QP": "Ele gosta de esportes?",
+      "AE": "Yes, he plays soccer every weekend.",
+      "AP": "Sim, joga futebol todo fim de semana."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He is always busy.",
+      "AP": "Ele está sempre ocupado."
+    },
+    {
+      "QE": "When did she leave?",
+      "QP": "Quando ela saiu?",
+      "AE": "She left about an hour ago.",
+      "AP": "Ela saiu há cerca de uma hora."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She has two children.",
+      "AP": "Ela tem dois filhos."
+    },
+    {
+      "QE": "What is he doing now?",
+      "QP": "O que ele está fazendo agora?",
+      "AE": "He is in a meeting.",
+      "AP": "Ele está em uma reunião."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He speaks three languages.",
+      "AP": "Ele fala três idiomas."
+    },
+    {
+      "QE": "How old is she?",
+      "QP": "Quantos anos ela tem?",
+      "AE": "She is thirty years old.",
+      "AP": "Ela tem trinta anos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She is from Rio de Janeiro.",
+      "AP": "Ela é do Rio de Janeiro."
+    },
+    {
+      "QE": "Does she have any siblings?",
+      "QP": "Ela tem irmãos?",
+      "AE": "Yes, she has one brother.",
+      "AP": "Sim, tem um irmão."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He is studying to be an engineer.",
+      "AP": "Ele está estudando para ser engenheiro."
+    },
+    {
+      "QE": "What does he look like?",
+      "QP": "Como ele é fisicamente?",
+      "AE": "He is tall and has brown hair.",
+      "AP": "Ele é alto e tem cabelo castanho."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She is very kind and helpful.",
+      "AP": "Ela é muito gentil e prestativa."
+    },
+    {
+      "QE": "Why did he cancel?",
+      "QP": "Por que ele cancelou?",
+      "AE": "He had an emergency at work.",
+      "AP": "Teve uma emergência no trabalho."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He likes to cook on weekends.",
+      "AP": "Ele gosta de cozinhar nos fins de semana."
+    },
+    {
+      "QE": "Is she married?",
+      "QP": "Ela é casada?",
+      "AE": "No, she is single.",
+      "AP": "Não, ela é solteira."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She has been to Europe twice.",
+      "AP": "Ela esteve na Europa duas vezes."
+    },
+    {
+      "QE": "When is his birthday?",
+      "QP": "Quando é o aniversário dele?",
+      "AE": "His birthday is in March.",
+      "AP": "O aniversário dele é em março."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He drives to work every day.",
+      "AP": "Ele vai de carro ao trabalho todo dia."
+    },
+    {
+      "QE": "What does she want?",
+      "QP": "O que ela quer?",
+      "AE": "She wants to talk to you.",
+      "AP": "Ela quer falar com você."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She is my best friend.",
+      "AP": "Ela é minha melhor amiga."
+    },
+    {
+      "QE": "How long has he lived here?",
+      "QP": "Há quanto tempo ele mora aqui?",
+      "AE": "He has lived here for five years.",
+      "AP": "Ele mora aqui há cinco anos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He always wears a blue jacket.",
+      "AP": "Ele sempre usa uma jaqueta azul."
+    },
+    {
+      "QE": "Did she call you?",
+      "QP": "Ela te ligou?",
+      "AE": "Yes, she called yesterday.",
+      "AP": "Sim, ligou ontem."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She is good at math.",
+      "AP": "Ela é boa em matemática."
+    },
+    {
+      "QE": "What is his name?",
+      "QP": "Qual é o nome dele?",
+      "AE": "His name is Pedro.",
+      "AP": "O nome dele é Pedro."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He is allergic to nuts.",
+      "AP": "Ele é alérgico a castanhas."
+    },
+    {
+      "QE": "Where did she go?",
+      "QP": "Para onde ela foi?",
+      "AE": "She went to the supermarket.",
+      "AP": "Ela foi ao supermercado."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She wakes up at six every morning.",
+      "AP": "Ela acorda às seis toda manhã."
+    },
+    {
+      "QE": "Does he play any instruments?",
+      "QP": "Ele toca algum instrumento?",
+      "AE": "Yes, he plays the guitar.",
+      "AP": "Sim, toca violão."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He is the manager of the team.",
+      "AP": "Ele é o gerente da equipe."
+    },
+    {
+      "QE": "What is she wearing?",
+      "QP": "O que ela está vestindo?",
+      "AE": "She is wearing a red dress.",
+      "AP": "Ela está vestindo um vestido vermelho."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She never complains.",
+      "AP": "Ela nunca reclama."
+    },
+    {
+      "QE": "Why is he late?",
+      "QP": "Por que ele está atrasado?",
+      "AE": "His car would not start.",
+      "AP": "O carro dele não pegou."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He has a dog named Max.",
+      "AP": "Ele tem um cachorro chamado Max."
+    },
+    {
+      "QE": "How does she get to work?",
+      "QP": "Como ela vai ao trabalho?",
+      "AE": "She takes the bus.",
+      "AP": "Ela vai de ônibus."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She is taller than her sister.",
+      "AP": "Ela é mais alta que a irmã."
+    },
+    {
+      "QE": "When will he be back?",
+      "QP": "Quando ele volta?",
+      "AE": "He will be back on Monday.",
+      "AP": "Ele volta na segunda."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He likes coffee without sugar.",
+      "AP": "Ele gosta de café sem açúcar."
+    },
+    {
+      "QE": "What did she say?",
+      "QP": "O que ela disse?",
+      "AE": "She said she would call later.",
+      "AP": "Ela disse que ligaria mais tarde."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She is older than me.",
+      "AP": "Ela é mais velha que eu."
+    },
+    {
+      "QE": "Does he have a car?",
+      "QP": "Ele tem carro?",
+      "AE": "Yes, he has a black one.",
+      "AP": "Sim, tem um preto."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He is my brother.",
+      "AP": "Ele é meu irmão."
+    },
+    {
+      "QE": "What is her favorite color?",
+      "QP": "Qual é a cor favorita dela?",
+      "AE": "Her favorite color is blue.",
+      "AP": "A cor favorita dela é azul."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She works harder than anyone.",
+      "AP": "Ela trabalha mais que qualquer um."
+    },
+    {
+      "QE": "How often does he exercise?",
+      "QP": "Com que frequência ele se exercita?",
+      "AE": "He exercises three times a week.",
+      "AP": "Ele se exercita três vezes por semana."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He is very funny.",
+      "AP": "Ele é muito engraçado."
+    }
+  ]
+}

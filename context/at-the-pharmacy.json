@@ -1,0 +1,317 @@
+{
+  "name": "Na farmácia",
+  "sentences": [
+    {
+      "QE": "Do you have this medication?",
+      "QP": "Vocês têm este remédio?",
+      "AE": "Yes, we have it. Do you have a prescription?",
+      "AP": "Sim, temos. Você tem receita?"
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I need something for a headache.",
+      "AP": "Preciso de algo para dor de cabeça."
+    },
+    {
+      "QE": "Can I get this over the counter?",
+      "QP": "Posso comprar isso sem receita?",
+      "AE": "Yes, you can. It is on aisle three.",
+      "AP": "Sim. Fica no corredor três."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She asked the pharmacist for advice.",
+      "AP": "Ela pediu orientação ao farmacêutico."
+    },
+    {
+      "QE": "How do I take this?",
+      "QP": "Como tomo isso?",
+      "AE": "Two pills every eight hours. With food.",
+      "AP": "Dois comprimidos a cada oito horas. Com comida."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I need a refill. Here is my prescription.",
+      "AP": "Preciso renovar. Aqui está minha receita."
+    },
+    {
+      "QE": "Do you have generic versions?",
+      "QP": "Vocês têm versões genéricas?",
+      "AE": "Yes, we do. They are cheaper.",
+      "AP": "Sim. São mais baratas."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He bought bandages and antiseptic.",
+      "AP": "Ele comprou bandagens e antisséptico."
+    },
+    {
+      "QE": "Are there any side effects?",
+      "QP": "Há efeitos colaterais?",
+      "AE": "Possible drowsiness. Do not drive.",
+      "AP": "Possível sonolência. Não dirija."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "The pharmacy is open until ten.",
+      "AP": "A farmácia abre até às dez."
+    },
+    {
+      "QE": "Can I get a flu shot here?",
+      "QP": "Posso tomar a vacina da gripe aqui?",
+      "AE": "Yes. We do walk-ins. Wait about fifteen minutes.",
+      "AP": "Sim. Atendemos sem agendar. Espere uns quinze minutos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I need something for allergies.",
+      "AP": "Preciso de algo para alergia."
+    },
+    {
+      "QE": "Is this safe to take with other medicine?",
+      "QP": "É seguro tomar com outro remédio?",
+      "AE": "Let me check. What else are you taking?",
+      "AP": "Deixe-me verificar. O que mais você toma?"
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She picked up her prescription at the counter.",
+      "AP": "Ela retirou a receita no balcão."
+    },
+    {
+      "QE": "Do you have vitamin D?",
+      "QP": "Vocês têm vitamina D?",
+      "AE": "Yes, next to the vitamins. Different strengths.",
+      "AP": "Sim, ao lado das vitaminas. Diferentes dosagens."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I need to show my ID for this medicine.",
+      "AP": "Preciso mostrar documento para este remédio."
+    },
+    {
+      "QE": "How long until it expires?",
+      "QP": "Quanto tempo até vencer?",
+      "AE": "This batch expires in 2026. You are fine.",
+      "AP": "Este lote vence em 2026. Está ok."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He forgot to bring the prescription. He came back later.",
+      "AP": "Ele esqueceu a receita. Voltou depois."
+    },
+    {
+      "QE": "Can you recommend something for a cough?",
+      "QP": "Pode recomendar algo para tosse?",
+      "AE": "Try this syrup. It works well. No codeine.",
+      "AP": "Experimente este xarope. Funciona bem. Sem codeína."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We are out of that. We can order it.",
+      "AP": "Estamos sem. Podemos encomendar."
+    },
+    {
+      "QE": "Do you take my insurance?",
+      "QP": "Vocês aceitam meu plano?",
+      "AE": "Yes, we do. Give me your card.",
+      "AP": "Sim. Me passe seu cartão."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I need to store this in the fridge.",
+      "AP": "Preciso guardar isso na geladeira."
+    },
+    {
+      "QE": "What is the dosage for children?",
+      "QP": "Qual é a dosagem para crianças?",
+      "AE": "It depends on weight. Check the leaflet.",
+      "AP": "Depende do peso. Veja a bula."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She bought sunscreen and insect repellent.",
+      "AP": "Ela comprou protetor solar e repelente."
+    },
+    {
+      "QE": "Can I return this if I do not need it?",
+      "QP": "Posso devolver se não precisar?",
+      "AE": "Unopened, yes. Within thirty days.",
+      "AP": "Fechado, sim. Em até trinta dias."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "The pharmacist said to avoid alcohol.",
+      "AP": "O farmacêutico disse para evitar álcool."
+    },
+    {
+      "QE": "Do you have a drive-through?",
+      "QP": "Vocês têm atendimento no carro?",
+      "AE": "No, we do not. Please come in.",
+      "AP": "Não. Por favor entre."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I need something for heartburn.",
+      "AP": "Preciso de algo para azia."
+    },
+    {
+      "QE": "When should I take this?",
+      "QP": "Quando devo tomar isso?",
+      "AE": "In the morning, before breakfast.",
+      "AP": "De manhã, antes do café."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He asked for something for muscle pain.",
+      "AP": "Ele pediu algo para dor muscular."
+    },
+    {
+      "QE": "Is there a generic for this?",
+      "QP": "Tem genérico para isso?",
+      "AE": "Yes. Same ingredient. Half the price.",
+      "AP": "Sim. Mesmo princípio ativo. Metade do preço."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We need to verify your prescription with the doctor.",
+      "AP": "Precisamos confirmar sua receita com o médico."
+    },
+    {
+      "QE": "Do you deliver?",
+      "QP": "Vocês entregam?",
+      "AE": "Yes, for a fee. Same day in the area.",
+      "AP": "Sim, com taxa. Mesmo dia na região."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I left my prescription at home. Can I bring it later?",
+      "AP": "Deixei minha receita em casa. Posso trazer depois?"
+    },
+    {
+      "QE": "What is the difference between these two?",
+      "QP": "Qual é a diferença entre estes dois?",
+      "AE": "This one is stronger. That one is for mild pain.",
+      "AP": "Este é mais forte. Aquele é para dor leve."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She needed a prior authorization from her plan.",
+      "AP": "Ela precisou de autorização prévia do plano."
+    },
+    {
+      "QE": "Can I get a receipt?",
+      "QP": "Posso pedir um recibo?",
+      "AE": "Sure. Here you go.",
+      "AP": "Claro. Aqui está."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "The medicine should be taken with water.",
+      "AP": "O remédio deve ser tomado com água."
+    },
+    {
+      "QE": "Do you have a consultation room?",
+      "QP": "Vocês têm sala de consulta?",
+      "AE": "Yes. The pharmacist can see you for a quick consult.",
+      "AP": "Sim. O farmacêutico pode te atender para uma consulta rápida."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I need to take this for ten days.",
+      "AP": "Preciso tomar isso por dez dias."
+    },
+    {
+      "QE": "What if I miss a dose?",
+      "QP": "E se eu perder uma dose?",
+      "AE": "Take it when you remember. Do not double up.",
+      "AP": "Tome quando lembrar. Não dobre a dose."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He bought cough drops and tissues.",
+      "AP": "Ele comprou pastilhas para tosse e lenços."
+    },
+    {
+      "QE": "Is this suitable for vegetarians?",
+      "QP": "Isso é adequado para vegetarianos?",
+      "AE": "Yes, it is. No gelatin.",
+      "AP": "Sim. Sem gelatina."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We can transfer your prescription from another pharmacy.",
+      "AP": "Podemos transferir sua receita de outra farmácia."
+    },
+    {
+      "QE": "Do you have a loyalty program?",
+      "QP": "Vocês têm programa de fidelidade?",
+      "AE": "Yes. You get points on every purchase.",
+      "AP": "Sim. Você ganha pontos em cada compra."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I need something for dry skin.",
+      "AP": "Preciso de algo para pele seca."
+    },
+    {
+      "QE": "Can the pharmacist explain the interactions?",
+      "QP": "O farmacêutico pode explicar as interações?",
+      "AE": "Yes. Let me get him.",
+      "AP": "Sim. Deixe-me chamá-lo."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She got a flu shot and bought vitamins.",
+      "AP": "Ela tomou a vacina da gripe e comprou vitaminas."
+    },
+    {
+      "QE": "Do you have sugar-free options?",
+      "QP": "Vocês têm opções sem açúcar?",
+      "AE": "Yes, we have this one. It is sugar-free.",
+      "AP": "Sim, temos este. É sem açúcar."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Keep this out of reach of children.",
+      "AP": "Mantenha fora do alcance de crianças."
+    },
+    {
+      "QE": "When will my order be ready?",
+      "QP": "Quando meu pedido estará pronto?",
+      "AE": "In about twenty minutes. We will call you.",
+      "AP": "Em cerca de vinte minutos. Ligaremos para você."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I need a medical mask and hand sanitizer.",
+      "AP": "Preciso de máscara e álcool em gel."
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "name": "Treino de verbos",
+  "sentences": [
+    {
+      "QE": "Do you finish work early on Fridays?",
+      "QP": "Você termina o trabalho cedo nas sextas?",
+      "AE": "I finish at five. I have finished early today.",
+      "AP": "Termino às cinco. Terminei cedo hoje."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She finished the report yesterday.",
+      "AP": "Ela terminou o relatório ontem."
+    },
+    {
+      "QE": "Have you ever tasted sushi?",
+      "QP": "Você já experimentou sushi?",
+      "AE": "Yes, I have tasted it. I taste it whenever I can.",
+      "AP": "Sim, já experimentei. Experimento sempre que posso."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He tasted the soup and added salt.",
+      "AP": "Ele provou a sopa e adicionou sal."
+    },
+    {
+      "QE": "Where do you work?",
+      "QP": "Onde você trabalha?",
+      "AE": "I work from home. I have worked here for two years.",
+      "AP": "Trabalho de casa. Trabalho aqui há dois anos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She worked late last night.",
+      "AP": "Ela trabalhou até tarde ontem à noite."
+    },
+    {
+      "QE": "Do you play any sports?",
+      "QP": "Você pratica algum esporte?",
+      "AE": "I play soccer. I have played since I was a kid.",
+      "AP": "Jogo futebol. Jogo desde criança."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We played tennis last weekend.",
+      "AP": "Jogamos tênis no fim de semana passado."
+    },
+    {
+      "QE": "Who cleans the house?",
+      "QP": "Quem limpa a casa?",
+      "AE": "I clean on Saturdays. I have cleaned already today.",
+      "AP": "Eu limpo aos sábados. Já limpei hoje."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He cleaned his room yesterday.",
+      "AP": "Ele limpou o quarto ontem."
+    },
+    {
+      "QE": "Can you open the window?",
+      "QP": "Pode abrir a janela?",
+      "AE": "I open it every morning. I have opened it already.",
+      "AP": "Abro toda manhã. Já abri."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She opened the door and let me in.",
+      "AP": "Ela abriu a porta e me deixou entrar."
+    },
+    {
+      "QE": "When do you start work?",
+      "QP": "Quando você começa a trabalhar?",
+      "AE": "I start at nine. I have just started.",
+      "AP": "Começo às nove. Acabei de começar."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "The meeting started at ten.",
+      "AP": "A reunião começou às dez."
+    },
+    {
+      "QE": "Do you watch TV at night?",
+      "QP": "Você assiste TV à noite?",
+      "AE": "I watch sometimes. I have watched that show.",
+      "AP": "Assisto às vezes. Já assisti aquele programa."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We watched a movie last night.",
+      "AP": "Assistimos a um filme ontem à noite."
+    },
+    {
+      "QE": "Did he call you?",
+      "QP": "Ele te ligou?",
+      "AE": "He calls every day. He has called twice today.",
+      "AP": "Ele liga todo dia. Ligou duas vezes hoje."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She called me yesterday morning.",
+      "AP": "Ela me ligou ontem de manhã."
+    },
+    {
+      "QE": "Can you help me?",
+      "QP": "Pode me ajudar?",
+      "AE": "I help when I can. I have helped before.",
+      "AP": "Ajudo quando posso. Já ajudei antes."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He helped me move last month.",
+      "AP": "Ele me ajudou a mudar no mês passado."
+    },
+    {
+      "QE": "Who cut the cake?",
+      "QP": "Quem cortou o bolo?",
+      "AE": "I cut it. I have cut it into slices.",
+      "AP": "Eu cortei. Já cortei em fatias."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She cut her finger. She needs a bandage.",
+      "AP": "Ela cortou o dedo. Precisa de um band-aid."
+    },
+    {
+      "QE": "Where did you put the keys?",
+      "QP": "Onde você colocou as chaves?",
+      "AE": "I put them on the table. I have put them there.",
+      "AP": "Coloquei na mesa. Coloquei lá."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He put the book back on the shelf.",
+      "AP": "Ele colocou o livro de volta na prateleira."
+    },
+    {
+      "QE": "Have you set the table?",
+      "QP": "Você pôs a mesa?",
+      "AE": "I set it every night. I have set it already.",
+      "AP": "Ponho toda noite. Já pus."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She set the alarm for six.",
+      "AP": "Ela programou o despertador para as seis."
+    },
+    {
+      "QE": "Did he hit the ball?",
+      "QP": "Ele acertou a bola?",
+      "AE": "He hits well. He has hit a home run.",
+      "AP": "Ele acerta bem. Já deu um home run."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "The car hit the wall. Nobody was hurt.",
+      "AP": "O carro bateu na parede. Ninguém se machucou."
+    },
+    {
+      "QE": "Do you let the dog out?",
+      "QP": "Você deixa o cachorro sair?",
+      "AE": "I let him out every morning. I have let him out.",
+      "AP": "Deixo toda manhã. Já deixei."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She let me borrow her car.",
+      "AP": "Ela me deixou usar o carro dela."
+    },
+    {
+      "QE": "Has she shut the door?",
+      "QP": "Ela fechou a porta?",
+      "AE": "She shuts it at night. She has shut it.",
+      "AP": "Ela fecha à noite. Ela fechou."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He shut the window. It was cold.",
+      "AP": "Ele fechou a janela. Estava frio."
+    },
+    {
+      "QE": "Do they split the bill?",
+      "QP": "Eles dividem a conta?",
+      "AE": "We split it. We have split it before.",
+      "AP": "Dividimos. Já dividimos antes."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "They split up last year.",
+      "AP": "Eles terminaram no ano passado."
+    },
+    {
+      "QE": "Has the news spread?",
+      "QP": "A notícia se espalhou?",
+      "AE": "It spreads fast. It has spread everywhere.",
+      "AP": "Se espalha rápido. Já se espalhou por todo lugar."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He spread butter on the bread.",
+      "AP": "Ele passou manteiga no pão."
+    },
+    {
+      "QE": "How much did it cost?",
+      "QP": "Quanto custou?",
+      "AE": "It costs twenty. It has cost more before.",
+      "AP": "Custa vinte. Já custou mais antes."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "The ticket cost fifty dollars.",
+      "AP": "O ingresso custou cinquenta dólares."
+    },
+    {
+      "QE": "Did it hurt?",
+      "QP": "Doeu?",
+      "AE": "It hurts a bit. It has hurt before.",
+      "AP": "Doe um pouco. Já doeu antes."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She hurt her knee when she fell.",
+      "AP": "Ela machucou o joelho quando caiu."
+    },
+    {
+      "QE": "Have you seen that movie?",
+      "QP": "Você já viu aquele filme?",
+      "AE": "I see it often. I have seen it three times.",
+      "AP": "Vejo com frequência. Já vi três vezes."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He saw her at the party.",
+      "AP": "Ele a viu na festa."
+    },
+    {
+      "QE": "Do you read every day?",
+      "QP": "Você lê todo dia?",
+      "AE": "I read at night. I have read that book.",
+      "AP": "Leio à noite. Já li aquele livro."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She read the email and replied.",
+      "AP": "Ela leu o e-mail e respondeu."
+    },
+    {
+      "QE": "Have you done your homework?",
+      "QP": "Você fez sua lição de casa?",
+      "AE": "I do it after school. I have done it.",
+      "AP": "Faço depois da escola. Já fiz."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He did the dishes last night.",
+      "AP": "Ele lavou a louça ontem à noite."
+    },
+    {
+      "QE": "Who makes dinner?",
+      "QP": "Quem faz o jantar?",
+      "AE": "I make it. I have made pasta.",
+      "AP": "Eu faço. Já fiz massa."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She made a cake for the party.",
+      "AP": "Ela fez um bolo para a festa."
+    },
+    {
+      "QE": "Have you gone to the new café?",
+      "QP": "Você já foi ao café novo?",
+      "AE": "I go there often. I have gone twice.",
+      "AP": "Vou com frequência. Já fui duas vezes."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He went home early.",
+      "AP": "Ele foi para casa cedo."
+    },
+    {
+      "QE": "Have you taken the test?",
+      "QP": "Você já fez a prova?",
+      "AE": "I take notes in class. I have taken it.",
+      "AP": "Anoto na aula. Já fiz."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She took the bus to work.",
+      "AP": "Ela pegou o ônibus para o trabalho."
+    }
+  ]
+}

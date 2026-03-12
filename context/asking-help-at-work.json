@@ -1,0 +1,329 @@
+{
+  "name": "Pedir ajuda no trabalho",
+  "sentences": [
+    {
+      "QE": "Can you help me with this?",
+      "QP": "Você pode me ajudar com isso?",
+      "AE": "Sure. What do you need?",
+      "AP": "Claro. O que você precisa?"
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I am stuck. I need a second opinion.",
+      "AP": "Estou travado. Preciso de uma segunda opinião."
+    },
+    {
+      "QE": "Do you have a minute? I need help.",
+      "QP": "Você tem um minuto? Preciso de ajuda.",
+      "AE": "Yes, come to my desk.",
+      "AP": "Sim, venha à minha mesa."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She asked the team lead for guidance.",
+      "AP": "Ela pediu orientação ao líder da equipe."
+    },
+    {
+      "QE": "Who should I ask about this?",
+      "QP": "Com quem devo falar sobre isso?",
+      "AE": "Ask Maria. She knows the process.",
+      "AP": "Fale com a Maria. Ela conhece o processo."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I do not understand this part. Can you explain?",
+      "AP": "Não entendo esta parte. Pode explicar?"
+    },
+    {
+      "QE": "Could you look at my code?",
+      "QP": "Poderia dar uma olhada no meu código?",
+      "AE": "Sure. Send me the link.",
+      "AP": "Claro. Me manda o link."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He always helps when someone is blocked.",
+      "AP": "Ele sempre ajuda quando alguém está bloqueado."
+    },
+    {
+      "QE": "I need help with the report. Are you free?",
+      "QP": "Preciso de ajuda com o relatório. Você está livre?",
+      "AE": "I have a call in ten. Before that?",
+      "AP": "Tenho uma call em dez. Antes disso?"
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We pair when the task is complex.",
+      "AP": "Fazemos par quando a tarefa é complexa."
+    },
+    {
+      "QE": "Can someone review this before I send it?",
+      "QP": "Alguém pode revisar isso antes de eu enviar?",
+      "AE": "I can. Give me fifteen minutes.",
+      "AP": "Eu posso. Me dá quinze minutos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She is not afraid to ask for help.",
+      "AP": "Ela não tem medo de pedir ajuda."
+    },
+    {
+      "QE": "How do I request support from IT?",
+      "QP": "Como solicito suporte da TI?",
+      "AE": "Open a ticket in the system or call the help desk.",
+      "AP": "Abra um chamado no sistema ou ligue para o help desk."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I asked for an extension. They said yes.",
+      "AP": "Pedir uma prorrogação. Eles disseram sim."
+    },
+    {
+      "QE": "Do you mind if I bounce an idea off you?",
+      "QP": "Você se importa se eu jogar uma ideia em você?",
+      "AE": "Not at all. Go ahead.",
+      "AP": "De jeito nenhum. Pode falar."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He offered to help before I even asked.",
+      "AP": "Ele se ofereceu a ajudar antes mesmo de eu pedir."
+    },
+    {
+      "QE": "I am new. Who can I ask questions?",
+      "QP": "Sou novo. Quem posso perguntar?",
+      "AE": "Your buddy. Or anyone on the team.",
+      "AP": "Seu buddy. Ou qualquer um da equipe."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We have a Slack channel for quick questions.",
+      "AP": "Temos um canal no Slack para dúvidas rápidas."
+    },
+    {
+      "QE": "Can you show me how to do this?",
+      "QP": "Pode me mostrar como fazer isso?",
+      "AE": "Yes. Let me share my screen.",
+      "AP": "Sim. Deixe-me compartilhar minha tela."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I needed help and my manager stepped in.",
+      "AP": "Precisei de ajuda e meu gerente entrou."
+    },
+    {
+      "QE": "Who has experience with this tool?",
+      "QP": "Quem tem experiência com esta ferramenta?",
+      "AE": "João does. He trained us last month.",
+      "AP": "O João. Ele nos treinou no mês passado."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She sent a message asking for input.",
+      "AP": "Ela mandou uma mensagem pedindo opinião."
+    },
+    {
+      "QE": "I do not want to bother you. Is now okay?",
+      "QP": "Não quero incomodar. Agora está ok?",
+      "AE": "Yes, now is fine. What is it?",
+      "AP": "Sim, agora está bom. O que é?"
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He set up a call to walk me through it.",
+      "AP": "Ele marcou uma call para me explicar."
+    },
+    {
+      "QE": "Can I get your input on this?",
+      "QP": "Posso ter sua opinião sobre isso?",
+      "AE": "Sure. Send it over and I will take a look.",
+      "AP": "Claro. Manda que eu dou uma olhada."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I was too shy to ask. I wasted time.",
+      "AP": "Fiquei com vergonha de perguntar. Perdi tempo."
+    },
+    {
+      "QE": "How do I escalate this?",
+      "QP": "Como escalo isso?",
+      "AE": "Talk to your manager. Or open a ticket.",
+      "AP": "Fale com seu gerente. Ou abra um chamado."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We have a culture of helping each other.",
+      "AP": "Temos uma cultura de nos ajudarmos."
+    },
+    {
+      "QE": "Could you cover for me tomorrow?",
+      "QP": "Poderia me substituir amanhã?",
+      "AE": "I will try. Let me check my schedule.",
+      "AP": "Vou tentar. Deixe-me ver minha agenda."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She reached out to the right person and got an answer.",
+      "AP": "Ela falou com a pessoa certa e teve a resposta."
+    },
+    {
+      "QE": "I need someone to double-check my numbers.",
+      "QP": "Preciso que alguém confira meus números.",
+      "AE": "I can do it. When do you need it?",
+      "AP": "Posso fazer. Quando você precisa?"
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He asked for help in the standup. We paired after.",
+      "AP": "Ele pediu ajuda na daily. Fizemos par depois."
+    },
+    {
+      "QE": "Do you know who handles this?",
+      "QP": "Você sabe quem cuida disso?",
+      "AE": "I think it is the operations team.",
+      "AP": "Acho que é a equipe de operações."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I prefer to ask in writing so I have a record.",
+      "AP": "Prefiro perguntar por escrito para ter registro."
+    },
+    {
+      "QE": "Can we schedule a short call? I am lost.",
+      "QP": "Podemos marcar uma call rápida? Estou perdido.",
+      "AE": "How about tomorrow at nine?",
+      "AP": "Que tal amanhã às nove?"
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Nobody minds when you ask. We all learn.",
+      "AP": "Ninguém se importa quando você pergunta. Todos aprendemos."
+    },
+    {
+      "QE": "Who do I contact for access?",
+      "QP": "Com quem falo para pedir acesso?",
+      "AE": "Submit a request in the portal. Or ask IT.",
+      "AP": "Envie uma solicitação no portal. Ou pergunte à TI."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She helped me even though she was busy.",
+      "AP": "Ela me ajudou mesmo estando ocupada."
+    },
+    {
+      "QE": "I need a quick sanity check.",
+      "QP": "Preciso de uma conferência rápida.",
+      "AE": "Sure. What do you want me to look at?",
+      "AP": "Claro. O que quer que eu confira?"
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He always says to ask early, not at the last minute.",
+      "AP": "Ele sempre diz para pedir cedo, não em cima da hora."
+    },
+    {
+      "QE": "Can you point me to the documentation?",
+      "QP": "Pode me indicar a documentação?",
+      "AE": "Yes. I will send you the link.",
+      "AP": "Sim. Te mando o link."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I asked for clarification and got it in writing.",
+      "AP": "Pedi esclarecimento por escrito e recebi."
+    },
+    {
+      "QE": "Who trained you on this?",
+      "QP": "Quem te treinou nisso?",
+      "AE": "Ana did. She is the expert.",
+      "AP": "A Ana. Ela é a especialista."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We have office hours twice a week for questions.",
+      "AP": "Temos horário de dúvidas duas vezes por semana."
+    },
+    {
+      "QE": "I am behind. Can anyone take a task?",
+      "QP": "Estou atrasado. Alguém pode pegar uma tarefa?",
+      "AE": "I can take one. Which one?",
+      "AP": "Posso pegar uma. Qual?"
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She is good at explaining things simply.",
+      "AP": "Ela é boa em explicar as coisas de forma simples."
+    },
+    {
+      "QE": "Do you have a template I can use?",
+      "QP": "Você tem um modelo que eu possa usar?",
+      "AE": "Yes. I will share it with you.",
+      "AP": "Sim. Vou compartilhar com você."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He asked for help and finished on time.",
+      "AP": "Ele pediu ajuda e terminou no prazo."
+    },
+    {
+      "QE": "How do I get unblocked?",
+      "QP": "Como me desbloqueio?",
+      "AE": "Post in the channel or tag the right person.",
+      "AP": "Poste no canal ou marque a pessoa certa."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I felt better after talking it through.",
+      "AP": "Me senti melhor depois de conversar."
+    },
+    {
+      "QE": "Can someone take notes? I will present.",
+      "QP": "Alguém pode fazer as atas? Eu apresento.",
+      "AE": "I will take notes.",
+      "AP": "Eu faço as atas."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Asking for help is encouraged here.",
+      "AP": "Pedir ajuda é incentivado aqui."
+    },
+    {
+      "QE": "Who can approve this?",
+      "QP": "Quem pode aprovar isso?",
+      "AE": "Your manager or the project lead.",
+      "AP": "Seu gerente ou o líder do projeto."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She offered to stay late and help me.",
+      "AP": "Ela se ofereceu para ficar e me ajudar."
+    }
+  ]
+}

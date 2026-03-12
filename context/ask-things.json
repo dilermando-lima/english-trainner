@@ -1,0 +1,311 @@
+{
+  "name": "Pedir coisas",
+  "sentences": [
+    {
+      "QE": "Can you pass me the salt, please?",
+      "QP": "Pode me passar o sal, por favor?",
+      "AE": "Sure, here you go.",
+      "AP": "Claro, aqui está."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I need a pen. Do you have one?",
+      "AP": "Preciso de uma caneta. Você tem uma?"
+    },
+    {
+      "QE": "Could you help me with this bag?",
+      "QP": "Poderia me ajudar com esta bolsa?",
+      "AE": "Of course. Let me take it.",
+      "AP": "Claro. Deixe-me carregar."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "May I borrow your charger?",
+      "AP": "Posso pegar sua carregador emprestado?"
+    },
+    {
+      "QE": "Would you mind closing the window?",
+      "QP": "Você se importaria de fechar a janela?",
+      "AE": "Not at all.",
+      "AP": "De modo algum."
+    },
+    {
+      "QE": "Can I have a glass of water?",
+      "QP": "Posso tomar um copo de água?",
+      "AE": "Yes, I will get it for you.",
+      "AP": "Sim, vou pegar para você."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I would like to ask you a question.",
+      "AP": "Gostaria de fazer uma pergunta."
+    },
+    {
+      "QE": "Do you have a minute? I need to ask you something.",
+      "QP": "Você tem um minuto? Preciso perguntar uma coisa.",
+      "AE": "Yes, go ahead.",
+      "AP": "Sim, pode falar."
+    },
+    {
+      "QE": "Could you tell me the time?",
+      "QP": "Poderia me dizer as horas?",
+      "AE": "It is half past three.",
+      "AP": "São três e meia."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Can you lend me your umbrella?",
+      "AP": "Pode me emprestar seu guarda-chuva?"
+    },
+    {
+      "QE": "Would you pass me that book?",
+      "QP": "Você me passaria aquele livro?",
+      "AE": "Here it is.",
+      "AP": "Aqui está."
+    },
+    {
+      "QE": "May I use your phone for a moment?",
+      "QP": "Posso usar seu telefone um momento?",
+      "AE": "Sure, no problem.",
+      "AP": "Claro, sem problema."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I need to ask a favor.",
+      "AP": "Preciso pedir um favor."
+    },
+    {
+      "QE": "Can you hold the door for me?",
+      "QP": "Pode segurar a porta para mim?",
+      "AE": "Of course.",
+      "AP": "Claro."
+    },
+    {
+      "QE": "Could you repeat that, please?",
+      "QP": "Poderia repetir isso, por favor?",
+      "AE": "Yes, I said it twice.",
+      "AP": "Sim, disse duas vezes."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Do you have any paper I could use?",
+      "AP": "Você tem algum papel que eu possa usar?"
+    },
+    {
+      "QE": "Would you mind turning down the music?",
+      "QP": "Você se importaria de baixar o som?",
+      "AE": "Sorry, I will do it now.",
+      "AP": "Desculpe, vou baixar agora."
+    },
+    {
+      "QE": "Can I get some more napkins?",
+      "QP": "Posso pegar mais guardanapos?",
+      "AE": "Yes, they are on the table.",
+      "AP": "Sim, estão na mesa."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I would like to request a copy.",
+      "AP": "Gostaria de pedir uma cópia."
+    },
+    {
+      "QE": "Could you move your chair a bit?",
+      "QP": "Poderia afastar sua cadeira um pouco?",
+      "AE": "Sure, no problem.",
+      "AP": "Claro, sem problema."
+    },
+    {
+      "QE": "May I have the bill, please?",
+      "QP": "Posso pedir a conta, por favor?",
+      "AE": "I will bring it right away.",
+      "AP": "Já trago."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Can you show me how this works?",
+      "AP": "Pode me mostrar como isso funciona?"
+    },
+    {
+      "QE": "Do you have an extra pencil?",
+      "QP": "Você tem um lápis extra?",
+      "AE": "Yes, take this one.",
+      "AP": "Sim, pegue este."
+    },
+    {
+      "QE": "Would you open the window?",
+      "QP": "Você abriria a janela?",
+      "AE": "Sure.",
+      "AP": "Claro."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I need to ask you for help.",
+      "AP": "Preciso pedir sua ajuda."
+    },
+    {
+      "QE": "Can you switch off the light?",
+      "QP": "Pode apagar a luz?",
+      "AE": "Okay.",
+      "AP": "Ok."
+    },
+    {
+      "QE": "Could I have a word with you?",
+      "QP": "Posso ter uma palavra com você?",
+      "AE": "Yes, of course.",
+      "AP": "Sim, claro."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "May I have your attention, please?",
+      "AP": "Posso ter sua atenção, por favor?"
+    },
+    {
+      "QE": "Do you mind if I sit here?",
+      "QP": "Você se importa se eu sentar aqui?",
+      "AE": "No, sit down.",
+      "AP": "Não, sente-se."
+    },
+    {
+      "QE": "Would you give me a hand?",
+      "QP": "Você me daria uma mão?",
+      "AE": "Sure, what do you need?",
+      "AP": "Claro, o que você precisa?"
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Can I ask you something personal?",
+      "AP": "Posso te perguntar algo pessoal?"
+    },
+    {
+      "QE": "Could you speak a little slower?",
+      "QP": "Poderia falar um pouco mais devagar?",
+      "AE": "Yes, I will.",
+      "AP": "Sim, vou falar."
+    },
+    {
+      "QE": "May I have some sugar?",
+      "QP": "Posso pegar um pouco de açúcar?",
+      "AE": "Here you are.",
+      "AP": "Aqui está."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I need to ask a quick question.",
+      "AP": "Preciso fazer uma pergunta rápida."
+    },
+    {
+      "QE": "Can you hand me that towel?",
+      "QP": "Pode me passar aquela toalha?",
+      "AE": "Here.",
+      "AP": "Aqui."
+    },
+    {
+      "QE": "Do you have a spare key?",
+      "QP": "Você tem uma chave reserva?",
+      "AE": "Yes, I will get it.",
+      "AP": "Sim, vou buscar."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Would you mind if I left early?",
+      "AP": "Você se importaria se eu saísse cedo?"
+    },
+    {
+      "QE": "Could you explain that again?",
+      "QP": "Poderia explicar isso de novo?",
+      "AE": "Sure, no problem.",
+      "AP": "Claro, sem problema."
+    },
+    {
+      "QE": "Can I have a look at that?",
+      "QP": "Posso dar uma olhada nisso?",
+      "AE": "Yes, go ahead.",
+      "AP": "Sim, pode olhar."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I would like to request more information.",
+      "AP": "Gostaria de pedir mais informações."
+    },
+    {
+      "QE": "Would you pick that up for me?",
+      "QP": "Você pegaria isso para mim?",
+      "AE": "Of course.",
+      "AP": "Claro."
+    },
+    {
+      "QE": "May I interrupt for a second?",
+      "QP": "Posso interromper um segundo?",
+      "AE": "Yes, what is it?",
+      "AP": "Sim, o que é?"
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Can you save me a seat?",
+      "AP": "Pode guardar um lugar para mim?"
+    },
+    {
+      "QE": "Do you have change for twenty?",
+      "QP": "Você tem troco de vinte?",
+      "AE": "Let me check.",
+      "AP": "Deixe-me ver."
+    },
+    {
+      "QE": "Could you wait for me outside?",
+      "QP": "Poderia me esperar lá fora?",
+      "AE": "Sure, I will wait.",
+      "AP": "Claro, vou esperar."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I need to ask you to do something.",
+      "AP": "Preciso pedir que você faça algo."
+    },
+    {
+      "QE": "Can you keep an eye on my bag?",
+      "QP": "Pode ficar de olho na minha bolsa?",
+      "AE": "No problem.",
+      "AP": "Sem problema."
+    },
+    {
+      "QE": "Would you mind speaking up?",
+      "QP": "Você se importaria de falar mais alto?",
+      "AE": "Sorry, I will.",
+      "AP": "Desculpe, vou falar."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "May I have a moment of your time?",
+      "AP": "Posso ter um momento do seu tempo?"
+    },
+    {
+      "QE": "Could you recommend a good café?",
+      "QP": "Poderia recomendar um bom café?",
+      "AE": "Yes, there is one nearby.",
+      "AP": "Sim, tem um perto."
+    },
+    {
+      "QE": "Can I ask you to keep this secret?",
+      "QP": "Posso pedir para guardar segredo?",
+      "AE": "Yes, I will.",
+      "AP": "Sim, vou guardar."
+    }
+  ]
+}

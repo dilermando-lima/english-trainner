@@ -1,0 +1,317 @@
+{
+  "name": "Experiências passadas",
+  "sentences": [
+    {
+      "QE": "Have you ever been to Japan?",
+      "QP": "Você já esteve no Japão?",
+      "AE": "No, but I would love to go one day.",
+      "AP": "Não, mas adoraria ir um dia."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I lived in London for two years.",
+      "AP": "Morrei em Londres por dois anos."
+    },
+    {
+      "QE": "What was the best trip you ever took?",
+      "QP": "Qual foi a melhor viagem que você fez?",
+      "AE": "A trip to Iceland. It was amazing.",
+      "AP": "Uma viagem à Islândia. Foi incrível."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She studied abroad when she was twenty.",
+      "AP": "Ela estudou no exterior aos vinte."
+    },
+    {
+      "QE": "Did you like your previous job?",
+      "QP": "Você gostava do emprego anterior?",
+      "AE": "It was okay. I learned a lot.",
+      "AP": "Era ok. Aprendi muito."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We met at a party in 2019.",
+      "AP": "Nos conhecemos em uma festa em 2019."
+    },
+    {
+      "QE": "Have you ever broken a bone?",
+      "QP": "Você já quebrou algum osso?",
+      "AE": "Yes, I broke my arm as a kid.",
+      "AP": "Sim, quebrei o braço quando criança."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He worked as a teacher before.",
+      "AP": "Ele trabalhou como professor antes."
+    },
+    {
+      "QE": "What did you do last summer?",
+      "QP": "O que você fez no verão passado?",
+      "AE": "I went to the beach with my family.",
+      "AP": "Fui à praia com minha família."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I have never tried sushi before.",
+      "AP": "Nunca experimentei sushi antes."
+    },
+    {
+      "QE": "Have you ever lost something important?",
+      "QP": "Você já perdeu algo importante?",
+      "AE": "Yes, I lost my passport once.",
+      "AP": "Sim, perdi meu passaporte uma vez."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She traveled alone for the first time at twenty-five.",
+      "AP": "Ela viajou sozinha pela primeira vez aos vinte e cinco."
+    },
+    {
+      "QE": "Where did you go to school?",
+      "QP": "Onde você estudou?",
+      "AE": "I went to a public school nearby.",
+      "AP": "Estudei em uma escola pública perto."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We had a great time at the concert.",
+      "AP": "Nos divertimos muito no show."
+    },
+    {
+      "QE": "Have you ever been in an accident?",
+      "QP": "Você já esteve em um acidente?",
+      "AE": "A small car accident. Nobody was hurt.",
+      "AP": "Um acidente de carro pequeno. Ninguém se machucou."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He used to play soccer every weekend.",
+      "AP": "Ele jogava futebol todo fim de semana."
+    },
+    {
+      "QE": "What was your first job?",
+      "QP": "Qual foi seu primeiro emprego?",
+      "AE": "I worked at a fast food place.",
+      "AP": "Trabalhei em uma lanchonete."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I have seen that movie three times.",
+      "AP": "Vi aquele filme três vezes."
+    },
+    {
+      "QE": "Did you ever live in another country?",
+      "QP": "Você já morou em outro país?",
+      "AE": "Yes, I lived in Spain for a year.",
+      "AP": "Sim, morei na Espanha por um ano."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She had a difficult childhood.",
+      "AP": "Ela teve uma infância difícil."
+    },
+    {
+      "QE": "What is the craziest thing you have done?",
+      "QP": "Qual é a coisa mais louca que você fez?",
+      "AE": "I went skydiving on my birthday.",
+      "AP": "Fiz paraquedismo no meu aniversário."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We used to have a dog.",
+      "AP": "Nós tínhamos um cachorro."
+    },
+    {
+      "QE": "Have you ever won a competition?",
+      "QP": "Você já ganhou uma competição?",
+      "AE": "Yes, I won a spelling bee at school.",
+      "AP": "Sim, ganhei um concurso de soletração."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He moved here from another city.",
+      "AP": "Ele se mudou para cá de outra cidade."
+    },
+    {
+      "QE": "When did you learn to drive?",
+      "QP": "Quando você aprendeu a dirigir?",
+      "AE": "I learned when I was eighteen.",
+      "AP": "Aprendi quando tinha dezoito anos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I have never been on a cruise.",
+      "AP": "Nunca estive em um cruzeiro."
+    },
+    {
+      "QE": "What did you want to be when you were a kid?",
+      "QP": "O que você queria ser quando era criança?",
+      "AE": "I wanted to be an astronaut.",
+      "AP": "Queria ser astronauta."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She has visited over twenty countries.",
+      "AP": "Ela visitou mais de vinte países."
+    },
+    {
+      "QE": "Have you ever met someone famous?",
+      "QP": "Você já conheceu alguém famoso?",
+      "AE": "Yes, I met a singer at a concert.",
+      "AP": "Sim, conheci um cantor em um show."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We went camping every summer.",
+      "AP": "Íamos acampar todo verão."
+    },
+    {
+      "QE": "What was your favorite subject in school?",
+      "QP": "Qual era sua matéria favorita na escola?",
+      "AE": "I liked history and art.",
+      "AP": "Gostava de história e arte."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He has never eaten Thai food.",
+      "AP": "Ele nunca comeu comida tailandesa."
+    },
+    {
+      "QE": "Did you have a good childhood?",
+      "QP": "Você teve uma boa infância?",
+      "AE": "Yes, I have great memories.",
+      "AP": "Sim, tenho ótimas lembranças."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I tried to learn guitar but gave up.",
+      "AP": "Tentei aprender violão mas desisti."
+    },
+    {
+      "QE": "Have you ever been to a wedding?",
+      "QP": "Você já foi a um casamento?",
+      "AE": "Yes, I have been to several.",
+      "AP": "Sim, já fui a vários."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She worked in a hospital for ten years.",
+      "AP": "Ela trabalhou em um hospital por dez anos."
+    },
+    {
+      "QE": "What was the last book you read?",
+      "QP": "Qual foi o último livro que você leu?",
+      "AE": "I read a novel about travel.",
+      "AP": "Li um romance sobre viagem."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We used to go to the same school.",
+      "AP": "Nós íamos para a mesma escola."
+    },
+    {
+      "QE": "Have you ever failed an exam?",
+      "QP": "Você já reprovou em uma prova?",
+      "AE": "Yes, I failed math once.",
+      "AP": "Sim, reprovei em matemática uma vez."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He has lived in three different countries.",
+      "AP": "Ele morou em três países diferentes."
+    },
+    {
+      "QE": "When did you start learning English?",
+      "QP": "Quando você começou a aprender inglês?",
+      "AE": "I started in high school.",
+      "AP": "Comecei no ensino médio."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I have always wanted to see the northern lights.",
+      "AP": "Sempre quis ver a aurora boreal."
+    },
+    {
+      "QE": "What is your earliest memory?",
+      "QP": "Qual é sua primeira lembrança?",
+      "AE": "Playing in my grandmother's garden.",
+      "AP": "Brincar no jardim da minha avó."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She had never flown before last year.",
+      "AP": "Ela nunca tinha voado antes do ano passado."
+    },
+    {
+      "QE": "Did you ever get in trouble at school?",
+      "QP": "Você já se meteu em confusão na escola?",
+      "AE": "A few times. Nothing serious.",
+      "AP": "Algumas vezes. Nada sério."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We met through a mutual friend.",
+      "AP": "Nos conhecemos através de um amigo em comum."
+    },
+    {
+      "QE": "Have you ever moved to a new city?",
+      "QP": "Você já se mudou para uma cidade nova?",
+      "AE": "Yes, I moved here five years ago.",
+      "AP": "Sim, me mudei para cá há cinco anos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He used to smoke but quit.",
+      "AP": "Ele fumava mas parou."
+    },
+    {
+      "QE": "What was the best concert you attended?",
+      "QP": "Qual foi o melhor show que você foi?",
+      "AE": "A rock concert in 2018. Unforgettable.",
+      "AP": "Um show de rock em 2018. Inesquecível."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I have never been to Asia.",
+      "AP": "Nunca fui à Ásia."
+    },
+    {
+      "QE": "Did you have a lot of friends as a kid?",
+      "QP": "Você tinha muitos amigos quando criança?",
+      "AE": "Yes, we played together every day.",
+      "AP": "Sim, brincávamos juntos todo dia."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She has written two books.",
+      "AP": "Ela escreveu dois livros."
+    }
+  ]
+}

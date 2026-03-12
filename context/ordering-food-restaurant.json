@@ -1,0 +1,329 @@
+{
+  "name": "Pedir comida no restaurante",
+  "sentences": [
+    {
+      "QE": "Are you ready to order?",
+      "QP": "Vocês já vão pedir?",
+      "AE": "Yes. I will have the grilled chicken.",
+      "AP": "Sim. Quero o frango grelhado."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I would like a table for two, please.",
+      "AP": "Gostaria de uma mesa para dois, por favor."
+    },
+    {
+      "QE": "What do you recommend?",
+      "QP": "O que você recomenda?",
+      "AE": "The pasta is our best seller.",
+      "AP": "A massa é nosso carro-chefe."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Can I have the bill, please?",
+      "AP": "Posso pedir a conta, por favor?"
+    },
+    {
+      "QE": "Do you have vegetarian options?",
+      "QP": "Vocês têm opções vegetarianas?",
+      "AE": "Yes, we have a veggie burger and salads.",
+      "AP": "Sim, temos hambúrguer vegetariano e saladas."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I will have a glass of red wine.",
+      "AP": "Quero uma taça de vinho tinto."
+    },
+    {
+      "QE": "Is this dish spicy?",
+      "QP": "Este prato é picante?",
+      "AE": "A little. We can make it mild.",
+      "AP": "Um pouco. Podemos deixar suave."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We would like to share a starter.",
+      "AP": "Gostaríamos de dividir uma entrada."
+    },
+    {
+      "QE": "Can I get this to go?",
+      "QP": "Posso pedir para viagem?",
+      "AE": "Yes, no problem.",
+      "AP": "Sim, sem problema."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I am allergic to nuts. Is it safe?",
+      "AP": "Sou alérgico a castanhas. É seguro?"
+    },
+    {
+      "QE": "What are the specials today?",
+      "QP": "Quais são os pratos do dia?",
+      "AE": "We have fish of the day and a soup.",
+      "AP": "Temos o peixe do dia e uma sopa."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I would like my steak medium rare.",
+      "AP": "Quero meu bife ao ponto para mal passado."
+    },
+    {
+      "QE": "Do you have a high chair?",
+      "QP": "Vocês têm cadeirinha?",
+      "AE": "Yes, I will bring one.",
+      "AP": "Sim, já trago."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Could we have some more bread?",
+      "AP": "Podemos pedir mais pão?"
+    },
+    {
+      "QE": "What is in the salad?",
+      "QP": "O que tem na salada?",
+      "AE": "Lettuce, tomato, cucumber, and cheese.",
+      "AP": "Alface, tomate, pepino e queijo."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I will have the soup to start.",
+      "AP": "Quero a sopa para começar."
+    },
+    {
+      "QE": "Can we have a booth?",
+      "QP": "Podemos sentar em uma cabine?",
+      "AE": "Let me check. Yes, follow me.",
+      "AP": "Deixe-me ver. Sim, sigam-me."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Is the tip included?",
+      "AP": "A gorjeta está incluída?"
+    },
+    {
+      "QE": "Do you have gluten-free options?",
+      "QP": "Vocês têm opções sem glúten?",
+      "AE": "Yes, we have a few. Ask for the list.",
+      "AP": "Sim, temos algumas. Peça a lista."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I would like to order dessert.",
+      "AP": "Gostaria de pedir sobremesa."
+    },
+    {
+      "QE": "How is the fish prepared?",
+      "QP": "Como o peixe é preparado?",
+      "AE": "It is baked with herbs and lemon.",
+      "AP": "É assado com ervas e limão."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We need a few more minutes to decide.",
+      "AP": "Precisamos de mais alguns minutos."
+    },
+    {
+      "QE": "Can I have water with lemon?",
+      "QP": "Posso pedir água com limão?",
+      "AE": "Still or sparkling?",
+      "AP": "Com ou sem gás?"
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I will pass on the dessert. I am full.",
+      "AP": "Vou dispensar a sobremesa. Estou cheio."
+    },
+    {
+      "QE": "Is the portion big?",
+      "QP": "A porção é grande?",
+      "AE": "Yes, it is quite large. You can share.",
+      "AP": "Sim, é bem grande. Podem dividir."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Could I have the dressing on the side?",
+      "AP": "Poderia pedir o molho à parte?"
+    },
+    {
+      "QE": "Do you take credit cards?",
+      "QP": "Aceitam cartão de crédito?",
+      "AE": "Yes, we accept all major cards.",
+      "AP": "Sim, aceitamos os principais."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I would like to make a reservation for tonight.",
+      "AP": "Gostaria de fazer uma reserva para hoje à noite."
+    },
+    {
+      "QE": "What drinks do you have?",
+      "QP": "Quais bebidas vocês têm?",
+      "AE": "We have wine, beer, cocktails, and soft drinks.",
+      "AP": "Temos vinho, cerveja, drinks e refrigerantes."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "My order is wrong. I asked for no onions.",
+      "AP": "Meu pedido está errado. Pedi sem cebola."
+    },
+    {
+      "QE": "Can we split the bill?",
+      "QP": "Podemos dividir a conta?",
+      "AE": "Yes. How would you like to split it?",
+      "AP": "Sim. Como querem dividir?"
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I will have the same as her.",
+      "AP": "Quero o mesmo que ela."
+    },
+    {
+      "QE": "How long is the wait?",
+      "QP": "Quanto tempo de espera?",
+      "AE": "About twenty minutes for a table.",
+      "AP": "Cerca de vinte minutos para uma mesa."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Could we have the wine list?",
+      "AP": "Podemos ver a carta de vinhos?"
+    },
+    {
+      "QE": "Is there a kids menu?",
+      "QP": "Tem cardápio infantil?",
+      "AE": "Yes, here it is.",
+      "AP": "Sim, aqui está."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I am not happy with this. It is cold.",
+      "AP": "Não estou satisfeito. Está frio."
+    },
+    {
+      "QE": "Do you have outdoor seating?",
+      "QP": "Vocês têm mesas na área externa?",
+      "AE": "Yes, we have a terrace.",
+      "AP": "Sim, temos uma varanda."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I would like to cancel my reservation.",
+      "AP": "Gostaria de cancelar minha reserva."
+    },
+    {
+      "QE": "What is the soup of the day?",
+      "QP": "Qual é a sopa do dia?",
+      "AE": "Today it is vegetable soup.",
+      "AP": "Hoje é sopa de legumes."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Can I substitute fries for salad?",
+      "AP": "Posso trocar batata frita por salada?"
+    },
+    {
+      "QE": "Is service included?",
+      "QP": "O serviço está incluído?",
+      "AE": "No, it is not. Tip is optional.",
+      "AP": "Não. Gorjeta é opcional."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We are celebrating a birthday.",
+      "AP": "Estamos celebrando aniversário."
+    },
+    {
+      "QE": "Can I have a doggy bag?",
+      "QP": "Posso pedir uma embalagem para viagem?",
+      "AE": "Of course. I will bring it.",
+      "AP": "Claro. Já trago."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I will have the set menu.",
+      "AP": "Quero o menu executivo."
+    },
+    {
+      "QE": "Do you have any discounts?",
+      "QP": "Vocês têm algum desconto?",
+      "AE": "We have lunch specials on weekdays.",
+      "AP": "Temos promoção de almoço nos dias úteis."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Could you bring some salt and pepper?",
+      "AP": "Poderia trazer sal e pimenta?"
+    },
+    {
+      "QE": "What time do you close?",
+      "QP": "A que horas vocês fecham?",
+      "AE": "We close at eleven on weekends.",
+      "AP": "Fechamos às onze nos fins de semana."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I would like to speak to the manager.",
+      "AP": "Gostaria de falar com o gerente."
+    },
+    {
+      "QE": "Can we have more napkins?",
+      "QP": "Podemos pedir mais guardanapos?",
+      "AE": "Sure, I will bring some.",
+      "AP": "Claro, já trago."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Everything was delicious. Thank you.",
+      "AP": "Tudo estava delicioso. Obrigado."
+    },
+    {
+      "QE": "Do you have WiFi?",
+      "QP": "Vocês têm WiFi?",
+      "AE": "Yes, the password is on the menu.",
+      "AP": "Sim, a senha está no cardápio."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I will take the check now.",
+      "AP": "Quero a conta agora."
+    },
+    {
+      "QE": "Is there a minimum charge?",
+      "QP": "Há consumo mínimo?",
+      "AE": "No, there is not.",
+      "AP": "Não há."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "We had a great experience. We will be back.",
+      "AP": "Foi ótimo. Voltaremos."
+    }
+  ]
+}

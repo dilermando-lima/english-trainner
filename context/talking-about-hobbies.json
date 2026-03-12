@@ -1,0 +1,317 @@
+{
+  "name": "Falando sobre hobbies",
+  "sentences": [
+    {
+      "QE": "What do you like to do in your free time?",
+      "QP": "O que você gosta de fazer no tempo livre?",
+      "AE": "I like to read and go for walks.",
+      "AP": "Gosto de ler e caminhar."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She plays guitar. She is really good.",
+      "AP": "Ela toca violão. Ela é muito boa."
+    },
+    {
+      "QE": "Do you have any hobbies?",
+      "QP": "Você tem algum hobby?",
+      "AE": "Yes. I love photography and cooking.",
+      "AP": "Sim. Adoro fotografia e culinária."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He spends his weekends hiking.",
+      "AP": "Ele passa os fins de semana caminhando."
+    },
+    {
+      "QE": "How long have you been doing that?",
+      "QP": "Há quanto tempo você faz isso?",
+      "AE": "About five years. I started in college.",
+      "AP": "Cerca de cinco anos. Comecei na faculdade."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I collect stamps. I have hundreds.",
+      "AP": "Coleciono selos. Tenho centenas."
+    },
+    {
+      "QE": "What is your favorite hobby?",
+      "QP": "Qual é seu hobby favorito?",
+      "AE": "Playing soccer. I play every Sunday.",
+      "AP": "Jogar futebol. Jogo todo domingo."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She paints in her free time. Watercolors.",
+      "AP": "Ela pinta no tempo livre. Aquarela."
+    },
+    {
+      "QE": "Do you prefer indoor or outdoor activities?",
+      "QP": "Você prefere atividades indoor ou ao ar livre?",
+      "AE": "Outdoor. I need fresh air.",
+      "AP": "Ao ar livre. Preciso de ar fresco."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He builds model airplanes. Very detailed.",
+      "AP": "Ele monta aviões em miniatura. Muito detalhado."
+    },
+    {
+      "QE": "How did you get into that?",
+      "QP": "Como você entrou nisso?",
+      "AE": "A friend invited me to try. I loved it.",
+      "AP": "Um amigo me convidou a experimentar. Adorei."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I garden. Vegetables and flowers.",
+      "AP": "Faço jardinagem. Legumes e flores."
+    },
+    {
+      "QE": "What do you do for fun?",
+      "QP": "O que você faz por diversão?",
+      "AE": "I watch movies and play video games.",
+      "AP": "Assisto filmes e jogo videogame."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She dances. Salsa and bachata.",
+      "AP": "Ela dança. Salsa e bachata."
+    },
+    {
+      "QE": "Do you do it alone or with others?",
+      "QP": "Você faz sozinho ou com outros?",
+      "AE": "Both. I run alone but play tennis with friends.",
+      "AP": "Os dois. Corro sozinho mas jogo tênis com amigos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He is learning to play the piano.",
+      "AP": "Ele está aprendendo a tocar piano."
+    },
+    {
+      "QE": "How much time do you spend on it?",
+      "QP": "Quanto tempo você dedica a isso?",
+      "AE": "A few hours a week. When I can.",
+      "AP": "Algumas horas por semana. Quando posso."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I knit. I make scarves and hats.",
+      "AP": "Faço tricô. Faço cachecóis e toucas."
+    },
+    {
+      "QE": "What new hobby would you like to try?",
+      "QP": "Que hobby novo você gostaria de experimentar?",
+      "AE": "I would like to learn to surf.",
+      "AP": "Gostaria de aprender a surfar."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She writes short stories. She has never published.",
+      "AP": "Ela escreve contos. Nunca publicou."
+    },
+    {
+      "QE": "Do you need special equipment?",
+      "QP": "Você precisa de equipamento especial?",
+      "AE": "Yes. I had to buy a good camera.",
+      "AP": "Sim. Tive que comprar uma boa câmera."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He fishes on the weekends. He finds it relaxing.",
+      "AP": "Ele pesca nos fins de semana. Acha relaxante."
+    },
+    {
+      "QE": "What is the best part of your hobby?",
+      "QP": "Qual é a melhor parte do seu hobby?",
+      "AE": "It helps me disconnect from work.",
+      "AP": "Ajuda a me desconectar do trabalho."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I do yoga. Three times a week.",
+      "AP": "Faço ioga. Três vezes por semana."
+    },
+    {
+      "QE": "Have you ever won anything?",
+      "QP": "Você já ganhou algo?",
+      "AE": "I won a local photography contest once.",
+      "AP": "Ganhei um concurso de fotografia local uma vez."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She bakes. Cakes and bread.",
+      "AP": "Ela faz doces. Bolos e pão."
+    },
+    {
+      "QE": "Do your family share your hobbies?",
+      "QP": "Sua família compartilha seus hobbies?",
+      "AE": "My wife runs with me. The kids prefer games.",
+      "AP": "Minha esposa corre comigo. As crianças preferem jogos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He is into woodworking. He made a table.",
+      "AP": "Ele gosta de marcenaria. Fez uma mesa."
+    },
+    {
+      "QE": "What would you recommend for a beginner?",
+      "QP": "O que você recomendaria para um iniciante?",
+      "AE": "Start with short runs. Build up slowly.",
+      "AP": "Comece com corridas curtas. Evolua devagar."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I like to draw. Just for fun.",
+      "AP": "Gosto de desenhar. Só por diversão."
+    },
+    {
+      "QE": "How expensive is it?",
+      "QP": "Quanto custa?",
+      "AE": "Not much. You just need good shoes.",
+      "AP": "Não muito. Só precisa de um bom tênis."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She swims. She goes to the pool every morning.",
+      "AP": "Ela nada. Vai à piscina toda manhã."
+    },
+    {
+      "QE": "Do you have a group or club?",
+      "QP": "Você tem um grupo ou clube?",
+      "AE": "Yes. We meet every Thursday to play.",
+      "AP": "Sim. Nos encontramos toda quinta para jogar."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He reads a lot. Mostly history and fiction.",
+      "AP": "Ele lê muito. Principalmente história e ficção."
+    },
+    {
+      "QE": "What got you interested?",
+      "QP": "O que te despertou o interesse?",
+      "AE": "I saw a documentary and wanted to try.",
+      "AP": "Vi um documentário e quis experimentar."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I do crossword puzzles. Every day.",
+      "AP": "Faço palavras-cruzadas. Todo dia."
+    },
+    {
+      "QE": "Is it hard to learn?",
+      "QP": "É difícil de aprender?",
+      "AE": "The basics are easy. Mastery takes time.",
+      "AP": "O básico é fácil. Dominar leva tempo."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She volunteers at an animal shelter.",
+      "AP": "Ela é voluntária em um abrigo de animais."
+    },
+    {
+      "QE": "What do you do when the weather is bad?",
+      "QP": "O que você faz quando o tempo está ruim?",
+      "AE": "I stay in and read or watch something.",
+      "AP": "Fico em casa e leio ou assisto algo."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He plays chess online. He is quite good.",
+      "AP": "Ele joga xadrez online. É bem bom."
+    },
+    {
+      "QE": "Do you compete or just for fun?",
+      "QP": "Você compete ou só por diversão?",
+      "AE": "Just for fun. I am not very competitive.",
+      "AP": "Só por diversão. Não sou muito competitivo."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I listen to podcasts. On my way to work.",
+      "AP": "Ouço podcasts. A caminho do trabalho."
+    },
+    {
+      "QE": "What is the most relaxing hobby?",
+      "QP": "Qual é o hobby mais relaxante?",
+      "AE": "For me it is gardening. Very peaceful.",
+      "AP": "Para mim é jardinagem. Muito tranquilo."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She does embroidery. She makes gifts for friends.",
+      "AP": "Ela faz bordado. Faz presentes para amigos."
+    },
+    {
+      "QE": "How do you find time for hobbies?",
+      "QP": "Como você arruma tempo para hobbies?",
+      "AE": "I wake up early. Or I use the weekend.",
+      "AP": "Acordo cedo. Ou uso o fim de semana."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He collects vinyl records. Old rock mostly.",
+      "AP": "Ele coleciona discos de vinil. Rock antigo em geral."
+    },
+    {
+      "QE": "What hobby would you like to quit?",
+      "QP": "Que hobby você gostaria de abandonar?",
+      "AE": "None. I enjoy all of them.",
+      "AP": "Nenhum. Gosto de todos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I like to try new things. Last month I tried pottery.",
+      "AP": "Gosto de experimentar coisas novas. Mês passado tentei cerâmica."
+    },
+    {
+      "QE": "Do you spend a lot of money on it?",
+      "QP": "Você gasta muito dinheiro com isso?",
+      "AE": "Some. But it is worth it. It makes me happy.",
+      "AP": "Um pouco. Mas vale a pena. Me deixa feliz."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She runs marathons. She has done five.",
+      "AP": "Ela corre maratonas. Já fez cinco."
+    },
+    {
+      "QE": "What hobby did you have as a kid?",
+      "QP": "Que hobby você tinha quando criança?",
+      "AE": "I used to collect cards. And draw.",
+      "AP": "Colecionava cartas. E desenhava."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He is teaching his son to play guitar.",
+      "AP": "Ele está ensinando o filho a tocar violão."
+    }
+  ]
+}

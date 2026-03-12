@@ -1,0 +1,329 @@
+{
+  "name": "Sobre doenças",
+  "sentences": [
+    {
+      "QE": "How are you feeling?",
+      "QP": "Como você está se sentindo?",
+      "AE": "I have a headache and a sore throat.",
+      "AP": "Estou com dor de cabeça e garganta."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She caught a cold last week.",
+      "AP": "Ela pegou um resfriado na semana passada."
+    },
+    {
+      "QE": "Do you have any symptoms?",
+      "QP": "Você tem algum sintoma?",
+      "AE": "Yes, fever and cough.",
+      "AP": "Sim, febre e tosse."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He has been sick for three days.",
+      "AP": "Ele está doente há três dias."
+    },
+    {
+      "QE": "Have you seen a doctor?",
+      "QP": "Você consultou um médico?",
+      "AE": "Not yet. I have an appointment tomorrow.",
+      "AP": "Ainda não. Tenho consulta amanhã."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I think I have the flu.",
+      "AP": "Acho que estou com gripe."
+    },
+    {
+      "QE": "What did the doctor say?",
+      "QP": "O que o médico disse?",
+      "AE": "He said to rest and drink lots of water.",
+      "AP": "Disse para descansar e beber muita água."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She has allergies. She sneezes a lot.",
+      "AP": "Ela tem alergia. Espirra muito."
+    },
+    {
+      "QE": "Are you taking any medicine?",
+      "QP": "Você está tomando algum remédio?",
+      "AE": "Yes, antibiotics and something for pain.",
+      "AP": "Sim, antibiótico e algo para dor."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He has high blood pressure.",
+      "AP": "Ele tem pressão alta."
+    },
+    {
+      "QE": "How long have you been feeling like this?",
+      "QP": "Há quanto tempo você está assim?",
+      "AE": "Since yesterday morning.",
+      "AP": "Desde ontem de manhã."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I have a stomachache. I ate too much.",
+      "AP": "Estou com dor de barriga. Comi demais."
+    },
+    {
+      "QE": "Do you have a fever?",
+      "QP": "Você está com febre?",
+      "AE": "A little. Thirty-seven point five.",
+      "AP": "Um pouco. Trinta e sete e meio."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She has diabetes. She has to watch her diet.",
+      "AP": "Ela tem diabetes. Tem que cuidar da alimentação."
+    },
+    {
+      "QE": "What is your family history?",
+      "QP": "Como é o histórico da sua família?",
+      "AE": "Heart disease runs in my family.",
+      "AP": "Doença cardíaca é comum na minha família."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He recovered from the infection.",
+      "AP": "Ele se recuperou da infecção."
+    },
+    {
+      "QE": "Have you had this before?",
+      "QP": "Você já teve isso antes?",
+      "AE": "Yes, last year. Same symptoms.",
+      "AP": "Sim, no ano passado. Mesmos sintomas."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I need to get a blood test.",
+      "AP": "Preciso fazer um exame de sangue."
+    },
+    {
+      "QE": "Is it contagious?",
+      "QP": "É contagioso?",
+      "AE": "Yes, stay home for a few days.",
+      "AP": "Sim, fique em casa por alguns dias."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She has asthma. She uses an inhaler.",
+      "AP": "Ela tem asma. Usa inalador."
+    },
+    {
+      "QE": "What should you avoid?",
+      "QP": "O que você deve evitar?",
+      "AE": "Avoid dairy and rest. No exercise yet.",
+      "AP": "Evitar laticínios e descansar. Sem exercício ainda."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He had surgery last month.",
+      "AP": "Ele fez cirurgia no mês passado."
+    },
+    {
+      "QE": "Do you need a sick note?",
+      "QP": "Você precisa de atestado?",
+      "AE": "Yes, for three days.",
+      "AP": "Sim, por três dias."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I have a rash on my arm.",
+      "AP": "Tenho uma irritação no braço."
+    },
+    {
+      "QE": "How can you prevent it?",
+      "QP": "Como você pode prevenir?",
+      "AE": "Wash your hands and get enough sleep.",
+      "AP": "Lave as mãos e durma o suficiente."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She is allergic to peanuts.",
+      "AP": "Ela é alérgica a amendoim."
+    },
+    {
+      "QE": "When can you go back to work?",
+      "QP": "Quando você pode voltar ao trabalho?",
+      "AE": "The doctor said next Monday.",
+      "AP": "O médico disse na próxima segunda."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He has back pain from sitting too much.",
+      "AP": "Ele tem dor nas costas de ficar sentado demais."
+    },
+    {
+      "QE": "What caused it?",
+      "QP": "O que causou?",
+      "AE": "Probably stress and lack of sleep.",
+      "AP": "Provavelmente estresse e falta de sono."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I have an ear infection.",
+      "AP": "Estou com infecção no ouvido."
+    },
+    {
+      "QE": "Do you need to see a specialist?",
+      "QP": "Você precisa ver um especialista?",
+      "AE": "Yes, I have a referral to a cardiologist.",
+      "AP": "Sim, tenho encaminhamento para um cardiologista."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She is in remission. The treatment worked.",
+      "AP": "Ela está em remissão. O tratamento funcionou."
+    },
+    {
+      "QE": "How long is the recovery?",
+      "QP": "Quanto tempo é a recuperação?",
+      "AE": "About two weeks. Then light activity.",
+      "AP": "Cerca de duas semanas. Depois atividade leve."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He has a weak immune system.",
+      "AP": "Ele tem o sistema imunológico fraco."
+    },
+    {
+      "QE": "Are there side effects?",
+      "QP": "Há efeitos colaterais?",
+      "AE": "Some drowsiness. Do not drive.",
+      "AP": "Alguma sonolência. Não dirija."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I had food poisoning. I am better now.",
+      "AP": "Tive intoxicação alimentar. Estou melhor agora."
+    },
+    {
+      "QE": "What is your blood type?",
+      "QP": "Qual é seu tipo sanguíneo?",
+      "AE": "I am O positive.",
+      "AP": "Sou O positivo."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She takes medicine for her thyroid.",
+      "AP": "Ela toma remédio para a tireoide."
+    },
+    {
+      "QE": "Do you have any allergies to medicine?",
+      "QP": "Você tem alergia a algum remédio?",
+      "AE": "Yes, I am allergic to penicillin.",
+      "AP": "Sim, sou alérgico à penicilina."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He was hospitalized for two days.",
+      "AP": "Ele ficou internado por dois dias."
+    },
+    {
+      "QE": "How do you manage the pain?",
+      "QP": "Como você controla a dor?",
+      "AE": "I take painkillers when needed.",
+      "AP": "Tomar analgésico quando preciso."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I have a follow-up in two weeks.",
+      "AP": "Tenho retorno em duas semanas."
+    },
+    {
+      "QE": "Is it chronic or acute?",
+      "QP": "É crônico ou agudo?",
+      "AE": "Acute. It should clear up soon.",
+      "AP": "Agudo. Deve melhorar em breve."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She had a mild case. No complications.",
+      "AP": "Ela teve um caso leve. Sem complicações."
+    },
+    {
+      "QE": "What does the test show?",
+      "QP": "O que o exame mostra?",
+      "AE": "Everything looks normal. Just rest.",
+      "AP": "Tudo parece normal. Só descansar."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He is on medication for his condition.",
+      "AP": "Ele está em tratamento para a condição dele."
+    },
+    {
+      "QE": "Do you need a refill?",
+      "QP": "Você precisa de nova receita?",
+      "AE": "Yes, my prescription is almost finished.",
+      "AP": "Sim, minha receita está quase no fim."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I feel dizzy when I stand up.",
+      "AP": "Sinto tontura quando levanto."
+    },
+    {
+      "QE": "How do you stay healthy?",
+      "QP": "Como você se mantém saudável?",
+      "AE": "I exercise, eat well, and sleep enough.",
+      "AP": "Me exercito, como bem e durmo o suficiente."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "She is getting over the virus.",
+      "AP": "Ela está se recuperando do vírus."
+    },
+    {
+      "QE": "When did the symptoms start?",
+      "QP": "Quando os sintomas começaram?",
+      "AE": "They started on Tuesday night.",
+      "AP": "Começaram na terça à noite."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "He has to avoid gluten.",
+      "AP": "Ele tem que evitar glúten."
+    },
+    {
+      "QE": "Do you have insurance?",
+      "QP": "Você tem seguro?",
+      "AE": "Yes, it covers most of the cost.",
+      "AP": "Sim, cobre a maior parte do custo."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I hope you feel better soon.",
+      "AP": "Espero que você melhore logo."
+    }
+  ]
+}

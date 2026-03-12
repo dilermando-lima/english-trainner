@@ -1,0 +1,317 @@
+{
+  "name": "Dar conselhos",
+  "sentences": [
+    {
+      "QE": "What should I do about my job?",
+      "QP": "O que devo fazer sobre meu emprego?",
+      "AE": "I would talk to your manager first.",
+      "AP": "Eu falaria com seu gerente primeiro."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "You should get more sleep.",
+      "AP": "Você deveria dormir mais."
+    },
+    {
+      "QE": "How can I improve my English?",
+      "QP": "Como posso melhorar meu inglês?",
+      "AE": "Try to practice every day, even for ten minutes.",
+      "AP": "Tente praticar todo dia, mesmo dez minutos."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "If I were you, I would save some money.",
+      "AP": "Se eu fosse você, eu juntaria um dinheiro."
+    },
+    {
+      "QE": "Do you have any advice for me?",
+      "QP": "Você tem algum conselho para mim?",
+      "AE": "Yes. Do not give up too soon.",
+      "AP": "Sim. Não desista cedo demais."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "It might be a good idea to take a break.",
+      "AP": "Pode ser uma boa ideia fazer uma pausa."
+    },
+    {
+      "QE": "What do you think I should do?",
+      "QP": "O que você acha que devo fazer?",
+      "AE": "I think you should apologize to her.",
+      "AP": "Acho que você deveria pedir desculpas a ela."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "You had better see a doctor.",
+      "AP": "É melhor você consultar um médico."
+    },
+    {
+      "QE": "Should I tell him the truth?",
+      "QP": "Devo contar a verdade a ele?",
+      "AE": "Yes, honesty is always best.",
+      "AP": "Sim, honestidade é sempre o melhor."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Why do not you try talking to her?",
+      "AP": "Por que você não tenta falar com ela?"
+    },
+    {
+      "QE": "How do I deal with stress?",
+      "QP": "Como lido com o estresse?",
+      "AE": "Exercise and rest help a lot.",
+      "AP": "Exercício e descanso ajudam muito."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "You ought to be more careful.",
+      "AP": "Você deveria ser mais cuidadoso."
+    },
+    {
+      "QE": "What would you do in my place?",
+      "QP": "O que você faria no meu lugar?",
+      "AE": "I would wait a bit before deciding.",
+      "AP": "Eu esperaria um pouco antes de decidir."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "It is worth trying again.",
+      "AP": "Vale a pena tentar de novo."
+    },
+    {
+      "QE": "Can you give me some advice?",
+      "QP": "Pode me dar um conselho?",
+      "AE": "Sure. Start small and be consistent.",
+      "AP": "Claro. Comece pequeno e seja consistente."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I suggest you take notes during the meeting.",
+      "AP": "Sugiro que você tome notas na reunião."
+    },
+    {
+      "QE": "Should I apply for that job?",
+      "QP": "Devo me candidatar àquela vaga?",
+      "AE": "Yes, you have nothing to lose.",
+      "AP": "Sim, você não tem nada a perder."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "You might want to reconsider.",
+      "AP": "Você talvez queira reconsiderar."
+    },
+    {
+      "QE": "What is your advice on this?",
+      "QP": "Qual é seu conselho sobre isso?",
+      "AE": "Do not rush. Think it through.",
+      "AP": "Não tenha pressa. Pense bem."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I recommend that you backup your files.",
+      "AP": "Recomendo que você faça backup dos arquivos."
+    },
+    {
+      "QE": "How can I be more productive?",
+      "QP": "Como posso ser mais produtivo?",
+      "AE": "Make a list and do the hard task first.",
+      "AP": "Faça uma lista e faça a tarefa difícil primeiro."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "You should not work so late.",
+      "AP": "Você não deveria trabalhar tão tarde."
+    },
+    {
+      "QE": "Do you think I should go?",
+      "QP": "Você acha que devo ir?",
+      "AE": "Yes, it could be a good opportunity.",
+      "AP": "Sim, pode ser uma boa oportunidade."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "It would be wise to ask for help.",
+      "AP": "Seria sábio pedir ajuda."
+    },
+    {
+      "QE": "What do you recommend?",
+      "QP": "O que você recomenda?",
+      "AE": "I recommend reading the instructions first.",
+      "AP": "Recomendo ler as instruções primeiro."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "You had better not miss the deadline.",
+      "AP": "É melhor você não perder o prazo."
+    },
+    {
+      "QE": "Should I invest in this?",
+      "QP": "Devo investir nisso?",
+      "AE": "I would get professional advice first.",
+      "AP": "Eu buscaria aconselhamento profissional primeiro."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Try to stay calm and think clearly.",
+      "AP": "Tente manter a calma e pensar com clareza."
+    },
+    {
+      "QE": "How do I say no politely?",
+      "QP": "Como digo não com educação?",
+      "AE": "Say you appreciate it but cannot right now.",
+      "AP": "Diga que agradece mas não pode agora."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I would not do that if I were you.",
+      "AP": "Eu não faria isso se fosse você."
+    },
+    {
+      "QE": "What should I say to her?",
+      "QP": "O que devo dizer a ela?",
+      "AE": "Be honest and kind.",
+      "AP": "Seja honesto e gentil."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "You could try a different approach.",
+      "AP": "Você poderia tentar uma abordagem diferente."
+    },
+    {
+      "QE": "Is it a good idea to quit?",
+      "QP": "É uma boa ideia pedir demissão?",
+      "AE": "Only if you have a plan B.",
+      "AP": "Só se você tiver um plano B."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Do not forget to double-check.",
+      "AP": "Não esqueça de conferir duas vezes."
+    },
+    {
+      "QE": "How can I make new friends?",
+      "QP": "Como posso fazer novos amigos?",
+      "AE": "Join a club or class you enjoy.",
+      "AP": "Entre em um clube ou curso que você goste."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "It might help to write things down.",
+      "AP": "Pode ajudar anotar as coisas."
+    },
+    {
+      "QE": "Should I accept the offer?",
+      "QP": "Devo aceitar a oferta?",
+      "AE": "Compare it with your other options.",
+      "AP": "Compare com suas outras opções."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "You would do well to listen to her.",
+      "AP": "Você faria bem em ouvi-la."
+    },
+    {
+      "QE": "What is the best way to learn?",
+      "QP": "Qual é a melhor forma de aprender?",
+      "AE": "Practice regularly and do not fear mistakes.",
+      "AP": "Pratique com regularidade e não tema errar."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I advise you to speak up now.",
+      "AP": "Aconselho você a se manifestar agora."
+    },
+    {
+      "QE": "Do you think I need a break?",
+      "QP": "Você acha que preciso de uma pausa?",
+      "AE": "Yes, you look tired.",
+      "AP": "Sim, você parece cansado."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Consider talking to a professional.",
+      "AP": "Considere falar com um profissional."
+    },
+    {
+      "QE": "How should I handle this situation?",
+      "QP": "Como devo lidar com esta situação?",
+      "AE": "Stay neutral and hear both sides.",
+      "AP": "Mantenha-se neutro e ouça os dois lados."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "You should follow your gut.",
+      "AP": "Você deveria seguir sua intuição."
+    },
+    {
+      "QE": "Should I wait or act now?",
+      "QP": "Devo esperar ou agir agora?",
+      "AE": "I would wait until you have more information.",
+      "AP": "Eu esperaria até ter mais informações."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "It is better to be safe than sorry.",
+      "AP": "Melhor prevenir do que remediar."
+    },
+    {
+      "QE": "What would you advise?",
+      "QP": "O que você aconselharia?",
+      "AE": "Take one step at a time.",
+      "AP": "Dê um passo de cada vez."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "You might consider asking for feedback.",
+      "AP": "Você poderia considerar pedir feedback."
+    },
+    {
+      "QE": "How do I stop procrastinating?",
+      "QP": "Como paro de procrastinar?",
+      "AE": "Set a small goal and do it right now.",
+      "AP": "Defina uma meta pequena e faça agora."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "Do not be afraid to ask questions.",
+      "AP": "Não tenha medo de fazer perguntas."
+    },
+    {
+      "QE": "Is it worth the risk?",
+      "QP": "Vale a pena o risco?",
+      "AE": "Only you can decide. Weigh the pros and cons.",
+      "AP": "Só você pode decidir. Pese prós e contras."
+    },
+    {
+      "QE": "",
+      "QP": "",
+      "AE": "I would suggest starting tomorrow.",
+      "AP": "Sugiro começar amanhã."
+    }
+  ]
+}
