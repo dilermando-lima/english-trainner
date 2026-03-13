@@ -72,8 +72,6 @@ let cachedVoices = [];
 let audioContext = null;
 let speechFeedbackTimeoutId = null;
 
-const ROUTES = ['about', 'privacy-policy', 'contact', 'terms'];
-
 const elements = {
   contextSelect: document.getElementById('contextSelect'),
   contextLoadProgress: document.getElementById('contextLoadProgress'),
@@ -96,15 +94,13 @@ const elements = {
   themeIconSun: document.querySelector('.theme-icon-sun'),
   themeIconMoon: document.querySelector('.theme-icon-moon'),
   trainerView: document.getElementById('trainer-view'),
-  staticPages: document.getElementById('static-pages'),
-  themeToggleStatic: document.getElementById('themeToggleStatic'),
-  themeIconSunStatic: document.querySelector('#static-pages .theme-icon-sun'),
-  themeIconMoonStatic: document.querySelector('#static-pages .theme-icon-moon'),
   speechFeedbackModal: document.getElementById('speechFeedbackModal'),
   speechFeedbackText: document.getElementById('speechFeedbackText'),
 };
 
 const THEME_KEY = 'english-trainer-theme';
+const CONTEXT_KEY = 'english-trainer-last-context';
+const SPEED_KEY = 'english-trainer-last-speed';
 
 function smoothScrollToBottom(durationMs = 2000) {
   try {
@@ -153,44 +149,40 @@ function getRoute() {
 }
 
 function renderRoute() {
-  const route = getRoute();
-  const isHome = route === 'home';
-
-  if (elements.trainerView) elements.trainerView.classList.toggle('hidden', !isHome);
-  if (elements.staticPages) elements.staticPages.classList.toggle('hidden', isHome);
-  const trainerFooter = document.getElementById('trainer-footer');
-  if (trainerFooter) trainerFooter.classList.toggle('hidden', !isHome);
-
-  if (!isHome && ROUTES.includes(route)) {
-    document.querySelectorAll('.page-content').forEach((el) => el.classList.add('hidden'));
-    const pageEl = document.getElementById(`page-${route}`);
-    if (pageEl) pageEl.classList.remove('hidden');
-    if (elements.themeIconSunStatic) elements.themeIconSunStatic.classList.toggle('hidden', document.documentElement.getAttribute('data-theme') === 'dark');
-    if (elements.themeIconMoonStatic) elements.themeIconMoonStatic.classList.toggle('hidden', document.documentElement.getAttribute('data-theme') !== 'dark');
-  }
-
-  const titles = { home: 'English Trainer', about: 'About', 'privacy-policy': 'Privacy Policy', contact: 'Contact', terms: 'Terms' };
-  document.title = (titles[route] || 'English Trainer') + ' — English Trainer';
+  // With static pages removed, always show the main trainer view.
+  if (elements.trainerView) elements.trainerView.classList.remove('hidden');
+  document.title = 'English Trainer — English Trainer';
 }
 
 function init() {
   applySavedTheme();
   renderRoute();
-  window.addEventListener('hashchange', renderRoute);
 
   populateContextSelect();
   wireEvents();
 
-  if (elements.themeToggleStatic) {
-    elements.themeToggleStatic.addEventListener('click', toggleTheme);
+  // Select last used context (if available) or default to 'Greetings'
+  const savedContextId = localStorage.getItem(CONTEXT_KEY);
+  let initialContextConfig =
+    contextsConfig.find((c) => c.id === savedContextId) || contextsConfig[0];
+
+  if (elements.contextSelect && initialContextConfig) {
+    elements.contextSelect.value = initialContextConfig.id;
   }
 
-  // Automatically select 'Greetings' context for the first time (loads via fetch)
-  const greetingsConfig = contextsConfig[0];
-  if (elements.contextSelect) {
-    elements.contextSelect.value = greetingsConfig.id;
+  // Apply last used speed (if available)
+  const savedSpeed = localStorage.getItem(SPEED_KEY);
+  if (savedSpeed) {
+    const parsedSpeed = parseFloat(savedSpeed);
+    if (!Number.isNaN(parsedSpeed) && parsedSpeed > 0) {
+      currentRate = parsedSpeed;
+      if (elements.speedSelect) {
+        elements.speedSelect.value = savedSpeed;
+      }
+    }
   }
-  loadContext(greetingsConfig).then(() => {
+
+  loadContext(initialContextConfig).then(() => {
     updateControlBarState();
     smoothScrollToBottom(1000);
   });
@@ -222,6 +214,7 @@ function wireEvents() {
     const selectedId = e.target.value;
     const config = contextsConfig.find((c) => c.id === selectedId);
     if (!config) return;
+    localStorage.setItem(CONTEXT_KEY, selectedId);
     autoplay = false;
     isPlayingSingle = false;
     elements.listenAllBtn.textContent = 'Ouvir todos';
@@ -256,6 +249,7 @@ function wireEvents() {
       const value = parseFloat(e.target.value);
       if (!Number.isNaN(value) && value > 0) {
         currentRate = value;
+        localStorage.setItem(SPEED_KEY, String(value));
 
         // If autoplay is currently running, restart the current sentence
         // so playback continues immediately at the newly selected speed.
@@ -444,8 +438,6 @@ function toggleTheme() {
 function updateThemeIcons(isDark) {
   if (elements.themeIconSun) elements.themeIconSun.classList.toggle('hidden', isDark);
   if (elements.themeIconMoon) elements.themeIconMoon.classList.toggle('hidden', !isDark);
-  if (elements.themeIconSunStatic) elements.themeIconSunStatic.classList.toggle('hidden', isDark);
-  if (elements.themeIconMoonStatic) elements.themeIconMoonStatic.classList.toggle('hidden', !isDark);
 }
 
 function shuffleArray(arr) {
@@ -483,6 +475,14 @@ async function loadContext(config) {
     elements.portugueseQuestion.textContent = 'Erro ao carregar contexto.';
     elements.englishAnswer.textContent = '';
     elements.portugueseAnswer.textContent = '';
+    if (elements.micQuestionBtn) {
+      elements.micQuestionBtn.disabled = true;
+      elements.micQuestionBtn.classList.add('hidden');
+    }
+    if (elements.micAnswerBtn) {
+      elements.micAnswerBtn.disabled = true;
+      elements.micAnswerBtn.classList.add('hidden');
+    }
     return;
   }
   showContextLoadProgress(false);
@@ -505,6 +505,15 @@ async function loadContext(config) {
   elements.prevBtn.disabled = !hasSentences;
   elements.nextBtn.disabled = !hasSentences;
   elements.listenAllBtn.disabled = !hasSentences || !speechSynthesisSupported;
+
+  if (elements.micQuestionBtn) {
+    elements.micQuestionBtn.disabled = !hasSentences;
+    elements.micQuestionBtn.classList.remove('hidden');
+  }
+  if (elements.micAnswerBtn) {
+    elements.micAnswerBtn.disabled = !hasSentences;
+    elements.micAnswerBtn.classList.remove('hidden');
+  }
 }
 
 function updateSentenceView() {

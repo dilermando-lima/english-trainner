@@ -220,6 +220,20 @@ body {
   max-width: 320px;
 }
 
+.speed-select {
+  padding: 0.6rem 0.85rem;
+  border-radius: 0;
+  border: 1px solid var(--border);
+  background-color: var(--bg-card);
+  color: var(--text);
+  font-size: 0.95rem;
+}
+
+.speed-select:focus {
+  outline: none;
+  border-color: var(--main-color);
+}
+
 .speed-wrapper {
   display: flex;
   align-items: center;
@@ -275,6 +289,23 @@ body {
 
 .ad-column {
   width: 100%;
+  min-width: 0; /* allow flex item to shrink; child can use full width */
+}
+
+/* Force AdSense unit to always use full container width */
+.ad-column .adsbygoogle {
+  display: block !important;
+  width: 100% !important;
+  min-width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.ad-column .adsbygoogle iframe {
+  width: 100% !important;
+  min-width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 
@@ -612,85 +643,4 @@ body {
   }
 }
 
-/* ----- Footer & static pages ----- */
-.app-footer {
-  padding: 0.85rem 1rem;
-  background-color: var(--bg-grey);
-}
-
-/* Trainer footer: fixed just above the controls bar */
-.trainer-footer {
-  position: fixed;
-  bottom: var(--controls-bar-height, 3.5rem);
-  left: 0;
-  right: 0;
-  z-index: 9;
-  margin: 0;  
-}
-
-.footer-nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.5rem 1rem;
-  font-size: 0.6rem;
-  padding: 0.6rem 0.8rem;
-}
-
-.footer-nav a {
-  color: var(--main-color);
-  text-decoration: none;
-}
-
-.footer-nav a:hover {
-  text-decoration: underline;
-  color: var(--main-color-hover);
-}
-
-.brand-link {
-  text-decoration: none;
-  color: inherit;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.static-page-header {
-  justify-content: space-between;
-}
-
-.static-page-header .brand {
-  position: static;
-  transform: none;
-}
-
-.static-page-header .theme-toggle {
-  position: static;
-  transform: none;
-}
-
-.static-page-main {
-  flex: 1;
-  padding: 1.5rem 1rem 2rem;
-  max-width: 42rem;
-  margin: 0 auto;
-  background-color: var(--bg-grey);
-}
-
-.page-content {
-  background-color: var(--bg-card);
-  padding: 1.25rem 1.5rem;
-  border-radius: 6px;
-  border: 1px solid var(--border);
-}
-
-.page-content h1 {
-  font-size: 1.35rem;
-  margin-bottom: 0.75rem;
-  color: var(--text);
-}
-
-.page-content p {
-  line-height: 1.6;
-  color: var(--text);
-}
+/* styles for removed static pages (.footer-nav, .brand-link, .static-page-header, .page-content) have been cleaned up */
