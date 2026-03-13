@@ -67,8 +67,10 @@ let autoplay = false;
 let isPlayingSingle = false;
 let currentRate = 0.8;
 let speechSynthesisSupported = 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
+let speechRecognitionSupported = 'SpeechRecognition' in window || 'webkitSpeechRecognition' in window;
 let cachedVoices = [];
 let audioContext = null;
+let speechFeedbackTimeoutId = null;
 
 const ROUTES = ['about', 'privacy-policy', 'contact', 'terms'];
 
@@ -80,6 +82,8 @@ const elements = {
   portugueseQuestion: document.getElementById('portugueseQuestion'),
   englishAnswer: document.getElementById('englishAnswer'),
   portugueseAnswer: document.getElementById('portugueseAnswer'),
+  micQuestionBtn: document.getElementById('micQuestionBtn'),
+  micAnswerBtn: document.getElementById('micAnswerBtn'),
   playNormalBtn: document.getElementById('playNormalBtn'),
   listenAllBtn: document.getElementById('listenAllBtn'),
   prevBtn: document.getElementById('prevBtn'),
@@ -96,6 +100,8 @@ const elements = {
   themeToggleStatic: document.getElementById('themeToggleStatic'),
   themeIconSunStatic: document.querySelector('#static-pages .theme-icon-sun'),
   themeIconMoonStatic: document.querySelector('#static-pages .theme-icon-moon'),
+  speechFeedbackModal: document.getElementById('speechFeedbackModal'),
+  speechFeedbackText: document.getElementById('speechFeedbackText'),
 };
 
 const THEME_KEY = 'english-trainer-theme';
@@ -276,6 +282,141 @@ function wireEvents() {
       updateSentenceView();
     }
   });
+
+  if (elements.micQuestionBtn) {
+    elements.micQuestionBtn.addEventListener('click', () => {
+      handlePronunciationCheck('question');
+    });
+  }
+
+  if (elements.micAnswerBtn) {
+    elements.micAnswerBtn.addEventListener('click', () => {
+      handlePronunciationCheck('answer');
+    });
+  }
+}
+
+function normalizeForComparison(text) {
+  if (!text) return '';
+  return String(text)
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9\s]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function jaroSimilarity(s1, s2) {
+  const a = normalizeForComparison(s1);
+  const b = normalizeForComparison(s2);
+  if (!a || !b) return 0;
+  if (a === b) return 1;
+
+  const maxDist = Math.floor(Math.max(a.length, b.length) / 2) - 1;
+  const aMatches = new Array(a.length).fill(false);
+  const bMatches = new Array(b.length).fill(false);
+
+  let matches = 0;
+  for (let i = 0; i < a.length; i++) {
+    const start = Math.max(0, i - maxDist);
+    const end = Math.min(i + maxDist + 1, b.length);
+    for (let j = start; j < end; j++) {
+      if (bMatches[j]) continue;
+      if (a[i] !== b[j]) continue;
+      aMatches[i] = true;
+      bMatches[j] = true;
+      matches++;
+      break;
+    }
+  }
+
+  if (matches === 0) return 0;
+
+  let t = 0;
+  let k = 0;
+  for (let i = 0; i < a.length; i++) {
+    if (!aMatches[i]) continue;
+    while (!bMatches[k]) {
+      k++;
+    }
+    if (a[i] !== b[k]) {
+      t++;
+    }
+    k++;
+  }
+
+  const transpositions = t / 2;
+  const jaro =
+    (matches / a.length + matches / b.length + (matches - transpositions) / matches) /
+    3;
+  return jaro;
+}
+
+function showSpeechFeedback(message, isGood) {
+  if (!elements.speechFeedbackModal || !elements.speechFeedbackText) return;
+  elements.speechFeedbackText.textContent = message;
+  elements.speechFeedbackModal.classList.remove('hidden', 'speech-feedback-modal--good', 'speech-feedback-modal--bad');
+  elements.speechFeedbackModal.classList.add(isGood ? 'speech-feedback-modal--good' : 'speech-feedback-modal--bad');
+
+  if (speechFeedbackTimeoutId) {
+    clearTimeout(speechFeedbackTimeoutId);
+    speechFeedbackTimeoutId = null;
+  }
+
+  speechFeedbackTimeoutId = setTimeout(() => {
+    elements.speechFeedbackModal.classList.add('hidden');
+  }, 3000);
+}
+
+function handlePronunciationCheck(target) {
+  if (!speechRecognitionSupported) {
+    showSpeechFeedback('Seu navegador não suporta captura de voz.', false);
+    return;
+  }
+
+  const expectedText =
+    target === 'question'
+      ? elements.englishQuestion && elements.englishQuestion.textContent
+      : elements.englishAnswer && elements.englishAnswer.textContent;
+
+  const normalizedExpected = normalizeForComparison(expectedText || '');
+  if (!normalizedExpected) {
+    showSpeechFeedback('Não há texto em inglês para comparar.', false);
+    return;
+  }
+
+  const Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!Recognition) {
+    showSpeechFeedback('Seu navegador não suporta captura de voz.', false);
+    return;
+  }
+
+  const recognition = new Recognition();
+  recognition.lang = 'en-US';
+  recognition.interimResults = false;
+  recognition.maxAlternatives = 1;
+
+  recognition.onresult = (event) => {
+    try {
+      const transcript = event.results[0][0].transcript || '';
+      const score = jaroSimilarity(normalizedExpected, transcript);
+      const percent = Math.round(score * 100);
+      const isGood = score >= 0.9;
+      const message = isGood
+        ? `Ótimo! Similaridade aproximada: ${percent}%.`
+        : `Continue praticando. Similaridade aproximada: ${percent}%.`;
+      showSpeechFeedback(message, isGood);
+    } catch {
+      showSpeechFeedback('Não foi possível processar o áudio.', false);
+    }
+  };
+
+  recognition.onerror = () => {
+    showSpeechFeedback('Não foi possível capturar o áudio. Tente novamente.', false);
+  };
+
+  recognition.start();
 }
 
 function applySavedTheme() {
