@@ -262,7 +262,6 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
   padding: 1rem;
-  overflow: auto;
   background-color: var(--bg-grey);
 }
 

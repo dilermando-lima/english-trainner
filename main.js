@@ -100,6 +100,46 @@ const elements = {
 
 const THEME_KEY = 'english-trainer-theme';
 
+function smoothScrollToBottom(durationMs = 2000) {
+  try {
+    const startY = window.scrollY || window.pageYOffset || 0;
+    const documentHeight = Math.max(
+      document.body.scrollHeight,
+      document.documentElement.scrollHeight,
+      document.body.offsetHeight,
+      document.documentElement.offsetHeight,
+      document.body.clientHeight,
+      document.documentElement.clientHeight
+    );
+    const viewportHeight = window.innerHeight || document.documentElement.clientHeight || 0;
+    const targetY = Math.max(documentHeight - viewportHeight, 0);
+    const distance = targetY - startY;
+    if (distance === 0 || durationMs <= 0) {
+      window.scrollTo(0, targetY);
+      return;
+    }
+
+    const startTime = performance.now();
+
+    function step(now) {
+      const elapsed = now - startTime;
+      const progress = Math.min(elapsed / durationMs, 1);
+      const eased = progress < 0.5
+        ? 2 * progress * progress
+        : -1 + (4 - 2 * progress) * progress;
+      const currentY = startY + distance * eased + 100;
+      window.scrollTo(0, currentY);
+      if (progress < 1) {
+        requestAnimationFrame(step);
+      }
+    }
+
+    requestAnimationFrame(step);
+  } catch {
+    window.scrollTo(0, document.body.scrollHeight || document.documentElement.scrollHeight || 0);
+  }
+}
+
 function getRoute() {
   const hash = (window.location.hash || '#/').slice(1);
   const path = (hash.startsWith('/') ? hash.slice(1) : hash).split('?')[0].toLowerCase() || '';
@@ -144,7 +184,10 @@ function init() {
   if (elements.contextSelect) {
     elements.contextSelect.value = greetingsConfig.id;
   }
-  loadContext(greetingsConfig).then(() => updateControlBarState());
+  loadContext(greetingsConfig).then(() => {
+    updateControlBarState();
+    smoothScrollToBottom(1000);
+  });
 
   if (!speechSynthesisSupported) {
     elements.playNormalBtn.disabled = true;
@@ -179,6 +222,7 @@ function wireEvents() {
     updateControlBarState();
 
     await loadContext(config);
+    smoothScrollToBottom(1000);
   });
 
   elements.playNormalBtn.addEventListener('click', () => {
@@ -337,6 +381,8 @@ function updateSentenceView() {
 
   elements.prevBtn.disabled = currentIndex === 0;
   elements.nextBtn.disabled = currentIndex >= total - 1;
+
+  smoothScrollToBottom(1000);
   updateControlBarState();
 }
 
