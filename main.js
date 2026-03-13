@@ -71,6 +71,7 @@ let speechRecognitionSupported = 'SpeechRecognition' in window || 'webkitSpeechR
 let cachedVoices = [];
 let speechScoreHideTimeoutQuestion = null;
 let speechScoreHideTimeoutAnswer = null;
+let speechWarnHideTimeout = null;
 
 const elements = {
   contextSelect: document.getElementById('contextSelect'),
@@ -100,6 +101,7 @@ const elements = {
   policyMenuModal: document.getElementById('policyMenuModal'),
   policyMenuBackdrop: document.getElementById('policyMenuBackdrop'),
   policyMenuClose: document.getElementById('policyMenuClose'),
+  speechWarnToast: document.getElementById('speechWarnToast'),
 };
 
 const THEME_KEY = 'english-trainer-theme';
@@ -406,16 +408,30 @@ function jaroSimilarity(s1, s2) {
   return jaro;
 }
 
-function showSpeechFeedback(message, isGood) {
-  // Modal feedback has been disabled in favor of inline percentage near the mic buttons.
-  // Keep this function as a no-op for compatibility with existing calls.
-  void message;
-  void isGood;
+function showSpeechFeedWarn(message) {
+  const toast = elements.speechWarnToast;
+  if (!toast) {
+    // Fallback if element is missing
+    alert(message);
+    return;
+  }
+
+  toast.textContent = message;
+  toast.classList.add('speech-warn-toast--visible');
+
+  if (speechWarnHideTimeout) {
+    clearTimeout(speechWarnHideTimeout);
+  }
+
+  speechWarnHideTimeout = setTimeout(() => {
+    toast.classList.remove('speech-warn-toast--visible');
+    speechWarnHideTimeout = null;
+  }, 3000);
 }
 
 function handlePronunciationCheck(target) {
   if (!speechRecognitionSupported) {
-    showSpeechFeedback('Seu navegador não suporta captura de voz.', false);
+    showSpeechFeedWarn('Seu navegador não suporta captura de voz.');
     return;
   }
 
@@ -435,13 +451,13 @@ function handlePronunciationCheck(target) {
 
   const normalizedExpected = normalizeForComparison(expectedText || '');
   if (!normalizedExpected) {
-    showSpeechFeedback('Não há texto em inglês para comparar.', false);
+    showSpeechFeedWarn('Não há texto em inglês para comparar.');
     return;
   }
 
   const Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
   if (!Recognition) {
-    showSpeechFeedback('Seu navegador não suporta captura de voz.', false);
+    showSpeechFeedWarn('Seu navegador não suporta captura de voz.');
     return;
   }
 
@@ -458,12 +474,12 @@ function handlePronunciationCheck(target) {
   recognition.onresult = (event) => {
     try {
       const transcript = event.results[0][0].transcript || '';
-
-
-
       const score = jaroSimilarity(normalizedExpected, transcript);
-
-      const percent = Math.round(score * 100);
+      // Randomly reduce the score by 2% to 6%
+      const reduction = (Math.random() * 4 + 2); // random number between 2 and 6
+      const reducedScore = Math.max(0, (score * 100) - reduction);
+      const percent = Math.round(reducedScore);
+      
       const isGood = score >= 0.9;
 
       const scoreElement =
@@ -498,7 +514,7 @@ function handlePronunciationCheck(target) {
   };
 
   recognition.onerror = () => {
-    showSpeechFeedback('Não foi possível capturar o áudio. Tente novamente.', false);
+    showSpeechFeedWarn('Não foi possível capturar o áudio. Tente novamente.');
     stopRecordingVisual();
   };
 
