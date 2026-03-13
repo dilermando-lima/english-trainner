@@ -71,6 +71,8 @@ let speechRecognitionSupported = 'SpeechRecognition' in window || 'webkitSpeechR
 let cachedVoices = [];
 let audioContext = null;
 let speechFeedbackTimeoutId = null;
+let speechScoreHideTimeoutQuestion = null;
+let speechScoreHideTimeoutAnswer = null;
 
 const elements = {
   contextSelect: document.getElementById('contextSelect'),
@@ -96,6 +98,8 @@ const elements = {
   trainerView: document.getElementById('trainer-view'),
   speechFeedbackModal: document.getElementById('speechFeedbackModal'),
   speechFeedbackText: document.getElementById('speechFeedbackText'),
+  speechScoreQuestion: document.getElementById('micQuestionScore'),
+  speechScoreAnswer: document.getElementById('micAnswerScore'),
   policyMenuToggle: document.getElementById('policyMenuToggle'),
   policyMenuModal: document.getElementById('policyMenuModal'),
   policyMenuBackdrop: document.getElementById('policyMenuBackdrop'),
@@ -407,26 +411,10 @@ function jaroSimilarity(s1, s2) {
 }
 
 function showSpeechFeedback(message, isGood) {
-  if (!elements.speechFeedbackModal || !elements.speechFeedbackText) return;
-
-  // Only show inline feedback for errors; hide on success.
-  if (isGood) {
-    elements.speechFeedbackModal.classList.add('hidden');
-    return;
-  }
-
-  elements.speechFeedbackText.textContent = message;
-  elements.speechFeedbackModal.classList.remove('hidden', 'speech-feedback-modal--good', 'speech-feedback-modal--bad');
-  elements.speechFeedbackModal.classList.add('speech-feedback-modal--bad');
-
-  if (speechFeedbackTimeoutId) {
-    clearTimeout(speechFeedbackTimeoutId);
-    speechFeedbackTimeoutId = null;
-  }
-
-  speechFeedbackTimeoutId = setTimeout(() => {
-    elements.speechFeedbackModal.classList.add('hidden');
-  }, 3000);
+  // Modal feedback has been disabled in favor of inline percentage near the mic buttons.
+  // Keep this function as a no-op for compatibility with existing calls.
+  void message;
+  void isGood;
 }
 
 function handlePronunciationCheck(target) {
@@ -482,14 +470,33 @@ function handlePronunciationCheck(target) {
       const percent = Math.round(score * 100);
       const isGood = score >= 0.9;
 
-    
+      const scoreElement =
+        target === 'question' ? elements.speechScoreQuestion : elements.speechScoreAnswer;
+      if (scoreElement) {
+        scoreElement.textContent = `${percent}%`;
+        scoreElement.classList.remove('speech-score--good', 'speech-score--bad', 'hidden');
+        scoreElement.classList.add(isGood ? 'speech-score--good' : 'speech-score--bad');
 
-      const message = isGood
-        ? `Ótimo! Similaridade aproximada: ${percent}%.`
-        : `Continue praticando. Similaridade aproximada: ${percent}%.`;
-      showSpeechFeedback(message, isGood);
+        if (target === 'question' && speechScoreHideTimeoutQuestion) {
+          clearTimeout(speechScoreHideTimeoutQuestion);
+        }
+        if (target === 'answer' && speechScoreHideTimeoutAnswer) {
+          clearTimeout(speechScoreHideTimeoutAnswer);
+        }
+
+        const timeoutId = setTimeout(() => {
+          scoreElement.textContent = '';
+          scoreElement.classList.add('hidden');
+        }, 4000);
+
+        if (target === 'question') {
+          speechScoreHideTimeoutQuestion = timeoutId;
+        } else {
+          speechScoreHideTimeoutAnswer = timeoutId;
+        }
+      }
     } catch {
-      showSpeechFeedback('Não foi possível processar o áudio.', false);
+      // Keep a minimal error path without using the removed modal feedback.
     }
     stopRecordingVisual();
   };
