@@ -101,19 +101,32 @@
         </div>
 
         <div class="sentence-card">
+          <div
+            id="speechFeedbackModal"
+            class="speech-feedback-modal hidden"
+            role="status"
+            aria-live="polite"
+            aria-atomic="true"
+          >
+            <span id="speechFeedbackText" class="speech-feedback-modal-text"></span>
+          </div>
           <div id="blockSentences" class="block-sentences">
             <div id="blockQuestion" class="sentence-question">
-              <button id="micQuestionBtn" class="btn-mic" type="button" title="Fale esta pergunta em inglês">
-                🎤
-              </button>
-              <p id="englishQuestion" class="sentence-text">—</p>
+              <div class="sentence-line sentence-line--english">
+                <p id="englishQuestion" class="sentence-text">—</p>
+                <button id="micQuestionBtn" class="btn-mic" type="button" title="Fale esta pergunta em inglês">
+                  <img src="./img/mic-icon.png" alt="Ícone de microfone" />
+                </button>
+              </div>
               <p id="portugueseQuestion" class="sentence-text">—</p>
             </div>
             <div class="sentence-answer">
-              <button id="micAnswerBtn" class="btn-mic" type="button" title="Fale esta resposta em inglês">
-                🎤
-              </button>
-              <p id="englishAnswer" class="sentence-text">—</p>
+              <div class="sentence-line sentence-line--english">
+                <p id="englishAnswer" class="sentence-text">—</p>
+                <button id="micAnswerBtn" class="btn-mic" type="button" title="Fale esta resposta em inglês">
+                  <img src="./img/mic-icon.png" alt="Ícone de microfone" />
+                </button>
+              </div>
               <p id="portugueseAnswer" class="sentence-text">—</p>
             </div>
           </div>
@@ -190,17 +203,6 @@
         <a href="#/terms">Terms</a>
       </nav>
     </footer>
-  </div>
-
-  <!-- Feedback modal for speech comparison -->
-  <div
-    id="speechFeedbackModal"
-    class="speech-feedback-modal hidden"
-    role="status"
-    aria-live="polite"
-    aria-atomic="true"
-  >
-    <div id="speechFeedbackText" class="speech-feedback-modal-text"></div>
   </div>
 
   <script src="./main.js"></script>

@@ -355,9 +355,16 @@ function jaroSimilarity(s1, s2) {
 
 function showSpeechFeedback(message, isGood) {
   if (!elements.speechFeedbackModal || !elements.speechFeedbackText) return;
+
+  // Only show inline feedback for errors; hide on success.
+  if (isGood) {
+    elements.speechFeedbackModal.classList.add('hidden');
+    return;
+  }
+
   elements.speechFeedbackText.textContent = message;
   elements.speechFeedbackModal.classList.remove('hidden', 'speech-feedback-modal--good', 'speech-feedback-modal--bad');
-  elements.speechFeedbackModal.classList.add(isGood ? 'speech-feedback-modal--good' : 'speech-feedback-modal--bad');
+  elements.speechFeedbackModal.classList.add('speech-feedback-modal--bad');
 
   if (speechFeedbackTimeoutId) {
     clearTimeout(speechFeedbackTimeoutId);
@@ -366,7 +373,7 @@ function showSpeechFeedback(message, isGood) {
 
   speechFeedbackTimeoutId = setTimeout(() => {
     elements.speechFeedbackModal.classList.add('hidden');
-  }, 3000);
+  }, 2000);
 }
 
 function handlePronunciationCheck(target) {

@@ -48,11 +48,12 @@
 html,
 body {
   height: 100%;
+  background-color: var(--bg-grey);
 }
 
 body {
   font-family: var(--font-text);
-  background-color: var(--bg-page);
+  background-color: var(--bg-grey);
   color: var(--text);
   -webkit-font-smoothing: antialiased;
 }
@@ -276,6 +277,19 @@ body {
   width: 100%;
 }
 
+
+#englishAnswer {
+  font-weight: bold;
+  color: var(--text);
+  font-size: 1rem;
+}
+#englishQuestion {
+  font-weight: bold;
+  color: var(--text);
+  font-size: 1rem;
+}
+
+
 .sentence-card {
   width: 100%;
   display: flex;
@@ -328,9 +342,16 @@ body {
 .sentence-question,
 .sentence-answer {
   display: flex;
-  align-items: flex-start;
-  gap: 0.5rem;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.25rem;
+}
+
+.sentence-line {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.35rem;
 }
 
 .btn-mic {
@@ -338,7 +359,7 @@ body {
   width: 2.1rem;
   height: 2.1rem;
   min-width: 2.1rem;
-  border: 1px solid var(--border);
+  border: none;
   background-color: var(--bg-card);
   color: var(--main-color);
   cursor: pointer;
@@ -346,8 +367,14 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 1.05rem;
-  margin-top: 0.5rem;
+  margin-top: 0;
   transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-mic img {
+  width: 2rem;
+  height: 2rem;
+  display: block;
 }
 
 .btn-mic:hover {
@@ -549,21 +576,12 @@ body {
   }
 }
 
-/* ----- Speech feedback modal ----- */
+/* ----- Speech feedback (inline above sentences) ----- */
 .speech-feedback-modal {
-  position: fixed;
-  left: 50%;
-  bottom: calc(var(--controls-bar-height, 3.5rem) + 0.75rem);
-  transform: translateX(-50%);
-  max-width: 90%;
-  background-color: var(--bg-card);
-  color: var(--text);
-  border: 1px solid var(--border);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-  border-radius: 6px;
-  padding: 0.75rem 1rem;
-  z-index: 20;
-  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+  padding: 0 0.25rem;
+  font-size: 0.85rem;
+  color: #c0392b;
 }
 
 .speech-feedback-modal-text {
@@ -571,11 +589,11 @@ body {
 }
 
 .speech-feedback-modal--good {
-  border-color: #1e8449;
+  /* kept for compatibility; no special styling for success now */
 }
 
 .speech-feedback-modal--bad {
-  border-color: #c0392b;
+  font-weight: 600;
 }
 
 @media (min-width: 769px) {
