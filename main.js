@@ -96,6 +96,10 @@ const elements = {
   trainerView: document.getElementById('trainer-view'),
   speechFeedbackModal: document.getElementById('speechFeedbackModal'),
   speechFeedbackText: document.getElementById('speechFeedbackText'),
+  policyMenuToggle: document.getElementById('policyMenuToggle'),
+  policyMenuModal: document.getElementById('policyMenuModal'),
+  policyMenuBackdrop: document.getElementById('policyMenuBackdrop'),
+  policyMenuClose: document.getElementById('policyMenuClose'),
 };
 
 const THEME_KEY = 'english-trainer-theme';
@@ -210,6 +214,8 @@ function wireEvents() {
     elements.themeToggle.addEventListener('click', toggleTheme);
   }
 
+  wirePolicyMenuEvents();
+
   elements.contextSelect.addEventListener('change', async (e) => {
     const selectedId = e.target.value;
     const config = contextsConfig.find((c) => c.id === selectedId);
@@ -288,6 +294,59 @@ function wireEvents() {
       handlePronunciationCheck('answer');
     });
   }
+}
+
+function isPolicyMenuOpen() {
+  return !!(elements.policyMenuModal && !elements.policyMenuModal.classList.contains('hidden'));
+}
+
+function openPolicyMenu() {
+  if (!elements.policyMenuModal) return;
+  elements.policyMenuModal.classList.remove('hidden');
+  document.body.style.overflow = 'hidden';
+  if (elements.policyMenuClose) {
+    elements.policyMenuClose.focus();
+  }
+}
+
+function closePolicyMenu() {
+  if (!elements.policyMenuModal) return;
+  elements.policyMenuModal.classList.add('hidden');
+  document.body.style.overflow = '';
+  if (elements.policyMenuToggle) {
+    elements.policyMenuToggle.focus();
+  }
+}
+
+function wirePolicyMenuEvents() {
+  if (!elements.policyMenuToggle || !elements.policyMenuModal) return;
+
+  elements.policyMenuToggle.addEventListener('click', () => {
+    if (isPolicyMenuOpen()) closePolicyMenu();
+    else openPolicyMenu();
+  });
+
+  if (elements.policyMenuBackdrop) {
+    elements.policyMenuBackdrop.addEventListener('click', closePolicyMenu);
+  }
+
+  if (elements.policyMenuClose) {
+    elements.policyMenuClose.addEventListener('click', closePolicyMenu);
+  }
+
+  elements.policyMenuModal.addEventListener('click', (e) => {
+    const target = e.target;
+    if (!(target instanceof HTMLElement)) return;
+    if (target.closest('a.policy-menu-link')) {
+      closePolicyMenu();
+    }
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== 'Escape') return;
+    if (!isPolicyMenuOpen()) return;
+    closePolicyMenu();
+  });
 }
 
 function normalizeForComparison(text) {

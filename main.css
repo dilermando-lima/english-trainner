@@ -152,6 +152,111 @@ body {
   display: none !important;
 }
 
+/* ----- Header menu (policies) ----- */
+.menu-toggle {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background-color: var(--bg-card);
+  color: var(--text);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.menu-toggle:hover {
+  background-color: var(--bg-elevated);
+  border-color: var(--main-color);
+}
+
+.policy-menu-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  place-items: center;
+}
+
+.policy-menu-backdrop {
+  position: absolute;
+  inset: 0;
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+
+.policy-menu-panel {
+  position: relative;
+  width: min(92vw, 420px);
+  background-color: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  padding: 0.9rem;
+}
+
+.policy-menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding-bottom: 0.65rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.policy-menu-title {
+  font-weight: 700;
+  color: var(--text);
+}
+
+.policy-menu-close {
+  border: 1px solid var(--border);
+  background-color: var(--bg-card);
+  color: var(--text);
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.policy-menu-close:hover {
+  background-color: var(--bg-elevated);
+  border-color: var(--main-color);
+}
+
+.policy-menu-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-top: 0.75rem;
+}
+
+.policy-menu-link {
+  display: block;
+  padding: 0.75rem 0.85rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background-color: var(--bg-elevated);
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.policy-menu-link:hover {
+  border-color: var(--main-color);
+}
+
 /* ----- Top bar: context + progress ----- */
 .top-bar {
   display: flex;
@@ -550,6 +655,13 @@ body {
     padding: 0.6rem 0.75rem;
   }
 
+  .menu-toggle {
+    left: 0.75rem;
+    width: 2.25rem;
+    height: 2.25rem;
+    font-size: 1.1rem;
+  }
+
   .theme-toggle {
     right: 0.75rem;
     width: 2.25rem;
@@ -634,12 +746,70 @@ body {
   color: #c0392b;
 }
 
+/* ----- Simple static pages (policies/contact/about) ----- */
+.simple-page {
+  min-height: 100vh;
+  padding: 1rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: var(--bg-grey);
+}
+
+.simple-page-inner {
+  width: 100%;
+  max-width: 820px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.simple-page-title {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--text);
+}
+
+.simple-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem 1.1rem;
+  line-height: 1.65;
+  color: var(--text);
+}
+
+.simple-actions {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.btn-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  padding: 0.7rem 1rem;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background-color: var(--main-color);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.btn-link:hover {
+  background-color: var(--main-color-hover);
+  border-color: var(--main-color-hover);
+}
+
 .speech-feedback-modal-text {
   line-height: 1.4;
 }
 
 .speech-feedback-modal--good {
   /* kept for compatibility; no special styling for success now */
+  font-weight: inherit;
 }
 
 .speech-feedback-modal--bad {
