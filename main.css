@@ -45,13 +45,17 @@
 }
 
 
-html,
-body {
+html {
+  overflow-x: hidden;
   height: 100%;
   background-color: var(--bg-grey);
 }
 
 body {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: hidden;
   font-family: var(--font-text);
   background-color: var(--bg-grey);
   color: var(--text);
@@ -69,6 +73,9 @@ body {
 #app {
   min-height: 100vh;
   width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   background-color: var(--bg-grey);
@@ -83,6 +90,10 @@ body {
     border: 1px solid var(--border);
     box-shadow: none;
   }
+}
+
+#trainer-view {
+  min-width: 0; /* flex child: allow shrink to avoid horizontal overflow */
 }
 
 /* ----- Header ----- */
@@ -149,6 +160,7 @@ body {
   gap: 1rem 1.5rem;
   padding: 1rem 1rem 1.25rem;
   background-color: var(--bg-card);
+  min-width: 0; /* allow shrink to avoid horizontal overflow */
 }
 
 .context-select-wrapper {
@@ -273,6 +285,7 @@ body {
 /* ----- Middle: sentences ----- */
 .app-main {
   flex: 1;
+  min-width: 0; /* allow flex child to shrink and avoid horizontal overflow */
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -284,6 +297,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
+  min-width: 0; /* allow flex child to shrink and avoid horizontal overflow */
   gap: 1rem;
 }
 
@@ -323,6 +337,7 @@ body {
 
 .sentence-card {
   width: 100%;
+  min-width: 0; /* flex child: allow shrink to avoid horizontal overflow */
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -335,6 +350,8 @@ body {
   flex-direction: column;
   gap: 0.75rem;
   background-color: var(--bg-card);
+  min-width: 0;
+  overflow-wrap: break-word;
 }
 
 .sentence-question .sentence-text {
@@ -367,6 +384,8 @@ body {
   padding: 0.75rem 1rem;
   line-height: 1.55;
   font-size: 1rem;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 /* ----- Mic buttons near sentences ----- */
@@ -431,7 +450,7 @@ body {
   z-index: 10;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 0.75rem;
   padding: 0.85rem 1rem 1rem;
   padding-bottom: max(0.85rem, env(safe-area-inset-bottom));
