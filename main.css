@@ -760,14 +760,6 @@ body {
   }
 }
 
-/* ----- Speech feedback (inline above sentences) ----- */
-.speech-feedback-modal {
-  margin-bottom: 0.25rem;
-  padding: 0 0.25rem;
-  font-size: 1rem;
-  color: #c0392b;
-}
-
 .speech-score {
   margin-left: 0.5rem;
   min-width: 3rem;
@@ -839,19 +831,6 @@ body {
 .btn-link:hover {
   background-color: var(--main-color-hover);
   border-color: var(--main-color-hover);
-}
-
-.speech-feedback-modal-text {
-  line-height: 1.4;
-}
-
-.speech-feedback-modal--good {
-  /* kept for compatibility; no special styling for success now */
-  font-weight: inherit;
-}
-
-.speech-feedback-modal--bad {
-  font-weight: 600;
 }
 
 @media (min-width: 769px) {

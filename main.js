@@ -69,8 +69,6 @@ let currentRate = 0.8;
 let speechSynthesisSupported = 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
 let speechRecognitionSupported = 'SpeechRecognition' in window || 'webkitSpeechRecognition' in window;
 let cachedVoices = [];
-let audioContext = null;
-let speechFeedbackTimeoutId = null;
 let speechScoreHideTimeoutQuestion = null;
 let speechScoreHideTimeoutAnswer = null;
 
@@ -96,8 +94,6 @@ const elements = {
   themeIconSun: document.querySelector('.theme-icon-sun'),
   themeIconMoon: document.querySelector('.theme-icon-moon'),
   trainerView: document.getElementById('trainer-view'),
-  speechFeedbackModal: document.getElementById('speechFeedbackModal'),
-  speechFeedbackText: document.getElementById('speechFeedbackText'),
   speechScoreQuestion: document.getElementById('micQuestionScore'),
   speechScoreAnswer: document.getElementById('micAnswerScore'),
   policyMenuToggle: document.getElementById('policyMenuToggle'),
