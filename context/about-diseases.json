@@ -4,8 +4,10 @@
     {
       "QE": "How are you feeling?",
       "QP": "Como você está se sentindo?",
+      "QG": "M",
       "AE": "I have a headache and a sore throat.",
-      "AP": "Estou com dor de cabeça e garganta."
+      "AP": "Estou com dor de cabeça e garganta.",
+      "AG": "F"
     },
     {
       "QE": "",

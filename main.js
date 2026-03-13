@@ -65,8 +65,12 @@ let currentContext = null;
 let currentIndex = 0;
 let autoplay = false;
 let isPlayingSingle = false;
+let currentRate = 0.8;
 let speechSynthesisSupported = 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
 let cachedVoices = [];
+let audioContext = null;
+
+const ROUTES = ['about', 'privacy-policy', 'contact', 'terms'];
 
 const elements = {
   contextSelect: document.getElementById('contextSelect'),
@@ -81,19 +85,59 @@ const elements = {
   prevBtn: document.getElementById('prevBtn'),
   controlsBar: document.querySelector('.controls-bar'),
   nextBtn: document.getElementById('nextBtn'),
+  speedSelect: document.getElementById('speedSelect'),
   progressText: document.getElementById('progressText'),
   progressFill: document.getElementById('progressFill'),
   themeToggle: document.getElementById('themeToggle'),
   themeIconSun: document.querySelector('.theme-icon-sun'),
   themeIconMoon: document.querySelector('.theme-icon-moon'),
+  trainerView: document.getElementById('trainer-view'),
+  staticPages: document.getElementById('static-pages'),
+  themeToggleStatic: document.getElementById('themeToggleStatic'),
+  themeIconSunStatic: document.querySelector('#static-pages .theme-icon-sun'),
+  themeIconMoonStatic: document.querySelector('#static-pages .theme-icon-moon'),
 };
 
 const THEME_KEY = 'english-trainer-theme';
 
+function getRoute() {
+  const hash = (window.location.hash || '#/').slice(1);
+  const path = (hash.startsWith('/') ? hash.slice(1) : hash).split('?')[0].toLowerCase() || '';
+  return path === '' ? 'home' : path;
+}
+
+function renderRoute() {
+  const route = getRoute();
+  const isHome = route === 'home';
+
+  if (elements.trainerView) elements.trainerView.classList.toggle('hidden', !isHome);
+  if (elements.staticPages) elements.staticPages.classList.toggle('hidden', isHome);
+  const trainerFooter = document.getElementById('trainer-footer');
+  if (trainerFooter) trainerFooter.classList.toggle('hidden', !isHome);
+
+  if (!isHome && ROUTES.includes(route)) {
+    document.querySelectorAll('.page-content').forEach((el) => el.classList.add('hidden'));
+    const pageEl = document.getElementById(`page-${route}`);
+    if (pageEl) pageEl.classList.remove('hidden');
+    if (elements.themeIconSunStatic) elements.themeIconSunStatic.classList.toggle('hidden', document.documentElement.getAttribute('data-theme') === 'dark');
+    if (elements.themeIconMoonStatic) elements.themeIconMoonStatic.classList.toggle('hidden', document.documentElement.getAttribute('data-theme') !== 'dark');
+  }
+
+  const titles = { home: 'English Trainer', about: 'About', 'privacy-policy': 'Privacy Policy', contact: 'Contact', terms: 'Terms' };
+  document.title = (titles[route] || 'English Trainer') + ' — English Trainer';
+}
+
 function init() {
   applySavedTheme();
+  renderRoute();
+  window.addEventListener('hashchange', renderRoute);
+
   populateContextSelect();
   wireEvents();
+
+  if (elements.themeToggleStatic) {
+    elements.themeToggleStatic.addEventListener('click', toggleTheme);
+  }
 
   // Automatically select 'Greetings' context for the first time (loads via fetch)
   const greetingsConfig = contextsConfig[0];
@@ -140,7 +184,7 @@ function wireEvents() {
   elements.playNormalBtn.addEventListener('click', () => {
     isPlayingSingle = true;
     updateControlBarState();
-    speakCurrentSentence(1);
+    speakCurrentSentence(currentRate);
   });
 
   elements.listenAllBtn.addEventListener('click', () => {
@@ -149,13 +193,29 @@ function wireEvents() {
     isPlayingSingle = false;
     if (autoplay) {
       elements.listenAllBtn.textContent = 'Parar autoplay';
-      speakCurrentSentence(1);
+      speakCurrentSentence(currentRate);
     } else {
       elements.listenAllBtn.textContent = 'Ouvir todos';
       window.speechSynthesis.cancel();
     }
     updateControlBarState();
   });
+
+  if (elements.speedSelect) {
+    elements.speedSelect.addEventListener('change', (e) => {
+      const value = parseFloat(e.target.value);
+      if (!Number.isNaN(value) && value > 0) {
+        currentRate = value;
+
+        // If autoplay is currently running, restart the current sentence
+        // so playback continues immediately at the newly selected speed.
+        if (autoplay && speechSynthesisSupported && currentContext && currentContext.sentences.length) {
+          window.speechSynthesis.cancel();
+          speakCurrentSentence(currentRate);
+        }
+      }
+    });
+  }
 
   elements.prevBtn.addEventListener('click', () => {
     if (!currentContext) return;
@@ -192,6 +252,8 @@ function toggleTheme() {
 function updateThemeIcons(isDark) {
   if (elements.themeIconSun) elements.themeIconSun.classList.toggle('hidden', isDark);
   if (elements.themeIconMoon) elements.themeIconMoon.classList.toggle('hidden', !isDark);
+  if (elements.themeIconSunStatic) elements.themeIconSunStatic.classList.toggle('hidden', isDark);
+  if (elements.themeIconMoonStatic) elements.themeIconMoonStatic.classList.toggle('hidden', !isDark);
 }
 
 function shuffleArray(arr) {
@@ -373,7 +435,7 @@ function doSpeakCurrentSentence(rate) {
       return;
     }
     const answerUtterance = new SpeechSynthesisUtterance(answerText);
-    const voice = pickVoiceMale('en');
+    const voice = pickVoiceMale('en-US');
     if (voice) answerUtterance.voice = voice;
     answerUtterance.lang = 'en-US';
     answerUtterance.rate = rate;
@@ -388,11 +450,11 @@ function doSpeakCurrentSentence(rate) {
     if (!currentContext) return;
     if (currentIndex < currentContext.sentences.length - 1) {
       setTimeout(() => {
-        if (!autoplay) return;
+        if (!autoplay || !currentContext) return;
         currentIndex += 1;
         updateSentenceView();
         speakCurrentSentence(rate);
-      }, 500);
+      }, 2000);
     } else {
       autoplay = false;
       elements.listenAllBtn.textContent = 'Ouvir todos';
@@ -402,11 +464,15 @@ function doSpeakCurrentSentence(rate) {
 
   if (questionText) {
     const questionUtterance = new SpeechSynthesisUtterance(questionText);
-    const voice = pickVoiceFemale('en');
+    const voice = pickVoiceFemale('en-US');
     if (voice) questionUtterance.voice = voice;
     questionUtterance.lang = 'en-US';
     questionUtterance.rate = rate;
-    questionUtterance.onend = () => speakAnswer();
+    questionUtterance.onend = () => {
+      setTimeout(() => {
+        speakAnswer();
+      }, 1000);
+    };
     window.speechSynthesis.speak(questionUtterance);
   } else {
     speakAnswer();

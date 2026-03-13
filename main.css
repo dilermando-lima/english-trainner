@@ -14,13 +14,13 @@
   --bg-page: #e8f4fc;
   --bg-card: #ffffff;
   --bg-elevated: #f0f8ff;
-  --bg-grey: #e3f2fd;
+  --bg-grey: #c7e3f7;
   --main-color-dark: #042d6b;
   --main-color: #195395;
   --main-color-hover: #66acf1;
   --text: #043e94;
   --text-muted: #c36111;
-  --border: #90caf9;
+  --border: #2681cc;
   --font-text: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', sans-serif;
 } 
 
@@ -70,7 +70,9 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding-bottom: 4.5rem; /* space for fixed controls-bar */
+  background-color: var(--bg-grey);
+  --controls-bar-height: 3.5rem;
+  padding-bottom: calc(var(--controls-bar-height) + 3rem); /* space for trainer-footer + fixed controls-bar */
 }
 
 @media (min-width: 769px) {
@@ -148,8 +150,6 @@ body {
   background-color: var(--bg-card);
 }
 
-
-
 .context-select-wrapper {
   flex: 1;
   min-width: 180px;
@@ -219,6 +219,17 @@ body {
   max-width: 320px;
 }
 
+.speed-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.35rem;
+  min-width: 140px;
+  max-width: 200px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
 .progress-header {
   display: flex;
   justify-content: space-between;
@@ -255,6 +266,17 @@ body {
   background-color: var(--bg-grey);
 }
 
+.content-layout {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+
+.ad-column {
+  width: 100%;
+}
+
 .sentence-card {
   width: 100%;
   display: flex;
@@ -263,7 +285,7 @@ body {
 }
 
 .block-sentences {
-  border-radius: 0;
+  border-radius: 5px;
   padding: 1rem 1.25rem;
   display: flex;
   flex-direction: column;
@@ -273,7 +295,6 @@ body {
 
 .sentence-question .sentence-text {
   font-weight: bold;
-  border-radius: 0;
   padding: 0.75rem 1rem;
   line-height: 1.55;
   font-size: 1rem;
@@ -287,7 +308,6 @@ body {
 
 .sentence-answer .sentence-text {
   font-weight: bold;
-  border-radius: 0;
   padding: 0.75rem 1rem;
   line-height: 1.55;
   font-size: 1rem;
@@ -300,7 +320,6 @@ body {
 }
 
 .sentence-text {
-  border-radius: 0;
   padding: 0.75rem 1rem;
   line-height: 1.55;
   font-size: 1rem;
@@ -314,18 +333,31 @@ body {
   right: 0;
   z-index: 10;
   display: flex;
-
   align-items: center;
-  justify-content: center;
-  gap: 0.5rem 0.75rem;
+  justify-content: space-between;
+  gap: 0.75rem;
   padding: 0.85rem 1rem 1rem;
   padding-bottom: max(0.85rem, env(safe-area-inset-bottom));
   background-color: var(--bg-card);
   border-top: 1px solid var(--border);
 }
 
+.controls-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem 0.75rem;
+}
+
+.controls-right {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
 .controls-bar .btn {
-  border-radius: 0;
+  border-radius: 4px;
   padding: 0.65rem 1rem;
   font-size: 0.9rem;
   font-weight: bold;
@@ -427,9 +459,22 @@ body {
     max-width: none;
   }
 
+  .speed-wrapper {
+    justify-content: flex-start;
+  }
+
   .app-main {
     padding: 0.75rem;
     align-items: flex-start;
+  }
+
+  .content-layout {
+    flex-direction: column;
+  }
+
+  .ad-column,
+  .sentence-card {
+    width: 100%;
   }
 
   .sentence-card {
@@ -466,7 +511,100 @@ body {
 }
 
 @media (min-width: 769px) {
+  .content-layout {
+    flex-direction: row-reverse; /* sentence-card on the right, ads on the left */
+    align-items: flex-start;
+  }
+
+  .ad-column,
+  .sentence-card {
+    width: 50%;
+  }
+
   .controls-bar {
     justify-content: center;
   }
+}
+
+/* ----- Footer & static pages ----- */
+.app-footer {
+  padding: 0.85rem 1rem;
+  background-color: var(--bg-grey);
+}
+
+/* Trainer footer: fixed just above the controls bar */
+.trainer-footer {
+  position: fixed;
+  bottom: var(--controls-bar-height, 3.5rem);
+  left: 0;
+  right: 0;
+  z-index: 9;
+  margin: 0;  
+}
+
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 1rem;
+  font-size: 0.6rem;
+  padding: 0.6rem 0.8rem;
+}
+
+.footer-nav a {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+  color: var(--main-color-hover);
+}
+
+.brand-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.static-page-header {
+  justify-content: space-between;
+}
+
+.static-page-header .brand {
+  position: static;
+  transform: none;
+}
+
+.static-page-header .theme-toggle {
+  position: static;
+  transform: none;
+}
+
+.static-page-main {
+  flex: 1;
+  padding: 1.5rem 1rem 2rem;
+  max-width: 42rem;
+  margin: 0 auto;
+  background-color: var(--bg-grey);
+}
+
+.page-content {
+  background-color: var(--bg-card);
+  padding: 1.25rem 1.5rem;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+.page-content h1 {
+  font-size: 1.35rem;
+  margin-bottom: 0.75rem;
+  color: var(--text);
+}
+
+.page-content p {
+  line-height: 1.6;
+  color: var(--text);
 }

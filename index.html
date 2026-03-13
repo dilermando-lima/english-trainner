@@ -1,47 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>English Trainer</title>
-    <link rel="stylesheet" href="./main.css" />
-  </head>
-  <body>
-    <div id="app">
-      <header class="app-header">
-        <div class="brand">
-          <span class="brand-title">English Trainer</span>
-          <span class="brand-subtitle">Frases inglês para português</span>
-        </div>
-        <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Alternar tema">
-          <span class="theme-icon theme-icon-sun" aria-hidden="true">☀</span>
-          <span class="theme-icon theme-icon-moon hidden" aria-hidden="true">🌙</span>
-        </button>
-      </header>
 
-      <!-- Top: context selector + progress bar -->
-      <section class="top-bar">
-        <div class="context-select-wrapper">
-          <select id="contextSelect" class="field-select">
-            <option value="" disabled selected>Escolha um contexto...</option>
-          </select>
-          <div id="contextLoadProgress" class="context-load-progress hidden" aria-hidden="true">
-            <div class="context-load-progress-bar"></div>
-            <span class="context-load-progress-label">Carregando contexto...</span>
-          </div>
-        </div>
-        <div class="progress-wrapper">
-          <div class="progress-header">
-            <span id="progressText">0 / 0</span>
-          </div>
-          <div class="progress-bar">
-            <div id="progressFill" class="progress-fill"></div>
-          </div>
-        </div>
-      </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>English Trainer</title>
+  <link rel="stylesheet" href="./main.css" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5587713354919719" crossorigin="anonymous"></script>
+</head>
 
-      <!-- Middle: sentences -->
-      <main class="app-main">
+<body>
+  <div id="app">
+    <!-- Main trainer view (hidden on static pages) -->
+    <div id="trainer-view">
+    <header class="app-header">
+      <div class="brand">
+        <span class="brand-title">English Trainer</span>
+        <span class="brand-subtitle">Frases inglês para português</span>
+      </div>
+      <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Alternar tema">
+        <span class="theme-icon theme-icon-sun" aria-hidden="true">☀</span>
+        <span class="theme-icon theme-icon-moon hidden" aria-hidden="true">🌙</span>
+      </button>
+    </header>
+
+    <!-- Top: context selector + progress bar -->
+    <section class="top-bar">
+      <div class="context-select-wrapper">
+        <select id="contextSelect" class="field-select">
+          <option value="" disabled selected>Escolha um contexto...</option>
+        </select>
+        <div id="contextLoadProgress" class="context-load-progress hidden" aria-hidden="true">
+          <div class="context-load-progress-bar"></div>
+          <span class="context-load-progress-label">Carregando contexto...</span>
+        </div>
+      </div>
+      <div class="progress-wrapper">
+        <div class="progress-header">
+          <span id="progressText">0 / 0</span>
+        </div>
+        <div class="progress-bar">
+          <div id="progressFill" class="progress-fill"></div>
+        </div>
+      </div>
+      <div class="speed-wrapper">
+        <label for="speedSelect" class="speed-label">Velocidade</label>
+        <select id="speedSelect" class="speed-select">
+          <option value="0.4">0.4x</option>
+          <option value="0.6">0.6x</option>
+          <option value="0.8" selected>0.8x</option>
+          <option value="1">1x</option>
+          <option value="1.2">1.2x</option>
+          <option value="1.4">1.4x</option>
+        </select>
+      </div>
+    </section>
+
+    <!-- Middle: ads + sentences -->
+    <main class="app-main">
+      <div class="content-layout">
+        <div class="ad-column">
+        <ins 
+          class="adsbygoogle" 
+          style="display:block" 
+          data-ad-client="ca-pub-5587713354919719"
+          data-ad-test="on"
+          data-ad-slot="1234567890"
+          data-ad-format="auto" 
+          data-full-width-responsive="true"></ins>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+        </div>
+
         <div class="sentence-card">
           <div id="blockSentences" class="block-sentences">
             <div id="blockQuestion" class="sentence-question">
@@ -54,10 +85,12 @@
             </div>
           </div>
         </div>
-      </main>
+      </div>
+    </main>
 
-      <!-- Bottom: all buttons -->
-      <footer class="controls-bar">
+    <!-- Bottom: all buttons -->
+    <footer class="controls-bar">
+      <div class="controls-left">
         <button id="playNormalBtn" class="btn btn-play btn-play-normal" disabled>
           ▶ Ouvir
         </button>
@@ -70,9 +103,63 @@
         <button id="nextBtn" class="btn btn-nav btn-next" disabled>
           Próximo ▶
         </button>
+      </div>
+    </footer>
+    </div>
+
+    <!-- Static pages (shown when route matches) -->
+    <div id="static-pages" class="hidden">
+      <header class="app-header static-page-header">
+        <a href="#/" class="brand brand-link">
+          <span class="brand-title">English Trainer</span>
+          <span class="brand-subtitle">Frases inglês para português</span>
+        </a>
+        <button id="themeToggleStatic" class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Alternar tema">
+          <span class="theme-icon theme-icon-sun" aria-hidden="true">☀</span>
+          <span class="theme-icon theme-icon-moon hidden" aria-hidden="true">🌙</span>
+        </button>
+      </header>
+      <main class="static-page-main">
+        <div id="page-about" class="page-content hidden">
+          <h1>About</h1>
+          <p>English Trainer helps you practice English phrases with Portuguese translations. Choose a context, browse sentences, and listen to them at your preferred speed.</p>
+        </div>
+        <div id="page-privacy-policy" class="page-content hidden">
+          <h1>Privacy Policy</h1>
+          <p>This app may use cookies and local storage for preferences (e.g. theme). We do not collect personal data. Third-party ads may have their own privacy policies.</p>
+        </div>
+        <div id="page-contact" class="page-content hidden">
+          <h1>Contact</h1>
+          <p>For questions or feedback about English Trainer, please reach out through your preferred channel.</p>
+        </div>
+        <div id="page-terms" class="page-content hidden">
+          <h1>Terms of Use</h1>
+          <p>Use this app for personal learning. Do not redistribute the content without permission. The service is provided as-is.</p>
+        </div>
+      </main>
+      <footer class="app-footer">
+        <nav class="footer-nav">
+          <a href="#/">Home</a>
+          <a href="#/about">About</a>
+          <a href="#/privacy-policy">Privacy Policy</a>
+          <a href="#/contact">Contact</a>
+          <a href="#/terms">Terms</a>
+        </nav>
       </footer>
     </div>
 
-    <script src="./main.js"></script>
-  </body>
+    <!-- Footer links on trainer view -->
+    <footer id="trainer-footer" class="app-footer trainer-footer">
+      <nav class="footer-nav">
+        <a href="#/about">About</a>
+        <a href="#/privacy-policy">Privacy Policy</a>
+        <a href="#/contact">Contact</a>
+        <a href="#/terms">Terms</a>
+      </nav>
+    </footer>
+  </div>
+
+  
+  <script src="./main.js"></script>
+</body>
 </html>
