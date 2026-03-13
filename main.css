@@ -546,6 +546,28 @@ body {
   cursor: not-allowed;
 }
 
+/* Mic recording visual state */
+.btn-mic--recording {
+  background-color: #e74c3c;
+  box-shadow: 0 0 0 0 rgba(231, 76, 60, 0.65);
+  animation: mic-recording-pulse 1s ease-out infinite;
+}
+
+@keyframes mic-recording-pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(231, 76, 60, 0.7);
+  }
+  70% {
+    transform: scale(1.08);
+    box-shadow: 0 0 0 8px rgba(231, 76, 60, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(231, 76, 60, 0);
+  }
+}
+
 /* ----- Bottom: all buttons ----- */
 .controls-bar {
   position: fixed;

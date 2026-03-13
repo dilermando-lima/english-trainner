@@ -426,7 +426,7 @@ function showSpeechFeedback(message, isGood) {
 
   speechFeedbackTimeoutId = setTimeout(() => {
     elements.speechFeedbackModal.classList.add('hidden');
-  }, 2000);
+  }, 3000);
 }
 
 function handlePronunciationCheck(target) {
@@ -434,6 +434,15 @@ function handlePronunciationCheck(target) {
     showSpeechFeedback('Seu navegador não suporta captura de voz.', false);
     return;
   }
+
+  const activeBtn =
+    target === 'question' ? elements.micQuestionBtn : elements.micAnswerBtn;
+  const stopRecordingVisual = () => {
+    if (!activeBtn) return;
+    activeBtn.classList.remove('btn-mic--recording');
+    const hasSentences = currentContext && currentContext.sentences.length > 0;
+    activeBtn.disabled = !hasSentences;
+  };
 
   const expectedText =
     target === 'question'
@@ -457,12 +466,24 @@ function handlePronunciationCheck(target) {
   recognition.interimResults = false;
   recognition.maxAlternatives = 1;
 
+   if (activeBtn) {
+     activeBtn.classList.add('btn-mic--recording');
+     activeBtn.disabled = true;
+   }
+
   recognition.onresult = (event) => {
     try {
       const transcript = event.results[0][0].transcript || '';
+
+
+
       const score = jaroSimilarity(normalizedExpected, transcript);
+
       const percent = Math.round(score * 100);
       const isGood = score >= 0.9;
+
+    
+
       const message = isGood
         ? `Ótimo! Similaridade aproximada: ${percent}%.`
         : `Continue praticando. Similaridade aproximada: ${percent}%.`;
@@ -470,10 +491,16 @@ function handlePronunciationCheck(target) {
     } catch {
       showSpeechFeedback('Não foi possível processar o áudio.', false);
     }
+    stopRecordingVisual();
   };
 
   recognition.onerror = () => {
     showSpeechFeedback('Não foi possível capturar o áudio. Tente novamente.', false);
+    stopRecordingVisual();
+  };
+
+  recognition.onend = () => {
+    stopRecordingVisual();
   };
 
   recognition.start();
