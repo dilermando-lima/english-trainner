@@ -5,325 +5,433 @@
       "QE": "Can you come to the party?",
       "QP": "Você pode vir à festa?",
       "AE": "Yes, I would love to. Thank you for inviting me.",
-      "AP": "Sim, adoraria. Obrigado por me convidar."
+      "AP": "Sim, adoraria. Obrigado por me convidar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am sorry, I cannot make it. I have other plans.",
-      "AP": "Desculpe, não posso. Tenho outros compromissos."
+      "AP": "Desculpe, não posso. Tenho outros compromissos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Would you like to join us?",
       "QP": "Quer se juntar a nós?",
       "AE": "Sure, count me in. What time?",
-      "AP": "Claro, pode me incluir. Que horas?"
+      "AP": "Claro, pode me incluir. Que horas?",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She accepted the invitation right away.",
-      "AP": "Ela aceitou o convite na hora."
+      "AP": "Ela aceitou o convite na hora.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Are you free on Saturday?",
       "QP": "Você está livre no sábado?",
       "AE": "I am not sure yet. Can I let you know tomorrow?",
-      "AP": "Não tenho certeza ainda. Posso avisar amanhã?"
+      "AP": "Não tenho certeza ainda. Posso avisar amanhã?",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I would love to but I have to work. Maybe next time.",
-      "AP": "Adoraria mas tenho que trabalhar. Talvez na próxima."
+      "AP": "Adoraria mas tenho que trabalhar. Talvez na próxima.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you want to come?",
       "QP": "Quer vir?",
       "AE": "Yes, definitely. I have been looking forward to it.",
-      "AP": "Sim, com certeza. Estava ansioso por isso."
+      "AP": "Sim, com certeza. Estava ansioso por isso.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He declined politely. He had a family thing.",
-      "AP": "Ele recusou com educação. Tinha um compromisso familiar."
+      "AP": "Ele recusou com educação. Tinha um compromisso familiar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Can you make it to the meeting?",
       "QP": "Você pode vir à reunião?",
       "AE": "I am afraid I cannot. I will be out of town.",
-      "AP": "Receio que não. Estarei fora da cidade."
+      "AP": "Receio que não. Estarei fora da cidade.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "Thank you for the invite. I will be there.",
-      "AP": "Obrigado pelo convite. Estarei lá."
+      "AP": "Obrigado pelo convite. Estarei lá.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Would you be able to attend?",
       "QP": "Você poderia comparecer?",
       "AE": "Yes, I have put it on my calendar.",
-      "AP": "Sim, já coloquei na minha agenda."
+      "AP": "Sim, já coloquei na minha agenda.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I had to say no. I was double-booked.",
-      "AP": "Tive que dizer não. Tinha dois compromissos no mesmo horário."
+      "AP": "Tive que dizer não. Tinha dois compromissos no mesmo horário.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you want to go out tonight?",
       "QP": "Quer sair hoje à noite?",
       "AE": "I would like to but I am too tired. Another time?",
-      "AP": "Gostaria mas estou muito cansado. Outra hora?"
+      "AP": "Gostaria mas estou muito cansado. Outra hora?",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She said she would try to come. She was not sure.",
-      "AP": "Ela disse que tentaria vir. Não tinha certeza."
+      "AP": "Ela disse que tentaria vir. Não tinha certeza.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Are you coming to the wedding?",
       "QP": "Você vai ao casamento?",
       "AE": "Yes, I would not miss it for the world.",
-      "AP": "Sim, não perderia por nada."
+      "AP": "Sim, não perderia por nada.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I regret that I cannot attend. Please send my regards.",
-      "AP": "Lamento não poder comparecer. Envie meus cumprimentos."
+      "AP": "Lamento não poder comparecer. Envie meus cumprimentos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Can we count on you?",
       "QP": "Podemos contar com você?",
       "AE": "Absolutely. I will be there.",
-      "AP": "Com certeza. Estarei lá."
+      "AP": "Com certeza. Estarei lá.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He accepted and asked if he could bring a friend.",
-      "AP": "Ele aceitou e perguntou se podia trazer um amigo."
+      "AP": "Ele aceitou e perguntou se podia trazer um amigo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Would it be possible for you to come?",
       "QP": "Seria possível você vir?",
       "AE": "Let me check. I think I can. I will confirm.",
-      "AP": "Deixe-me verificar. Acho que posso. Confirmo."
+      "AP": "Deixe-me verificar. Acho que posso. Confirmo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I had to turn it down. I was sick.",
-      "AP": "Tive que recusar. Estava doente."
+      "AP": "Tive que recusar. Estava doente.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you accept the invitation?",
       "QP": "Você aceita o convite?",
       "AE": "Yes, with pleasure. Thank you.",
-      "AP": "Sim, com prazer. Obrigado."
+      "AP": "Sim, com prazer. Obrigado.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She could not make it. She sent her apologies.",
-      "AP": "Ela não pôde ir. Enviou desculpas."
+      "AP": "Ela não pôde ir. Enviou desculpas.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Are you in for the trip?",
       "QP": "Você topa a viagem?",
       "AE": "I am in. When do we leave?",
-      "AP": "Topo. Quando partimos?"
+      "AP": "Topo. Quando partimos?",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I said maybe. I need to see if I can switch my shift.",
-      "AP": "Disse talvez. Preciso ver se consigo trocar meu turno."
+      "AP": "Disse talvez. Preciso ver se consigo trocar meu turno.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Can you join us for dinner?",
       "QP": "Pode jantar conosco?",
       "AE": "I would love to. What can I bring?",
-      "AP": "Adoraria. O que posso levar?"
+      "AP": "Adoraria. O que posso levar?",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He was sorry he could not come. He had to work.",
-      "AP": "Ele lamentou não poder vir. Tinha que trabalhar."
+      "AP": "Ele lamentou não poder vir. Tinha que trabalhar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you think you can make it?",
       "QP": "Você acha que consegue vir?",
       "AE": "I will do my best. I really want to be there.",
-      "AP": "Farei o possível. Quero muito estar lá."
+      "AP": "Farei o possível. Quero muito estar lá.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I had to decline. It was too short notice.",
-      "AP": "Tive que recusar. Foi em cima da hora."
+      "AP": "Tive que recusar. Foi em cima da hora.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Will you be there?",
       "QP": "Você estará lá?",
       "AE": "Yes, I will. Looking forward to it.",
-      "AP": "Sim, estarei. Ansioso por isso."
+      "AP": "Sim, estarei. Ansioso por isso.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She said yes right away. She was excited.",
-      "AP": "Ela disse sim na hora. Estava animada."
+      "AP": "Ela disse sim na hora. Estava animada.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Can you come to the baby shower?",
       "QP": "Você pode vir ao chá de bebê?",
       "AE": "Unfortunately I cannot. I will send a gift.",
-      "AP": "Infelizmente não posso. Enviarei um presente."
+      "AP": "Infelizmente não posso. Enviarei um presente.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I accepted. I have already blocked the date.",
-      "AP": "Aceitei. Já reservei a data."
+      "AP": "Aceitei. Já reservei a data.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Would you like to be our guest?",
       "QP": "Você gostaria de ser nosso convidado?",
       "AE": "That is very kind. I would be delighted.",
-      "AP": "Muito gentil. Ficaria encantado."
+      "AP": "Muito gentil. Ficaria encantado.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He could not commit. He said he would try.",
-      "AP": "Ele não pôde se comprometer. Disse que tentaria."
+      "AP": "Ele não pôde se comprometer. Disse que tentaria.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Are you able to attend?",
       "QP": "Você pode comparecer?",
       "AE": "Yes, I am. Thank you for thinking of me.",
-      "AP": "Sim, posso. Obrigado por pensar em mim."
+      "AP": "Sim, posso. Obrigado por pensar em mim.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I had to say no. I had another engagement.",
-      "AP": "Tive que dizer não. Tinha outro compromisso."
+      "AP": "Tive que dizer não. Tinha outro compromisso.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you want to be there?",
       "QP": "Você quer estar lá?",
       "AE": "Yes, I do. I would not miss it.",
-      "AP": "Sim, quero. Não perderia."
+      "AP": "Sim, quero. Não perderia.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She thanked them but said she could not make it.",
-      "AP": "Ela agradeceu mas disse que não poderia ir."
+      "AP": "Ela agradeceu mas disse que não poderia ir.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Can we expect you?",
       "QP": "Podemos contar com sua presença?",
       "AE": "Yes, you can. I will be there on time.",
-      "AP": "Sim. Estarei lá no horário."
+      "AP": "Sim. Estarei lá no horário.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I wish I could but I have a conflict.",
-      "AP": "Queria poder mas tenho um conflito."
+      "AP": "Queria poder mas tenho um conflito.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Would you come if we changed the date?",
       "QP": "Você viria se mudássemos a data?",
       "AE": "Maybe. Let me check. I could do the following week.",
-      "AP": "Talvez. Deixe-me ver. Poderia na semana seguinte."
+      "AP": "Talvez. Deixe-me ver. Poderia na semana seguinte.",
+      "QG": "M",
+      "AG": "F"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He said he would come. He confirmed yesterday.",
-      "AP": "Ele disse que viria. Confirmou ontem."
+      "AP": "Ele disse que viria. Confirmou ontem.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you need to check your schedule?",
       "QP": "Você precisa verificar sua agenda?",
       "AE": "Yes, give me a moment. I will get back to you.",
-      "AP": "Sim, me dá um momento. Retorno para você."
+      "AP": "Sim, me dá um momento. Retorno para você.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am so sorry I cannot come. I hope you have a great time.",
-      "AP": "Sinto muito não poder ir. Espero que se divirtam."
+      "AP": "Sinto muito não poder ir. Espero que se divirtam.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Will you join us?",
       "QP": "Você se junta a nós?",
       "AE": "Yes, I will. It sounds like fun.",
-      "AP": "Sim. Parece divertido."
+      "AP": "Sim. Parece divertido.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She was happy to accept. She marked her calendar.",
-      "AP": "Ela ficou feliz em aceitar. Marcou na agenda."
+      "AP": "Ela ficou feliz em aceitar. Marcou na agenda.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Can you make it or not?",
       "QP": "Você pode ou não?",
       "AE": "I can. Count me in. Thanks.",
-      "AP": "Posso. Pode me incluir. Obrigado."
+      "AP": "Posso. Pode me incluir. Obrigado.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I had to refuse. I was not feeling well.",
-      "AP": "Tive que recusar. Não estava me sentindo bem."
+      "AP": "Tive que recusar. Não estava me sentindo bem.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Would you consider coming?",
       "QP": "Você consideraria vir?",
       "AE": "I would. Let me see if I can rearrange things.",
-      "AP": "Consideraria. Deixe-me ver se consigo remarcar."
+      "AP": "Consideraria. Deixe-me ver se consigo remarcar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He said no but offered to help with the planning.",
-      "AP": "Ele disse não mas se ofereceu para ajudar no planejamento."
+      "AP": "Ele disse não mas se ofereceu para ajudar no planejamento.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Are you coming or not?",
       "QP": "Você vem ou não?",
       "AE": "I am coming. I already said yes.",
-      "AP": "Vou. Já disse que sim."
+      "AP": "Vou. Já disse que sim.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I accepted with pleasure. I cannot wait.",
-      "AP": "Aceitei com prazer. Mal posso esperar."
+      "AP": "Aceitei com prazer. Mal posso esperar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you have to decline?",
       "QP": "Você tem que recusar?",
       "AE": "I am afraid so. I have a prior commitment.",
-      "AP": "Receio que sim. Tenho um compromisso anterior."
+      "AP": "Receio que sim. Tenho um compromisso anterior.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She was unable to attend. She sent her best wishes.",
-      "AP": "Ela não pôde comparecer. Enviou os melhores votos."
+      "AP": "Ela não pôde comparecer. Enviou os melhores votos.",
+      "QG": "F",
+      "AG": "F"
     }
   ]
 }

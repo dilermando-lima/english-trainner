@@ -5,325 +5,433 @@
       "QE": "What is the status of the project?",
       "QP": "Qual é o status do projeto?",
       "AE": "We are on track. Eighty percent done.",
-      "AP": "Estamos no prazo. Oitenta por cento feito."
+      "AP": "Estamos no prazo. Oitenta por cento feito.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I will send you an update by end of day.",
-      "AP": "Enviarei uma atualização até o fim do dia."
+      "AP": "Enviarei uma atualização até o fim do dia.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How are things going?",
       "QP": "Como estão indo as coisas?",
       "AE": "Going well. No major issues.",
-      "AP": "Indo bem. Sem problemas maiores."
+      "AP": "Indo bem. Sem problemas maiores.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She gave a clear status in the meeting.",
-      "AP": "Ela deu um status claro na reunião."
+      "AP": "Ela deu um status claro na reunião.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Are we on schedule?",
       "QP": "Estamos no cronograma?",
       "AE": "Yes. We might even finish early.",
-      "AP": "Sim. Podemos até terminar antes."
+      "AP": "Sim. Podemos até terminar antes.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am still working on it. Update tomorrow.",
-      "AP": "Ainda estou trabalhando. Atualizo amanhã."
+      "AP": "Ainda estou trabalhando. Atualizo amanhã.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is the latest?",
       "QP": "Qual é a última novidade?",
       "AE": "The client approved the design. We can proceed.",
-      "AP": "O cliente aprovou o design. Podemos seguir."
+      "AP": "O cliente aprovou o design. Podemos seguir.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He sends a weekly status email every Friday.",
-      "AP": "Ele manda um e-mail de status toda sexta."
+      "AP": "Ele manda um e-mail de status toda sexta.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Can you give me a quick update?",
       "QP": "Pode me dar uma atualização rápida?",
       "AE": "Sure. Done with phase one. Starting phase two.",
-      "AP": "Claro. Concluí a fase um. Iniciando fase dois."
+      "AP": "Claro. Concluí a fase um. Iniciando fase dois.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We are behind. I will explain in the call.",
-      "AP": "Estamos atrasados. Explico na call."
+      "AP": "Estamos atrasados. Explico na call.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What did you accomplish this week?",
       "QP": "O que você realizou esta semana?",
       "AE": "I finished the report and sent three proposals.",
-      "AP": "Terminei o relatório e enviei três propostas."
+      "AP": "Terminei o relatório e enviei três propostas.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She keeps the stakeholder updated every Monday.",
-      "AP": "Ela mantém o stakeholder atualizado toda segunda."
+      "AP": "Ela mantém o stakeholder atualizado toda segunda.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Is there any blocker?",
       "QP": "Há algum bloqueio?",
       "AE": "No blockers. Everything is moving.",
-      "AP": "Sem bloqueios. Tudo em andamento."
+      "AP": "Sem bloqueios. Tudo em andamento.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I will add this to the next status report.",
-      "AP": "Incluirei isso no próximo relatório de status."
+      "AP": "Incluirei isso no próximo relatório de status.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "When will you have an update?",
       "QP": "Quando você terá uma atualização?",
       "AE": "I will have something by Wednesday.",
-      "AP": "Terei algo até quarta."
+      "AP": "Terei algo até quarta.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He gave a brief update in the standup.",
-      "AP": "Ele deu um resumo na daily."
+      "AP": "Ele deu um resumo na daily.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is the risk level?",
       "QP": "Qual é o nível de risco?",
       "AE": "Low. We have a small delay but under control.",
-      "AP": "Baixo. Temos um atraso pequeno mas sob controle."
+      "AP": "Baixo. Temos um atraso pequeno mas sob controle.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We are green on all milestones so far.",
-      "AP": "Estamos verdes em todos os marcos até agora."
+      "AP": "Estamos verdes em todos os marcos até agora.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you need to escalate anything?",
       "QP": "Você precisa escalar algo?",
       "AE": "Not yet. I will flag it if that changes.",
-      "AP": "Ainda não. Sinalizo se mudar."
+      "AP": "Ainda não. Sinalizo se mudar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She shared the dashboard. Numbers look good.",
-      "AP": "Ela compartilhou o dashboard. Os números estão bons."
+      "AP": "Ela compartilhou o dashboard. Os números estão bons.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "What is the next milestone?",
       "QP": "Qual é o próximo marco?",
       "AE": "Launch in two weeks. We are on track.",
-      "AP": "Lançamento em duas semanas. No prazo."
+      "AP": "Lançamento em duas semanas. No prazo.",
+      "QG": "M",
+      "AG": "F"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I sent a status email this morning.",
-      "AP": "Enviei um e-mail de status esta manhã."
+      "AP": "Enviei um e-mail de status esta manhã.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How do you communicate progress?",
       "QP": "Como você comunica o progresso?",
       "AE": "Weekly email and updates in the project tool.",
-      "AP": "E-mail semanal e atualizações na ferramenta."
+      "AP": "E-mail semanal e atualizações na ferramenta.",
+      "QG": "M",
+      "AG": "F"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He reported a delay. We are adjusting the plan.",
-      "AP": "Ele reportou um atraso. Estamos ajustando o plano."
+      "AP": "Ele reportou um atraso. Estamos ajustando o plano.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What percentage is complete?",
       "QP": "Qual percentual está completo?",
       "AE": "About seventy percent. Slightly ahead.",
-      "AP": "Cerca de setenta por cento. Um pouco à frente."
+      "AP": "Cerca de setenta por cento. Um pouco à frente.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We need to update the timeline.",
-      "AP": "Precisamos atualizar o cronograma."
+      "AP": "Precisamos atualizar o cronograma.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Can you summarize the status?",
       "QP": "Pode resumir o status?",
       "AE": "On track. Two items pending. No risks.",
-      "AP": "No prazo. Dois itens pendentes. Sem riscos."
+      "AP": "No prazo. Dois itens pendentes. Sem riscos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She gives verbal updates in the weekly call.",
-      "AP": "Ela dá atualizações verbais na call semanal."
+      "AP": "Ela dá atualizações verbais na call semanal.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "What changed since last week?",
       "QP": "O que mudou desde a semana passada?",
       "AE": "We closed two bugs. One new issue found.",
-      "AP": "Fechamos dois bugs. Um novo problema encontrado."
+      "AP": "Fechamos dois bugs. Um novo problema encontrado.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I will put the details in the report.",
-      "AP": "Colocarei os detalhes no relatório."
+      "AP": "Colocarei os detalhes no relatório.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Is the client happy?",
       "QP": "O cliente está satisfeito?",
       "AE": "Yes. They said the update was clear.",
-      "AP": "Sim. Disseram que a atualização foi clara."
+      "AP": "Sim. Disseram que a atualização foi clara.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He uses a template for status updates.",
-      "AP": "Ele usa um modelo para atualizações de status."
+      "AP": "Ele usa um modelo para atualizações de status.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What do you need from me?",
       "QP": "O que você precisa de mim?",
       "AE": "Just approval on the design. Then we proceed.",
-      "AP": "Só aprovação no design. Depois seguimos."
+      "AP": "Só aprovação no design. Depois seguimos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We are yellow on one task. Rest is green.",
-      "AP": "Estamos amarelos em uma tarefa. O resto verde."
+      "AP": "Estamos amarelos em uma tarefa. O resto verde.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How often do you report?",
       "QP": "Com que frequência você reporta?",
       "AE": "Daily standup and a written summary on Friday.",
-      "AP": "Daily standup e um resumo por escrito na sexta."
+      "AP": "Daily standup e um resumo por escrito na sexta.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She highlighted the wins and the risks.",
-      "AP": "Ela destacou as conquistas e os riscos."
+      "AP": "Ela destacou as conquistas e os riscos.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "What is blocking progress?",
       "QP": "O que está bloqueando o progresso?",
       "AE": "Waiting for feedback from legal. Should come soon.",
-      "AP": "Aguardando retorno jurídico. Deve vir em breve."
+      "AP": "Aguardando retorno jurídico. Deve vir em breve.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I will share the slide deck after the meeting.",
-      "AP": "Compartilharei os slides após a reunião."
+      "AP": "Compartilharei os slides após a reunião.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you have metrics to share?",
       "QP": "Você tem métricas para compartilhar?",
       "AE": "Yes. Conversion is up. Traffic is stable.",
-      "AP": "Sim. Conversão subiu. Tráfego estável."
+      "AP": "Sim. Conversão subiu. Tráfego estável.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He keeps the status short and actionable.",
-      "AP": "Ele mantém o status curto e acionável."
+      "AP": "Ele mantém o status curto e acionável.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What should we focus on next?",
       "QP": "Em que devemos focar a seguir?",
       "AE": "Testing and documentation. Then we launch.",
-      "AP": "Testes e documentação. Depois lançamos."
+      "AP": "Testes e documentação. Depois lançamos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We sent a formal status to the sponsor.",
-      "AP": "Enviamos um status formal ao patrocinador."
+      "AP": "Enviamos um status formal ao patrocinador.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Is everything under control?",
       "QP": "Está tudo sob controle?",
       "AE": "Yes. One small delay but we have buffer.",
-      "AP": "Sim. Um atraso pequeno mas temos folga."
+      "AP": "Sim. Um atraso pequeno mas temos folga.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She asked for a status before the board meeting.",
-      "AP": "Ela pediu um status antes da reunião do conselho."
+      "AP": "Ela pediu um status antes da reunião do conselho.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "What format do you use for updates?",
       "QP": "Que formato você usa para atualizações?",
       "AE": "Bullet points. Green, yellow, red per area.",
-      "AP": "Tópicos. Verde, amarelo, vermelho por área."
+      "AP": "Tópicos. Verde, amarelo, vermelho por área.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I will give you a quick verbal update now.",
-      "AP": "Te dou uma atualização verbal rápida agora."
+      "AP": "Te dou uma atualização verbal rápida agora.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Have you informed the team?",
       "QP": "Você informou a equipe?",
       "AE": "Yes. I sent a message in the channel.",
-      "AP": "Sim. Mandei uma mensagem no canal."
+      "AP": "Sim. Mandei uma mensagem no canal.",
+      "QG": "M",
+      "AG": "F"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He includes next steps in every update.",
-      "AP": "Ele inclui próximos passos em toda atualização."
+      "AP": "Ele inclui próximos passos em toda atualização.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is the bottom line?",
       "QP": "Qual é a conclusão?",
       "AE": "We are on track for the December release.",
-      "AP": "Estamos no prazo para o release de dezembro."
+      "AP": "Estamos no prazo para o release de dezembro.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We need to align on the status before the call.",
-      "AP": "Precisamos alinhar o status antes da call."
+      "AP": "Precisamos alinhar o status antes da call.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you send written or verbal updates?",
       "QP": "Você manda atualizações por escrito ou verbal?",
       "AE": "Both. Verbal in meetings, written weekly.",
-      "AP": "Os dois. Verbal em reuniões, escrito semanal."
+      "AP": "Os dois. Verbal em reuniões, escrito semanal.",
+      "QG": "M",
+      "AG": "F"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She shared the status in the shared doc.",
-      "AP": "Ela compartilhou o status no doc compartilhado."
+      "AP": "Ela compartilhou o status no doc compartilhado.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "What did management say?",
       "QP": "O que a gerência disse?",
       "AE": "They asked for more detail on the delay.",
-      "AP": "Eles pediram mais detalhes sobre o atraso."
+      "AP": "Eles pediram mais detalhes sobre o atraso.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I update the tracker every day.",
-      "AP": "Atualizo o rastreador todo dia."
+      "AP": "Atualizo o rastreador todo dia.",
+      "QG": "F",
+      "AG": "M"
     }
   ]
 }

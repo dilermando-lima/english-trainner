@@ -5,301 +5,401 @@
       "QE": "Do you have any siblings?",
       "QP": "Você tem irmãos?",
       "AE": "Yes, I have two brothers and one sister.",
-      "AP": "Sim, tenho dois irmãos e uma irmã."
+      "AP": "Sim, tenho dois irmãos e uma irmã.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She is very close to her parents.",
-      "AP": "Ela é muito próxima dos pais."
+      "AP": "Ela é muito próxima dos pais.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "How many people are in your family?",
       "QP": "Quantas pessoas há na sua família?",
       "AE": "We are five. My parents, two siblings, and me.",
-      "AP": "Somos cinco. Meus pais, dois irmãos e eu."
+      "AP": "Somos cinco. Meus pais, dois irmãos e eu.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He looks like his father. Same smile.",
-      "AP": "Ele se parece com o pai. Mesmo sorriso."
+      "AP": "Ele se parece com o pai. Mesmo sorriso.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Where does your family live?",
       "QP": "Onde sua família mora?",
       "AE": "My parents live in the countryside. Siblings in the city.",
-      "AP": "Meus pais moram no interior. Irmãos na cidade."
+      "AP": "Meus pais moram no interior. Irmãos na cidade.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We get together every Christmas.",
-      "AP": "Nos reunimos todo Natal."
+      "AP": "Nos reunimos todo Natal.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What does your mother do?",
       "QP": "O que sua mãe faz?",
       "AE": "She is a teacher. She has been for twenty years.",
-      "AP": "Ela é professora. Há vinte anos."
+      "AP": "Ela é professora. Há vinte anos.",
+      "QG": "M",
+      "AG": "F"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He talks to his family every Sunday.",
-      "AP": "Ele fala com a família todo domingo."
+      "AP": "Ele fala com a família todo domingo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you have children?",
       "QP": "Você tem filhos?",
       "AE": "Yes, two. A boy and a girl.",
-      "AP": "Sim, dois. Um menino e uma menina."
+      "AP": "Sim, dois. Um menino e uma menina.",
+      "QG": "M",
+      "AG": "F"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She is the oldest of four.",
-      "AP": "Ela é a mais velha de quatro."
+      "AP": "Ela é a mais velha de quatro.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "How often do you see your family?",
       "QP": "Com que frequência você vê sua família?",
       "AE": "Not enough. Maybe once a month.",
-      "AP": "Não o suficiente. Talvez uma vez por mês."
+      "AP": "Não o suficiente. Talvez uma vez por mês.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "My grandfather fought in the war.",
-      "AP": "Meu avô lutou na guerra."
+      "AP": "Meu avô lutou na guerra.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is your father like?",
       "QP": "Como é seu pai?",
       "AE": "He is quiet but very kind. He loves to read.",
-      "AP": "Ele é quieto mas muito gentil. Adora ler."
+      "AP": "Ele é quieto mas muito gentil. Adora ler.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We have a big family. Lots of cousins.",
-      "AP": "Temos uma família grande. Muitos primos."
+      "AP": "Temos uma família grande. Muitos primos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Are you married?",
       "QP": "Você é casado?",
       "AE": "Yes, I have been married for ten years.",
-      "AP": "Sim, sou casado há dez anos."
+      "AP": "Sim, sou casado há dez anos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She takes after her mother. Same personality.",
-      "AP": "Ela puxou à mãe. Mesma personalidade."
+      "AP": "Ela puxou à mãe. Mesma personalidade.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Do you have any pets?",
       "QP": "Você tem animais de estimação?",
       "AE": "Yes, a dog and a cat. They are part of the family.",
-      "AP": "Sim, um cachorro e um gato. São da família."
+      "AP": "Sim, um cachorro e um gato. São da família.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He is a single parent. He raises his son alone.",
-      "AP": "Ele é pai solo. Cria o filho sozinho."
+      "AP": "Ele é pai solo. Cria o filho sozinho.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What do you do with your family on weekends?",
       "QP": "O que vocês fazem em família nos fins de semana?",
       "AE": "We have lunch together. Sometimes we go out.",
-      "AP": "Almoçamos juntos. Às vezes saímos."
+      "AP": "Almoçamos juntos. Às vezes saímos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "My grandmother lives with us. She is ninety.",
-      "AP": "Minha avó mora conosco. Ela tem noventa anos."
+      "AP": "Minha avó mora conosco. Ela tem noventa anos.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "How did you meet your spouse?",
       "QP": "Como você conheceu seu cônjuge?",
       "AE": "We met at work. We have been together since.",
-      "AP": "Nos conhecemos no trabalho. Estamos juntos desde então."
+      "AP": "Nos conhecemos no trabalho. Estamos juntos desde então.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She has a twin sister. They are very close.",
-      "AP": "Ela tem uma irmã gêmea. São muito unidas."
+      "AP": "Ela tem uma irmã gêmea. São muito unidas.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "What are your kids like?",
       "QP": "Como são seus filhos?",
       "AE": "They are active and curious. Always asking questions.",
-      "AP": "São ativos e curiosos. Sempre fazendo perguntas."
+      "AP": "São ativos e curiosos. Sempre fazendo perguntas.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We are planning a family reunion next summer.",
-      "AP": "Estamos planejando uma reunião de família no verão."
+      "AP": "Estamos planejando uma reunião de família no verão.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you have a big or small family?",
       "QP": "Você tem família grande ou pequena?",
       "AE": "Small. Just my parents and my brother.",
-      "AP": "Pequena. Só meus pais e meu irmão."
+      "AP": "Pequena. Só meus pais e meu irmão.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He is the youngest in the family.",
-      "AP": "Ele é o caçula da família."
+      "AP": "Ele é o caçula da família.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What do your parents do for a living?",
       "QP": "O que seus pais fazem da vida?",
       "AE": "My dad is retired. My mom still works part-time.",
-      "AP": "Meu pai é aposentado. Minha mãe ainda trabalha em meio período."
+      "AP": "Meu pai é aposentado. Minha mãe ainda trabalha em meio período.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She is married with three children.",
-      "AP": "Ela é casada e tem três filhos."
+      "AP": "Ela é casada e tem três filhos.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "How is your relationship with your siblings?",
       "QP": "Como é sua relação com seus irmãos?",
       "AE": "Good. We argue sometimes but we love each other.",
-      "AP": "Boa. Brigamos às vezes mas nos amamos."
+      "AP": "Boa. Brigamos às vezes mas nos amamos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "My family is very supportive. They always help.",
-      "AP": "Minha família é muito apoiadora. Sempre ajudam."
+      "AP": "Minha família é muito apoiadora. Sempre ajudam.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you have nieces or nephews?",
       "QP": "Você tem sobrinhos?",
       "AE": "Yes, four nephews and two nieces.",
-      "AP": "Sim, quatro sobrinhos e duas sobrinhas."
+      "AP": "Sim, quatro sobrinhos e duas sobrinhas.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He visits his in-laws every month.",
-      "AP": "Ele visita os sogros todo mês."
+      "AP": "Ele visita os sogros todo mês.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is your favorite family tradition?",
       "QP": "Qual é sua tradição familiar favorita?",
       "AE": "Making pasta together on Sundays.",
-      "AP": "Fazer massa juntos aos domingos."
+      "AP": "Fazer massa juntos aos domingos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We are a blended family. My spouse has two kids.",
-      "AP": "Somos uma família reconstituída. Meu cônjuge tem dois filhos."
+      "AP": "Somos uma família reconstituída. Meu cônjuge tem dois filhos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How old are your parents?",
       "QP": "Quantos anos têm seus pais?",
       "AE": "My dad is seventy. My mom is sixty-eight.",
-      "AP": "Meu pai tem setenta. Minha mãe tem sessenta e oito."
+      "AP": "Meu pai tem setenta. Minha mãe tem sessenta e oito.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She is expecting. The baby is due in June.",
-      "AP": "Ela está grávida. O bebê nasce em junho."
+      "AP": "Ela está grávida. O bebê nasce em junho.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Do you look like your family?",
       "QP": "Você se parece com sua família?",
       "AE": "I look like my dad. Same eyes and nose.",
-      "AP": "Me pareço com meu pai. Mesmos olhos e nariz."
+      "AP": "Me pareço com meu pai. Mesmos olhos e nariz.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "My brother is getting married next year.",
-      "AP": "Meu irmão vai casar no ano que vem."
+      "AP": "Meu irmão vai casar no ano que vem.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What do you admire about your family?",
       "QP": "O que você admira na sua família?",
       "AE": "Their resilience. They never give up.",
-      "AP": "A resiliência deles. Nunca desistem."
+      "AP": "A resiliência deles. Nunca desistem.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He is divorced. He has joint custody.",
-      "AP": "Ele é divorciado. Tem guarda compartilhada."
+      "AP": "Ele é divorciado. Tem guarda compartilhada.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How do you stay in touch?",
       "QP": "Como vocês mantêm contato?",
       "AE": "We have a family group on WhatsApp. We chat daily.",
-      "AP": "Temos um grupo de família no WhatsApp. Conversamos todo dia."
+      "AP": "Temos um grupo de família no WhatsApp. Conversamos todo dia.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She is the middle child. She says it is hard.",
-      "AP": "Ela é a filha do meio. Diz que é difícil."
+      "AP": "Ela é a filha do meio. Diz que é difícil.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Do you have a family business?",
       "QP": "Você tem um negócio de família?",
       "AE": "Yes. My father started it. We all work there.",
-      "AP": "Sim. Meu pai começou. Todos trabalhamos lá."
+      "AP": "Sim. Meu pai começou. Todos trabalhamos lá.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We are very different but we get along.",
-      "AP": "Somos muito diferentes mas nos damos bem."
+      "AP": "Somos muito diferentes mas nos damos bem.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is the best thing about your family?",
       "QP": "Qual é a melhor coisa da sua família?",
       "AE": "We always support each other. No matter what.",
-      "AP": "Sempre nos apoiamos. Não importa o quê."
+      "AP": "Sempre nos apoiamos. Não importa o quê.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "His parents are from Italy. He visits every year.",
-      "AP": "Os pais dele são da Itália. Ele visita todo ano."
+      "AP": "Os pais dele são da Itália. Ele visita todo ano.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How many generations live together?",
       "QP": "Quantas gerações moram juntas?",
       "AE": "Three. My grandmother, my parents, and us.",
-      "AP": "Três. Minha avó, meus pais e nós."
+      "AP": "Três. Minha avó, meus pais e nós.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She is proud of her family. She talks about them a lot.",
-      "AP": "Ela tem orgulho da família. Fala muito deles."
+      "AP": "Ela tem orgulho da família. Fala muito deles.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Do you have family abroad?",
       "QP": "Você tem família no exterior?",
       "AE": "Yes, my uncle and cousins in Canada.",
-      "AP": "Sim, meu tio e primos no Canadá."
+      "AP": "Sim, meu tio e primos no Canadá.",
+      "QG": "M",
+      "AG": "F"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We argue sometimes but we always make up.",
-      "AP": "Brigamos às vezes mas sempre nos reconciliamos."
+      "AP": "Brigamos às vezes mas sempre nos reconciliamos.",
+      "QG": "F",
+      "AG": "M"
     }
   ]
 }

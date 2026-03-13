@@ -5,313 +5,417 @@
       "QE": "Do you agree with that?",
       "QP": "Você concorda com isso?",
       "AE": "Yes, I completely agree. Good point.",
-      "AP": "Sim, concordo totalmente. Bom ponto."
+      "AP": "Sim, concordo totalmente. Bom ponto.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I disagree. I think we should try something else.",
-      "AP": "Discordo. Acho que devemos tentar outra coisa."
+      "AP": "Discordo. Acho que devemos tentar outra coisa.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What do you think?",
       "QP": "O que você acha?",
       "AE": "I agree with you. That makes sense.",
-      "AP": "Concordo com você. Faz sentido."
+      "AP": "Concordo com você. Faz sentido.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She agreed to the plan. We can move forward.",
-      "AP": "Ela concordou com o plano. Podemos seguir em frente."
+      "AP": "Ela concordou com o plano. Podemos seguir em frente.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Do you see it the same way?",
       "QP": "Você vê da mesma forma?",
       "AE": "Not exactly. I have a different view.",
-      "AP": "Não exatamente. Tenho uma visão diferente."
+      "AP": "Não exatamente. Tenho uma visão diferente.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I could not agree more. You are right.",
-      "AP": "Não poderia concordar mais. Você está certo."
+      "AP": "Não poderia concordar mais. Você está certo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Are we on the same page?",
       "QP": "Estamos na mesma página?",
       "AE": "Yes, we are. I think we all agree.",
-      "AP": "Sim. Acho que todos concordamos."
+      "AP": "Sim. Acho que todos concordamos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He disagreed politely. He gave his reasons.",
-      "AP": "Ele discordou com educação. Deu seus motivos."
+      "AP": "Ele discordou com educação. Deu seus motivos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you agree or disagree?",
       "QP": "Você concorda ou discorda?",
       "AE": "I partly agree. But not with the last part.",
-      "AP": "Concordo em parte. Mas não com a última parte."
+      "AP": "Concordo em parte. Mas não com a última parte.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "That is a good point. I had not thought of that.",
-      "AP": "É um bom ponto. Não tinha pensado nisso."
+      "AP": "É um bom ponto. Não tinha pensado nisso.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is your take on this?",
       "QP": "Qual é sua opinião sobre isso?",
       "AE": "I agree with Maria. Her idea is better.",
-      "AP": "Concordo com a Maria. A ideia dela é melhor."
+      "AP": "Concordo com a Maria. A ideia dela é melhor.",
+      "QG": "M",
+      "AG": "F"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We agreed to disagree. We moved on.",
-      "AP": "Concordamos em discordar. Seguimos em frente."
+      "AP": "Concordamos em discordar. Seguimos em frente.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Does anyone disagree?",
       "QP": "Alguém discorda?",
       "AE": "I do. I have some concerns.",
-      "AP": "Eu discordo. Tenho algumas preocupações."
+      "AP": "Eu discordo. Tenho algumas preocupações.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She nodded in agreement. She did not say anything.",
-      "AP": "Ela concordou com a cabeça. Não disse nada."
+      "AP": "Ela concordou com a cabeça. Não disse nada.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Do you share my opinion?",
       "QP": "Você compartilha minha opinião?",
       "AE": "Yes, I do. We think alike.",
-      "AP": "Sim. Pensamos igual."
+      "AP": "Sim. Pensamos igual.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I see your point but I still disagree.",
-      "AP": "Entendo seu ponto mas ainda discordo."
+      "AP": "Entendo seu ponto mas ainda discordo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Is that fair to say?",
       "QP": "É justo dizer isso?",
       "AE": "Yes, I think so. I agree.",
-      "AP": "Sim, acho que sim. Concordo."
+      "AP": "Sim, acho que sim. Concordo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He was the only one who disagreed.",
-      "AP": "Ele foi o único que discordou."
+      "AP": "Ele foi o único que discordou.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you go along with that?",
       "QP": "Você concorda com isso?",
       "AE": "I do. It seems like the best option.",
-      "AP": "Concordo. Parece a melhor opção."
+      "AP": "Concordo. Parece a melhor opção.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I respectfully disagree. Here is why.",
-      "AP": "Respeitosamente discordo. Eis o porquê."
+      "AP": "Respeitosamente discordo. Eis o porquê.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Can we all agree on this?",
       "QP": "Podemos todos concordar com isso?",
       "AE": "Yes. I think we are aligned.",
-      "AP": "Sim. Acho que estamos alinhados."
+      "AP": "Sim. Acho que estamos alinhados.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She agreed under one condition.",
-      "AP": "Ela concordou sob uma condição."
+      "AP": "Ela concordou sob uma condição.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Do you side with me or with him?",
       "QP": "Você fica do meu lado ou do lado dele?",
       "AE": "I side with you. Your argument is stronger.",
-      "AP": "Fico do seu lado. Seu argumento é mais forte."
+      "AP": "Fico do seu lado. Seu argumento é mais forte.",
+      "QG": "M",
+      "AG": "F"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We could not reach an agreement. We will meet again.",
-      "AP": "Não conseguimos chegar a um acordo. Nos reuniremos de novo."
+      "AP": "Não conseguimos chegar a um acordo. Nos reuniremos de novo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Does that sound right to you?",
       "QP": "Isso parece certo para você?",
       "AE": "Yes, it does. I agree completely.",
-      "AP": "Sim. Concordo completamente."
+      "AP": "Sim. Concordo completamente.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I have to disagree. The data shows otherwise.",
-      "AP": "Tenho que discordar. Os dados mostram o contrário."
+      "AP": "Tenho que discordar. Os dados mostram o contrário.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Are you with me on this?",
       "QP": "Você está comigo nisso?",
       "AE": "Yes, I am. One hundred percent.",
-      "AP": "Sim. Cem por cento."
+      "AP": "Sim. Cem por cento.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He agreed at first but then changed his mind.",
-      "AP": "Ele concordou no início mas depois mudou de ideia."
+      "AP": "Ele concordou no início mas depois mudou de ideia.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you object to this?",
       "QP": "Você se opõe a isso?",
       "AE": "I do not object. I think it is fine.",
-      "AP": "Não me oponho. Acho que está bem."
+      "AP": "Não me oponho. Acho que está bem.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "That is exactly what I think. We agree.",
-      "AP": "É exatamente o que penso. Concordamos."
+      "AP": "É exatamente o que penso. Concordamos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Who agrees with the proposal?",
       "QP": "Quem concorda com a proposta?",
       "AE": "I do. It is a solid plan.",
-      "AP": "Eu concordo. É um plano sólido."
+      "AP": "Eu concordo. É um plano sólido.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She disagreed without being rude. She was polite.",
-      "AP": "Ela discordou sem ser rude. Foi educada."
+      "AP": "Ela discordou sem ser rude. Foi educada.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Do you concur?",
       "QP": "Você concorda?",
       "AE": "I concur. Let us proceed.",
-      "AP": "Concordo. Vamos prosseguir."
+      "AP": "Concordo. Vamos prosseguir.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am not sure I agree. I need to think about it.",
-      "AP": "Não tenho certeza se concordo. Preciso pensar."
+      "AP": "Não tenho certeza se concordo. Preciso pensar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Is there any opposition?",
       "QP": "Há alguma oposição?",
       "AE": "No opposition from me. I am in favor.",
-      "AP": "Nenhuma oposição da minha parte. Sou a favor."
+      "AP": "Nenhuma oposição da minha parte. Sou a favor.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We agreed on a compromise. Both sides gave a little.",
-      "AP": "Concordamos em um meio-termo. Os dois lados cederam."
+      "AP": "Concordamos em um meio-termo. Os dois lados cederam.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you support this idea?",
       "QP": "Você apoia esta ideia?",
       "AE": "Yes, I support it. I think it will work.",
-      "AP": "Sim, apoio. Acho que vai funcionar."
+      "AP": "Sim, apoio. Acho que vai funcionar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He shook his head. He did not agree.",
-      "AP": "Ele balançou a cabeça. Não concordou."
+      "AP": "Ele balançou a cabeça. Não concordou.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Can we get everyone to agree?",
       "QP": "Podemos fazer todos concordarem?",
       "AE": "I hope so. We need consensus.",
-      "AP": "Espero que sim. Precisamos de consenso."
+      "AP": "Espero que sim. Precisamos de consenso.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I agree with you up to a point. Not fully.",
-      "AP": "Concordo com você até certo ponto. Não totalmente."
+      "AP": "Concordo com você até certo ponto. Não totalmente.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you have a different view?",
       "QP": "Você tem uma visão diferente?",
       "AE": "I do. I think we should wait.",
-      "AP": "Tenho. Acho que devemos esperar."
+      "AP": "Tenho. Acho que devemos esperar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She was the first to agree. Others followed.",
-      "AP": "Ela foi a primeira a concordar. Outros seguiram."
+      "AP": "Ela foi a primeira a concordar. Outros seguiram.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Is that your final position?",
       "QP": "Essa é sua posição final?",
       "AE": "Yes. I cannot agree to that. Sorry.",
-      "AP": "Sim. Não posso concordar com isso. Desculpe."
+      "AP": "Sim. Não posso concordar com isso. Desculpe.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We all agreed it was the right call.",
-      "AP": "Todos concordamos que era a decisão certa."
+      "AP": "Todos concordamos que era a decisão certa.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you oppose this?",
       "QP": "Você se opõe a isso?",
       "AE": "No, I do not oppose it. I am neutral.",
-      "AP": "Não me oponho. Sou neutro."
+      "AP": "Não me oponho. Sou neutro.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I agree wholeheartedly. No doubts.",
-      "AP": "Concordo de todo o coração. Sem dúvidas."
+      "AP": "Concordo de todo o coração. Sem dúvidas.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is the consensus?",
       "QP": "Qual é o consenso?",
       "AE": "Most people agree. A few have reservations.",
-      "AP": "A maioria concorda. Alguns têm ressalvas."
+      "AP": "A maioria concorda. Alguns têm ressalvas.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He agreed reluctantly. He was not happy.",
-      "AP": "Ele concordou com relutância. Não estava feliz."
+      "AP": "Ele concordou com relutância. Não estava feliz.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you stand by that?",
       "QP": "Você mantém isso?",
       "AE": "Yes, I stand by it. I still believe it.",
-      "AP": "Sim, mantenho. Ainda acredito."
+      "AP": "Sim, mantenho. Ainda acredito.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We found common ground. We agreed on the goal.",
-      "AP": "Encontramos um terreno comum. Concordamos no objetivo."
+      "AP": "Encontramos um terreno comum. Concordamos no objetivo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Would you agree that we need more time?",
       "QP": "Você concordaria que precisamos de mais tempo?",
       "AE": "Yes, I would. We are rushing.",
-      "AP": "Sim. Estamos com pressa."
+      "AP": "Sim. Estamos com pressa.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She disagreed strongly. She had evidence.",
-      "AP": "Ela discordou fortemente. Tinha evidências."
+      "AP": "Ela discordou fortemente. Tinha evidências.",
+      "QG": "F",
+      "AG": "F"
     }
   ]
 }

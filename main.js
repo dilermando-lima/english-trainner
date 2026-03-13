@@ -435,7 +435,14 @@ function doSpeakCurrentSentence(rate) {
       return;
     }
     const answerUtterance = new SpeechSynthesisUtterance(answerText);
-    const voice = pickVoiceMale('en-US');
+    let voice = null;
+    if (sentence.AG === 'M') {
+      voice = pickVoiceMale('en-US');
+    } else if (sentence.AG === 'F') {
+      voice = pickVoiceFemale('en-US');
+    } else {
+      voice = pickVoiceMale('en-US');
+    }
     if (voice) answerUtterance.voice = voice;
     answerUtterance.lang = 'en-US';
     answerUtterance.rate = rate;
@@ -464,7 +471,14 @@ function doSpeakCurrentSentence(rate) {
 
   if (questionText) {
     const questionUtterance = new SpeechSynthesisUtterance(questionText);
-    const voice = pickVoiceFemale('en-US');
+    let voice = null;
+    if (sentence.QG === 'M') {
+      voice = pickVoiceMale('en-US');
+    } else if (sentence.QG === 'F') {
+      voice = pickVoiceFemale('en-US');
+    } else {
+      voice = pickVoiceFemale('en-US');
+    }
     if (voice) questionUtterance.voice = voice;
     questionUtterance.lang = 'en-US';
     questionUtterance.rate = rate;

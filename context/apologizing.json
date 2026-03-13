@@ -5,313 +5,417 @@
       "QE": "Why did you not call?",
       "QP": "Por que você não ligou?",
       "AE": "I am sorry. I completely forgot. It will not happen again.",
-      "AP": "Desculpe. Esqueci completamente. Não vai se repetir."
+      "AP": "Desculpe. Esqueci completamente. Não vai se repetir.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I apologize for the delay. We had a technical issue.",
-      "AP": "Peço desculpas pelo atraso. Tivemos um problema técnico."
+      "AP": "Peço desculpas pelo atraso. Tivemos um problema técnico.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Did you mean to say that?",
       "QP": "Você quis dizer isso?",
       "AE": "No. I am sorry. I did not mean to hurt you.",
-      "AP": "Não. Desculpe. Não quis te magoar."
+      "AP": "Não. Desculpe. Não quis te magoar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She apologized and offered to fix it.",
-      "AP": "Ela se desculpou e se ofereceu para consertar."
+      "AP": "Ela se desculpou e se ofereceu para consertar.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Can you forgive me?",
       "QP": "Você pode me perdoar?",
       "AE": "I am really sorry. I hope you can forgive me.",
-      "AP": "Sinto muito. Espero que possa me perdoar."
+      "AP": "Sinto muito. Espero que possa me perdoar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I owe you an apology. I was wrong.",
-      "AP": "Devo um pedido de desculpas. Eu estava errado."
+      "AP": "Devo um pedido de desculpas. Eu estava errado.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Why are you sorry?",
       "QP": "Por que você está pedindo desculpas?",
       "AE": "Because I was rude. I should not have said that.",
-      "AP": "Porque fui grosseiro. Não deveria ter dito aquilo."
+      "AP": "Porque fui grosseiro. Não deveria ter dito aquilo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He said he was sorry and shook her hand.",
-      "AP": "Ele disse que sentia muito e apertou a mão dela."
+      "AP": "Ele disse que sentia muito e apertou a mão dela.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Do you accept my apology?",
       "QP": "Você aceita minhas desculpas?",
       "AE": "I accept your apology. Let us move on.",
-      "AP": "Aceito suas desculpas. Vamos seguir em frente."
+      "AP": "Aceito suas desculpas. Vamos seguir em frente.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am so sorry for your loss.",
-      "AP": "Sinto muito pela sua perda."
+      "AP": "Sinto muito pela sua perda.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What should I say to apologize?",
       "QP": "O que devo dizer para me desculpar?",
       "AE": "Say you are sorry and that you will do better.",
-      "AP": "Diga que sente muito e que vai melhorar."
+      "AP": "Diga que sente muito e que vai melhorar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She wrote a note to apologize.",
-      "AP": "Ela escreveu um bilhete para se desculpar."
+      "AP": "Ela escreveu um bilhete para se desculpar.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "How do I make it up to you?",
       "QP": "Como posso compensar?",
       "AE": "You do not have to. Your apology is enough.",
-      "AP": "Não precisa. Suas desculpas são suficientes."
+      "AP": "Não precisa. Suas desculpas são suficientes.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I apologize for the inconvenience.",
-      "AP": "Peço desculpas pelo inconveniente."
+      "AP": "Peço desculpas pelo inconveniente.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Are you really sorry?",
       "QP": "Você realmente sente muito?",
       "AE": "Yes, I am. I feel terrible about it.",
-      "AP": "Sim. Me sinto péssimo com isso."
+      "AP": "Sim. Me sinto péssimo com isso.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He apologized in front of everyone.",
-      "AP": "Ele se desculpou na frente de todos."
+      "AP": "Ele se desculpou na frente de todos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What if they do not accept?",
       "QP": "E se eles não aceitarem?",
       "AE": "You did your part. Give them time.",
-      "AP": "Você fez sua parte. Dê tempo a eles."
+      "AP": "Você fez sua parte. Dê tempo a eles.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am sorry I missed the meeting.",
-      "AP": "Desculpe ter perdido a reunião."
+      "AP": "Desculpe ter perdido a reunião.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How do you apologize formally?",
       "QP": "Como você se desculpa formalmente?",
       "AE": "I would like to offer my sincere apologies.",
-      "AP": "Gostaria de oferecer minhas sinceras desculpas."
+      "AP": "Gostaria de oferecer minhas sinceras desculpas.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She accepted his apology. They are fine now.",
-      "AP": "Ela aceitou as desculpas dele. Estão bem agora."
+      "AP": "Ela aceitou as desculpas dele. Estão bem agora.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Can I say I am sorry in an email?",
       "QP": "Posso pedir desculpas por e-mail?",
       "AE": "Yes, but for big things a call is better.",
-      "AP": "Sim, mas para coisas grandes uma ligação é melhor."
+      "AP": "Sim, mas para coisas grandes uma ligação é melhor.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I apologize for the confusion. Here is the correct info.",
-      "AP": "Peço desculpas pela confusão. Aqui está a informação correta."
+      "AP": "Peço desculpas pela confusão. Aqui está a informação correta.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you regret it?",
       "QP": "Você se arrepende?",
       "AE": "Yes, I do. I wish I could take it back.",
-      "AP": "Sim. Queria poder voltar atrás."
+      "AP": "Sim. Queria poder voltar atrás.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He said sorry and promised to fix the mistake.",
-      "AP": "Ele pediu desculpas e prometeu corrigir o erro."
+      "AP": "Ele pediu desculpas e prometeu corrigir o erro.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is the best way to apologize?",
       "QP": "Qual é a melhor forma de pedir desculpas?",
       "AE": "Be sincere. Do not make excuses. Say what you will do.",
-      "AP": "Seja sincero. Não dê desculpas. Diga o que fará."
+      "AP": "Seja sincero. Não dê desculpas. Diga o que fará.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am sorry for the typo in the report.",
-      "AP": "Desculpe pelo erro de digitação no relatório."
+      "AP": "Desculpe pelo erro de digitação no relatório.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Should I apologize in person?",
       "QP": "Devo me desculpar pessoalmente?",
       "AE": "If possible, yes. It shows you mean it.",
-      "AP": "Se possível, sim. Mostra que você está falando sério."
+      "AP": "Se possível, sim. Mostra que você está falando sério.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She apologized for being late. Traffic was bad.",
-      "AP": "Ela se desculpou por estar atrasada. O trânsito estava ruim."
+      "AP": "Ela se desculpou por estar atrasada. O trânsito estava ruim.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "How many times have you apologized?",
       "QP": "Quantas vezes você já se desculpou?",
       "AE": "I have apologized twice. I hope it is enough.",
-      "AP": "Já me desculpei duas vezes. Espero que seja suficiente."
+      "AP": "Já me desculpei duas vezes. Espero que seja suficiente.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I owe you an apology for yesterday.",
-      "AP": "Devo desculpas por ontem."
+      "AP": "Devo desculpas por ontem.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you think they will forgive you?",
       "QP": "Você acha que vão te perdoar?",
       "AE": "I hope so. I will give them space.",
-      "AP": "Espero que sim. Vou dar espaço a eles."
+      "AP": "Espero que sim. Vou dar espaço a eles.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He apologized but she was still upset.",
-      "AP": "Ele se desculpou mas ela ainda estava chateada."
+      "AP": "Ele se desculpou mas ela ainda estava chateada.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "What if it was not entirely your fault?",
       "QP": "E se não foi totalmente sua culpa?",
       "AE": "You can still say you are sorry for your part.",
-      "AP": "Ainda pode dizer que sente muito pela sua parte."
+      "AP": "Ainda pode dizer que sente muito pela sua parte.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am sorry to hear that. Is there anything I can do?",
-      "AP": "Sinto muito por ouvir isso. Posso fazer algo?"
+      "AP": "Sinto muito por ouvir isso. Posso fazer algo?",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How do you say sorry without saying sorry?",
       "QP": "Como pedir desculpas sem dizer desculpe?",
       "AE": "You can say I regret that or I take responsibility.",
-      "AP": "Pode dizer lamento isso ou assumo a responsabilidade."
+      "AP": "Pode dizer lamento isso ou assumo a responsabilidade.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She apologized and gave a small gift.",
-      "AP": "Ela se desculpou e deu um presentinho."
+      "AP": "Ela se desculpou e deu um presentinho.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Is it too late to apologize?",
       "QP": "É tarde demais para pedir desculpas?",
       "AE": "It is never too late. Better late than never.",
-      "AP": "Nunca é tarde. Antes tarde do que nunca."
+      "AP": "Nunca é tarde. Antes tarde do que nunca.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I sincerely apologize for the error.",
-      "AP": "Peço sinceras desculpas pelo erro."
+      "AP": "Peço sinceras desculpas pelo erro.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you apologize too much?",
       "QP": "Você pede desculpas demais?",
       "AE": "Sometimes. I am working on it.",
-      "AP": "Às vezes. Estou trabalhando nisso."
+      "AP": "Às vezes. Estou trabalhando nisso.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He apologized to the whole team.",
-      "AP": "Ele se desculpou com toda a equipe."
+      "AP": "Ele se desculpou com toda a equipe.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What do you say after someone apologizes?",
       "QP": "O que dizer quando alguém se desculpa?",
       "AE": "Thank you for apologizing. Or It is okay.",
-      "AP": "Obrigado por se desculpar. Ou Está tudo bem."
+      "AP": "Obrigado por se desculpar. Ou Está tudo bem.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am sorry I could not help more.",
-      "AP": "Desculpe não poder ajudar mais."
+      "AP": "Desculpe não poder ajudar mais.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Should you apologize by text?",
       "QP": "Deve pedir desculpas por mensagem?",
       "AE": "For small things, yes. For serious things, no.",
-      "AP": "Para coisas pequenas, sim. Para coisas sérias, não."
+      "AP": "Para coisas pequenas, sim. Para coisas sérias, não.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She accepted his apology with a smile.",
-      "AP": "Ela aceitou as desculpas dele com um sorriso."
+      "AP": "Ela aceitou as desculpas dele com um sorriso.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "How do you apologize at work?",
       "QP": "Como pedir desculpas no trabalho?",
       "AE": "Be professional. Acknowledge the impact. Propose a fix.",
-      "AP": "Seja profissional. Reconheça o impacto. Proponha uma solução."
+      "AP": "Seja profissional. Reconheça o impacto. Proponha uma solução.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I apologize for any inconvenience caused.",
-      "AP": "Peço desculpas por qualquer inconveniente causado."
+      "AP": "Peço desculpas por qualquer inconveniente causado.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you feel better after apologizing?",
       "QP": "Você se sente melhor depois de pedir desculpas?",
       "AE": "Yes. It was the right thing to do.",
-      "AP": "Sim. Era a coisa certa a fazer."
+      "AP": "Sim. Era a coisa certa a fazer.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He apologized and asked for another chance.",
-      "AP": "Ele se desculpou e pediu outra chance."
+      "AP": "Ele se desculpou e pediu outra chance.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is a sincere apology?",
       "QP": "O que é um pedido de desculpas sincero?",
       "AE": "One where you mean it and do not make excuses.",
-      "AP": "Aquele em que você está falando sério e não dá desculpas."
+      "AP": "Aquele em que você está falando sério e não dá desculpas.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am sorry for the misunderstanding.",
-      "AP": "Desculpe pelo mal-entendido."
+      "AP": "Desculpe pelo mal-entendido.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Can you apologize too much?",
       "QP": "Pode pedir desculpas demais?",
       "AE": "Yes. It can seem like you lack confidence.",
-      "AP": "Sim. Pode parecer que você falta confiança."
+      "AP": "Sim. Pode parecer que você falta confiança.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She said she was sorry and hugged him.",
-      "AP": "Ela disse que sentia muito e o abraçou."
+      "AP": "Ela disse que sentia muito e o abraçou.",
+      "QG": "F",
+      "AG": "F"
     }
   ]
 }

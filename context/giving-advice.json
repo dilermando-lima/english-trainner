@@ -5,313 +5,417 @@
       "QE": "What should I do about my job?",
       "QP": "O que devo fazer sobre meu emprego?",
       "AE": "I would talk to your manager first.",
-      "AP": "Eu falaria com seu gerente primeiro."
+      "AP": "Eu falaria com seu gerente primeiro.",
+      "QG": "M",
+      "AG": "F"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "You should get more sleep.",
-      "AP": "Você deveria dormir mais."
+      "AP": "Você deveria dormir mais.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How can I improve my English?",
       "QP": "Como posso melhorar meu inglês?",
       "AE": "Try to practice every day, even for ten minutes.",
-      "AP": "Tente praticar todo dia, mesmo dez minutos."
+      "AP": "Tente praticar todo dia, mesmo dez minutos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "If I were you, I would save some money.",
-      "AP": "Se eu fosse você, eu juntaria um dinheiro."
+      "AP": "Se eu fosse você, eu juntaria um dinheiro.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you have any advice for me?",
       "QP": "Você tem algum conselho para mim?",
       "AE": "Yes. Do not give up too soon.",
-      "AP": "Sim. Não desista cedo demais."
+      "AP": "Sim. Não desista cedo demais.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "It might be a good idea to take a break.",
-      "AP": "Pode ser uma boa ideia fazer uma pausa."
+      "AP": "Pode ser uma boa ideia fazer uma pausa.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What do you think I should do?",
       "QP": "O que você acha que devo fazer?",
       "AE": "I think you should apologize to her.",
-      "AP": "Acho que você deveria pedir desculpas a ela."
+      "AP": "Acho que você deveria pedir desculpas a ela.",
+      "QG": "M",
+      "AG": "F"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "You had better see a doctor.",
-      "AP": "É melhor você consultar um médico."
+      "AP": "É melhor você consultar um médico.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Should I tell him the truth?",
       "QP": "Devo contar a verdade a ele?",
       "AE": "Yes, honesty is always best.",
-      "AP": "Sim, honestidade é sempre o melhor."
+      "AP": "Sim, honestidade é sempre o melhor.",
+      "QG": "M",
+      "AG": "F"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "Why do not you try talking to her?",
-      "AP": "Por que você não tenta falar com ela?"
+      "AP": "Por que você não tenta falar com ela?",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "How do I deal with stress?",
       "QP": "Como lido com o estresse?",
       "AE": "Exercise and rest help a lot.",
-      "AP": "Exercício e descanso ajudam muito."
+      "AP": "Exercício e descanso ajudam muito.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "You ought to be more careful.",
-      "AP": "Você deveria ser mais cuidadoso."
+      "AP": "Você deveria ser mais cuidadoso.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What would you do in my place?",
       "QP": "O que você faria no meu lugar?",
       "AE": "I would wait a bit before deciding.",
-      "AP": "Eu esperaria um pouco antes de decidir."
+      "AP": "Eu esperaria um pouco antes de decidir.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "It is worth trying again.",
-      "AP": "Vale a pena tentar de novo."
+      "AP": "Vale a pena tentar de novo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Can you give me some advice?",
       "QP": "Pode me dar um conselho?",
       "AE": "Sure. Start small and be consistent.",
-      "AP": "Claro. Comece pequeno e seja consistente."
+      "AP": "Claro. Comece pequeno e seja consistente.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I suggest you take notes during the meeting.",
-      "AP": "Sugiro que você tome notas na reunião."
+      "AP": "Sugiro que você tome notas na reunião.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Should I apply for that job?",
       "QP": "Devo me candidatar àquela vaga?",
       "AE": "Yes, you have nothing to lose.",
-      "AP": "Sim, você não tem nada a perder."
+      "AP": "Sim, você não tem nada a perder.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "You might want to reconsider.",
-      "AP": "Você talvez queira reconsiderar."
+      "AP": "Você talvez queira reconsiderar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is your advice on this?",
       "QP": "Qual é seu conselho sobre isso?",
       "AE": "Do not rush. Think it through.",
-      "AP": "Não tenha pressa. Pense bem."
+      "AP": "Não tenha pressa. Pense bem.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I recommend that you backup your files.",
-      "AP": "Recomendo que você faça backup dos arquivos."
+      "AP": "Recomendo que você faça backup dos arquivos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How can I be more productive?",
       "QP": "Como posso ser mais produtivo?",
       "AE": "Make a list and do the hard task first.",
-      "AP": "Faça uma lista e faça a tarefa difícil primeiro."
+      "AP": "Faça uma lista e faça a tarefa difícil primeiro.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "You should not work so late.",
-      "AP": "Você não deveria trabalhar tão tarde."
+      "AP": "Você não deveria trabalhar tão tarde.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you think I should go?",
       "QP": "Você acha que devo ir?",
       "AE": "Yes, it could be a good opportunity.",
-      "AP": "Sim, pode ser uma boa oportunidade."
+      "AP": "Sim, pode ser uma boa oportunidade.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "It would be wise to ask for help.",
-      "AP": "Seria sábio pedir ajuda."
+      "AP": "Seria sábio pedir ajuda.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What do you recommend?",
       "QP": "O que você recomenda?",
       "AE": "I recommend reading the instructions first.",
-      "AP": "Recomendo ler as instruções primeiro."
+      "AP": "Recomendo ler as instruções primeiro.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "You had better not miss the deadline.",
-      "AP": "É melhor você não perder o prazo."
+      "AP": "É melhor você não perder o prazo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Should I invest in this?",
       "QP": "Devo investir nisso?",
       "AE": "I would get professional advice first.",
-      "AP": "Eu buscaria aconselhamento profissional primeiro."
+      "AP": "Eu buscaria aconselhamento profissional primeiro.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "Try to stay calm and think clearly.",
-      "AP": "Tente manter a calma e pensar com clareza."
+      "AP": "Tente manter a calma e pensar com clareza.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How do I say no politely?",
       "QP": "Como digo não com educação?",
       "AE": "Say you appreciate it but cannot right now.",
-      "AP": "Diga que agradece mas não pode agora."
+      "AP": "Diga que agradece mas não pode agora.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I would not do that if I were you.",
-      "AP": "Eu não faria isso se fosse você."
+      "AP": "Eu não faria isso se fosse você.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What should I say to her?",
       "QP": "O que devo dizer a ela?",
       "AE": "Be honest and kind.",
-      "AP": "Seja honesto e gentil."
+      "AP": "Seja honesto e gentil.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "You could try a different approach.",
-      "AP": "Você poderia tentar uma abordagem diferente."
+      "AP": "Você poderia tentar uma abordagem diferente.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Is it a good idea to quit?",
       "QP": "É uma boa ideia pedir demissão?",
       "AE": "Only if you have a plan B.",
-      "AP": "Só se você tiver um plano B."
+      "AP": "Só se você tiver um plano B.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "Do not forget to double-check.",
-      "AP": "Não esqueça de conferir duas vezes."
+      "AP": "Não esqueça de conferir duas vezes.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How can I make new friends?",
       "QP": "Como posso fazer novos amigos?",
       "AE": "Join a club or class you enjoy.",
-      "AP": "Entre em um clube ou curso que você goste."
+      "AP": "Entre em um clube ou curso que você goste.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "It might help to write things down.",
-      "AP": "Pode ajudar anotar as coisas."
+      "AP": "Pode ajudar anotar as coisas.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Should I accept the offer?",
       "QP": "Devo aceitar a oferta?",
       "AE": "Compare it with your other options.",
-      "AP": "Compare com suas outras opções."
+      "AP": "Compare com suas outras opções.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "You would do well to listen to her.",
-      "AP": "Você faria bem em ouvi-la."
+      "AP": "Você faria bem em ouvi-la.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "What is the best way to learn?",
       "QP": "Qual é a melhor forma de aprender?",
       "AE": "Practice regularly and do not fear mistakes.",
-      "AP": "Pratique com regularidade e não tema errar."
+      "AP": "Pratique com regularidade e não tema errar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I advise you to speak up now.",
-      "AP": "Aconselho você a se manifestar agora."
+      "AP": "Aconselho você a se manifestar agora.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you think I need a break?",
       "QP": "Você acha que preciso de uma pausa?",
       "AE": "Yes, you look tired.",
-      "AP": "Sim, você parece cansado."
+      "AP": "Sim, você parece cansado.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "Consider talking to a professional.",
-      "AP": "Considere falar com um profissional."
+      "AP": "Considere falar com um profissional.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How should I handle this situation?",
       "QP": "Como devo lidar com esta situação?",
       "AE": "Stay neutral and hear both sides.",
-      "AP": "Mantenha-se neutro e ouça os dois lados."
+      "AP": "Mantenha-se neutro e ouça os dois lados.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "You should follow your gut.",
-      "AP": "Você deveria seguir sua intuição."
+      "AP": "Você deveria seguir sua intuição.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Should I wait or act now?",
       "QP": "Devo esperar ou agir agora?",
       "AE": "I would wait until you have more information.",
-      "AP": "Eu esperaria até ter mais informações."
+      "AP": "Eu esperaria até ter mais informações.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "It is better to be safe than sorry.",
-      "AP": "Melhor prevenir do que remediar."
+      "AP": "Melhor prevenir do que remediar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What would you advise?",
       "QP": "O que você aconselharia?",
       "AE": "Take one step at a time.",
-      "AP": "Dê um passo de cada vez."
+      "AP": "Dê um passo de cada vez.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "You might consider asking for feedback.",
-      "AP": "Você poderia considerar pedir feedback."
+      "AP": "Você poderia considerar pedir feedback.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How do I stop procrastinating?",
       "QP": "Como paro de procrastinar?",
       "AE": "Set a small goal and do it right now.",
-      "AP": "Defina uma meta pequena e faça agora."
+      "AP": "Defina uma meta pequena e faça agora.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "Do not be afraid to ask questions.",
-      "AP": "Não tenha medo de fazer perguntas."
+      "AP": "Não tenha medo de fazer perguntas.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Is it worth the risk?",
       "QP": "Vale a pena o risco?",
       "AE": "Only you can decide. Weigh the pros and cons.",
-      "AP": "Só você pode decidir. Pese prós e contras."
+      "AP": "Só você pode decidir. Pese prós e contras.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I would suggest starting tomorrow.",
-      "AP": "Sugiro começar amanhã."
+      "AP": "Sugiro começar amanhã.",
+      "QG": "F",
+      "AG": "M"
     }
   ]
 }

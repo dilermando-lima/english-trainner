@@ -5,313 +5,417 @@
       "QE": "How do you feel today?",
       "QP": "Como você se sente hoje?",
       "AE": "I feel good. A bit tired.",
-      "AP": "Me sinto bem. Um pouco cansado."
+      "AP": "Me sinto bem. Um pouco cansado.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She is happy about the news.",
-      "AP": "Ela está feliz com a notícia."
+      "AP": "Ela está feliz com a notícia.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Are you okay?",
       "QP": "Você está bem?",
       "AE": "Yes, I am fine. Just thinking.",
-      "AP": "Sim, estou bem. Só pensando."
+      "AP": "Sim, estou bem. Só pensando.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He felt sad when he heard it.",
-      "AP": "Ele ficou triste quando soube."
+      "AP": "Ele ficou triste quando soube.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is wrong?",
       "QP": "O que há de errado?",
       "AE": "Nothing. I am just stressed.",
-      "AP": "Nada. Só estou estressado."
+      "AP": "Nada. Só estou estressado.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am excited about the trip.",
-      "AP": "Estou animado com a viagem."
+      "AP": "Estou animado com a viagem.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you feel nervous?",
       "QP": "Você está nervoso?",
       "AE": "A little. It is my first time.",
-      "AP": "Um pouco. É minha primeira vez."
+      "AP": "Um pouco. É minha primeira vez.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She was angry at first, but she calmed down.",
-      "AP": "Ela ficou brava no início, mas se acalmou."
+      "AP": "Ela ficou brava no início, mas se acalmou.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Why are you worried?",
       "QP": "Por que você está preocupado?",
       "AE": "I have a lot to do this week.",
-      "AP": "Tenho muita coisa esta semana."
+      "AP": "Tenho muita coisa esta semana.",
+      "QG": "M",
+      "AG": "F"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He seems disappointed.",
-      "AP": "Ele parece desapontado."
+      "AP": "Ele parece desapontado.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Are you feeling better?",
       "QP": "Você está se sentindo melhor?",
       "AE": "Yes, much better. Thank you.",
-      "AP": "Sim, muito melhor. Obrigado."
+      "AP": "Sim, muito melhor. Obrigado.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am proud of you.",
-      "AP": "Estou orgulhoso de você."
+      "AP": "Estou orgulhoso de você.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What made you so happy?",
       "QP": "O que te deixou tão feliz?",
       "AE": "I got the job I wanted.",
-      "AP": "Consegui o emprego que queria."
+      "AP": "Consegui o emprego que queria.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She is afraid of the dark.",
-      "AP": "Ela tem medo do escuro."
+      "AP": "Ela tem medo do escuro.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Do you ever feel lonely?",
       "QP": "Você às vezes se sente sozinho?",
       "AE": "Sometimes. Everyone does.",
-      "AP": "Às vezes. Todo mundo sente."
+      "AP": "Às vezes. Todo mundo sente.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He was surprised by the result.",
-      "AP": "Ele ficou surpreso com o resultado."
+      "AP": "Ele ficou surpreso com o resultado.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How did you feel after the exam?",
       "QP": "Como você se sentiu depois da prova?",
       "AE": "Relieved. I think I did okay.",
-      "AP": "Aliviado. Acho que fui bem."
+      "AP": "Aliviado. Acho que fui bem.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I feel guilty about what I said.",
-      "AP": "Me sinto culpado pelo que disse."
+      "AP": "Me sinto culpado pelo que disse.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Are you bored?",
       "QP": "Você está entediado?",
       "AE": "A bit. There is nothing to do.",
-      "AP": "Um pouco. Não há nada para fazer."
+      "AP": "Um pouco. Não há nada para fazer.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She is in love with him.",
-      "AP": "Ela está apaixonada por ele."
+      "AP": "Ela está apaixonada por ele.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "What do you feel when you hear that?",
       "QP": "O que você sente quando ouve isso?",
       "AE": "I feel hopeful.",
-      "AP": "Sinto esperança."
+      "AP": "Sinto esperança.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He gets jealous easily.",
-      "AP": "Ele fica com ciúmes fácil."
+      "AP": "Ele fica com ciúmes fácil.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Why do you look sad?",
       "QP": "Por que você parece triste?",
       "AE": "I had a rough day.",
-      "AP": "Tive um dia difícil."
+      "AP": "Tive um dia difícil.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am grateful for your help.",
-      "AP": "Sou grato pela sua ajuda."
+      "AP": "Sou grato pela sua ajuda.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you feel confident?",
       "QP": "Você está confiante?",
       "AE": "Yes, I prepared well.",
-      "AP": "Sim, me preparei bem."
+      "AP": "Sim, me preparei bem.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She felt embarrassed when she fell.",
-      "AP": "Ela ficou envergonhada quando caiu."
+      "AP": "Ela ficou envergonhada quando caiu.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "How does he feel about the change?",
       "QP": "Como ele se sente em relação à mudança?",
       "AE": "He is okay with it.",
-      "AP": "Ele está de acordo."
+      "AP": "Ele está de acordo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am frustrated with this situation.",
-      "AP": "Estou frustrado com esta situação."
+      "AP": "Estou frustrado com esta situação.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Are you scared?",
       "QP": "Você está com medo?",
       "AE": "A little. It is normal.",
-      "AP": "Um pouco. É normal."
+      "AP": "Um pouco. É normal.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He seems anxious about the meeting.",
-      "AP": "Ele parece ansioso com a reunião."
+      "AP": "Ele parece ansioso com a reunião.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What makes you feel calm?",
       "QP": "O que te deixa calmo?",
       "AE": "Music and a walk help me.",
-      "AP": "Música e uma caminhada me ajudam."
+      "AP": "Música e uma caminhada me ajudam.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She was thrilled with the gift.",
-      "AP": "Ela ficou encantada com o presente."
+      "AP": "Ela ficou encantada com o presente.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Do you feel understood?",
       "QP": "Você se sente compreendido?",
       "AE": "Yes, my friends listen to me.",
-      "AP": "Sim, meus amigos me ouvem."
+      "AP": "Sim, meus amigos me ouvem.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I feel overwhelmed with work.",
-      "AP": "Me sinto sobrecarregado com o trabalho."
+      "AP": "Me sinto sobrecarregado com o trabalho.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How did she react?",
       "QP": "Como ela reagiu?",
       "AE": "She was shocked at first.",
-      "AP": "Ela ficou chocada no início."
+      "AP": "Ela ficou chocada no início.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He feels lonely sometimes.",
-      "AP": "Ele se sente sozinho às vezes."
+      "AP": "Ele se sente sozinho às vezes.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What are you afraid of?",
       "QP": "Do que você tem medo?",
       "AE": "I am afraid of failing.",
-      "AP": "Tenho medo de falhar."
+      "AP": "Tenho medo de falhar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am so glad you came.",
-      "AP": "Estou tão feliz que você veio."
+      "AP": "Estou tão feliz que você veio.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you feel loved?",
       "QP": "Você se sente amado?",
       "AE": "Yes, my family supports me.",
-      "AP": "Sim, minha família me apoia."
+      "AP": "Sim, minha família me apoia.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She felt hurt by his words.",
-      "AP": "Ela se sentiu magoada com as palavras dele."
+      "AP": "Ela se sentiu magoada com as palavras dele.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Why do you feel that way?",
       "QP": "Por que você se sente assim?",
       "AE": "I do not know. Maybe the weather.",
-      "AP": "Não sei. Talvez o tempo."
+      "AP": "Não sei. Talvez o tempo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He is optimistic about the future.",
-      "AP": "Ele está otimista com o futuro."
+      "AP": "Ele está otimista com o futuro.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Are you feeling anxious?",
       "QP": "Você está ansioso?",
       "AE": "A bit. I have a test tomorrow.",
-      "AP": "Um pouco. Tenho prova amanhã."
+      "AP": "Um pouco. Tenho prova amanhã.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I feel sorry for him.",
-      "AP": "Tenho pena dele."
+      "AP": "Tenho pena dele.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What do you do when you are stressed?",
       "QP": "O que você faz quando está estressado?",
       "AE": "I take a break and breathe.",
-      "AP": "Faço uma pausa e respiro."
+      "AP": "Faço uma pausa e respiro.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She is curious about other cultures.",
-      "AP": "Ela é curiosa sobre outras culturas."
+      "AP": "Ela é curiosa sobre outras culturas.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Do you feel ready?",
       "QP": "Você se sente pronto?",
       "AE": "Yes, I am ready to go.",
-      "AP": "Sim, estou pronto para ir."
+      "AP": "Sim, estou pronto para ir.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He felt relieved when he passed.",
-      "AP": "Ele ficou aliviado quando passou."
+      "AP": "Ele ficou aliviado quando passou.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How does it make you feel?",
       "QP": "Como isso te faz sentir?",
       "AE": "It makes me feel motivated.",
-      "AP": "Me faz sentir motivado."
+      "AP": "Me faz sentir motivado.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am tired of waiting.",
-      "AP": "Estou cansado de esperar."
+      "AP": "Estou cansado de esperar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What are you feeling right now?",
       "QP": "O que você está sentindo agora?",
       "AE": "I feel peaceful.",
-      "AP": "Sinto paz."
+      "AP": "Sinto paz.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She is passionate about music.",
-      "AP": "Ela é apaixonada por música."
+      "AP": "Ela é apaixonada por música.",
+      "QG": "F",
+      "AG": "F"
     }
   ]
 }

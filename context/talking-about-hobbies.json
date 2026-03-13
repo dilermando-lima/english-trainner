@@ -5,313 +5,417 @@
       "QE": "What do you like to do in your free time?",
       "QP": "O que você gosta de fazer no tempo livre?",
       "AE": "I like to read and go for walks.",
-      "AP": "Gosto de ler e caminhar."
+      "AP": "Gosto de ler e caminhar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She plays guitar. She is really good.",
-      "AP": "Ela toca violão. Ela é muito boa."
+      "AP": "Ela toca violão. Ela é muito boa.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Do you have any hobbies?",
       "QP": "Você tem algum hobby?",
       "AE": "Yes. I love photography and cooking.",
-      "AP": "Sim. Adoro fotografia e culinária."
+      "AP": "Sim. Adoro fotografia e culinária.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He spends his weekends hiking.",
-      "AP": "Ele passa os fins de semana caminhando."
+      "AP": "Ele passa os fins de semana caminhando.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How long have you been doing that?",
       "QP": "Há quanto tempo você faz isso?",
       "AE": "About five years. I started in college.",
-      "AP": "Cerca de cinco anos. Comecei na faculdade."
+      "AP": "Cerca de cinco anos. Comecei na faculdade.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I collect stamps. I have hundreds.",
-      "AP": "Coleciono selos. Tenho centenas."
+      "AP": "Coleciono selos. Tenho centenas.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is your favorite hobby?",
       "QP": "Qual é seu hobby favorito?",
       "AE": "Playing soccer. I play every Sunday.",
-      "AP": "Jogar futebol. Jogo todo domingo."
+      "AP": "Jogar futebol. Jogo todo domingo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She paints in her free time. Watercolors.",
-      "AP": "Ela pinta no tempo livre. Aquarela."
+      "AP": "Ela pinta no tempo livre. Aquarela.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Do you prefer indoor or outdoor activities?",
       "QP": "Você prefere atividades indoor ou ao ar livre?",
       "AE": "Outdoor. I need fresh air.",
-      "AP": "Ao ar livre. Preciso de ar fresco."
+      "AP": "Ao ar livre. Preciso de ar fresco.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He builds model airplanes. Very detailed.",
-      "AP": "Ele monta aviões em miniatura. Muito detalhado."
+      "AP": "Ele monta aviões em miniatura. Muito detalhado.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How did you get into that?",
       "QP": "Como você entrou nisso?",
       "AE": "A friend invited me to try. I loved it.",
-      "AP": "Um amigo me convidou a experimentar. Adorei."
+      "AP": "Um amigo me convidou a experimentar. Adorei.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I garden. Vegetables and flowers.",
-      "AP": "Faço jardinagem. Legumes e flores."
+      "AP": "Faço jardinagem. Legumes e flores.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What do you do for fun?",
       "QP": "O que você faz por diversão?",
       "AE": "I watch movies and play video games.",
-      "AP": "Assisto filmes e jogo videogame."
+      "AP": "Assisto filmes e jogo videogame.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She dances. Salsa and bachata.",
-      "AP": "Ela dança. Salsa e bachata."
+      "AP": "Ela dança. Salsa e bachata.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Do you do it alone or with others?",
       "QP": "Você faz sozinho ou com outros?",
       "AE": "Both. I run alone but play tennis with friends.",
-      "AP": "Os dois. Corro sozinho mas jogo tênis com amigos."
+      "AP": "Os dois. Corro sozinho mas jogo tênis com amigos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He is learning to play the piano.",
-      "AP": "Ele está aprendendo a tocar piano."
+      "AP": "Ele está aprendendo a tocar piano.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How much time do you spend on it?",
       "QP": "Quanto tempo você dedica a isso?",
       "AE": "A few hours a week. When I can.",
-      "AP": "Algumas horas por semana. Quando posso."
+      "AP": "Algumas horas por semana. Quando posso.",
+      "QG": "M",
+      "AG": "F"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I knit. I make scarves and hats.",
-      "AP": "Faço tricô. Faço cachecóis e toucas."
+      "AP": "Faço tricô. Faço cachecóis e toucas.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What new hobby would you like to try?",
       "QP": "Que hobby novo você gostaria de experimentar?",
       "AE": "I would like to learn to surf.",
-      "AP": "Gostaria de aprender a surfar."
+      "AP": "Gostaria de aprender a surfar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She writes short stories. She has never published.",
-      "AP": "Ela escreve contos. Nunca publicou."
+      "AP": "Ela escreve contos. Nunca publicou.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Do you need special equipment?",
       "QP": "Você precisa de equipamento especial?",
       "AE": "Yes. I had to buy a good camera.",
-      "AP": "Sim. Tive que comprar uma boa câmera."
+      "AP": "Sim. Tive que comprar uma boa câmera.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He fishes on the weekends. He finds it relaxing.",
-      "AP": "Ele pesca nos fins de semana. Acha relaxante."
+      "AP": "Ele pesca nos fins de semana. Acha relaxante.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is the best part of your hobby?",
       "QP": "Qual é a melhor parte do seu hobby?",
       "AE": "It helps me disconnect from work.",
-      "AP": "Ajuda a me desconectar do trabalho."
+      "AP": "Ajuda a me desconectar do trabalho.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I do yoga. Three times a week.",
-      "AP": "Faço ioga. Três vezes por semana."
+      "AP": "Faço ioga. Três vezes por semana.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Have you ever won anything?",
       "QP": "Você já ganhou algo?",
       "AE": "I won a local photography contest once.",
-      "AP": "Ganhei um concurso de fotografia local uma vez."
+      "AP": "Ganhei um concurso de fotografia local uma vez.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She bakes. Cakes and bread.",
-      "AP": "Ela faz doces. Bolos e pão."
+      "AP": "Ela faz doces. Bolos e pão.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Do your family share your hobbies?",
       "QP": "Sua família compartilha seus hobbies?",
       "AE": "My wife runs with me. The kids prefer games.",
-      "AP": "Minha esposa corre comigo. As crianças preferem jogos."
+      "AP": "Minha esposa corre comigo. As crianças preferem jogos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He is into woodworking. He made a table.",
-      "AP": "Ele gosta de marcenaria. Fez uma mesa."
+      "AP": "Ele gosta de marcenaria. Fez uma mesa.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What would you recommend for a beginner?",
       "QP": "O que você recomendaria para um iniciante?",
       "AE": "Start with short runs. Build up slowly.",
-      "AP": "Comece com corridas curtas. Evolua devagar."
+      "AP": "Comece com corridas curtas. Evolua devagar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I like to draw. Just for fun.",
-      "AP": "Gosto de desenhar. Só por diversão."
+      "AP": "Gosto de desenhar. Só por diversão.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How expensive is it?",
       "QP": "Quanto custa?",
       "AE": "Not much. You just need good shoes.",
-      "AP": "Não muito. Só precisa de um bom tênis."
+      "AP": "Não muito. Só precisa de um bom tênis.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She swims. She goes to the pool every morning.",
-      "AP": "Ela nada. Vai à piscina toda manhã."
+      "AP": "Ela nada. Vai à piscina toda manhã.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Do you have a group or club?",
       "QP": "Você tem um grupo ou clube?",
       "AE": "Yes. We meet every Thursday to play.",
-      "AP": "Sim. Nos encontramos toda quinta para jogar."
+      "AP": "Sim. Nos encontramos toda quinta para jogar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He reads a lot. Mostly history and fiction.",
-      "AP": "Ele lê muito. Principalmente história e ficção."
+      "AP": "Ele lê muito. Principalmente história e ficção.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What got you interested?",
       "QP": "O que te despertou o interesse?",
       "AE": "I saw a documentary and wanted to try.",
-      "AP": "Vi um documentário e quis experimentar."
+      "AP": "Vi um documentário e quis experimentar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I do crossword puzzles. Every day.",
-      "AP": "Faço palavras-cruzadas. Todo dia."
+      "AP": "Faço palavras-cruzadas. Todo dia.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Is it hard to learn?",
       "QP": "É difícil de aprender?",
       "AE": "The basics are easy. Mastery takes time.",
-      "AP": "O básico é fácil. Dominar leva tempo."
+      "AP": "O básico é fácil. Dominar leva tempo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She volunteers at an animal shelter.",
-      "AP": "Ela é voluntária em um abrigo de animais."
+      "AP": "Ela é voluntária em um abrigo de animais.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "What do you do when the weather is bad?",
       "QP": "O que você faz quando o tempo está ruim?",
       "AE": "I stay in and read or watch something.",
-      "AP": "Fico em casa e leio ou assisto algo."
+      "AP": "Fico em casa e leio ou assisto algo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He plays chess online. He is quite good.",
-      "AP": "Ele joga xadrez online. É bem bom."
+      "AP": "Ele joga xadrez online. É bem bom.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you compete or just for fun?",
       "QP": "Você compete ou só por diversão?",
       "AE": "Just for fun. I am not very competitive.",
-      "AP": "Só por diversão. Não sou muito competitivo."
+      "AP": "Só por diversão. Não sou muito competitivo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I listen to podcasts. On my way to work.",
-      "AP": "Ouço podcasts. A caminho do trabalho."
+      "AP": "Ouço podcasts. A caminho do trabalho.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is the most relaxing hobby?",
       "QP": "Qual é o hobby mais relaxante?",
       "AE": "For me it is gardening. Very peaceful.",
-      "AP": "Para mim é jardinagem. Muito tranquilo."
+      "AP": "Para mim é jardinagem. Muito tranquilo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She does embroidery. She makes gifts for friends.",
-      "AP": "Ela faz bordado. Faz presentes para amigos."
+      "AP": "Ela faz bordado. Faz presentes para amigos.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "How do you find time for hobbies?",
       "QP": "Como você arruma tempo para hobbies?",
       "AE": "I wake up early. Or I use the weekend.",
-      "AP": "Acordo cedo. Ou uso o fim de semana."
+      "AP": "Acordo cedo. Ou uso o fim de semana.",
+      "QG": "M",
+      "AG": "F"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He collects vinyl records. Old rock mostly.",
-      "AP": "Ele coleciona discos de vinil. Rock antigo em geral."
+      "AP": "Ele coleciona discos de vinil. Rock antigo em geral.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What hobby would you like to quit?",
       "QP": "Que hobby você gostaria de abandonar?",
       "AE": "None. I enjoy all of them.",
-      "AP": "Nenhum. Gosto de todos."
+      "AP": "Nenhum. Gosto de todos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I like to try new things. Last month I tried pottery.",
-      "AP": "Gosto de experimentar coisas novas. Mês passado tentei cerâmica."
+      "AP": "Gosto de experimentar coisas novas. Mês passado tentei cerâmica.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you spend a lot of money on it?",
       "QP": "Você gasta muito dinheiro com isso?",
       "AE": "Some. But it is worth it. It makes me happy.",
-      "AP": "Um pouco. Mas vale a pena. Me deixa feliz."
+      "AP": "Um pouco. Mas vale a pena. Me deixa feliz.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She runs marathons. She has done five.",
-      "AP": "Ela corre maratonas. Já fez cinco."
+      "AP": "Ela corre maratonas. Já fez cinco.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "What hobby did you have as a kid?",
       "QP": "Que hobby você tinha quando criança?",
       "AE": "I used to collect cards. And draw.",
-      "AP": "Colecionava cartas. E desenhava."
+      "AP": "Colecionava cartas. E desenhava.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He is teaching his son to play guitar.",
-      "AP": "Ele está ensinando o filho a tocar violão."
+      "AP": "Ele está ensinando o filho a tocar violão.",
+      "QG": "F",
+      "AG": "M"
     }
   ]
 }

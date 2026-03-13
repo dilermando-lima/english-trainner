@@ -5,325 +5,433 @@
       "QE": "Where is the milk?",
       "QP": "Onde fica o leite?",
       "AE": "It is in the dairy section, at the back.",
-      "AP": "Fica na seção de laticínios, no fundo."
+      "AP": "Fica na seção de laticínios, no fundo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I need to buy bread and eggs.",
-      "AP": "Preciso comprar pão e ovos."
+      "AP": "Preciso comprar pão e ovos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you have a shopping list?",
       "QP": "Você tem lista de compras?",
       "AE": "Yes, I wrote everything down.",
-      "AP": "Sim, anotei tudo."
+      "AP": "Sim, anotei tudo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "The apples are on sale today.",
-      "AP": "As maçãs estão em promoção hoje."
+      "AP": "As maçãs estão em promoção hoje.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Where can I find the olive oil?",
       "QP": "Onde encontro o azeite?",
       "AE": "It is in aisle five, with the oils.",
-      "AP": "Fica no corredor cinco, com os óleos."
+      "AP": "Fica no corredor cinco, com os óleos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She always buys organic vegetables.",
-      "AP": "Ela sempre compra legumes orgânicos."
+      "AP": "Ela sempre compra legumes orgânicos.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Is there a discount for members?",
       "QP": "Tem desconto para associados?",
       "AE": "Yes, show your card at the checkout.",
-      "AP": "Sim, mostre seu cartão no caixa."
+      "AP": "Sim, mostre seu cartão no caixa.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I forgot to get butter.",
-      "AP": "Esqueci de pegar manteiga."
+      "AP": "Esqueci de pegar manteiga.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you want paper or plastic bags?",
       "QP": "Quer sacola de papel ou plástico?",
       "AE": "Paper, please. I reuse them.",
-      "AP": "Papel, por favor. Reutilizo."
+      "AP": "Papel, por favor. Reutilizo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "The checkout line is very long.",
-      "AP": "A fila do caixa está muito longa."
+      "AP": "A fila do caixa está muito longa.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How much is this?",
       "QP": "Quanto custa isso?",
       "AE": "It is three ninety-nine.",
-      "AP": "Custa três e noventa e nove."
+      "AP": "Custa três e noventa e nove.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He goes shopping every Saturday morning.",
-      "AP": "Ele faz compras todo sábado de manhã."
+      "AP": "Ele faz compras todo sábado de manhã.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Where are the frozen foods?",
       "QP": "Onde ficam os congelados?",
       "AE": "They are in the last aisle.",
-      "AP": "Ficam no último corredor."
+      "AP": "Ficam no último corredor.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I need a cart. The basket is full.",
-      "AP": "Preciso de um carrinho. A cesta está cheia."
+      "AP": "Preciso de um carrinho. A cesta está cheia.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you have this in a larger size?",
       "QP": "Tem isso em tamanho maior?",
       "AE": "Let me check. Yes, we do.",
-      "AP": "Deixe-me ver. Sim, temos."
+      "AP": "Deixe-me ver. Sim, temos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "The bananas are too green.",
-      "AP": "As bananas estão verdes demais."
+      "AP": "As bananas estão verdes demais.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Can I pay by card?",
       "QP": "Posso pagar com cartão?",
       "AE": "Yes, we accept all major cards.",
-      "AP": "Sim, aceitamos os principais cartões."
+      "AP": "Sim, aceitamos os principais cartões.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She compares prices before buying.",
-      "AP": "Ela compara preços antes de comprar."
+      "AP": "Ela compara preços antes de comprar.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Where is the express lane?",
       "QP": "Onde fica a fila rápida?",
       "AE": "It is on the left. Fewer than ten items.",
-      "AP": "Fica à esquerda. Menos de dez itens."
+      "AP": "Fica à esquerda. Menos de dez itens.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am looking for gluten-free bread.",
-      "AP": "Estou procurando pão sem glúten."
+      "AP": "Estou procurando pão sem glúten.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Is this the last one?",
       "QP": "Este é o último?",
       "AE": "Yes, but we have more in the back.",
-      "AP": "Sim, mas temos mais no estoque."
+      "AP": "Sim, mas temos mais no estoque.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We need to buy more toilet paper.",
-      "AP": "Precisamos comprar mais papel higiênico."
+      "AP": "Precisamos comprar mais papel higiênico.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you have a loyalty card?",
       "QP": "Você tem cartão fidelidade?",
       "AE": "No, I do not. Can I get one?",
-      "AP": "Não tenho. Posso fazer?"
+      "AP": "Não tenho. Posso fazer?",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "The meat section is next to the deli.",
-      "AP": "A seção de carnes fica ao lado do frios."
+      "AP": "A seção de carnes fica ao lado do frios.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How fresh is the fish?",
       "QP": "O peixe está fresco?",
       "AE": "It arrived this morning.",
-      "AP": "Chegou esta manhã."
+      "AP": "Chegou esta manhã.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I always buy more than I planned.",
-      "AP": "Sempre compro mais do que planejei."
+      "AP": "Sempre compro mais do que planejei.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Where can I weigh the fruit?",
       "QP": "Onde posso pesar a fruta?",
       "AE": "There are scales at the end of the produce.",
-      "AP": "Há balanças no fim da seção de hortifruti."
+      "AP": "Há balanças no fim da seção de hortifruti.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She uses coupons to save money.",
-      "AP": "Ela usa cupons para economizar."
+      "AP": "Ela usa cupons para economizar.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Do you need help finding something?",
       "QP": "Precisa de ajuda para encontrar algo?",
       "AE": "Yes, where is the rice?",
-      "AP": "Sim, onde fica o arroz?"
+      "AP": "Sim, onde fica o arroz?",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "The store closes at ten.",
-      "AP": "A loja fecha às dez."
+      "AP": "A loja fecha às dez.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Is there a restroom here?",
       "QP": "Tem banheiro aqui?",
       "AE": "Yes, near the entrance.",
-      "AP": "Sim, perto da entrada."
+      "AP": "Sim, perto da entrada.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I prefer to shop early when it is empty.",
-      "AP": "Prefiro fazer compras cedo quando está vazio."
+      "AP": "Prefiro fazer compras cedo quando está vazio.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Can I return this if I do not like it?",
       "QP": "Posso devolver se não gostar?",
       "AE": "Yes, with the receipt within seven days.",
-      "AP": "Sim, com a nota em até sete dias."
+      "AP": "Sim, com a nota em até sete dias.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He forgot the shopping bags at home.",
-      "AP": "Ele esqueceu as sacolas em casa."
+      "AP": "Ele esqueceu as sacolas em casa.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Where are the cleaning products?",
       "QP": "Onde ficam os produtos de limpeza?",
       "AE": "Aisle three, on the right.",
-      "AP": "Corredor três, à direita."
+      "AP": "Corredor três, à direita.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "The bread is baked fresh daily.",
-      "AP": "O pão é assado fresco todo dia."
+      "AP": "O pão é assado fresco todo dia.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you sell reusable bags?",
       "QP": "Vocês vendem sacolas reutilizáveis?",
       "AE": "Yes, at the checkout.",
-      "AP": "Sim, no caixa."
+      "AP": "Sim, no caixa.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I need to grab some water.",
-      "AP": "Preciso pegar água."
+      "AP": "Preciso pegar água.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What time does the store open?",
       "QP": "A que horas a loja abre?",
       "AE": "It opens at seven.",
-      "AP": "Abre às sete."
+      "AP": "Abre às sete.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She buys in bulk to save.",
-      "AP": "Ela compra em quantidade para economizar."
+      "AP": "Ela compra em quantidade para economizar.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Is this product on special?",
       "QP": "Este produto está em promoção?",
       "AE": "Yes, buy two get one free.",
-      "AP": "Sim, leve dois e pague um."
+      "AP": "Sim, leve dois e pague um.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We are out of coffee at home.",
-      "AP": "Acabou o café em casa."
+      "AP": "Acabou o café em casa.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Where do I get a cart?",
       "QP": "Onde pego um carrinho?",
       "AE": "They are at the entrance.",
-      "AP": "Estão na entrada."
+      "AP": "Estão na entrada.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "The eggs are in the refrigerated section.",
-      "AP": "Os ovos ficam na geladeira."
+      "AP": "Os ovos ficam na geladeira.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Can I use the self-checkout?",
       "QP": "Posso usar o caixa automático?",
       "AE": "Yes, it is faster.",
-      "AP": "Sim, é mais rápido."
+      "AP": "Sim, é mais rápido.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I need to buy snacks for the kids.",
-      "AP": "Preciso comprar lanches para as crianças."
+      "AP": "Preciso comprar lanches para as crianças.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you have almond milk?",
       "QP": "Vocês têm leite de amêndoas?",
       "AE": "Yes, in the dairy section.",
-      "AP": "Sim, na seção de laticínios."
+      "AP": "Sim, na seção de laticínios.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He spends too much at the supermarket.",
-      "AP": "Ele gasta demais no supermercado."
+      "AP": "Ele gasta demais no supermercado.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Where is the bakery?",
       "QP": "Onde fica a padaria?",
       "AE": "It is near the entrance, on the left.",
-      "AP": "Fica perto da entrada, à esquerda."
+      "AP": "Fica perto da entrada, à esquerda.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I like to make a list so I do not forget.",
-      "AP": "Gosto de fazer lista para não esquecer."
+      "AP": "Gosto de fazer lista para não esquecer.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Is there a price for this?",
       "QP": "Tem preço nisso?",
       "AE": "It should be on the shelf. Let me check.",
-      "AP": "Deve estar na prateleira. Deixe-me ver."
+      "AP": "Deve estar na prateleira. Deixe-me ver.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We need milk, juice, and cereal.",
-      "AP": "Precisamos de leite, suco e cereal."
+      "AP": "Precisamos de leite, suco e cereal.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you deliver?",
       "QP": "Vocês entregam?",
       "AE": "Yes, for orders over fifty.",
-      "AP": "Sim, para pedidos acima de cinquenta."
+      "AP": "Sim, para pedidos acima de cinquenta.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She always checks the expiration date.",
-      "AP": "Ela sempre confere a data de validade."
+      "AP": "Ela sempre confere a data de validade.",
+      "QG": "F",
+      "AG": "F"
     }
   ]
 }

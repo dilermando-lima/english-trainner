@@ -5,325 +5,433 @@
       "QE": "What time do you go to bed?",
       "QP": "A que horas você vai dormir?",
       "AE": "I usually go to bed around ten thirty.",
-      "AP": "Geralmente vou dormir por volta das dez e meia."
+      "AP": "Geralmente vou dormir por volta das dez e meia.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She turns off her phone an hour before bed.",
-      "AP": "Ela desliga o celular uma hora antes de dormir."
+      "AP": "Ela desliga o celular uma hora antes de dormir.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Do you have a bedtime routine?",
       "QP": "Você tem uma rotina antes de dormir?",
       "AE": "Yes. Shower, brush teeth, read a bit.",
-      "AP": "Sim. Banho, escovar dentes, ler um pouco."
+      "AP": "Sim. Banho, escovar dentes, ler um pouco.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He sets his alarm before getting in bed.",
-      "AP": "Ele coloca o despertador antes de deitar."
+      "AP": "Ele coloca o despertador antes de deitar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What do you do before sleep?",
       "QP": "O que você faz antes de dormir?",
       "AE": "I watch something light or read.",
-      "AP": "Assisto algo leve ou leio."
+      "AP": "Assisto algo leve ou leio.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We have dinner around eight, then relax.",
-      "AP": "Jantamos por volta das oito e depois relaxamos."
+      "AP": "Jantamos por volta das oito e depois relaxamos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you drink anything before bed?",
       "QP": "Você bebe algo antes de dormir?",
       "AE": "Sometimes tea. No coffee after six.",
-      "AP": "Às vezes chá. Sem café depois das seis."
+      "AP": "Às vezes chá. Sem café depois das seis.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I take a warm shower at night.",
-      "AP": "Tomar um banho morno à noite."
+      "AP": "Tomar um banho morno à noite.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How do you wind down?",
       "QP": "Como você relaxa?",
       "AE": "I dim the lights and put on soft music.",
-      "AP": "Deixo as luzes mais baixas e coloco uma música suave."
+      "AP": "Deixo as luzes mais baixas e coloco uma música suave.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She reads for twenty minutes every night.",
-      "AP": "Ela lê por vinte minutos toda noite."
+      "AP": "Ela lê por vinte minutos toda noite.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Do you use your phone in bed?",
       "QP": "Você usa o celular na cama?",
       "AE": "I try not to. I leave it on the desk.",
-      "AP": "Tento não usar. Deixo na mesa."
+      "AP": "Tento não usar. Deixo na mesa.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He brushes his teeth and flosses.",
-      "AP": "Ele escova os dentes e usa fio dental."
+      "AP": "Ele escova os dentes e usa fio dental.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What time do the kids go to bed?",
       "QP": "A que horas as crianças dormem?",
       "AE": "We start at eight. They are asleep by nine.",
-      "AP": "Começamos às oito. Estão dormindo às nove."
+      "AP": "Começamos às oito. Estão dormindo às nove.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I lay out my clothes for the next day.",
-      "AP": "Separo a roupa do dia seguinte."
+      "AP": "Separo a roupa do dia seguinte.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you sleep with the window open?",
       "QP": "Você dorme com a janela aberta?",
       "AE": "A little. I like fresh air.",
-      "AP": "Um pouco. Gosto de ar fresco."
+      "AP": "Um pouco. Gosto de ar fresco.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She uses a night light in the hallway.",
-      "AP": "Ela usa uma luz noturna no corredor."
+      "AP": "Ela usa uma luz noturna no corredor.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "How many hours do you need?",
       "QP": "Quantas horas você precisa?",
       "AE": "I need at least seven hours.",
-      "AP": "Preciso de pelo menos sete horas."
+      "AP": "Preciso de pelo menos sete horas.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We turn off the TV at ten.",
-      "AP": "Desligamos a TV às dez."
+      "AP": "Desligamos a TV às dez.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you take any medicine at night?",
       "QP": "Você toma algum remédio à noite?",
       "AE": "Just a vitamin. Nothing that keeps me up.",
-      "AP": "Só uma vitamina. Nada que me mantenha acordado."
+      "AP": "Só uma vitamina. Nada que me mantenha acordado.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He checks the doors before bed.",
-      "AP": "Ele confere as portas antes de dormir."
+      "AP": "Ele confere as portas antes de dormir.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What do you do if you cannot sleep?",
       "QP": "O que você faz quando não consegue dormir?",
       "AE": "I get up and read until I feel sleepy.",
-      "AP": "Levanto e leio até sentir sono."
+      "AP": "Levanto e leio até sentir sono.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I avoid screens an hour before sleep.",
-      "AP": "Evito telas uma hora antes de dormir."
+      "AP": "Evito telas uma hora antes de dormir.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you use blackout curtains?",
       "QP": "Você usa cortina blackout?",
       "AE": "Yes, the room has to be dark.",
-      "AP": "Sim, o quarto tem que estar escuro."
+      "AP": "Sim, o quarto tem que estar escuro.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She writes in her journal before bed.",
-      "AP": "Ela escreve no diário antes de dormir."
+      "AP": "Ela escreve no diário antes de dormir.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "How do you prepare the bedroom?",
       "QP": "Como você prepara o quarto?",
       "AE": "I make the bed fresh and lower the temp.",
-      "AP": "Deixo a cama arrumada e baixo a temperatura."
+      "AP": "Deixo a cama arrumada e baixo a temperatura.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We say goodnight to the kids together.",
-      "AP": "Dizemos boa noite às crianças juntos."
+      "AP": "Dizemos boa noite às crianças juntos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you nap in the evening?",
       "QP": "Você cochila à noite?",
       "AE": "No, that would ruin my sleep.",
-      "AP": "Não, isso atrapalharia meu sono."
+      "AP": "Não, isso atrapalharia meu sono.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He listens to a podcast to fall asleep.",
-      "AP": "Ele ouve um podcast para adormecer."
+      "AP": "Ele ouve um podcast para adormecer.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is the last thing you do?",
       "QP": "Qual é a última coisa que você faz?",
       "AE": "Set the alarm and close my eyes.",
-      "AP": "Coloco o despertador e fecho os olhos."
+      "AP": "Coloco o despertador e fecho os olhos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I try to go to bed at the same time daily.",
-      "AP": "Tento dormir no mesmo horário todo dia."
+      "AP": "Tento dormir no mesmo horário todo dia.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you share the bed with pets?",
       "QP": "Você divide a cama com os bichos?",
       "AE": "The cat sleeps with us. The dog has his bed.",
-      "AP": "O gato dorme conosco. O cachorro tem a cama dele."
+      "AP": "O gato dorme conosco. O cachorro tem a cama dele.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She does not eat late. It keeps her up.",
-      "AP": "Ela não come tarde. Isso a mantém acordada."
+      "AP": "Ela não come tarde. Isso a mantém acordada.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "How do you wake up at the same time?",
       "QP": "Como você acorda no mesmo horário?",
       "AE": "Same alarm every day, even on weekends.",
-      "AP": "Mesmo despertador todo dia, até no fim de semana."
+      "AP": "Mesmo despertador todo dia, até no fim de semana.",
+      "QG": "M",
+      "AG": "F"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We have a no-phone rule in the bedroom.",
-      "AP": "Temos regra de sem celular no quarto."
+      "AP": "Temos regra de sem celular no quarto.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you use a white noise machine?",
       "QP": "Você usa máquina de ruído branco?",
       "AE": "Yes, it helps me sleep through noise.",
-      "AP": "Sim, ajuda a dormir com barulho."
+      "AP": "Sim, ajuda a dormir com barulho.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He stretches before getting into bed.",
-      "AP": "Ele se alonga antes de deitar."
+      "AP": "Ele se alonga antes de deitar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What do you wear to sleep?",
       "QP": "O que você veste para dormir?",
       "AE": "Pajamas in winter. Light clothes in summer.",
-      "AP": "Pijama no inverno. Roupa leve no verão."
+      "AP": "Pijama no inverno. Roupa leve no verão.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I close the blinds and turn off all lights.",
-      "AP": "Fecho as persianas e apago todas as luzes."
+      "AP": "Fecho as persianas e apago todas as luzes.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Do you have trouble falling asleep?",
       "QP": "Você tem dificuldade para dormir?",
       "AE": "Sometimes. When I am stressed.",
-      "AP": "Às vezes. Quando estou estressado."
+      "AP": "Às vezes. Quando estou estressado.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She puts her phone on Do Not Disturb.",
-      "AP": "Ela coloca o celular em não perturbe."
+      "AP": "Ela coloca o celular em não perturbe.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "How dark does the room need to be?",
       "QP": "O quarto precisa estar muito escuro?",
       "AE": "As dark as possible. I use a sleep mask.",
-      "AP": "O mais escuro possível. Uso máscara de dormir."
+      "AP": "O mais escuro possível. Uso máscara de dormir.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We do not watch thrillers before bed.",
-      "AP": "Não assistimos thriller antes de dormir."
+      "AP": "Não assistimos thriller antes de dormir.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you wake up at night?",
       "QP": "Você acorda durante a noite?",
       "AE": "Rarely. Maybe once to use the bathroom.",
-      "AP": "Raramente. Talvez uma vez para ir ao banheiro."
+      "AP": "Raramente. Talvez uma vez para ir ao banheiro.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He has a glass of water by the bed.",
-      "AP": "Ele tem um copo de água ao lado da cama."
+      "AP": "Ele tem um copo de água ao lado da cama.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What helps you sleep better?",
       "QP": "O que te ajuda a dormir melhor?",
       "AE": "Cool room, no caffeine, and a good book.",
-      "AP": "Quarto fresco, sem cafeína e um bom livro."
+      "AP": "Quarto fresco, sem cafeína e um bom livro.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I say goodnight to my family by text.",
-      "AP": "Digo boa noite à família por mensagem."
+      "AP": "Digo boa noite à família por mensagem.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you sleep on weekends?",
       "QP": "Você dorme nos fins de semana?",
       "AE": "I sleep in a bit. Until eight or nine.",
-      "AP": "Durmo um pouco mais. Até oito ou nove."
+      "AP": "Durmo um pouco mais. Até oito ou nove.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She never goes to bed angry.",
-      "AP": "Ela nunca vai dormir com raiva."
+      "AP": "Ela nunca vai dormir com raiva.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "How do you relax after a long day?",
       "QP": "Como você relaxa depois de um dia longo?",
       "AE": "Hot shower, then couch and TV.",
-      "AP": "Banho quente, depois sofá e TV."
+      "AP": "Banho quente, depois sofá e TV.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We read to the kids before they sleep.",
-      "AP": "Lemos para as crianças antes de dormirem."
+      "AP": "Lemos para as crianças antes de dormirem.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you dream a lot?",
       "QP": "Você sonha muito?",
       "AE": "I do not remember my dreams often.",
-      "AP": "Não lembro dos sonhos com frequência."
+      "AP": "Não lembro dos sonhos com frequência.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He keeps the room slightly cold.",
-      "AP": "Ele mantém o quarto um pouco frio."
+      "AP": "Ele mantém o quarto um pouco frio.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is your ideal bedtime?",
       "QP": "Qual é sua hora ideal de dormir?",
       "AE": "Ten would be ideal. Often it is eleven.",
-      "AP": "Dez seria ideal. Muitas vezes é onze."
+      "AP": "Dez seria ideal. Muitas vezes é onze.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I do not drink alcohol before bed.",
-      "AP": "Não bebo álcool antes de dormir."
+      "AP": "Não bebo álcool antes de dormir.",
+      "QG": "F",
+      "AG": "M"
     }
   ]
 }

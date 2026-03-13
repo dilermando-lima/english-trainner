@@ -5,325 +5,433 @@
       "QE": "Would you like to come to my party?",
       "QP": "Você gostaria de vir à minha festa?",
       "AE": "Yes, I would love to. When is it?",
-      "AP": "Sim, adoraria. Quando é?"
+      "AP": "Sim, adoraria. Quando é?",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am having a dinner on Saturday. Can you make it?",
-      "AP": "Vou dar um jantar no sábado. Você pode vir?"
+      "AP": "Vou dar um jantar no sábado. Você pode vir?",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you want to join us for lunch?",
       "QP": "Quer se juntar a nós para o almoço?",
       "AE": "Sure, that would be great. What time?",
-      "AP": "Claro, seria ótimo. Que horas?"
+      "AP": "Claro, seria ótimo. Que horas?",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She invited the whole team to her wedding.",
-      "AP": "Ela convidou toda a equipe para o casamento."
+      "AP": "Ela convidou toda a equipe para o casamento.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Are you free this weekend?",
       "QP": "Você está livre neste fim de semana?",
       "AE": "I think so. What did you have in mind?",
-      "AP": "Acho que sim. O que você tinha em mente?"
+      "AP": "Acho que sim. O que você tinha em mente?",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We are throwing a surprise party for Maria.",
-      "AP": "Estamos dando uma festa surpresa para a Maria."
+      "AP": "Estamos dando uma festa surpresa para a Maria.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Can you come to my birthday?",
       "QP": "Você pode vir ao meu aniversário?",
       "AE": "Of course. I would not miss it.",
-      "AP": "Claro. Não perderia por nada."
+      "AP": "Claro. Não perderia por nada.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He sent out invitations last week.",
-      "AP": "Ele enviou os convites na semana passada."
+      "AP": "Ele enviou os convites na semana passada.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Would you like to have coffee sometime?",
       "QP": "Você gostaria de tomar um café algum dia?",
       "AE": "Yes, that would be nice. How about next week?",
-      "AP": "Sim, seria bom. Que tal na próxima semana?"
+      "AP": "Sim, seria bom. Que tal na próxima semana?",
+      "QG": "M",
+      "AG": "F"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am inviting a few friends over. Casual.",
-      "AP": "Estou convidando alguns amigos. Casual."
+      "AP": "Estou convidando alguns amigos. Casual.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you want to go to the movies with us?",
       "QP": "Quer ir ao cinema conosco?",
       "AE": "Sure. What are we watching?",
-      "AP": "Claro. O que vamos assistir?"
+      "AP": "Claro. O que vamos assistir?",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She asked me to her graduation. I said yes.",
-      "AP": "Ela me convidou para a formatura. Aceitei."
+      "AP": "Ela me convidou para a formatura. Aceitei.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Are you doing anything on Friday night?",
       "QP": "Você tem algum plano na sexta à noite?",
       "AE": "Nothing yet. Why?",
-      "AP": "Nada ainda. Por quê?"
+      "AP": "Nada ainda. Por quê?",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We would like to invite you to our housewarming.",
-      "AP": "Gostaríamos de convidá-lo para nossa festa de inauguração."
+      "AP": "Gostaríamos de convidá-lo para nossa festa de inauguração.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Can you make it to the meeting?",
       "QP": "Você pode vir à reunião?",
       "AE": "Yes, I will be there. What time does it start?",
-      "AP": "Sim, estarei lá. A que horas começa?"
+      "AP": "Sim, estarei lá. A que horas começa?",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He invited me to play soccer on Sunday.",
-      "AP": "Ele me convidou para jogar futebol no domingo."
+      "AP": "Ele me convidou para jogar futebol no domingo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Would you be interested in joining our book club?",
       "QP": "Você teria interesse em entrar no nosso clube do livro?",
       "AE": "I would love to. When do you meet?",
-      "AP": "Adoraria. Quando vocês se reúnem?"
+      "AP": "Adoraria. Quando vocês se reúnem?",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am organizing a barbecue. You are invited.",
-      "AP": "Estou organizando um churrasco. Você está convidado."
+      "AP": "Estou organizando um churrasco. Você está convidado.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you want to come over for dinner?",
       "QP": "Quer vir jantar em casa?",
       "AE": "That sounds great. Should I bring something?",
-      "AP": "Parece ótimo. Devo levar algo?"
+      "AP": "Parece ótimo. Devo levar algo?",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She is having a baby shower. We are all going.",
-      "AP": "Ela vai dar um chá de bebê. Todos vamos."
+      "AP": "Ela vai dar um chá de bebê. Todos vamos.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Are you coming to the concert?",
       "QP": "Você vai ao show?",
       "AE": "Yes, I already have my ticket.",
-      "AP": "Sim, já tenho meu ingresso."
+      "AP": "Sim, já tenho meu ingresso.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We sent formal invitations. RSVP by next Monday.",
-      "AP": "Enviamos convites formais. Confirmar até a próxima segunda."
+      "AP": "Enviamos convites formais. Confirmar até a próxima segunda.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Can I invite a plus-one?",
       "QP": "Posso convidar um acompanhante?",
       "AE": "Of course. Just let us know the name.",
-      "AP": "Claro. É só nos avisar o nome."
+      "AP": "Claro. É só nos avisar o nome.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He asked me to be his best man. I said yes.",
-      "AP": "Ele me pediu para ser padrinho. Aceitei."
+      "AP": "Ele me pediu para ser padrinho. Aceitei.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Would you like to attend the conference?",
       "QP": "Você gostaria de participar da conferência?",
       "AE": "Yes, if I can get the time off.",
-      "AP": "Sim, se eu puder conseguir o dia de folga."
+      "AP": "Sim, se eu puder conseguir o dia de folga.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am thinking of having people over. Maybe next month.",
-      "AP": "Estou pensando em receber pessoas. Talvez mês que vem."
+      "AP": "Estou pensando em receber pessoas. Talvez mês que vem.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you want to grab a drink after work?",
       "QP": "Quer tomar um drink depois do trabalho?",
       "AE": "Sure. Where do you want to go?",
-      "AP": "Claro. Onde você quer ir?"
+      "AP": "Claro. Onde você quer ir?",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She invited us to her cabin for the weekend.",
-      "AP": "Ela nos convidou para o chalé dela no fim de semana."
+      "AP": "Ela nos convidou para o chalé dela no fim de semana.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Are you available for a call tomorrow?",
       "QP": "Você está disponível para uma call amanhã?",
       "AE": "Yes, morning works best for me.",
-      "AP": "Sim, de manhã é melhor para mim."
+      "AP": "Sim, de manhã é melhor para mim.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We are having a small gathering. Just close friends.",
-      "AP": "Vamos fazer uma reunião pequena. Só amigos próximos."
+      "AP": "Vamos fazer uma reunião pequena. Só amigos próximos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Can you join our team for the event?",
       "QP": "Você pode se juntar à nossa equipe no evento?",
       "AE": "I would be happy to. What do you need?",
-      "AP": "Ficaria feliz. O que vocês precisam?"
+      "AP": "Ficaria feliz. O que vocês precisam?",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He is inviting everyone from the office.",
-      "AP": "Ele está convidando todo mundo do escritório."
+      "AP": "Ele está convidando todo mundo do escritório.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Would you like to be my guest at the dinner?",
       "QP": "Você gostaria de ser meu convidado no jantar?",
       "AE": "Thank you. I would be honored.",
-      "AP": "Obrigado. Seria uma honra."
+      "AP": "Obrigado. Seria uma honra.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am planning a trip. Want to come?",
-      "AP": "Estou planejando uma viagem. Quer vir?"
+      "AP": "Estou planejando uma viagem. Quer vir?",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you want to try that new restaurant?",
       "QP": "Quer experimentar aquele restaurante novo?",
       "AE": "Yes, let us go this weekend.",
-      "AP": "Sim, vamos neste fim de semana."
+      "AP": "Sim, vamos neste fim de semana.",
+      "QG": "M",
+      "AG": "F"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She is having a going-away party. You should come.",
-      "AP": "Ela vai dar uma festa de despedida. Você deveria ir."
+      "AP": "Ela vai dar uma festa de despedida. Você deveria ir.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Are you up for a game night?",
       "QP": "Você topa uma noite de jogos?",
       "AE": "Sure. I love game nights. When?",
-      "AP": "Claro. Adoro noite de jogos. Quando?"
+      "AP": "Claro. Adoro noite de jogos. Quando?",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We need to confirm the guest list.",
-      "AP": "Precisamos confirmar a lista de convidados."
+      "AP": "Precisamos confirmar a lista de convidados.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Can I invite my sister?",
       "QP": "Posso convidar minha irmã?",
       "AE": "Of course. The more the merrier.",
-      "AP": "Claro. Quanto mais, melhor."
+      "AP": "Claro. Quanto mais, melhor.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He handed me an invitation. It is next Saturday.",
-      "AP": "Ele me entregou um convite. É no próximo sábado."
+      "AP": "Ele me entregou um convite. É no próximo sábado.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Would you like to speak at the event?",
       "QP": "Você gostaria de falar no evento?",
       "AE": "I would need to prepare. What is the topic?",
-      "AP": "Precisaria me preparar. Qual é o tema?"
+      "AP": "Precisaria me preparar. Qual é o tema?",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am sending out save-the-dates first.",
-      "AP": "Estou enviando primeiro os save-the-dates."
+      "AP": "Estou enviando primeiro os save-the-dates.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you want to come to the opening?",
       "QP": "Quer vir à inauguração?",
       "AE": "Yes, I would not miss it. Thanks for inviting me.",
-      "AP": "Sim, não perderia. Obrigado por me convidar."
+      "AP": "Sim, não perderia. Obrigado por me convidar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She invited me to her birthday. I need to get a gift.",
-      "AP": "Ela me convidou para o aniversário. Preciso comprar um presente."
+      "AP": "Ela me convidou para o aniversário. Preciso comprar um presente.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Are you free for lunch tomorrow?",
       "QP": "Você está livre para almoçar amanhã?",
       "AE": "I have a meeting at noon. How about Thursday?",
-      "AP": "Tenho reunião ao meio-dia. Que tal quinta?"
+      "AP": "Tenho reunião ao meio-dia. Que tal quinta?",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We are having a potluck. Everyone brings a dish.",
-      "AP": "Vamos fazer um potluck. Cada um traz um prato."
+      "AP": "Vamos fazer um potluck. Cada um traz um prato.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Can you come to the ceremony?",
       "QP": "Você pode vir à cerimônia?",
       "AE": "I will try. I need to check my schedule.",
-      "AP": "Vou tentar. Preciso ver minha agenda."
+      "AP": "Vou tentar. Preciso ver minha agenda.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He is having a house party. It is going to be fun.",
-      "AP": "Ele vai dar uma festa em casa. Vai ser divertido."
+      "AP": "Ele vai dar uma festa em casa. Vai ser divertido.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Would you like to be part of the committee?",
       "QP": "Você gostaria de fazer parte do comitê?",
       "AE": "I would need to know the time commitment.",
-      "AP": "Precisaria saber o comprometimento de tempo."
+      "AP": "Precisaria saber o comprometimento de tempo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I invited everyone by email. Some have already replied.",
-      "AP": "Convidei todos por e-mail. Alguns já responderam."
+      "AP": "Convidei todos por e-mail. Alguns já responderam.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you want to go for a walk?",
       "QP": "Quer dar uma caminhada?",
       "AE": "Sure. Let us go to the park.",
-      "AP": "Claro. Vamos ao parque."
+      "AP": "Claro. Vamos ao parque.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She is having a casual get-together. No need to dress up.",
-      "AP": "Ela vai fazer um encontro casual. Não precisa se arrumar."
+      "AP": "Ela vai fazer um encontro casual. Não precisa se arrumar.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Are you coming to the reunion?",
       "QP": "Você vai à reunião?",
       "AE": "Yes, I already signed up.",
-      "AP": "Sim, já me inscrevi."
+      "AP": "Sim, já me inscrevi.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We would love to have you. Please say you will come.",
-      "AP": "Adoraríamos tê-lo. Por favor diga que virá."
+      "AP": "Adoraríamos tê-lo. Por favor diga que virá.",
+      "QG": "F",
+      "AG": "M"
     }
   ]
 }

@@ -5,301 +5,401 @@
       "QE": "Did you hear what happened?",
       "QP": "Você soube do que aconteceu?",
       "AE": "Yes. I am so sorry to hear that.",
-      "AP": "Sim. Sinto muito por isso."
+      "AP": "Sim. Sinto muito por isso.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I have some bad news to share.",
-      "AP": "Tenho uma má notícia para compartilhar."
+      "AP": "Tenho uma má notícia para compartilhar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How do I tell him?",
       "QP": "Como digo isso a ele?",
       "AE": "Be direct but gentle. Choose a quiet moment.",
-      "AP": "Seja direto mas gentil. Escolha um momento calmo."
+      "AP": "Seja direto mas gentil. Escolha um momento calmo.",
+      "QG": "M",
+      "AG": "F"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She lost her job last week.",
-      "AP": "Ela perdeu o emprego na semana passada."
+      "AP": "Ela perdeu o emprego na semana passada.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "What is wrong? You look upset.",
       "QP": "O que há de errado? Você parece chateado.",
       "AE": "I just got some bad news.",
-      "AP": "Acabei de receber uma má notícia."
+      "AP": "Acabei de receber uma má notícia.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am sorry to have to tell you this.",
-      "AP": "Sinto ter que te contar isso."
+      "AP": "Sinto ter que te contar isso.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How is she taking it?",
       "QP": "Como ela está levando?",
       "AE": "She is sad but trying to stay strong.",
-      "AP": "Ela está triste mas tentando ser forte."
+      "AP": "Ela está triste mas tentando ser forte.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "The project was canceled.",
-      "AP": "O projeto foi cancelado."
+      "AP": "O projeto foi cancelado.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Should I tell them now or wait?",
       "QP": "Devo contar agora ou esperar?",
       "AE": "Tell them as soon as you can. They need to know.",
-      "AP": "Conte o quanto antes. Eles precisam saber."
+      "AP": "Conte o quanto antes. Eles precisam saber.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He failed the exam.",
-      "AP": "Ele reprovou na prova."
+      "AP": "Ele reprovou na prova.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What happened?",
       "QP": "O que aconteceu?",
       "AE": "There was an accident. Everyone is okay.",
-      "AP": "Houve um acidente. Todos estão bem."
+      "AP": "Houve um acidente. Todos estão bem.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I need to break some bad news.",
-      "AP": "Preciso dar uma má notícia."
+      "AP": "Preciso dar uma má notícia.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How do you give bad news at work?",
       "QP": "Como você dá más notícias no trabalho?",
       "AE": "Be clear, brief, and offer next steps.",
-      "AP": "Seja claro, breve e ofereça próximos passos."
+      "AP": "Seja claro, breve e ofereça próximos passos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She was diagnosed with an illness.",
-      "AP": "Ela foi diagnosticada com uma doença."
+      "AP": "Ela foi diagnosticada com uma doença.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Is there any good in this?",
       "QP": "Há algo de bom nisso?",
       "AE": "At least we found out early.",
-      "AP": "Pelo menos descobrimos cedo."
+      "AP": "Pelo menos descobrimos cedo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "The flight was canceled.",
-      "AP": "O voo foi cancelado."
+      "AP": "O voo foi cancelado.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How can I support you?",
       "QP": "Como posso te apoiar?",
       "AE": "Just being here helps. Thank you.",
-      "AP": "Só estar aqui já ajuda. Obrigado."
+      "AP": "Só estar aqui já ajuda. Obrigado.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We did not get the contract.",
-      "AP": "Não ganhamos o contrato."
+      "AP": "Não ganhamos o contrato.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Should I sugarcoat it?",
       "QP": "Devo suavizar?",
       "AE": "No. They deserve the truth.",
-      "AP": "Não. Eles merecem a verdade."
+      "AP": "Não. Eles merecem a verdade.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "His father passed away yesterday.",
-      "AP": "O pai dele faleceu ontem."
+      "AP": "O pai dele faleceu ontem.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How did they react?",
       "QP": "Como eles reagiram?",
       "AE": "They were shocked at first. Then sad.",
-      "AP": "Ficaram em choque no início. Depois tristes."
+      "AP": "Ficaram em choque no início. Depois tristes.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am afraid I have bad news.",
-      "AP": "Receio ter uma má notícia."
+      "AP": "Receio ter uma má notícia.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What do you say when someone loses a loved one?",
       "QP": "O que dizer quando alguém perde um ente querido?",
       "AE": "I am so sorry for your loss.",
-      "AP": "Sinto muito pela sua perda."
+      "AP": "Sinto muito pela sua perda.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "The company is laying people off.",
-      "AP": "A empresa está demitindo."
+      "AP": "A empresa está demitindo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How do you deliver bad news to a client?",
       "QP": "Como você comunica más notícias a um cliente?",
       "AE": "Be honest and offer alternatives.",
-      "AP": "Seja honesto e ofereça alternativas."
+      "AP": "Seja honesto e ofereça alternativas.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She did not get into the school she wanted.",
-      "AP": "Ela não passou na escola que queria."
+      "AP": "Ela não passou na escola que queria.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Is it better to tell them in person?",
       "QP": "É melhor contar pessoalmente?",
       "AE": "Yes, if possible. It shows respect.",
-      "AP": "Sim, se possível. Mostra respeito."
+      "AP": "Sim, se possível. Mostra respeito.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We missed the deadline.",
-      "AP": "Perdemos o prazo."
+      "AP": "Perdemos o prazo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What if they get angry?",
       "QP": "E se eles ficarem bravos?",
       "AE": "Let them feel. Then focus on solutions.",
-      "AP": "Deixe eles sentirem. Depois foque em soluções."
+      "AP": "Deixe eles sentirem. Depois foque em soluções.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He had to sell the house.",
-      "AP": "Ele teve que vender a casa."
+      "AP": "Ele teve que vender a casa.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How do you stay calm when giving bad news?",
       "QP": "Como você mantém a calma ao dar más notícias?",
       "AE": "Breathe. Speak slowly. Be kind.",
-      "AP": "Respire. Fale devagar. Seja gentil."
+      "AP": "Respire. Fale devagar. Seja gentil.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am sorry to inform you that we cannot proceed.",
-      "AP": "Lamento informar que não podemos prosseguir."
+      "AP": "Lamento informar que não podemos prosseguir.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What do you do after breaking bad news?",
       "QP": "O que fazer depois de dar uma má notícia?",
       "AE": "Give them space. Offer support.",
-      "AP": "Dê espaço. Ofereça apoio."
+      "AP": "Dê espaço. Ofereça apoio.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "The test results were not good.",
-      "AP": "Os resultados do exame não foram bons."
+      "AP": "Os resultados do exame não foram bons.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Should I send an email or call?",
       "QP": "Devo mandar e-mail ou ligar?",
       "AE": "Call for serious news. Email for minor things.",
-      "AP": "Ligue para notícias sérias. E-mail para coisas menores."
+      "AP": "Ligue para notícias sérias. E-mail para coisas menores.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "They broke up last month.",
-      "AP": "Eles terminaram no mês passado."
+      "AP": "Eles terminaram no mês passado.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How do you soften bad news?",
       "QP": "Como você suaviza uma má notícia?",
       "AE": "Start with something positive if you can.",
-      "AP": "Comece com algo positivo se puder."
+      "AP": "Comece com algo positivo se puder.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "The car was totaled in the accident.",
-      "AP": "O carro foi perda total no acidente."
+      "AP": "O carro foi perda total no acidente.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What do you say when there is no good way to say it?",
       "QP": "O que dizer quando não há boa forma de dizer?",
       "AE": "I need to tell you something difficult.",
-      "AP": "Preciso te contar algo difícil."
+      "AP": "Preciso te contar algo difícil.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We have to close the store.",
-      "AP": "Temos que fechar a loja."
+      "AP": "Temos que fechar a loja.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How do you support someone with bad news?",
       "QP": "Como você apoia alguém que recebeu má notícia?",
       "AE": "Listen. Do not try to fix everything.",
-      "AP": "Ouça. Não tente consertar tudo."
+      "AP": "Ouça. Não tente consertar tudo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He did not get the promotion.",
-      "AP": "Ele não conseguiu a promoção."
+      "AP": "Ele não conseguiu a promoção.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Is it okay to cry when giving bad news?",
       "QP": "Pode chorar ao dar uma má notícia?",
       "AE": "Yes. It shows you care.",
-      "AP": "Sim. Mostra que você se importa."
+      "AP": "Sim. Mostra que você se importa.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I regret to inform you that your application was denied.",
-      "AP": "Lamento informar que sua candidatura foi negada."
+      "AP": "Lamento informar que sua candidatura foi negada.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is the kindest way to say no?",
       "QP": "Qual é a forma mais gentil de dizer não?",
       "AE": "I wish I could say yes, but I cannot.",
-      "AP": "Queria poder dizer sim, mas não posso."
+      "AP": "Queria poder dizer sim, mas não posso.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "The meeting did not go well.",
-      "AP": "A reunião não foi bem."
+      "AP": "A reunião não foi bem.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How do you recover after delivering bad news?",
       "QP": "Como você se recupera depois de dar uma má notícia?",
       "AE": "Take a break. Be kind to yourself.",
-      "AP": "Faça uma pausa. Seja gentil consigo mesmo."
+      "AP": "Faça uma pausa. Seja gentil consigo mesmo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She had to cancel the wedding.",
-      "AP": "Ela teve que cancelar o casamento."
+      "AP": "Ela teve que cancelar o casamento.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Do you give details or keep it short?",
       "QP": "Você dá detalhes ou mantém curto?",
       "AE": "Enough so they understand. Then pause.",
-      "AP": "O suficiente para entender. Depois pause."
+      "AP": "O suficiente para entender. Depois pause.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "Things did not work out as we hoped.",
-      "AP": "As coisas não saíram como esperávamos."
+      "AP": "As coisas não saíram como esperávamos.",
+      "QG": "F",
+      "AG": "M"
     }
   ]
 }

@@ -5,325 +5,433 @@
       "QE": "What is the scope of this project?",
       "QP": "Qual é o escopo deste projeto?",
       "AE": "We are building the new checkout flow.",
-      "AP": "Estamos construindo o novo fluxo de checkout."
+      "AP": "Estamos construindo o novo fluxo de checkout.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We need to align on the timeline.",
-      "AP": "Precisamos alinhar o cronograma."
+      "AP": "Precisamos alinhar o cronograma.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Who is the project owner?",
       "QP": "Quem é o dono do projeto?",
       "AE": "Maria is. She prioritizes the backlog.",
-      "AP": "A Maria. Ela prioriza o backlog."
+      "AP": "A Maria. Ela prioriza o backlog.",
+      "QG": "M",
+      "AG": "F"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She presented the roadmap to the team.",
-      "AP": "Ela apresentou o roadmap para a equipe."
+      "AP": "Ela apresentou o roadmap para a equipe.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "What are the main deliverables?",
       "QP": "Quais são as principais entregas?",
       "AE": "The app redesign and the API integration.",
-      "AP": "O redesign do app e a integração da API."
+      "AP": "O redesign do app e a integração da API.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We discussed the risks in the last meeting.",
-      "AP": "Discutimos os riscos na última reunião."
+      "AP": "Discutimos os riscos na última reunião.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How do we track progress?",
       "QP": "Como acompanhamos o progresso?",
       "AE": "We use Jira and weekly status meetings.",
-      "AP": "Usamos Jira e reuniões de status semanais."
+      "AP": "Usamos Jira e reuniões de status semanais.",
+      "QG": "M",
+      "AG": "F"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He raised a concern about the deadline.",
-      "AP": "Ele levantou uma preocupação com o prazo."
+      "AP": "Ele levantou uma preocupação com o prazo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is the budget for this?",
       "QP": "Qual é o orçamento para isso?",
       "AE": "We have fifty thousand for phase one.",
-      "AP": "Temos cinquenta mil para a fase um."
+      "AP": "Temos cinquenta mil para a fase um.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We need to define the success criteria.",
-      "AP": "Precisamos definir os critérios de sucesso."
+      "AP": "Precisamos definir os critérios de sucesso.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Who are the stakeholders?",
       "QP": "Quem são os stakeholders?",
       "AE": "Product, engineering, and the client.",
-      "AP": "Produto, engenharia e o cliente."
+      "AP": "Produto, engenharia e o cliente.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She led the kickoff meeting last week.",
-      "AP": "Ela conduziu a reunião de kickoff na semana passada."
+      "AP": "Ela conduziu a reunião de kickoff na semana passada.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "What is the dependency on the other team?",
       "QP": "Qual é a dependência da outra equipe?",
       "AE": "We need their API by the end of the month.",
-      "AP": "Precisamos da API deles até o fim do mês."
+      "AP": "Precisamos da API deles até o fim do mês.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We are still in the discovery phase.",
-      "AP": "Ainda estamos na fase de descoberta."
+      "AP": "Ainda estamos na fase de descoberta.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How do we handle scope creep?",
       "QP": "Como lidamos com aumento de escopo?",
       "AE": "We log new requests and reassess priority.",
-      "AP": "Registramos novos pedidos e reavaliamos prioridade."
+      "AP": "Registramos novos pedidos e reavaliamos prioridade.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He suggested we split the project into phases.",
-      "AP": "Ele sugeriu dividir o projeto em fases."
+      "AP": "Ele sugeriu dividir o projeto em fases.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is the communication plan?",
       "QP": "Qual é o plano de comunicação?",
       "AE": "Weekly all-hands and a Slack channel.",
-      "AP": "Reunião semanal e um canal no Slack."
+      "AP": "Reunião semanal e um canal no Slack.",
+      "QG": "M",
+      "AG": "F"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We agreed on a two-week sprint cycle.",
-      "AP": "Combinamos um ciclo de sprint de duas semanas."
+      "AP": "Combinamos um ciclo de sprint de duas semanas.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Do we have a contingency plan?",
       "QP": "Temos um plano de contingência?",
       "AE": "Yes. We can cut phase three if needed.",
-      "AP": "Sim. Podemos cortar a fase três se precisar."
+      "AP": "Sim. Podemos cortar a fase três se precisar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She documented the decisions in Confluence.",
-      "AP": "Ela documentou as decisões no Confluence."
+      "AP": "Ela documentou as decisões no Confluence.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "What is the rollout strategy?",
       "QP": "Qual é a estratégia de rollout?",
       "AE": "We will do a soft launch to ten percent first.",
-      "AP": "Faremos um soft launch para dez por cento primeiro."
+      "AP": "Faremos um soft launch para dez por cento primeiro.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We need to get sign-off from legal.",
-      "AP": "Precisamos de aprovação jurídica."
+      "AP": "Precisamos de aprovação jurídica.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How do we prioritize the backlog?",
       "QP": "Como priorizamos o backlog?",
       "AE": "By impact and effort. We use a matrix.",
-      "AP": "Por impacto e esforço. Usamos uma matriz."
+      "AP": "Por impacto e esforço. Usamos uma matriz.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He is responsible for the technical design.",
-      "AP": "Ele é responsável pelo design técnico."
+      "AP": "Ele é responsável pelo design técnico.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What are the assumptions?",
       "QP": "Quais são as premissas?",
       "AE": "That the API will be ready on time.",
-      "AP": "Que a API estará pronta no prazo."
+      "AP": "Que a API estará pronta no prazo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We had a productive discussion. Next steps defined.",
-      "AP": "Tivemos uma discussão produtiva. Próximos passos definidos."
+      "AP": "Tivemos uma discussão produtiva. Próximos passos definidos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Who runs the project meetings?",
       "QP": "Quem conduz as reuniões do projeto?",
       "AE": "The project manager. She sends the agenda.",
-      "AP": "A gerente de projeto. Ela manda a agenda."
+      "AP": "A gerente de projeto. Ela manda a agenda.",
+      "QG": "M",
+      "AG": "F"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She raised a good point about resources.",
-      "AP": "Ela levantou um bom ponto sobre recursos."
+      "AP": "Ela levantou um bom ponto sobre recursos.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "What is the decision process?",
       "QP": "Qual é o processo de decisão?",
       "AE": "We need consensus. Escalate if stuck.",
-      "AP": "Precisamos de consenso. Escalar se travar."
+      "AP": "Precisamos de consenso. Escalar se travar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We are waiting for design approval.",
-      "AP": "Estamos aguardando aprovação de design."
+      "AP": "Estamos aguardando aprovação de design.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How do we handle conflicts?",
       "QP": "Como lidamos com conflitos?",
       "AE": "We discuss in the retro. Escalate if needed.",
-      "AP": "Discutimos na retro. Escalar se precisar."
+      "AP": "Discutimos na retro. Escalar se precisar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He proposed a new timeline. We are reviewing it.",
-      "AP": "Ele propôs um novo cronograma. Estamos revisando."
+      "AP": "Ele propôs um novo cronograma. Estamos revisando.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is the resource allocation?",
       "QP": "Qual é a alocação de recursos?",
       "AE": "Three devs full-time and one designer part-time.",
-      "AP": "Três devs em tempo integral e um designer em meio período."
+      "AP": "Três devs em tempo integral e um designer em meio período.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We need to update the project plan.",
-      "AP": "Precisamos atualizar o plano do projeto."
+      "AP": "Precisamos atualizar o plano do projeto.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What did we decide in the last meeting?",
       "QP": "O que decidimos na última reunião?",
       "AE": "We decided to push the launch by two weeks.",
-      "AP": "Decidimos adiar o lançamento em duas semanas."
+      "AP": "Decidimos adiar o lançamento em duas semanas.",
+      "QG": "M",
+      "AG": "F"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She summarized the action items at the end.",
-      "AP": "Ela resumiu os itens de ação no final."
+      "AP": "Ela resumiu os itens de ação no final.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "How do we measure success?",
       "QP": "Como medimos o sucesso?",
       "AE": "By user adoption and key metrics in the doc.",
-      "AP": "Pela adoção dos usuários e métricas no doc."
+      "AP": "Pela adoção dos usuários e métricas no doc.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We have a steering committee meeting monthly.",
-      "AP": "Temos reunião do comitê gestor todo mês."
+      "AP": "Temos reunião do comitê gestor todo mês.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is the escalation path?",
       "QP": "Qual é o caminho de escalação?",
       "AE": "Team lead first, then director, then VP.",
-      "AP": "Líder da equipe primeiro, depois diretor, depois VP."
+      "AP": "Líder da equipe primeiro, depois diretor, depois VP.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He challenged the scope. We are revisiting.",
-      "AP": "Ele questionou o escopo. Estamos revisitando."
+      "AP": "Ele questionou o escopo. Estamos revisitando.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What tools do we use?",
       "QP": "Quais ferramentas usamos?",
       "AE": "Jira, Confluence, Figma, and Slack.",
-      "AP": "Jira, Confluence, Figma e Slack."
+      "AP": "Jira, Confluence, Figma e Slack.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We aligned on the goals. Everyone is clear.",
-      "AP": "Alinhamos os objetivos. Todos estão claros."
+      "AP": "Alinhamos os objetivos. Todos estão claros.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do we have a project charter?",
       "QP": "Temos um termo de abertura do projeto?",
       "AE": "Yes. It is in the shared drive.",
-      "AP": "Sim. Está no drive compartilhado."
+      "AP": "Sim. Está no drive compartilhado.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She facilitated the discussion well.",
-      "AP": "Ela facilitou bem a discussão."
+      "AP": "Ela facilitou bem a discussão.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "What is the next milestone?",
       "QP": "Qual é o próximo marco?",
       "AE": "Design review next Friday. Then development.",
-      "AP": "Revisão de design na próxima sexta. Depois desenvolvimento."
+      "AP": "Revisão de design na próxima sexta. Depois desenvolvimento.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We need to document the decisions.",
-      "AP": "Precisamos documentar as decisões."
+      "AP": "Precisamos documentar as decisões.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How do we keep everyone informed?",
       "QP": "Como mantemos todos informados?",
       "AE": "Weekly email, Slack updates, and demos.",
-      "AP": "E-mail semanal, atualizações no Slack e demos."
+      "AP": "E-mail semanal, atualizações no Slack e demos.",
+      "QG": "M",
+      "AG": "F"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He asked for a dedicated channel for the project.",
-      "AP": "Ele pediu um canal dedicado ao projeto."
+      "AP": "Ele pediu um canal dedicado ao projeto.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What was the outcome of the discussion?",
       "QP": "Qual foi o resultado da discussão?",
       "AE": "We agreed to proceed with option B.",
-      "AP": "Concordamos em seguir com a opção B."
+      "AP": "Concordamos em seguir com a opção B.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We are scheduling a follow-up for next week.",
-      "AP": "Estamos agendando um follow-up para a próxima semana."
+      "AP": "Estamos agendando um follow-up para a próxima semana.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Who needs to approve the plan?",
       "QP": "Quem precisa aprovar o plano?",
       "AE": "The sponsor and the product director.",
-      "AP": "O patrocinador e o diretor de produto."
+      "AP": "O patrocinador e o diretor de produto.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She sent the meeting notes to everyone.",
-      "AP": "Ela enviou as atas da reunião para todos."
+      "AP": "Ela enviou as atas da reunião para todos.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "What are the open questions?",
       "QP": "Quais são as perguntas em aberto?",
       "AE": "Budget for phase two and the launch date.",
-      "AP": "Orçamento da fase dois e a data de lançamento."
+      "AP": "Orçamento da fase dois e a data de lançamento.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We closed the project last month. Lessons learned done.",
-      "AP": "Fechamos o projeto no mês passado. Lições aprendidas feitas."
+      "AP": "Fechamos o projeto no mês passado. Lições aprendidas feitas.",
+      "QG": "F",
+      "AG": "M"
     }
   ]
 }

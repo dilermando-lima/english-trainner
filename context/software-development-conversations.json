@@ -5,361 +5,481 @@
       "QE": "Have you pushed your changes?",
       "QP": "Você deu push nas suas alterações?",
       "AE": "Yes, I pushed to the feature branch.",
-      "AP": "Sim, dei push para a branch da feature."
+      "AP": "Sim, dei push para a branch da feature.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We need to refactor this module. It is too complex.",
-      "AP": "Precisamos refatorar este módulo. Está complexo demais."
+      "AP": "Precisamos refatorar este módulo. Está complexo demais.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Can you review my pull request?",
       "QP": "Pode revisar meu pull request?",
       "AE": "Sure. I will take a look this afternoon.",
-      "AP": "Claro. Darei uma olhada esta tarde."
+      "AP": "Claro. Darei uma olhada esta tarde.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She fixed the bug. The build is green now.",
-      "AP": "Ela corrigiu o bug. O build está verde agora."
+      "AP": "Ela corrigiu o bug. O build está verde agora.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "What is the status of the deployment?",
       "QP": "Qual é o status do deploy?",
       "AE": "It is in progress. Should be done in ten minutes.",
-      "AP": "Está em andamento. Deve terminar em dez minutos."
+      "AP": "Está em andamento. Deve terminar em dez minutos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am writing unit tests for the new API.",
-      "AP": "Estou escrevendo testes unitários para a nova API."
+      "AP": "Estou escrevendo testes unitários para a nova API.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Did you run the tests locally?",
       "QP": "Você rodou os testes localmente?",
       "AE": "Yes, all tests pass. The pipeline should be fine.",
-      "AP": "Sim, todos passam. O pipeline deve estar ok."
+      "AP": "Sim, todos passam. O pipeline deve estar ok.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He suggested we use a different library.",
-      "AP": "Ele sugeriu usar uma biblioteca diferente."
+      "AP": "Ele sugeriu usar uma biblioteca diferente.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How do we handle the migration?",
       "QP": "Como lidamos com a migração?",
       "AE": "We will run it in stages. Rollback plan is ready.",
-      "AP": "Rodaremos em etapas. Plano de rollback pronto."
+      "AP": "Rodaremos em etapas. Plano de rollback pronto.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "The API is returning 500. We are investigating.",
-      "AP": "A API está retornando 500. Estamos investigando."
+      "AP": "A API está retornando 500. Estamos investigando.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Who owns the authentication service?",
       "QP": "Quem é dono do serviço de autenticação?",
       "AE": "The platform team. We need to talk to them.",
-      "AP": "A equipe de plataforma. Precisamos falar com eles."
+      "AP": "A equipe de plataforma. Precisamos falar com eles.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She merged the PR. It is in main now.",
-      "AP": "Ela deu merge no PR. Está na main agora."
+      "AP": "Ela deu merge no PR. Está na main agora.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Do we have documentation for this?",
       "QP": "Temos documentação para isso?",
       "AE": "Not yet. I will add it before we ship.",
-      "AP": "Ainda não. Adicionarei antes de enviarmos."
+      "AP": "Ainda não. Adicionarei antes de enviarmos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We are moving to microservices. Phase one is done.",
-      "AP": "Estamos migrando para microsserviços. Fase um feita."
+      "AP": "Estamos migrando para microsserviços. Fase um feita.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is the error in the logs?",
       "QP": "Qual é o erro nos logs?",
       "AE": "Null pointer in the user service. Line forty-two.",
-      "AP": "Null pointer no serviço de usuário. Linha quarenta e dois."
+      "AP": "Null pointer no serviço de usuário. Linha quarenta e dois.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He is pairing with someone on the frontend.",
-      "AP": "Ele está fazendo par com alguém no frontend."
+      "AP": "Ele está fazendo par com alguém no frontend.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Can we ship this to production?",
       "QP": "Podemos enviar isso para produção?",
       "AE": "Not yet. We need one more approval.",
-      "AP": "Ainda não. Precisamos de mais uma aprovação."
+      "AP": "Ainda não. Precisamos de mais uma aprovação.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I added logging. We can trace the issue now.",
-      "AP": "Adicionei logs. Podemos rastrear o problema agora."
+      "AP": "Adicionei logs. Podemos rastrear o problema agora.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How do we scale this?",
       "QP": "Como escalamos isso?",
       "AE": "We can add more instances. The load balancer is ready.",
-      "AP": "Podemos adicionar mais instâncias. O load balancer está pronto."
+      "AP": "Podemos adicionar mais instâncias. O load balancer está pronto.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She is debugging the performance issue.",
-      "AP": "Ela está depurando o problema de performance."
+      "AP": "Ela está depurando o problema de performance.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Did you update the dependencies?",
       "QP": "Você atualizou as dependências?",
       "AE": "Yes. I ran npm update. No breaking changes.",
-      "AP": "Sim. Rodei npm update. Sem breaking changes."
+      "AP": "Sim. Rodei npm update. Sem breaking changes.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We need to add input validation.",
-      "AP": "Precisamos adicionar validação de entrada."
+      "AP": "Precisamos adicionar validação de entrada.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What database are we using?",
       "QP": "Qual banco estamos usando?",
       "AE": "PostgreSQL for main. Redis for cache.",
-      "AP": "PostgreSQL para o principal. Redis para cache."
+      "AP": "PostgreSQL para o principal. Redis para cache.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He created a ticket for the tech debt.",
-      "AP": "Ele criou um ticket para a dívida técnica."
+      "AP": "Ele criou um ticket para a dívida técnica.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Is the feature flag enabled?",
       "QP": "A feature flag está habilitada?",
       "AE": "Yes, for ten percent of users. We will increase slowly.",
-      "AP": "Sim, para dez por cento dos usuários. Aumentaremos devagar."
+      "AP": "Sim, para dez por cento dos usuários. Aumentaremos devagar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We are doing a code freeze until the release.",
-      "AP": "Estamos em code freeze até o release."
+      "AP": "Estamos em code freeze até o release.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Who wrote this function?",
       "QP": "Quem escreveu esta função?",
       "AE": "I think Maria did. Check git blame.",
-      "AP": "Acho que foi a Maria. Confira o git blame."
+      "AP": "Acho que foi a Maria. Confira o git blame.",
+      "QG": "M",
+      "AG": "F"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She suggested we use TypeScript. I agree.",
-      "AP": "Ela sugeriu usar TypeScript. Concordo."
+      "AP": "Ela sugeriu usar TypeScript. Concordo.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Do we have a staging environment?",
       "QP": "Temos ambiente de homologação?",
       "AE": "Yes. We deploy there first. Then production.",
-      "AP": "Sim. Fazemos deploy lá primeiro. Depois produção."
+      "AP": "Sim. Fazemos deploy lá primeiro. Depois produção.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am working on the database schema.",
-      "AP": "Estou trabalhando no schema do banco."
+      "AP": "Estou trabalhando no schema do banco.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is the rollback plan?",
       "QP": "Qual é o plano de rollback?",
       "AE": "We keep the previous version. One command to revert.",
-      "AP": "Mantemos a versão anterior. Um comando para reverter."
+      "AP": "Mantemos a versão anterior. Um comando para reverter.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He fixed the memory leak. We can deploy.",
-      "AP": "Ele corrigiu o vazamento de memória. Podemos fazer deploy."
+      "AP": "Ele corrigiu o vazamento de memória. Podemos fazer deploy.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How do we test this in production?",
       "QP": "Como testamos isso em produção?",
       "AE": "We use canary releases. Small percentage first.",
-      "AP": "Usamos canary releases. Pequena porcentagem primeiro."
+      "AP": "Usamos canary releases. Pequena porcentagem primeiro.",
+      "QG": "M",
+      "AG": "F"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We need to add error handling.",
-      "AP": "Precisamos adicionar tratamento de erros."
+      "AP": "Precisamos adicionar tratamento de erros.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Did the CI pipeline pass?",
       "QP": "O pipeline de CI passou?",
       "AE": "Yes, all stages passed. We are good to merge.",
-      "AP": "Sim, todas as etapas passaram. Podemos fazer merge."
+      "AP": "Sim, todas as etapas passaram. Podemos fazer merge.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She is the tech lead for this project.",
-      "AP": "Ela é a tech lead deste projeto."
+      "AP": "Ela é a tech lead deste projeto.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "What is the API contract?",
       "QP": "Qual é o contrato da API?",
       "AE": "We have an OpenAPI spec. I will share the link.",
-      "AP": "Temos uma spec OpenAPI. Compartilho o link."
+      "AP": "Temos uma spec OpenAPI. Compartilho o link.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am adding retry logic for the external call.",
-      "AP": "Estou adicionando lógica de retry para a chamada externa."
+      "AP": "Estou adicionando lógica de retry para a chamada externa.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do we need to update the frontend?",
       "QP": "Precisamos atualizar o frontend?",
       "AE": "Yes, the response shape changed. I will update the types.",
-      "AP": "Sim, o formato da resposta mudou. Atualizarei os tipos."
+      "AP": "Sim, o formato da resposta mudou. Atualizarei os tipos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He is doing a spike on the new architecture.",
-      "AP": "Ele está fazendo um spike na nova arquitetura."
+      "AP": "Ele está fazendo um spike na nova arquitetura.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is the latency like?",
       "QP": "Como está a latência?",
       "AE": "Under two hundred milliseconds. We are within SLA.",
-      "AP": "Abaixo de duzentos milissegundos. Dentro do SLA."
+      "AP": "Abaixo de duzentos milissegundos. Dentro do SLA.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We are moving the repo to the new org.",
-      "AP": "Estamos movendo o repositório para a nova organização."
+      "AP": "Estamos movendo o repositório para a nova organização.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Can you add a comment to the code?",
       "QP": "Pode adicionar um comentário no código?",
       "AE": "Sure. I will explain the logic.",
-      "AP": "Claro. Explicarei a lógica."
+      "AP": "Claro. Explicarei a lógica.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She raised a concern about security. We are addressing it.",
-      "AP": "Ela levantou uma preocupação de segurança. Estamos tratando."
+      "AP": "Ela levantou uma preocupação de segurança. Estamos tratando.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "How do we monitor this in production?",
       "QP": "Como monitoramos isso em produção?",
       "AE": "We have dashboards and alerts. PagerDuty for critical.",
-      "AP": "Temos dashboards e alertas. PagerDuty para crítico."
+      "AP": "Temos dashboards e alertas. PagerDuty para crítico.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I am waiting for the design review.",
-      "AP": "Estou aguardando a revisão de design."
+      "AP": "Estou aguardando a revisão de design.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Did you run the linter?",
       "QP": "Você rodou o linter?",
       "AE": "Yes. I fixed all the issues.",
-      "AP": "Sim. Corrigi todos os problemas."
+      "AP": "Sim. Corrigi todos os problemas.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We are considering moving to Kubernetes.",
-      "AP": "Estamos considerando migrar para Kubernetes."
+      "AP": "Estamos considerando migrar para Kubernetes.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is the branch strategy?",
       "QP": "Qual é a estratégia de branches?",
       "AE": "We use GitFlow. Feature branches from develop.",
-      "AP": "Usamos GitFlow. Branches de feature a partir da develop."
+      "AP": "Usamos GitFlow. Branches de feature a partir da develop.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He is optimizing the query. It was too slow.",
-      "AP": "Ele está otimizando a query. Estava lenta demais."
+      "AP": "Ele está otimizando a query. Estava lenta demais.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do we have integration tests?",
       "QP": "Temos testes de integração?",
       "AE": "Yes, we run them in the pipeline. They take five minutes.",
-      "AP": "Sim, rodamos no pipeline. Levam cinco minutos."
+      "AP": "Sim, rodamos no pipeline. Levam cinco minutos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She proposed a new design. We are reviewing it.",
-      "AP": "Ela propôs um novo design. Estamos revisando."
+      "AP": "Ela propôs um novo design. Estamos revisando.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "What is the deadline for this sprint?",
       "QP": "Qual é o prazo desta sprint?",
       "AE": "Friday. We have three more days.",
-      "AP": "Sexta. Temos mais três dias."
+      "AP": "Sexta. Temos mais três dias.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I need to rebase my branch. Main has changed.",
-      "AP": "Preciso dar rebase na minha branch. A main mudou."
+      "AP": "Preciso dar rebase na minha branch. A main mudou.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Can we pair on this bug?",
       "QP": "Podemos fazer par neste bug?",
       "AE": "Sure. I am free after two. Let us screen share.",
-      "AP": "Claro. Estou livre depois das duas. Vamos compartilhar tela."
+      "AP": "Claro. Estou livre depois das duas. Vamos compartilhar tela.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We are doing a post-mortem tomorrow.",
-      "AP": "Faremos um post-mortem amanhã."
+      "AP": "Faremos um post-mortem amanhã.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is the caching strategy?",
       "QP": "Qual é a estratégia de cache?",
       "AE": "We cache for five minutes. Invalidate on write.",
-      "AP": "Cacheamos por cinco minutos. Invalidamos na escrita."
+      "AP": "Cacheamos por cinco minutos. Invalidamos na escrita.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He is writing the runbook for the new service.",
-      "AP": "Ele está escrevendo o runbook do novo serviço."
+      "AP": "Ele está escrevendo o runbook do novo serviço.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do we need to update the API version?",
       "QP": "Precisamos atualizar a versão da API?",
       "AE": "Yes, we are going to v2. Backward compatible.",
-      "AP": "Sim, vamos para v2. Retrocompatível."
+      "AP": "Sim, vamos para v2. Retrocompatível.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She is leading the architecture discussion.",
-      "AP": "Ela está liderando a discussão de arquitetura."
+      "AP": "Ela está liderando a discussão de arquitetura.",
+      "QG": "F",
+      "AG": "F"
     }
   ]
 }

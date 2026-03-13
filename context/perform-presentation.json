@@ -5,313 +5,417 @@
       "QE": "How do you start a presentation?",
       "QP": "Como você começa uma apresentação?",
       "AE": "I introduce myself and state the main goal.",
-      "AP": "Me apresento e digo o objetivo principal."
+      "AP": "Me apresento e digo o objetivo principal.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She practices her slides the night before.",
-      "AP": "Ela ensaia os slides na véspera."
+      "AP": "Ela ensaia os slides na véspera.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Are you nervous about presenting?",
       "QP": "Você está nervoso para apresentar?",
       "AE": "A bit. But I am well prepared.",
-      "AP": "Um pouco. Mas estou bem preparado."
+      "AP": "Um pouco. Mas estou bem preparado.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I will present the results in ten minutes.",
-      "AP": "Apresentarei os resultados em dez minutos."
+      "AP": "Apresentarei os resultados em dez minutos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is the main point?",
       "QP": "Qual é o ponto principal?",
       "AE": "The main point is that sales grew twenty percent.",
-      "AP": "O ponto principal é que as vendas cresceram vinte por cento."
+      "AP": "O ponto principal é que as vendas cresceram vinte por cento.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He uses a pointer to highlight key data.",
-      "AP": "Ele usa um ponteiro para destacar dados importantes."
+      "AP": "Ele usa um ponteiro para destacar dados importantes.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you take questions at the end?",
       "QP": "Você aceita perguntas no final?",
       "AE": "Yes, I will take questions after the last slide.",
-      "AP": "Sim, aceito perguntas após o último slide."
+      "AP": "Sim, aceito perguntas após o último slide.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We need to rehearse one more time.",
-      "AP": "Precisamos ensaiar mais uma vez."
+      "AP": "Precisamos ensaiar mais uma vez.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How long is your presentation?",
       "QP": "Quanto tempo dura sua apresentação?",
       "AE": "About twenty minutes plus Q and A.",
-      "AP": "Cerca de vinte minutos mais perguntas."
+      "AP": "Cerca de vinte minutos mais perguntas.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She speaks clearly and at a steady pace.",
-      "AP": "Ela fala com clareza e em ritmo constante."
+      "AP": "Ela fala com clareza e em ritmo constante.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "What if someone asks a hard question?",
       "QP": "E se alguém fizer uma pergunta difícil?",
       "AE": "I say I will follow up later if I do not know.",
-      "AP": "Digo que retorno depois se não souber."
+      "AP": "Digo que retorno depois se não souber.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I always make eye contact with the audience.",
-      "AP": "Sempre faço contato visual com a plateia."
+      "AP": "Sempre faço contato visual com a plateia.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you use notes?",
       "QP": "Você usa anotações?",
       "AE": "Yes, brief notes. I do not read them.",
-      "AP": "Sim, anotações breves. Não leio."
+      "AP": "Sim, anotações breves. Não leio.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He ended with a strong call to action.",
-      "AP": "Ele terminou com um forte apelo à ação."
+      "AP": "Ele terminou com um forte apelo à ação.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How do you handle technical issues?",
       "QP": "Como você lida com problemas técnicos?",
       "AE": "I have a backup. And I can talk without slides.",
-      "AP": "Tenho backup. E consigo falar sem slides."
+      "AP": "Tenho backup. E consigo falar sem slides.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "The presentation went well. Good feedback.",
-      "AP": "A apresentação foi bem. Bom feedback."
+      "AP": "A apresentação foi bem. Bom feedback.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is on the next slide?",
       "QP": "O que tem no próximo slide?",
       "AE": "The next slide shows the timeline.",
-      "AP": "O próximo slide mostra o cronograma."
+      "AP": "O próximo slide mostra o cronograma.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She summarized the key takeaways at the end.",
-      "AP": "Ela resumiu os principais pontos no final."
+      "AP": "Ela resumiu os principais pontos no final.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Do you use stories or just data?",
       "QP": "Você usa histórias ou só dados?",
       "AE": "Both. A short story then the numbers.",
-      "AP": "Os dois. Uma história curta e depois os números."
+      "AP": "Os dois. Uma história curta e depois os números.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I will send the deck after the meeting.",
-      "AP": "Enviarei a apresentação após a reunião."
+      "AP": "Enviarei a apresentação após a reunião.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How do you keep the audience engaged?",
       "QP": "Como você mantém a audiência engajada?",
       "AE": "I ask questions and use simple language.",
-      "AP": "Faço perguntas e uso linguagem simples."
+      "AP": "Faço perguntas e uso linguagem simples.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He was asked to present to the board.",
-      "AP": "Pediriam para ele apresentar ao conselho."
+      "AP": "Pediriam para ele apresentar ao conselho.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What do you do if you forget something?",
       "QP": "O que você faz se esquecer algo?",
       "AE": "I move on. I can add it in Q and A.",
-      "AP": "Sigo em frente. Posso acrescentar no Q e A."
+      "AP": "Sigo em frente. Posso acrescentar no Q e A.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We have fifteen minutes left. Any questions?",
-      "AP": "Temos quinze minutos. Alguma pergunta?"
+      "AP": "Temos quinze minutos. Alguma pergunta?",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you practice in front of someone?",
       "QP": "Você ensaia na frente de alguém?",
       "AE": "Yes, my colleague gives me feedback.",
-      "AP": "Sim, meu colega me dá feedback."
+      "AP": "Sim, meu colega me dá feedback.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She opened with a surprising statistic.",
-      "AP": "Ela abriu com uma estatística surpreendente."
+      "AP": "Ela abriu com uma estatística surpreendente.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "How many slides do you have?",
       "QP": "Quantos slides você tem?",
       "AE": "Twelve. I keep it short.",
-      "AP": "Doze. Mantenho curto."
+      "AP": "Doze. Mantenho curto.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I need to fix the chart on slide seven.",
-      "AP": "Preciso corrigir o gráfico no slide sete."
+      "AP": "Preciso corrigir o gráfico no slide sete.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is your closing message?",
       "QP": "Qual é sua mensagem de encerramento?",
       "AE": "We can achieve this if we work together.",
-      "AP": "Podemos alcançar isso se trabalharmos juntos."
+      "AP": "Podemos alcançar isso se trabalharmos juntos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He spoke for thirty minutes without notes.",
-      "AP": "Ele falou trinta minutos sem anotações."
+      "AP": "Ele falou trinta minutos sem anotações.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you record the presentation?",
       "QP": "Você grava a apresentação?",
       "AE": "Yes, for those who cannot attend.",
-      "AP": "Sim, para quem não puder comparecer."
+      "AP": "Sim, para quem não puder comparecer.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "Let me move to the next section.",
-      "AP": "Deixe-me passar para a próxima seção."
+      "AP": "Deixe-me passar para a próxima seção.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How do you introduce the team?",
       "QP": "Como você apresenta a equipe?",
       "AE": "I show a slide with names and roles.",
-      "AP": "Mostro um slide com nomes e funções."
+      "AP": "Mostro um slide com nomes e funções.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She was very confident. Great delivery.",
-      "AP": "Ela foi muito confiante. Ótima entrega."
+      "AP": "Ela foi muito confiante. Ótima entrega.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "What if the projector does not work?",
       "QP": "E se o projetor não funcionar?",
       "AE": "I have a PDF on my laptop as backup.",
-      "AP": "Tenho um PDF no laptop como backup."
+      "AP": "Tenho um PDF no laptop como backup.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I will go through the agenda first.",
-      "AP": "Vou passar pela agenda primeiro."
+      "AP": "Vou passar pela agenda primeiro.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you use handouts?",
       "QP": "Você usa material impresso?",
       "AE": "Sometimes. For long or technical talks.",
-      "AP": "Às vezes. Para palestras longas ou técnicas."
+      "AP": "Às vezes. Para palestras longas ou técnicas.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He paused for effect before the conclusion.",
-      "AP": "Ele fez uma pausa antes da conclusão."
+      "AP": "Ele fez uma pausa antes da conclusão.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How do you thank the audience?",
       "QP": "Como você agradece a plateia?",
       "AE": "Thank you for your time and attention.",
-      "AP": "Obrigado pelo tempo e pela atenção."
+      "AP": "Obrigado pelo tempo e pela atenção.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We had a full room. Over fifty people.",
-      "AP": "A sala estava cheia. Mais de cinquenta pessoas."
+      "AP": "A sala estava cheia. Mais de cinquenta pessoas.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What do you wear for a big presentation?",
       "QP": "O que você veste para uma apresentação importante?",
       "AE": "Business casual. Nothing too flashy.",
-      "AP": "Social. Nada chamativo."
+      "AP": "Social. Nada chamativo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She answered every question confidently.",
-      "AP": "Ela respondeu cada pergunta com confiança."
+      "AP": "Ela respondeu cada pergunta com confiança.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "How do you manage time?",
       "QP": "Como você controla o tempo?",
       "AE": "I set a timer and skip slides if needed.",
-      "AP": "Uso um timer e pulo slides se precisar."
+      "AP": "Uso um timer e pulo slides se precisar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I will share my screen now.",
-      "AP": "Vou compartilhar minha tela agora."
+      "AP": "Vou compartilhar minha tela agora.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Do you use videos in your slides?",
       "QP": "Você usa vídeos nos slides?",
       "AE": "One short clip. No more than two minutes.",
-      "AP": "Um clipe curto. No máximo dois minutos."
+      "AP": "Um clipe curto. No máximo dois minutos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He got a standing ovation.",
-      "AP": "Ele recebeu uma salva de palmas."
+      "AP": "Ele recebeu uma salva de palmas.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "What is the best way to end?",
       "QP": "Qual é a melhor forma de terminar?",
       "AE": "Summarize, thank them, and open for questions.",
-      "AP": "Resumir, agradecer e abrir para perguntas."
+      "AP": "Resumir, agradecer e abrir para perguntas.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "Please hold your questions until the end.",
-      "AP": "Por favor guardem as perguntas para o final."
+      "AP": "Por favor guardem as perguntas para o final.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How do you calm your nerves?",
       "QP": "Como você acalma os nervos?",
       "AE": "I breathe deeply and focus on the message.",
-      "AP": "Respiro fundo e foco na mensagem."
+      "AP": "Respiro fundo e foco na mensagem.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She made the complex topic easy to follow.",
-      "AP": "Ela tornou o tema complexo fácil de seguir."
+      "AP": "Ela tornou o tema complexo fácil de seguir.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "What feedback did you get?",
       "QP": "Que feedback você recebeu?",
       "AE": "They said it was clear and useful.",
-      "AP": "Disseram que foi claro e útil."
+      "AP": "Disseram que foi claro e útil.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I will now open the floor for discussion.",
-      "AP": "Agora abro para discussão."
+      "AP": "Agora abro para discussão.",
+      "QG": "F",
+      "AG": "M"
     }
   ]
 }

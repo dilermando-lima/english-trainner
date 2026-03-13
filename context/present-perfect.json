@@ -5,301 +5,401 @@
       "QE": "Have you finished your report?",
       "QP": "Você terminou seu relatório?",
       "AE": "Yes, I have finished it.",
-      "AP": "Sim, terminei."
+      "AP": "Sim, terminei.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She has lived in this city for ten years.",
-      "AP": "Ela mora nesta cidade há dez anos."
+      "AP": "Ela mora nesta cidade há dez anos.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Has he ever been to Europe?",
       "QP": "Ele já esteve na Europa?",
       "AE": "No, he has never been there.",
-      "AP": "Não, ele nunca esteve lá."
+      "AP": "Não, ele nunca esteve lá.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We have known each other since 2015.",
-      "AP": "Nos conhecemos desde 2015."
+      "AP": "Nos conhecemos desde 2015.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Have they left already?",
       "QP": "Eles já saíram?",
       "AE": "Yes, they have just left.",
-      "AP": "Sim, acabaram de sair."
+      "AP": "Sim, acabaram de sair.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I have already seen that movie.",
-      "AP": "Já vi aquele filme."
+      "AP": "Já vi aquele filme.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How long have you worked here?",
       "QP": "Há quanto tempo você trabalha aqui?",
       "AE": "I have worked here for three years.",
-      "AP": "Trabalho aqui há três anos."
+      "AP": "Trabalho aqui há três anos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She has written five emails today.",
-      "AP": "Ela escreveu cinco e-mails hoje."
+      "AP": "Ela escreveu cinco e-mails hoje.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Have you eaten lunch yet?",
       "QP": "Você já almoçou?",
       "AE": "Not yet. I will eat soon.",
-      "AP": "Ainda não. Vou almoçar em breve."
+      "AP": "Ainda não. Vou almoçar em breve.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He has never tried sushi.",
-      "AP": "Ele nunca experimentou sushi."
+      "AP": "Ele nunca experimentou sushi.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Has she called you?",
       "QP": "Ela te ligou?",
       "AE": "Yes, she has called twice.",
-      "AP": "Sim, ligou duas vezes."
+      "AP": "Sim, ligou duas vezes.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "They have been married for twenty years.",
-      "AP": "Eles são casados há vinte anos."
+      "AP": "Eles são casados há vinte anos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Have you done your homework?",
       "QP": "Você fez sua lição de casa?",
       "AE": "Yes, I have done it.",
-      "AP": "Sim, já fiz."
+      "AP": "Sim, já fiz.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I have lost my keys.",
-      "AP": "Perdi minhas chaves."
+      "AP": "Perdi minhas chaves.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How many times have you been there?",
       "QP": "Quantas vezes você esteve lá?",
       "AE": "I have been there three times.",
-      "AP": "Estive lá três vezes."
+      "AP": "Estive lá três vezes.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We have just arrived at the airport.",
-      "AP": "Acabamos de chegar ao aeroporto."
+      "AP": "Acabamos de chegar ao aeroporto.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Has he made dinner?",
       "QP": "Ele fez o jantar?",
       "AE": "Yes, he has made pasta.",
-      "AP": "Sim, fez massa."
+      "AP": "Sim, fez massa.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She has gone to the supermarket.",
-      "AP": "Ela foi ao supermercado."
+      "AP": "Ela foi ao supermercado.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Have they found a new apartment?",
       "QP": "Eles encontraram um apartamento novo?",
       "AE": "Not yet. They are still looking.",
-      "AP": "Ainda não. Ainda estão procurando."
+      "AP": "Ainda não. Ainda estão procurando.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I have taken many photos today.",
-      "AP": "Tirei muitas fotos hoje."
+      "AP": "Tirei muitas fotos hoje.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Have you read this book?",
       "QP": "Você leu este livro?",
       "AE": "Yes, I have read it twice.",
-      "AP": "Sim, li duas vezes."
+      "AP": "Sim, li duas vezes.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He has given me good advice.",
-      "AP": "Ele me deu bons conselhos."
+      "AP": "Ele me deu bons conselhos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Has she ever ridden a horse?",
       "QP": "Ela já andou a cavalo?",
       "AE": "Yes, she has ridden many times.",
-      "AP": "Sim, já andou várias vezes."
+      "AP": "Sim, já andou várias vezes.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We have had this car since last year.",
-      "AP": "Temos este carro desde o ano passado."
+      "AP": "Temos este carro desde o ano passado.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Have you spoken to the manager?",
       "QP": "Você falou com o gerente?",
       "AE": "Yes, I have spoken to him.",
-      "AP": "Sim, falei com ele."
+      "AP": "Sim, falei com ele.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "They have broken the window.",
-      "AP": "Eles quebraram a janela."
+      "AP": "Eles quebraram a janela.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "How long have you studied English?",
       "QP": "Há quanto tempo você estuda inglês?",
       "AE": "I have studied for five years.",
-      "AP": "Estudo há cinco anos."
+      "AP": "Estudo há cinco anos.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She has driven to work every day.",
-      "AP": "Ela tem ido de carro ao trabalho todo dia."
+      "AP": "Ela tem ido de carro ao trabalho todo dia.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Have you forgotten something?",
       "QP": "Você esqueceu algo?",
       "AE": "Yes, I have forgotten my wallet.",
-      "AP": "Sim, esqueci minha carteira."
+      "AP": "Sim, esqueci minha carteira.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He has begun a new project.",
-      "AP": "Ele começou um novo projeto."
+      "AP": "Ele começou um novo projeto.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Has the meeting started?",
       "QP": "A reunião começou?",
       "AE": "Yes, it has just started.",
-      "AP": "Sim, acabou de começar."
+      "AP": "Sim, acabou de começar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I have built a new shelf.",
-      "AP": "Construí uma prateleira nova."
+      "AP": "Construí uma prateleira nova.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Have they chosen a date?",
       "QP": "Eles escolheram uma data?",
       "AE": "Yes, they have chosen Saturday.",
-      "AP": "Sim, escolheram sábado."
+      "AP": "Sim, escolheram sábado.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She has come back from vacation.",
-      "AP": "Ela voltou das férias."
+      "AP": "Ela voltou das férias.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Have you run today?",
       "QP": "Você correu hoje?",
       "AE": "Yes, I have run five miles.",
-      "AP": "Sim, corri oito quilômetros."
+      "AP": "Sim, corri oito quilômetros.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We have bought a new house.",
-      "AP": "Compramos uma casa nova."
+      "AP": "Compramos uma casa nova.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Has he brought the documents?",
       "QP": "Ele trouxe os documentos?",
       "AE": "Yes, he has brought them.",
-      "AP": "Sim, trouxe."
+      "AP": "Sim, trouxe.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "They have left the building.",
-      "AP": "Eles saíram do prédio."
+      "AP": "Eles saíram do prédio.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Have you felt better today?",
       "QP": "Você se sentiu melhor hoje?",
       "AE": "A bit. Still tired.",
-      "AP": "Um pouco. Ainda cansado."
+      "AP": "Um pouco. Ainda cansado.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "I have put the keys on the table.",
-      "AP": "Coloquei as chaves na mesa."
+      "AP": "Coloquei as chaves na mesa.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Has she cut her hair?",
       "QP": "Ela cortou o cabelo?",
       "AE": "Yes, she has cut it short.",
-      "AP": "Sim, cortou curto."
+      "AP": "Sim, cortou curto.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "He has set the table for dinner.",
-      "AP": "Ele pôs a mesa para o jantar."
+      "AP": "Ele pôs a mesa para o jantar.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Have they hit the deadline?",
       "QP": "Eles bateram o prazo?",
       "AE": "Yes, they have finished on time.",
-      "AP": "Sim, terminaram no prazo."
+      "AP": "Sim, terminaram no prazo.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She has let the cat out.",
-      "AP": "Ela deixou o gato sair."
+      "AP": "Ela deixou o gato sair.",
+      "QG": "F",
+      "AG": "F"
     },
     {
       "QE": "Have you shut the door?",
       "QP": "Você fechou a porta?",
       "AE": "Yes, I have shut it.",
-      "AP": "Sim, fechei."
+      "AP": "Sim, fechei.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "We have split the bill.",
-      "AP": "Dividimos a conta."
+      "AP": "Dividimos a conta.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Has the news spread?",
       "QP": "A notícia se espalhou?",
       "AE": "Yes, everyone knows.",
-      "AP": "Sim, todo mundo sabe."
+      "AP": "Sim, todo mundo sabe.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "It has cost a lot of money.",
-      "AP": "Custou muito dinheiro."
+      "AP": "Custou muito dinheiro.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "Have you hurt yourself?",
       "QP": "Você se machucou?",
       "AE": "Yes, I have hurt my knee.",
-      "AP": "Sim, machuquei o joelho."
+      "AP": "Sim, machuquei o joelho.",
+      "QG": "F",
+      "AG": "M"
     },
     {
       "QE": "",
       "QP": "",
       "AE": "She has seen that show before.",
-      "AP": "Ela já viu esse programa."
+      "AP": "Ela já viu esse programa.",
+      "QG": "F",
+      "AG": "F"
     }
   ]
 }
