@@ -109,6 +109,7 @@ const CONTEXT_KEY = 'english-trainer-last-context';
 const SPEED_KEY = 'english-trainer-last-speed';
 
 function smoothScrollToBottom(durationMs = 2000) {
+  return; // TODO: fix this
   try {
     const startY = window.scrollY || window.pageYOffset || 0;
     const documentHeight = Math.max(
@@ -479,7 +480,7 @@ function handlePronunciationCheck(target) {
       const reduction = (Math.random() * 4 + 2); // random number between 2 and 6
       const reducedScore = Math.max(0, (score * 100) - reduction);
       const percent = Math.round(reducedScore);
-      
+
       const isGood = score >= 0.9;
 
       const scoreElement =
