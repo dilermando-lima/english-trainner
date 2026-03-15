@@ -76,27 +76,13 @@ let speechWarnHideTimeout = null;
 const elements = {
   contextSelect: document.getElementById('contextSelect'),
   contextLoadProgress: document.getElementById('contextLoadProgress'),
-  blockQuestion: document.getElementById('blockQuestion'),
-  englishQuestion: document.getElementById('englishQuestion'),
-  portugueseQuestion: document.getElementById('portugueseQuestion'),
-  englishAnswer: document.getElementById('englishAnswer'),
-  portugueseAnswer: document.getElementById('portugueseAnswer'),
-  micQuestionBtn: document.getElementById('micQuestionBtn'),
-  micAnswerBtn: document.getElementById('micAnswerBtn'),
-  playNormalBtn: document.getElementById('playNormalBtn'),
+  sentencesList: document.getElementById('sentencesList'),
   listenAllBtn: document.getElementById('listenAllBtn'),
-  prevBtn: document.getElementById('prevBtn'),
-  controlsBar: document.querySelector('.controls-bar'),
-  nextBtn: document.getElementById('nextBtn'),
   speedSelect: document.getElementById('speedSelect'),
-  progressText: document.getElementById('progressText'),
-  progressFill: document.getElementById('progressFill'),
   themeToggle: document.getElementById('themeToggle'),
   themeIconSun: document.querySelector('.theme-icon-sun'),
   themeIconMoon: document.querySelector('.theme-icon-moon'),
   trainerView: document.getElementById('trainer-view'),
-  speechScoreQuestion: document.getElementById('micQuestionScore'),
-  speechScoreAnswer: document.getElementById('micAnswerScore'),
   policyMenuToggle: document.getElementById('policyMenuToggle'),
   policyMenuModal: document.getElementById('policyMenuModal'),
   policyMenuBackdrop: document.getElementById('policyMenuBackdrop'),
@@ -108,55 +94,7 @@ const THEME_KEY = 'english-trainer-theme';
 const CONTEXT_KEY = 'english-trainer-last-context';
 const SPEED_KEY = 'english-trainer-last-speed';
 
-function smoothScrollToBottom(durationMs = 2000) {
-  return; // TODO: fix this
-  try {
-    const startY = window.scrollY || window.pageYOffset || 0;
-    const documentHeight = Math.max(
-      document.body.scrollHeight,
-      document.documentElement.scrollHeight,
-      document.body.offsetHeight,
-      document.documentElement.offsetHeight,
-      document.body.clientHeight,
-      document.documentElement.clientHeight
-    );
-    const viewportHeight = window.innerHeight || document.documentElement.clientHeight || 0;
-    const targetY = Math.max(documentHeight - viewportHeight, 0);
-    const distance = targetY - startY;
-    if (distance === 0 || durationMs <= 0) {
-      window.scrollTo(0, targetY);
-      return;
-    }
-
-    const startTime = performance.now();
-
-    function step(now) {
-      const elapsed = now - startTime;
-      const progress = Math.min(elapsed / durationMs, 1);
-      const eased = progress < 0.5
-        ? 2 * progress * progress
-        : -1 + (4 - 2 * progress) * progress;
-      const currentY = startY + distance * eased + 100;
-      window.scrollTo(0, currentY);
-      if (progress < 1) {
-        requestAnimationFrame(step);
-      }
-    }
-
-    requestAnimationFrame(step);
-  } catch {
-    window.scrollTo(0, document.body.scrollHeight || document.documentElement.scrollHeight || 0);
-  }
-}
-
-function getRoute() {
-  const hash = (window.location.hash || '#/').slice(1);
-  const path = (hash.startsWith('/') ? hash.slice(1) : hash).split('?')[0].toLowerCase() || '';
-  return path === '' ? 'home' : path;
-}
-
 function renderRoute() {
-  // With static pages removed, always show the main trainer view.
   if (elements.trainerView) elements.trainerView.classList.remove('hidden');
   document.title = 'English Trainer — English Trainer';
 }
@@ -190,13 +128,11 @@ function init() {
   }
 
   loadContext(initialContextConfig).then(() => {
-    updateControlBarState();
-    smoothScrollToBottom(1000);
+    updateListenAllState();
   });
 
   if (!speechSynthesisSupported) {
-    elements.playNormalBtn.disabled = true;
-    elements.listenAllBtn.disabled = true;
+    if (elements.listenAllBtn) elements.listenAllBtn.disabled = true;
   } else {
     refreshVoices();
     window.speechSynthesis.onvoiceschanged = refreshVoices;
@@ -226,20 +162,14 @@ function wireEvents() {
     localStorage.setItem(CONTEXT_KEY, selectedId);
     autoplay = false;
     isPlayingSingle = false;
-    elements.listenAllBtn.textContent = 'Ouvir todos';
-    updateControlBarState();
+    if (elements.listenAllBtn) elements.listenAllBtn.textContent = 'Ouvir todos';
+    updateListenAllState();
 
     await loadContext(config);
-    smoothScrollToBottom(1000);
   });
 
-  elements.playNormalBtn.addEventListener('click', () => {
-    isPlayingSingle = true;
-    updateControlBarState();
-    speakCurrentSentence(currentRate);
-  });
-
-  elements.listenAllBtn.addEventListener('click', () => {
+  if (elements.listenAllBtn) {
+    elements.listenAllBtn.addEventListener('click', () => {
     if (!currentContext) return;
     autoplay = !autoplay;
     isPlayingSingle = false;
@@ -250,8 +180,9 @@ function wireEvents() {
       elements.listenAllBtn.textContent = 'Ouvir todos';
       window.speechSynthesis.cancel();
     }
-    updateControlBarState();
+    updateListenAllState();
   });
+  }
 
   if (elements.speedSelect) {
     elements.speedSelect.addEventListener('change', (e) => {
@@ -270,31 +201,36 @@ function wireEvents() {
     });
   }
 
-  elements.prevBtn.addEventListener('click', () => {
-    if (!currentContext) return;
-    if (currentIndex > 0) {
-      currentIndex -= 1;
-      updateSentenceView();
-    }
-  });
-
-  elements.nextBtn.addEventListener('click', () => {
-    if (!currentContext) return;
-    if (currentIndex < currentContext.sentences.length - 1) {
-      currentIndex += 1;
-      updateSentenceView();
-    }
-  });
-
-  if (elements.micQuestionBtn) {
-    elements.micQuestionBtn.addEventListener('click', () => {
-      handlePronunciationCheck('question');
-    });
-  }
-
-  if (elements.micAnswerBtn) {
-    elements.micAnswerBtn.addEventListener('click', () => {
-      handlePronunciationCheck('answer');
+  // Delegated: play one sentence
+  if (elements.sentencesList) {
+    elements.sentencesList.addEventListener('click', (e) => {
+      const playBtn = e.target.closest('.btn-play-sentence');
+      if (playBtn && playBtn.dataset.index !== undefined) {
+        const idx = parseInt(playBtn.dataset.index, 10);
+        if (!Number.isNaN(idx) && currentContext && currentContext.sentences[idx]) {
+          if (autoplay) {
+            autoplay = false;
+            window.speechSynthesis.cancel();
+            if (elements.listenAllBtn) elements.listenAllBtn.textContent = 'Ouvir todos';
+            updateListenAllState();
+          }
+          const part = playBtn.dataset.part;
+          if (part === 'question' || part === 'answer') {
+            speakSentencePartAtIndex(idx, part, currentRate);
+          } else {
+            speakSentenceAtIndex(idx, currentRate);
+          }
+        }
+        return;
+      }
+      const micBtn = e.target.closest('.btn-mic');
+      if (micBtn && micBtn.dataset.index !== undefined && micBtn.dataset.part) {
+        const idx = parseInt(micBtn.dataset.index, 10);
+        const part = micBtn.dataset.part;
+        if (!Number.isNaN(idx) && (part === 'question' || part === 'answer')) {
+          handlePronunciationCheck(idx, part);
+        }
+      }
     });
   }
 }
@@ -430,31 +366,32 @@ function showSpeechFeedWarn(message) {
   }, 3000);
 }
 
-function handlePronunciationCheck(target) {
+function handlePronunciationCheck(sentenceIndex, part) {
   if (!speechRecognitionSupported) {
     showSpeechFeedWarn('Seu navegador não suporta captura de voz.');
     return;
   }
+  if (!currentContext || !currentContext.sentences[sentenceIndex]) return;
 
-  const activeBtn =
-    target === 'question' ? elements.micQuestionBtn : elements.micAnswerBtn;
-  const stopRecordingVisual = () => {
-    if (!activeBtn) return;
-    activeBtn.classList.remove('btn-mic--recording');
-    const hasSentences = currentContext && currentContext.sentences.length > 0;
-    activeBtn.disabled = !hasSentences;
-  };
-
-  const expectedText =
-    target === 'question'
-      ? elements.englishQuestion && elements.englishQuestion.textContent
-      : elements.englishAnswer && elements.englishAnswer.textContent;
-
-  const normalizedExpected = normalizeForComparison(expectedText || '');
+  const sentence = currentContext.sentences[sentenceIndex];
+  const expectedText = part === 'question' ? (sentence.QE || '') : (sentence.AE || '');
+  const normalizedExpected = normalizeForComparison(expectedText);
   if (!normalizedExpected) {
     showSpeechFeedWarn('Não há texto em inglês para comparar.');
     return;
   }
+
+  const lineEl = elements.sentencesList && elements.sentencesList.querySelector(`.sentence-item[data-sentence-index="${sentenceIndex}"] .sentence-line[data-part="${part}"]`);
+  const row = lineEl && lineEl.closest('.sentence-item');
+  const activeBtn = row && row.querySelector(`.btn-mic[data-part="${part}"]`);
+  const scoreElement = row && row.querySelector(`.sentence-line[data-part="${part}"] .speech-score`);
+
+  const stopRecordingVisual = () => {
+    if (activeBtn) {
+      activeBtn.classList.remove('btn-mic--recording');
+      activeBtn.disabled = false;
+    }
+  };
 
   const Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
   if (!Recognition) {
@@ -467,50 +404,32 @@ function handlePronunciationCheck(target) {
   recognition.interimResults = false;
   recognition.maxAlternatives = 1;
 
-   if (activeBtn) {
-     activeBtn.classList.add('btn-mic--recording');
-     activeBtn.disabled = true;
-   }
+  if (activeBtn) {
+    activeBtn.classList.add('btn-mic--recording');
+    activeBtn.disabled = true;
+  }
 
   recognition.onresult = (event) => {
     try {
       const transcript = event.results[0][0].transcript || '';
       const score = jaroSimilarity(normalizedExpected, transcript);
-      // Randomly reduce the score by 2% to 6%
-      const reduction = (Math.random() * 4 + 2); // random number between 2 and 6
+      const reduction = (Math.random() * 4 + 2);
       const reducedScore = Math.max(0, (score * 100) - reduction);
       const percent = Math.round(reducedScore);
-
       const isGood = score >= 0.9;
 
-      const scoreElement =
-        target === 'question' ? elements.speechScoreQuestion : elements.speechScoreAnswer;
       if (scoreElement) {
         scoreElement.textContent = `${percent}%`;
         scoreElement.classList.remove('speech-score--good', 'speech-score--bad', 'hidden');
         scoreElement.classList.add(isGood ? 'speech-score--good' : 'speech-score--bad');
-
-        if (target === 'question' && speechScoreHideTimeoutQuestion) {
-          clearTimeout(speechScoreHideTimeoutQuestion);
-        }
-        if (target === 'answer' && speechScoreHideTimeoutAnswer) {
-          clearTimeout(speechScoreHideTimeoutAnswer);
-        }
-
         const timeoutId = setTimeout(() => {
           scoreElement.textContent = '';
           scoreElement.classList.add('hidden');
         }, 4000);
-
-        if (target === 'question') {
-          speechScoreHideTimeoutQuestion = timeoutId;
-        } else {
-          speechScoreHideTimeoutAnswer = timeoutId;
-        }
+        if (part === 'question') speechScoreHideTimeoutQuestion = timeoutId;
+        else speechScoreHideTimeoutAnswer = timeoutId;
       }
-    } catch {
-      // Keep a minimal error path without using the removed modal feedback.
-    }
+    } catch {}
     stopRecordingVisual();
   };
 
@@ -567,106 +486,238 @@ function showContextLoadProgress(show) {
 
 async function loadContext(config) {
   showContextLoadProgress(true);
-  elements.englishQuestion.textContent = 'Carregando…';
-  elements.portugueseQuestion.textContent = '';
-  elements.englishAnswer.textContent = '';
-  elements.portugueseAnswer.textContent = '';
+  removeSentencesListError();
   let data;
   try {
     data = await fetchContextData(config.id);
   } catch (err) {
     console.error(err);
     showContextLoadProgress(false);
-    elements.englishQuestion.textContent = 'Erro ao carregar contexto.';
-    elements.portugueseQuestion.textContent = 'Erro ao carregar contexto.';
-    elements.englishAnswer.textContent = '';
-    elements.portugueseAnswer.textContent = '';
-    if (elements.micQuestionBtn) {
-      elements.micQuestionBtn.disabled = true;
-      elements.micQuestionBtn.classList.add('hidden');
-    }
-    if (elements.micAnswerBtn) {
-      elements.micAnswerBtn.disabled = true;
-      elements.micAnswerBtn.classList.add('hidden');
-    }
+    showSentencesListError('Erro ao carregar contexto.');
+    if (elements.listenAllBtn) elements.listenAllBtn.disabled = true;
     return;
   }
   showContextLoadProgress(false);
   if (!data || !Array.isArray(data.sentences)) {
-    elements.englishQuestion.textContent = 'Dados inválidos.';
-    elements.portugueseQuestion.textContent = 'Dados inválidos.';
-    elements.englishAnswer.textContent = 'Dados inválidos.';
-    elements.portugueseAnswer.textContent = 'Dados inválidos.';
+    showSentencesListError('Dados inválidos.');
+    if (elements.listenAllBtn) elements.listenAllBtn.disabled = true;
     return;
   }
 
   const shuffledSentences = shuffleArray(data.sentences);
   currentContext = { ...data, sentences: shuffledSentences };
   currentIndex = 0;
-  updateSentenceView();
 
-  const total = currentContext.sentences.length;
-  const hasSentences = total > 0;
-  elements.playNormalBtn.disabled = !hasSentences || !speechSynthesisSupported;
-  elements.prevBtn.disabled = !hasSentences;
-  elements.nextBtn.disabled = !hasSentences;
-  elements.listenAllBtn.disabled = !hasSentences || !speechSynthesisSupported;
+  fillSentenceItems();
 
-  if (elements.micQuestionBtn) {
-    elements.micQuestionBtn.disabled = !hasSentences;
-    elements.micQuestionBtn.classList.remove('hidden');
-  }
-  if (elements.micAnswerBtn) {
-    elements.micAnswerBtn.disabled = !hasSentences;
-    elements.micAnswerBtn.classList.remove('hidden');
-  }
-}
-
-function updateSentenceView() {
-  if (!currentContext || !currentContext.sentences.length) return;
-  const sentence = currentContext.sentences[currentIndex];
-
-  elements.englishQuestion.textContent = sentence.QE || '—';
-  elements.portugueseQuestion.textContent = sentence.QP || '—';
-  elements.englishAnswer.textContent = sentence.AE || '—';
-  elements.portugueseAnswer.textContent = sentence.AP || '—';
-
-  const hasQuestion = !!(String(sentence.QE || '').trim() && String(sentence.QP || '').trim());
-  if (elements.blockQuestion) {
-    elements.blockQuestion.classList.toggle('hidden', !hasQuestion);
-  }
-
-  const total = currentContext.sentences.length;
-  const position = currentIndex + 1;
-  elements.progressText.textContent = `${position} / ${total}`;
-  const ratio = total ? (position / total) * 100 : 0;
-  elements.progressFill.style.width = `${ratio}%`;
-
-  elements.prevBtn.disabled = currentIndex === 0;
-  elements.nextBtn.disabled = currentIndex >= total - 1;
-
-  smoothScrollToBottom(1000);
-  updateControlBarState();
-}
-
-function updateControlBarState() {
-  if (!elements.controlsBar) return;
-  elements.controlsBar.dataset.playNormalActive = isPlayingSingle ? 'true' : 'false';
-  elements.controlsBar.dataset.listenAllActive = autoplay ? 'true' : 'false';
-
-  const hasSentences = currentContext && currentContext.sentences.length > 0;
-  const total = currentContext ? currentContext.sentences.length : 0;
-
-  if (autoplay) {
-    elements.playNormalBtn.disabled = true;
-    elements.prevBtn.disabled = true;
-    elements.nextBtn.disabled = true;
-  } else {
-    elements.playNormalBtn.disabled = !hasSentences || !speechSynthesisSupported;
+  const hasSentences = currentContext.sentences.length > 0;
+  if (elements.listenAllBtn) {
     elements.listenAllBtn.disabled = !hasSentences || !speechSynthesisSupported;
-    elements.prevBtn.disabled = !hasSentences || currentIndex === 0;
-    elements.nextBtn.disabled = !hasSentences || currentIndex >= total - 1;
   }
+  updateListenAllState();
+}
+
+function showSentencesListError(message) {
+  if (!elements.sentencesList) return;
+  removeSentencesListError();
+  const p = document.createElement('p');
+  p.className = 'sentences-error';
+  p.textContent = message;
+  elements.sentencesList.insertBefore(p, elements.sentencesList.firstChild);
+}
+
+function removeSentencesListError() {
+  if (!elements.sentencesList) return;
+  const err = elements.sentencesList.querySelector('.sentences-error');
+  if (err) err.remove();
+}
+
+const MIC_ICON_URL = './img/mic-icon.png';
+
+const SENTENCE_SLOTS_COUNT = 50;
+
+/** Ensure sentencesList has 50 sentence-item slots (created on first load). */
+function ensureSentenceListSlots() {
+  if (!elements.sentencesList) return;
+  for (let i = 0; i < SENTENCE_SLOTS_COUNT; i++) {
+    if (document.getElementById('sentence-item-' + i)) continue;
+    const article = document.createElement('article');
+    article.id = 'sentence-item-' + i;
+    article.className = 'sentence-item';
+    article.dataset.sentenceIndex = String(i);
+    const actions = document.createElement('div');
+    actions.className = 'sentence-item-actions';
+    const content = document.createElement('div');
+    content.className = 'sentence-item-content';
+    article.appendChild(actions);
+    article.appendChild(content);
+    elements.sentencesList.appendChild(article);
+  }
+}
+
+/** Ensure sentence-item-actions has exactly 2 play buttons: question and answer (icon ▶, labels for accessibility). */
+const PLAY_ICON = '▶';
+function ensureActionsHasPlayButtons(item, sentenceIndex) {
+  const actions = item.querySelector('.sentence-item-actions');
+  if (!actions) return;
+  actions.querySelectorAll('.btn-play-sentence').forEach((b) => b.remove());
+  const labels = { question: 'Ouvir pergunta', answer: 'Play' };
+  ['question', 'answer'].forEach((part) => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'btn-play-sentence';
+    btn.dataset.index = String(sentenceIndex);
+    btn.dataset.part = part;
+    btn.title = labels[part];
+    btn.setAttribute('aria-label', labels[part]);
+    btn.textContent = PLAY_ICON;
+    actions.appendChild(btn);
+  });
+}
+
+/** Ensure one sentence-item has both question and answer blocks; create missing block. */
+function ensureSentenceItemHasBothBlocks(item, sentenceIndex) {
+  const content = item.querySelector('.sentence-item-content');
+  if (!content) return;
+  const hasQuestion = content.querySelector('.sentence-question');
+  const hasAnswer = content.querySelector('.sentence-answer');
+  if (hasQuestion && hasAnswer) return;
+
+  function makeBlock(part) {
+    const block = document.createElement('div');
+    block.className = part === 'question' ? 'sentence-question' : 'sentence-answer';
+    const line = document.createElement('div');
+    line.className = 'sentence-line sentence-line--english';
+    line.dataset.part = part;
+    const en = document.createElement('p');
+    en.className = 'sentence-text';
+    const mic = document.createElement('button');
+    mic.type = 'button';
+    mic.className = 'btn-mic';
+    mic.dataset.index = String(sentenceIndex);
+    mic.dataset.part = part;
+    mic.title = part === 'question' ? 'Fale esta pergunta em inglês' : 'Fale esta resposta em inglês';
+    mic.innerHTML = '<img src="' + MIC_ICON_URL + '" alt="Microfone" />';
+    const score = document.createElement('span');
+    score.className = 'speech-score hidden';
+    line.appendChild(en);
+    line.appendChild(mic);
+    line.appendChild(score);
+    const pt = document.createElement('p');
+    pt.className = 'sentence-text sentence-text--pt';
+    block.appendChild(line);
+    block.appendChild(pt);
+    return block;
+  }
+
+  if (!hasQuestion) {
+    const qBlock = makeBlock('question');
+    content.insertBefore(qBlock, content.firstChild);
+  }
+  if (!hasAnswer) {
+    const aBlock = makeBlock('answer');
+    content.appendChild(aBlock);
+  }
+}
+
+/** Update the sentence-item slots from currentContext (shuffled). One phrase per item, both question and answer shown. */
+function fillSentenceItems() {
+  if (!elements.sentencesList || !currentContext || !currentContext.sentences.length) return;
+  ensureSentenceListSlots();
+  removeSentencesListError();
+  const sentences = currentContext.sentences;
+  const phraseCount = Math.min(SENTENCE_SLOTS_COUNT, sentences.length);
+  const micTitleQuestion = 'Fale esta pergunta em inglês';
+  const micTitleAnswer = 'Fale esta resposta em inglês';
+
+  for (let slotIndex = 0; slotIndex < SENTENCE_SLOTS_COUNT; slotIndex++) {
+    const item = document.getElementById('sentence-item-' + slotIndex);
+    if (!item) continue;
+
+    if (slotIndex >= phraseCount) {
+      item.classList.add('sentence-item--hidden');
+      continue;
+    }
+    item.classList.remove('sentence-item--hidden');
+
+    const sentence = sentences[slotIndex];
+    const sentenceIndex = slotIndex;
+    item.dataset.sentenceIndex = String(sentenceIndex);
+
+    ensureSentenceItemHasBothBlocks(item, sentenceIndex);
+
+    const hasQuestion = !!(String(sentence.QE || '').trim() && String(sentence.QP || '').trim());
+    ensureActionsHasPlayButtons(item, sentenceIndex);
+
+    const actions = item.querySelector('.sentence-item-actions');
+    if (actions) {
+      const playBtns = actions.querySelectorAll('.btn-play-sentence');
+      if (playBtns[0]) {
+        playBtns[0].dataset.index = String(sentenceIndex);
+        playBtns[0].dataset.part = 'question';
+        playBtns[0].classList.toggle('sentence-item__play--hidden', !hasQuestion);
+      }
+      if (playBtns[1]) {
+        playBtns[1].dataset.index = String(sentenceIndex);
+        playBtns[1].dataset.part = 'answer';
+      }
+    }
+
+    const content = item.querySelector('.sentence-item-content');
+    if (!content) continue;
+
+    const qBlock = content.querySelector('.sentence-question');
+    if (qBlock) {
+      qBlock.classList.toggle('sentence-item__question--hidden', !hasQuestion);
+      const qLine = qBlock.querySelector('.sentence-line[data-part="question"]');
+      if (qLine) {
+        const enEl = qLine.querySelector('.sentence-text:not(.sentence-text--pt)');
+        if (enEl) enEl.textContent = sentence.QE || '—';
+        const mic = qLine.querySelector('.btn-mic');
+        if (mic) {
+          mic.dataset.index = String(sentenceIndex);
+          mic.dataset.part = 'question';
+          mic.title = micTitleQuestion;
+        }
+        const scoreEl = qLine.querySelector('.speech-score');
+        if (scoreEl) {
+          scoreEl.textContent = '';
+          scoreEl.classList.add('hidden');
+        }
+      }
+      const qPt = qBlock.querySelector('.sentence-text--pt');
+      if (qPt) qPt.textContent = sentence.QP || '—';
+    }
+
+    const aBlock = content.querySelector('.sentence-answer');
+    if (aBlock) {
+      const aLine = aBlock.querySelector('.sentence-line[data-part="answer"]');
+      if (aLine) {
+        const enEl = aLine.querySelector('.sentence-text:not(.sentence-text--pt)');
+        if (enEl) enEl.textContent = sentence.AE || '—';
+        const mic = aLine.querySelector('.btn-mic');
+        if (mic) {
+          mic.dataset.index = String(sentenceIndex);
+          mic.dataset.part = 'answer';
+          mic.title = micTitleAnswer;
+        }
+        const scoreEl = aLine.querySelector('.speech-score');
+        if (scoreEl) {
+          scoreEl.textContent = '';
+          scoreEl.classList.add('hidden');
+        }
+      }
+      const aPt = aBlock.querySelector('.sentence-text--pt');
+      if (aPt) aPt.textContent = sentence.AP || '—';
+    }
+  }
+}
+
+function updateListenAllState() {
+  if (!elements.listenAllBtn) return;
+  const hasSentences = currentContext && currentContext.sentences.length > 0;
+  // Keep button enabled when autoplay is on so user can click "Parar autoplay" to stop
+  elements.listenAllBtn.disabled = !hasSentences || !speechSynthesisSupported;
 }
 
 function refreshVoices() {
@@ -728,6 +779,94 @@ function speakCurrentSentence(rate) {
   doSpeakCurrentSentence(rate);
 }
 
+/** Speak a single sentence by index (for per-row play button). Does not advance autoplay. */
+function speakSentenceAtIndex(index, rate) {
+  if (!speechSynthesisSupported || !currentContext || !currentContext.sentences[index]) return;
+
+  if (!cachedVoices.length) {
+    refreshVoices();
+    if (cachedVoices.length) {
+      doSpeakSentenceAtIndex(index, rate);
+    } else {
+      window.speechSynthesis.onvoiceschanged = () => {
+        refreshVoices();
+        doSpeakSentenceAtIndex(index, rate);
+      };
+    }
+    return;
+  }
+  doSpeakSentenceAtIndex(index, rate);
+}
+
+/** Speak only the question or only the answer for one sentence (one sentence per row). */
+function speakSentencePartAtIndex(index, part, rate) {
+  if (!speechSynthesisSupported || !currentContext || !currentContext.sentences[index]) return;
+  const sentence = currentContext.sentences[index];
+  const text = part === 'question' ? (sentence.QE || '') : (sentence.AE || '');
+  if (!text) return;
+  if (!cachedVoices.length) {
+    refreshVoices();
+    if (!cachedVoices.length) {
+      window.speechSynthesis.onvoiceschanged = () => {
+        refreshVoices();
+        doSpeakSentencePartAtIndex(index, part, rate);
+      };
+      return;
+    }
+  }
+  doSpeakSentencePartAtIndex(index, part, rate);
+}
+
+function doSpeakSentencePartAtIndex(index, part, rate) {
+  if (!currentContext || !currentContext.sentences[index]) return;
+  window.speechSynthesis.cancel();
+  const sentence = currentContext.sentences[index];
+  const isQuestion = part === 'question';
+  const text = isQuestion ? (sentence.QE || '') : (sentence.AE || '');
+  if (!text) return;
+  const utterance = new SpeechSynthesisUtterance(text);
+  const voice = isQuestion
+    ? (sentence.QG === 'M' ? pickVoiceMale('en-US') : sentence.QG === 'F' ? pickVoiceFemale('en-US') : pickVoiceFemale('en-US'))
+    : (sentence.AG === 'M' ? pickVoiceMale('en-US') : sentence.AG === 'F' ? pickVoiceFemale('en-US') : pickVoiceMale('en-US'));
+  if (voice) utterance.voice = voice;
+  utterance.lang = 'en-US';
+  utterance.rate = rate;
+  window.speechSynthesis.speak(utterance);
+}
+
+function doSpeakSentenceAtIndex(index, rate) {
+  if (!currentContext || !currentContext.sentences[index]) return;
+  window.speechSynthesis.cancel();
+
+  const sentence = currentContext.sentences[index];
+  const questionText = sentence.QE || '';
+  const answerText = sentence.AE || '';
+
+  function speakAnswer() {
+    if (!answerText) return;
+    const answerUtterance = new SpeechSynthesisUtterance(answerText);
+    let voice = sentence.AG === 'M' ? pickVoiceMale('en-US') : sentence.AG === 'F' ? pickVoiceFemale('en-US') : pickVoiceMale('en-US');
+    if (voice) answerUtterance.voice = voice;
+    answerUtterance.lang = 'en-US';
+    answerUtterance.rate = rate;
+    window.speechSynthesis.speak(answerUtterance);
+  }
+
+  if (questionText) {
+    const questionUtterance = new SpeechSynthesisUtterance(questionText);
+    let voice = sentence.QG === 'M' ? pickVoiceMale('en-US') : sentence.QG === 'F' ? pickVoiceFemale('en-US') : pickVoiceFemale('en-US');
+    if (voice) questionUtterance.voice = voice;
+    questionUtterance.lang = 'en-US';
+    questionUtterance.rate = rate;
+    questionUtterance.onend = () => {
+      setTimeout(speakAnswer, 1000);
+    };
+    window.speechSynthesis.speak(questionUtterance);
+  } else {
+    speakAnswer();
+  }
+}
+
 function doSpeakCurrentSentence(rate) {
   if (!currentContext || !currentContext.sentences.length) return;
 
@@ -761,20 +900,19 @@ function doSpeakCurrentSentence(rate) {
 
   function onBothEnded() {
     isPlayingSingle = false;
-    updateControlBarState();
+    updateListenAllState();
     if (!autoplay) return;
     if (!currentContext) return;
     if (currentIndex < currentContext.sentences.length - 1) {
       setTimeout(() => {
         if (!autoplay || !currentContext) return;
         currentIndex += 1;
-        updateSentenceView();
         speakCurrentSentence(rate);
       }, 2000);
     } else {
       autoplay = false;
-      elements.listenAllBtn.textContent = 'Ouvir todos';
-      updateControlBarState();
+      if (elements.listenAllBtn) elements.listenAllBtn.textContent = 'Ouvir todos';
+      updateListenAllState();
     }
   }
 
