@@ -22,6 +22,13 @@
   --text-muted: #c36111;
   --border: #2681cc;
   --font-text: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', sans-serif;
+  /* Play sentence button – works in light mode */
+  --play-btn-bg: #195395;
+  --play-btn-color: #ffffff;
+  --play-btn-hover-bg: #2470b8;
+  --play-btn-hover-color: #ffffff;
+  /* Listen-all button: light text on dark background in both themes */
+  --listen-all-color: #fff;
   /* Heights for fixed header + top-bar (used for padding-top on main) */
   --fixed-header-height: 3.8rem;
   --fixed-topbar-height: 4.5rem;
@@ -39,12 +46,13 @@
   --text: #e7e9ea;
   --text-muted: #fdb781;
   --border: #38444d;
+  --listen-all-color: #fff;
+  /* Play sentence button – works in dark mode */
+  --play-btn-bg: #0d7ab8;
+  --play-btn-color: #ffffff;
+  --play-btn-hover-bg: #71c9f8;
+  --play-btn-hover-color: #0f1419;
 }
-
-[data-theme="dark"] .top-bar .btn-listen-all {
-  color: #fff;
-}
-
 
 html {
   overflow-x: hidden;
@@ -397,7 +405,7 @@ body {
   color: var(--text-muted);
 }
 
-/* Listen all button in top-bar */
+/* Listen all button in top-bar – same color in light and dark mode */
 .top-bar .btn-listen-all {
   border-radius: 4px;
   padding: 0.4rem 1rem;
@@ -405,7 +413,7 @@ body {
   font-weight: bold;
   border: 1px solid var(--border);
   background-color: var(--main-color-dark);
-  color: var(--bg-card);
+  color: var(--listen-all-color);
   cursor: pointer;
   display: inline-flex;
   align-items: center;
@@ -494,7 +502,7 @@ body {
   flex-direction: column;
   align-items: stretch;
   gap: 0.5rem;
-  padding-top: 10px;
+  padding-top: 8px;
 }
 
 .sentence-item__play--hidden {
@@ -509,21 +517,21 @@ body {
   padding: 0;
   border-radius: 6px;
   border: none;
-  background-color: var(--bg-elevated);
-  color: var(--main-color);
+  background-color: var(--play-btn-bg);
+  color: var(--play-btn-color);
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   font-size: 0.85rem;
   line-height: 1;
-  transition: background-color 0.2s ease, transform 0.1s ease;
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s ease;
   margin-bottom: 60px;
 }
 
 .btn-play-sentence:hover {
-  background-color: var(--main-color-hover);
-  color: var(--bg-card);
+  background-color: var(--play-btn-hover-bg);
+  color: var(--play-btn-hover-color);
 }
 
 .btn-play-sentence:active {
@@ -599,9 +607,9 @@ body {
 
 .btn-mic {
   border-radius: 999px;
-  width: 2.1rem;
-  height: 2.1rem;
-  min-width: 2.1rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  min-width: 1.8rem;
   border: none;
   background-color: var(--bg-card);
   color: var(--main-color);
@@ -609,15 +617,16 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.05rem;
+  font-size: 1rem;
   margin-top: 0;
   transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.1s ease;
 }
 
 .btn-mic img {
-  width: 2rem;
-  height: 2rem;
+  width: 1.8rem;
+  height: 1.8rem;
   display: block;
+  margin-left: 10px;
 }
 
 .btn-mic:hover {

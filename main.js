@@ -555,13 +555,13 @@ function ensureSentenceListSlots() {
   }
 }
 
-/** Ensure sentence-item-actions has exactly 2 play buttons: question and answer (icon ▶, labels for accessibility). */
+/** Ensure sentence-item-actions has two play buttons: question (English) first, then answer (English). */
 const PLAY_ICON = '▶';
 function ensureActionsHasPlayButtons(item, sentenceIndex) {
   const actions = item.querySelector('.sentence-item-actions');
   if (!actions) return;
   actions.querySelectorAll('.btn-play-sentence').forEach((b) => b.remove());
-  const labels = { question: 'Ouvir pergunta', answer: 'Play' };
+  const labels = { question: 'Play question', answer: 'Play' };
   ['question', 'answer'].forEach((part) => {
     const btn = document.createElement('button');
     btn.type = 'button';
@@ -653,12 +653,10 @@ function fillSentenceItems() {
     if (actions) {
       const playBtns = actions.querySelectorAll('.btn-play-sentence');
       if (playBtns[0]) {
-        playBtns[0].dataset.index = String(sentenceIndex);
         playBtns[0].dataset.part = 'question';
         playBtns[0].classList.toggle('sentence-item__play--hidden', !hasQuestion);
       }
       if (playBtns[1]) {
-        playBtns[1].dataset.index = String(sentenceIndex);
         playBtns[1].dataset.part = 'answer';
       }
     }
