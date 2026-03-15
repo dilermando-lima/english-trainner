@@ -714,8 +714,8 @@ body {
   /* Avoid iOS zoom on focus: 16px font on select */
   .context-select-wrapper .field-select {
     font-size: 16px;
-    min-height: 44px;
-    padding: 0.6rem 0.85rem;
+    min-height: 35px;
+    padding: 0.2rem 0.85rem;
   }
 
   /* Second row: speed + listen all, touch-friendly */
@@ -735,7 +735,7 @@ body {
 
   .speed-wrapper .speed-select {
     font-size: 16px;
-    min-height: 36px;
+    min-height: 30px;
     padding: 0.4rem 0.6rem;
   }
 
@@ -865,5 +865,3 @@ body {
     width: 100%;
   }
 }
-
-/* styles for removed static pages (.footer-nav, .brand-link, .static-page-header, .page-content) have been cleaned up */

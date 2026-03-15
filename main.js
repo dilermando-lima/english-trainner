@@ -69,8 +69,6 @@ let currentRate = 0.8;
 let speechSynthesisSupported = 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
 let speechRecognitionSupported = 'SpeechRecognition' in window || 'webkitSpeechRecognition' in window;
 let cachedVoices = [];
-let speechScoreHideTimeoutQuestion = null;
-let speechScoreHideTimeoutAnswer = null;
 let speechWarnHideTimeout = null;
 
 const elements = {
@@ -422,12 +420,10 @@ function handlePronunciationCheck(sentenceIndex, part) {
         scoreElement.textContent = `${percent}%`;
         scoreElement.classList.remove('speech-score--good', 'speech-score--bad', 'hidden');
         scoreElement.classList.add(isGood ? 'speech-score--good' : 'speech-score--bad');
-        const timeoutId = setTimeout(() => {
+        setTimeout(() => {
           scoreElement.textContent = '';
           scoreElement.classList.add('hidden');
         }, 4000);
-        if (part === 'question') speechScoreHideTimeoutQuestion = timeoutId;
-        else speechScoreHideTimeoutAnswer = timeoutId;
       }
     } catch {}
     stopRecordingVisual();
