@@ -67,11 +67,11 @@
           </button>
         </div>
         <nav class="policy-menu-links" aria-label="Policy links">
-          <a class="policy-menu-link" href="./about.html">About</a>
-          <a class="policy-menu-link" href="./cookies.html">Cookie Policy</a>
-          <a class="policy-menu-link" href="./privacy-policy.html">Privacy Policy</a>
-          <a class="policy-menu-link" href="./contact.html">Contact</a>
-          <a class="policy-menu-link" href="./terms.html">Terms of Service</a>
+          <a class="policy-menu-link" href="./about.html">Sobre</a>
+          <a class="policy-menu-link" href="./cookies.html">Política de cookies</a>
+          <a class="policy-menu-link" href="./privacy-policy.html">Política de privacidade</a>
+          <a class="policy-menu-link" href="./contact.html">Contato</a>
+          <a class="policy-menu-link" href="./terms.html">Termos de uso</a>
         </nav>
       </div>
     </div>
@@ -108,6 +108,13 @@
     <!-- Middle: ads + sentences -->
     <main class="app-main">
       <div class="content-layout">
+        <section class="how-to-use" aria-label="Como usar">
+          <h2 class="how-to-use-title">Como usar</h2>
+          <p class="how-to-use-text">
+            Escolha um contexto no menu acima (ex.: saudações, trabalho, viagens). Use o controle de velocidade para ouvir mais devagar ou mais rápido.
+            Clique em "Ouvir todos" para reproduzir todas as frases em ordem, ou use o botão de play ao lado de cada frase. Use o botão do microfone para praticar a pronúncia e receber feedback.
+          </p>
+        </section>
         <div id="sentencesList" class="sentences-list">
           <article class="sentence-item" id="sentence-item-0" data-sentence-index="0">
   <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="0" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
@@ -416,6 +423,18 @@
 
   </div>
 
+  <div id="cookieConsentBanner" class="cookie-consent-banner hidden" role="dialog" aria-label="Consentimento de cookies">
+    <p class="cookie-consent-text">
+      Usamos cookies para preferências e, ao aceitar, para publicidade (Google AdSense). Veja nossa
+      <a href="./cookies.html">Política de cookies</a> e <a href="./privacy-policy.html">Política de privacidade</a>.
+    </p>
+    <div class="cookie-consent-actions">
+      <a href="./cookies.html" class="cookie-consent-link">Política de cookies</a>
+      <a href="./privacy-policy.html" class="cookie-consent-link">Política de privacidade</a>
+      <button type="button" id="cookieConsentAccept" class="cookie-consent-accept">Aceitar</button>
+    </div>
+  </div>
+  <script src="./cookie-consent.js"></script>
   <script src="./main.js"></script>
 </body>
 </html>

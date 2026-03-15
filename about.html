@@ -3,30 +3,57 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About — English Trainer</title>
-  <meta name="description" content="About English Trainer." />
+  <title>Sobre — English Trainer</title>
+  <meta name="description" content="Sobre o English Trainer." />
   <link rel="stylesheet" href="./main.css" />
 </head>
 <body>
   <main class="simple-page">
     <div class="simple-page-inner">
-      <h1 class="simple-page-title">About</h1>
+      <h1 class="simple-page-title">Sobre</h1>
 
       <section class="simple-card">
         <p>
-          English Trainer is a small practice app focused on helping you review English sentences with Portuguese translations.
-          You can choose a context, listen to sentences at different speeds, and move step by step through the content.
+          English Trainer is a free practice app for anyone who wants to improve their English with Portuguese translations.
+          It is designed for learners who already have some basics and want to build vocabulary and listening skills in real-life situations.
         </p>
         <p style="margin-top: 0.75rem;">
-          If you have questions or suggestions, contact me at
+          You choose a context (for example greetings, work, travel, or daily routines), listen to sentences at a speed that suits you,
+          and move step by step through questions and answers. You can also use the microphone to practice pronunciation and get feedback.
+          All content is organized by everyday situations so you can learn phrases you will actually use.
+        </p>
+        <p style="margin-top: 0.75rem;">
+          The app runs in your browser and does not require an account. If you have questions or suggestions, contact me at
           <a href="mailto:dilo.silva.lima@gmail.com">dilo.silva.lima@gmail.com</a>.
         </p>
       </section>
 
       <div class="simple-actions">
-        <a class="btn-link" href="./index.html">← Back to home</a>
+        <a class="btn-link" href="./index.html">← Voltar ao início</a>
       </div>
+
+      <footer class="simple-page-footer" aria-label="Links do site">
+        <a href="./index.html">Início</a>
+        <a href="./privacy-policy.html">Política de privacidade</a>
+        <a href="./cookies.html">Política de cookies</a>
+        <a href="./terms.html">Termos</a>
+        <a href="./contact.html">Contato</a>
+        <a href="./about.html">Sobre</a>
+      </footer>
     </div>
   </main>
+
+  <div id="cookieConsentBanner" class="cookie-consent-banner hidden" role="dialog" aria-label="Consentimento de cookies">
+    <p class="cookie-consent-text">
+      Usamos cookies para preferências e, ao aceitar, para publicidade (Google AdSense). Veja nossa
+      <a href="./cookies.html">Política de cookies</a> e <a href="./privacy-policy.html">Política de privacidade</a>.
+    </p>
+    <div class="cookie-consent-actions">
+      <a href="./cookies.html" class="cookie-consent-link">Política de cookies</a>
+      <a href="./privacy-policy.html" class="cookie-consent-link">Política de privacidade</a>
+      <button type="button" id="cookieConsentAccept" class="cookie-consent-accept">Aceitar</button>
+    </div>
+  </div>
+  <script src="./cookie-consent.js"></script>
 </body>
 </html>
