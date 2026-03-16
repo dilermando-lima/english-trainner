@@ -41,9 +41,6 @@
     <!-- Main trainer view (hidden on static pages) -->
     <div id="trainer-view">
     <header class="app-header">
-      <button id="policyMenuToggle" class="menu-toggle" type="button" aria-label="Open menu" aria-haspopup="dialog" aria-controls="policyMenuModal" title="Menu">
-        ☰
-      </button>
       <div>
         <span class="brand-title">English Trainer</span>
         <span class="brand-subtitle">Frases inglês para português</span>
@@ -56,25 +53,6 @@
 
     <!-- Small warning toast for speech feedback -->
     <div id="speechWarnToast" class="speech-warn-toast" role="status" aria-live="polite" aria-atomic="true"></div>
-
-    <div id="policyMenuModal" class="policy-menu-modal hidden" role="dialog" aria-modal="true" aria-label="Menu">
-      <button id="policyMenuBackdrop" class="policy-menu-backdrop" type="button" aria-label="Close menu"></button>
-      <div class="policy-menu-panel" role="document">
-        <div class="policy-menu-header">
-          <div class="policy-menu-title">Menu</div>
-          <button id="policyMenuClose" class="policy-menu-close" type="button" aria-label="Close menu" title="Close">
-            ✕
-          </button>
-        </div>
-        <nav class="policy-menu-links" aria-label="Policy links">
-          <a class="policy-menu-link" href="./about.html">Sobre</a>
-          <a class="policy-menu-link" href="./cookies.html">Política de cookies</a>
-          <a class="policy-menu-link" href="./privacy-policy.html">Política de privacidade</a>
-          <a class="policy-menu-link" href="./contact.html">Contato</a>
-          <a class="policy-menu-link" href="./terms.html">Termos de uso</a>
-        </nav>
-      </div>
-    </div>
 
     <!-- Top: context selector + speed + listen all -->
     <section class="top-bar">
@@ -420,6 +398,16 @@
       </div>
     </main>
     </div>
+
+    <footer class="site-footer">
+      <nav class="policy-menu-links" aria-label="Policy links">
+        <a class="policy-menu-link" href="./about.html">Sobre</a>
+        <a class="policy-menu-link" href="./cookies.html">Política de cookies</a>
+        <a class="policy-menu-link" href="./privacy-policy.html">Política de privacidade</a>
+        <a class="policy-menu-link" href="./contact.html">Contato</a>
+        <a class="policy-menu-link" href="./terms.html">Termos de uso</a>
+      </nav>
+    </footer>
 
   </div>
 

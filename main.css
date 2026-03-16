@@ -164,109 +164,31 @@ body {
   display: none !important;
 }
 
-/* ----- Header menu (policies) ----- */
-.menu-toggle {
-  position: absolute;
-  left: 1rem;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 50%;
-  border: 1px solid var(--border);
+/* ----- Footer (policy links) ----- */
+.site-footer {
+  margin-top: 1.5rem;
+  padding: 1rem 1.25rem 1.5rem;
+  border-top: 1px solid var(--border);
   background-color: var(--bg-card);
-  color: var(--text);
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.25rem;
-  transition: background-color 0.2s ease, border-color 0.2s ease;
-}
-
-.menu-toggle:hover {
-  background-color: var(--bg-elevated);
-  border-color: var(--main-color);
-}
-
-.policy-menu-modal {
-  position: fixed;
-  inset: 0;
-  z-index: 100;
-  display: grid;
-  place-items: center;
-}
-
-.policy-menu-backdrop {
-  position: absolute;
-  inset: 0;
-  border: none;
-  padding: 0;
-  margin: 0;
-  background: rgba(0, 0, 0, 0.35);
-  cursor: pointer;
-}
-
-.policy-menu-panel {
-  position: relative;
-  width: min(92vw, 420px);
-  background-color: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  padding: 0.9rem;
-}
-
-.policy-menu-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.75rem;
-  padding-bottom: 0.65rem;
-  border-bottom: 1px solid var(--border);
-}
-
-.policy-menu-title {
-  font-weight: 700;
-  color: var(--text);
-}
-
-.policy-menu-close {
-  border: 1px solid var(--border);
-  background-color: var(--bg-card);
-  color: var(--text);
-  width: 2.25rem;
-  height: 2.25rem;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background-color 0.2s ease, border-color 0.2s ease;
-}
-
-.policy-menu-close:hover {
-  background-color: var(--bg-elevated);
-  border-color: var(--main-color);
 }
 
 .policy-menu-links {
   display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  padding-top: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem 1.5rem;
+  font-size: 0.9rem;
 }
 
 .policy-menu-link {
-  display: block;
-  padding: 0.75rem 0.85rem;
-  border-radius: 8px;
-  border: 1px solid var(--border);
-  background-color: var(--bg-elevated);
-  color: var(--text);
+  color: var(--main-color);
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .policy-menu-link:hover {
-  border-color: var(--main-color);
+  text-decoration: underline;
+  color: var(--main-color-hover);
 }
 
 /* ----- Top warning toast for speech feedback ----- */
@@ -492,6 +414,20 @@ body {
   align-items: flex-start;
 }
 
+/* Highlight sentence that is currently playing (single play or autoplay) */
+.sentence-item--playing {
+  background-color: #fff8e6;
+  border-color: #f1b24a;
+  box-shadow: 0 0 0 2px rgba(241, 178, 74, 0.25);
+  transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+[data-theme="dark"] .sentence-item--playing {
+  background-color: #1f2933;
+  border-color: #f7c948;
+  box-shadow: 0 0 0 2px rgba(247, 201, 72, 0.25);
+}
+
 .sentence-item--hidden {
   display: none !important;
 }
@@ -599,10 +535,9 @@ body {
 /* ----- Mic buttons near sentences ----- */
 .sentence-line {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 0.35rem;
-  flex-wrap: wrap;
+  align-items: selt-start;
+  justify-content: space-between;
+  gap: 0.4rem;
 }
 
 .btn-mic {
@@ -618,7 +553,7 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 1rem;
-  margin-top: 0;
+  margin-top: 6px;
   transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.1s ease;
 }
 
@@ -626,7 +561,6 @@ body {
   width: 1.8rem;
   height: 1.8rem;
   display: block;
-  margin-left: 10px;
 }
 
 .btn-mic:hover {

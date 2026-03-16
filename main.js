@@ -64,6 +64,7 @@ let currentIndex = 0;
 let autoplay = false;
 let isPlayingSingle = false;
 let currentRate = 0.8;
+let currentPlayingSentenceIndex = null;
 let speechSynthesisSupported = 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
 let speechRecognitionSupported = 'SpeechRecognition' in window || 'webkitSpeechRecognition' in window;
 let cachedVoices = [];
@@ -171,10 +172,12 @@ function wireEvents() {
     isPlayingSingle = false;
     if (autoplay) {
       elements.listenAllBtn.textContent = 'Parar autoplay';
+      setPlayingSentenceIndex(currentIndex);
       speakCurrentSentence(currentRate);
     } else {
       elements.listenAllBtn.textContent = 'Ouvir todos';
       window.speechSynthesis.cancel();
+      clearPlayingSentenceIndex();
     }
     updateListenAllState();
   });
@@ -212,8 +215,10 @@ function wireEvents() {
           }
           const part = playBtn.dataset.part;
           if (part === 'question' || part === 'answer') {
+            setPlayingSentenceIndex(idx);
             speakSentencePartAtIndex(idx, part, currentRate);
           } else {
+            setPlayingSentenceIndex(idx);
             speakSentenceAtIndex(idx, currentRate);
           }
         }
@@ -295,50 +300,48 @@ function normalizeForComparison(text) {
     .trim();
 }
 
-function jaroSimilarity(s1, s2) {
+function pronunciationSimilarity(s1, s2) {
+  // New strategy: combine word-level and character bigram similarity.
   const a = normalizeForComparison(s1);
   const b = normalizeForComparison(s2);
   if (!a || !b) return 0;
   if (a === b) return 1;
 
-  const maxDist = Math.floor(Math.max(a.length, b.length) / 2) - 1;
-  const aMatches = new Array(a.length).fill(false);
-  const bMatches = new Array(b.length).fill(false);
+  const aTokens = a.split(' ');
+  const bTokens = b.split(' ');
+  const aSet = new Set(aTokens);
+  const bSet = new Set(bTokens);
 
-  let matches = 0;
-  for (let i = 0; i < a.length; i++) {
-    const start = Math.max(0, i - maxDist);
-    const end = Math.min(i + maxDist + 1, b.length);
-    for (let j = start; j < end; j++) {
-      if (bMatches[j]) continue;
-      if (a[i] !== b[j]) continue;
-      aMatches[i] = true;
-      bMatches[j] = true;
-      matches++;
-      break;
+  let commonWords = 0;
+  aSet.forEach((w) => {
+    if (bSet.has(w)) commonWords++;
+  });
+  const wordSim = (2 * commonWords) / (aSet.size + bSet.size || 1);
+
+  function bigrams(str) {
+    const res = [];
+    for (let i = 0; i < str.length - 1; i++) {
+      res.push(str.slice(i, i + 2));
     }
+    return res;
   }
 
-  if (matches === 0) return 0;
-
-  let t = 0;
-  let k = 0;
-  for (let i = 0; i < a.length; i++) {
-    if (!aMatches[i]) continue;
-    while (!bMatches[k]) {
-      k++;
+  const aBi = bigrams(a);
+  const bBi = bigrams(b);
+  const aBiCounts = new Map();
+  aBi.forEach((bg) => aBiCounts.set(bg, (aBiCounts.get(bg) || 0) + 1));
+  let commonBi = 0;
+  bBi.forEach((bg) => {
+    const count = aBiCounts.get(bg);
+    if (count && count > 0) {
+      commonBi++;
+      aBiCounts.set(bg, count - 1);
     }
-    if (a[i] !== b[k]) {
-      t++;
-    }
-    k++;
-  }
+  });
+  const charSim = (2 * commonBi) / (aBi.length + bBi.length || 1);
 
-  const transpositions = t / 2;
-  const jaro =
-    (matches / a.length + matches / b.length + (matches - transpositions) / matches) /
-    3;
-  return jaro;
+  // Final similarity: weighted average (still returns 0–1)
+  return 0.6 * wordSim + 0.4 * charSim;
 }
 
 function showSpeechFeedWarn(message) {
@@ -408,7 +411,7 @@ function handlePronunciationCheck(sentenceIndex, part) {
   recognition.onresult = (event) => {
     try {
       const transcript = event.results[0][0].transcript || '';
-      const score = jaroSimilarity(normalizedExpected, transcript);
+      const score = pronunciationSimilarity(normalizedExpected, transcript);
       const reduction = (Math.random() * 4 + 2);
       const reducedScore = Math.max(0, (score * 100) - reduction);
       const percent = Math.round(reducedScore);
@@ -712,6 +715,24 @@ function updateListenAllState() {
   elements.listenAllBtn.disabled = !hasSentences || !speechSynthesisSupported;
 }
 
+function setPlayingSentenceIndex(index) {
+  if (!elements.sentencesList) return;
+  currentPlayingSentenceIndex = index;
+  elements.sentencesList
+    .querySelectorAll('.sentence-item--playing')
+    .forEach((el) => el.classList.remove('sentence-item--playing'));
+  const item = document.getElementById('sentence-item-' + index);
+  if (item) item.classList.add('sentence-item--playing');
+}
+
+function clearPlayingSentenceIndex() {
+  if (!elements.sentencesList) return;
+  currentPlayingSentenceIndex = null;
+  elements.sentencesList
+    .querySelectorAll('.sentence-item--playing')
+    .forEach((el) => el.classList.remove('sentence-item--playing'));
+}
+
 function refreshVoices() {
   cachedVoices = window.speechSynthesis.getVoices();
 }
@@ -823,6 +844,11 @@ function doSpeakSentencePartAtIndex(index, part, rate) {
   if (voice) utterance.voice = voice;
   utterance.lang = 'en-US';
   utterance.rate = rate;
+  utterance.onend = () => {
+    if (!autoplay) {
+      clearPlayingSentenceIndex();
+    }
+  };
   window.speechSynthesis.speak(utterance);
 }
 
@@ -841,6 +867,11 @@ function doSpeakSentenceAtIndex(index, rate) {
     if (voice) answerUtterance.voice = voice;
     answerUtterance.lang = 'en-US';
     answerUtterance.rate = rate;
+    answerUtterance.onend = () => {
+      if (!autoplay) {
+        clearPlayingSentenceIndex();
+      }
+    };
     window.speechSynthesis.speak(answerUtterance);
   }
 
@@ -893,18 +924,23 @@ function doSpeakCurrentSentence(rate) {
   function onBothEnded() {
     isPlayingSingle = false;
     updateListenAllState();
-    if (!autoplay) return;
+    if (!autoplay) {
+      clearPlayingSentenceIndex();
+      return;
+    }
     if (!currentContext) return;
     if (currentIndex < currentContext.sentences.length - 1) {
       setTimeout(() => {
         if (!autoplay || !currentContext) return;
         currentIndex += 1;
+        setPlayingSentenceIndex(currentIndex);
         speakCurrentSentence(rate);
       }, 2000);
     } else {
       autoplay = false;
       if (elements.listenAllBtn) elements.listenAllBtn.textContent = 'Ouvir todos';
       updateListenAllState();
+      clearPlayingSentenceIndex();
     }
   }
 
