@@ -9,6 +9,10 @@
     return document.getElementById('cookieConsentAccept');
   }
 
+  function getRejectButton() {
+    return document.getElementById('cookieConsentReject');
+  }
+
   function hideBanner() {
     var banner = getBanner();
     if (banner) banner.classList.add('hidden');
@@ -19,21 +23,36 @@
     if (banner) banner.classList.remove('hidden');
   }
 
+  function notifyConsentAccepted() {
+    window.dispatchEvent(new CustomEvent('cookie-consent-accepted'));
+  }
+
   function accept() {
     try {
       localStorage.setItem(CONSENT_KEY, 'accepted');
     } catch (e) {}
     hideBanner();
+    notifyConsentAccepted();
+  }
+
+  function reject() {
+    try {
+      localStorage.setItem(CONSENT_KEY, 'rejected');
+    } catch (e) {}
+    hideBanner();
   }
 
   function init() {
-    if (localStorage.getItem(CONSENT_KEY) === 'accepted') {
+    var consent = localStorage.getItem(CONSENT_KEY);
+    if (consent === 'accepted' || consent === 'rejected') {
       hideBanner();
       return;
     }
     showBanner();
-    var btn = getAcceptButton();
-    if (btn) btn.addEventListener('click', accept);
+    var acceptBtn = getAcceptButton();
+    var rejectBtn = getRejectButton();
+    if (acceptBtn) acceptBtn.addEventListener('click', accept);
+    if (rejectBtn) rejectBtn.addEventListener('click', reject);
   }
 
   if (document.readyState === 'loading') {

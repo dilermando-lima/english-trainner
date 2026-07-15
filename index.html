@@ -1,415 +1,426 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>English Trainer - Practice English with Portuguese translations</title>
-  <meta name="description" content="English Trainer helps you practice English phrases with Portuguese translations by context and audio. Choose a real-life situation, listen to sentences, and improve your English step by step." />
+  <title>English Trainer — Pratique inglês com frases, áudio e tradução</title>
+  <meta name="description" content="English Trainer é um site gratuito para praticar inglês com frases reais, tradução em português e áudio. Escolha um contexto — trabalho, viagens, rotina — e treine ouvindo, repetindo e usando o microfone." />
   <meta name="robots" content="index, follow" />
-  <meta name="keywords" content="English trainer, English phrases, Portuguese translation, aprender inglês, frases em inglês, listening practice, English practice app" />
-  <meta name="author" content="English Trainer" />
-  <meta name="language" content="en" />
-
-  <!-- Open Graph / social sharing -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="English Trainer - Practice English with Portuguese translations" />
-  <meta property="og:description" content="Practice English phrases with Portuguese translations, organized by everyday contexts and with adjustable audio speed." />
-
-  <!-- Twitter cards -->
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="English Trainer - Practice English with Portuguese translations" />
-  <meta name="twitter:description" content="Practice English phrases with Portuguese translations, organized by everyday contexts and with adjustable audio speed." />
-
-  <!-- Structured data for SEO -->
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "English Trainer",
-      "description": "English Trainer helps you practice English phrases with Portuguese translations by context and audio.",
-      "applicationCategory": "EducationalApplication",
-      "inLanguage": ["en", "pt-BR"]
-    }
-  </script>
+  <link rel="canonical" href="https://ingles.dev.br/" />
   <link rel="stylesheet" href="./main.css" />
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5587713354919719" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <div id="app">
-    <!-- Main trainer view (hidden on static pages) -->
-    <div id="trainer-view">
-    <header class="app-header">
-      <div>
-        <span class="brand-title">English Trainer</span>
-        <span class="brand-subtitle">Frases inglês para português</span>
+  <main class="home-page">
+    <header class="home-header">
+      <div class="home-header-inner">
+        <div class="home-brand">
+          <h1 class="home-brand-title">English Trainer</h1>
+          <p class="home-brand-tagline">Frases de inglês para português, com áudio</p>
+        </div>
+        <a class="home-header-cta" href="./contextos/greetings.html">Começar a praticar</a>
       </div>
-      <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Alternar tema">
-        <span class="theme-icon theme-icon-sun" aria-hidden="true">☀</span>
-        <span class="theme-icon theme-icon-moon hidden" aria-hidden="true">🌙</span>
-      </button>
     </header>
 
-    <!-- Small warning toast for speech feedback -->
-    <div id="speechWarnToast" class="speech-warn-toast" role="status" aria-live="polite" aria-atomic="true"></div>
+    <div class="home-inner">
+      <section class="home-hero simple-card" aria-labelledby="home-hero-title">
+        <h2 class="home-section-title" id="home-hero-title">Aprenda inglês por situações reais</h2>
+        <p>
+          O <strong>English Trainer</strong> é um treinador gratuito que funciona no navegador, sem cadastro.
+          Em vez de listas soltas de vocabulário, você pratica <strong>frases completas</strong> organizadas por contexto —
+          saudações, trabalho, viagens, rotina, saúde e dezenas de outras situações do dia a dia.
+          Cada frase vem com tradução em português e áudio para você ouvir no ritmo certo.
+        </p>
+        <p>
+          O site foi pensado para brasileiros que já têm alguma base em inglês e querem ganhar
+          <strong>fluência prática</strong>: entender como se fala de verdade, repetir em voz alta e,
+          se quiser, usar o microfone para treinar pronúncia. Não é um curso com aulas longas —
+          é prática direta, no seu tempo, uma situação por vez.
+        </p>
+      </section>
 
-    <!-- Top: context selector + speed + listen all -->
-    <section class="top-bar">
-      <div class="context-select-wrapper">
-        <select id="contextSelect" class="field-select">
-          <option value="" disabled selected>Escolha um contexto...</option>
-        </select>
-        <div id="contextLoadProgress" class="context-load-progress hidden" aria-hidden="true">
-          <div class="context-load-progress-bar"></div>
-          <span class="context-load-progress-label">Carregando contexto...</span>
-        </div>
-      </div>
-      <div class="top-bar-row-2">
-        <div class="speed-wrapper">
-          <label for="speedSelect" class="speed-label">Velocidade</label>
-          <select id="speedSelect" class="speed-select">
-            <option value="0.4">0.4x</option>
-            <option value="0.6">0.6x</option>
-            <option value="0.8" selected>0.8x</option>
-            <option value="1">1x</option>
-            <option value="1.2">1.2x</option>
-            <option value="1.4">1.4x</option>
-          </select>
-        </div>
-        <button id="listenAllBtn" class="btn-listen-all" disabled>
-          ▶ Ouvir todos
-        </button>
-      </div>
-    </section>
+      <section class="home-about simple-card" id="como-praticar" aria-labelledby="home-about-title">
+        <h2 class="home-section-title" id="home-about-title">Para quem serve e como praticar</h2>
+        <p>
+          Serve quem estuda sozinho, quem trabalha com times internacionais, quem vai viajar ou quem simplesmente
+          quer revisar estruturas antes de uma conversa. Profissionais de tecnologia encontram contextos como
+          daily standup, e-mails e discussões de projeto; quem prefere temas do cotidiano pode começar por
+          saudações, rotina da manhã ou pedidos em restaurante.
+        </p>
+        <p>
+          <strong>Como praticar:</strong> escolha um contexto abaixo e abra a lição. Ajuste a velocidade do áudio,
+          alterne entre sotaque americano e britânico, ouça frase por frase ou use «Ouvir todos» para simular
+          uma sequência. Leia a tradução depois de tentar entender pelo som. Use o botão de microfone nas frases
+          em inglês para falar e receber feedback. Volte nos dias seguintes — repetir o mesmo contexto fixa
+          mais do que passar por dezenas de temas diferentes numa única sessão.
+        </p>
+        <p>
+          Tudo é gratuito e roda no celular ou no computador. Explore os contextos em destaque para começar
+          ou percorra o catálogo completo por tema. Cada página traz uma introdução sobre a situação e dezenas
+          de frases prontas para ouvir e repetir.
+        </p>
+        <p>
+          Não há ranking, pressão nem prova final — o objetivo é você se sentir mais preparado na próxima
+          conversa, reunião ou viagem. Escolha um tema que faça sentido para a sua semana, pratique dez minutos
+          por dia e volte ao mesmo contexto até as frases soarem familiares. Esse ritmo constante costuma
+          funcionar melhor do que maratonas esporádicas.
+        </p>
+      </section>
 
-    <!-- Middle: ads + sentences -->
-    <main class="app-main">
-      <div class="content-layout">
-        <section class="how-to-use" aria-label="Como usar">
-          <h2 class="how-to-use-title">Como usar</h2>
-          <p class="how-to-use-text">
-            Escolha um contexto no menu acima (ex.: saudações, trabalho, viagens). Use o controle de velocidade para ouvir mais devagar ou mais rápido.
-            Clique em "Ouvir todos" para reproduzir todas as frases em ordem, ou use o botão de play ao lado de cada frase. Use o botão do microfone para praticar a pronúncia e receber feedback.
-          </p>
-        </section>
-        <div id="sentencesList" class="sentences-list">
-          <article class="sentence-item" id="sentence-item-0" data-sentence-index="0">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="0" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">Good morning! How are you?</p><button type="button" class="btn-mic" data-index="0" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Bom dia! Como você está?</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-1" data-sentence-index="1">
-  <div class="sentence-item-actions"></div>
-  <div class="sentence-item-content"><div class="sentence-question">
-    <div class="sentence-line sentence-line--english" data-part="question"><p class="sentence-text">Hi! How are you doing?</p><button type="button" class="btn-mic" data-index="1" data-part="question" title="Fale esta pergunta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Oi! Como vai?</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-2" data-sentence-index="1">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="1" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">I am fine, thank you.</p><button type="button" class="btn-mic" data-index="1" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Estou bem, obrigado.</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-3" data-sentence-index="2">
-  <div class="sentence-item-actions"></div>
-  <div class="sentence-item-content"><div class="sentence-question">
-    <div class="sentence-line sentence-line--english" data-part="question"><p class="sentence-text">Good evening! Did you sleep well?</p><button type="button" class="btn-mic" data-index="2" data-part="question" title="Fale esta pergunta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Boa noite! Você dormiu bem?</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-4" data-sentence-index="2">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="2" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">Yes, I slept very well.</p><button type="button" class="btn-mic" data-index="2" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Sim, dormi muito bem.</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-5" data-sentence-index="3">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="3" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">Nice to meet you.</p><button type="button" class="btn-mic" data-index="3" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Prazer em conhecê-lo.</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-6" data-sentence-index="4">
-  <div class="sentence-item-actions"></div>
-  <div class="sentence-item-content"><div class="sentence-question">
-    <div class="sentence-line sentence-line--english" data-part="question"><p class="sentence-text">How have you been?</p><button type="button" class="btn-mic" data-index="4" data-part="question" title="Fale esta pergunta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Como você tem passado?</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-7" data-sentence-index="4">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="4" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">I have been good, thanks.</p><button type="button" class="btn-mic" data-index="4" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Tenho passado bem, obrigado.</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-8" data-sentence-index="5">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="5" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">Good afternoon! How is your day?</p><button type="button" class="btn-mic" data-index="5" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Boa tarde! Como está seu dia?</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-9" data-sentence-index="6">
-  <div class="sentence-item-actions"></div>
-  <div class="sentence-item-content"><div class="sentence-question">
-    <div class="sentence-line sentence-line--english" data-part="question"><p class="sentence-text">What is up?</p><button type="button" class="btn-mic" data-index="6" data-part="question" title="Fale esta pergunta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">E aí?</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-10" data-sentence-index="6">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="6" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">Not much. You?</p><button type="button" class="btn-mic" data-index="6" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Nada de mais. E você?</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-11" data-sentence-index="7">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="7" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">It is great to see you again.</p><button type="button" class="btn-mic" data-index="7" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">É ótimo ver você de novo.</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-12" data-sentence-index="8">
-  <div class="sentence-item-actions"></div>
-  <div class="sentence-item-content"><div class="sentence-question">
-    <div class="sentence-line sentence-line--english" data-part="question"><p class="sentence-text">How is everything?</p><button type="button" class="btn-mic" data-index="8" data-part="question" title="Fale esta pergunta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Como vai tudo?</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-13" data-sentence-index="8">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="8" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">Everything is fine.</p><button type="button" class="btn-mic" data-index="8" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Tudo bem.</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-14" data-sentence-index="9">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="9" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">Have a good day!</p><button type="button" class="btn-mic" data-index="9" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Tenha um bom dia!</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-15" data-sentence-index="10">
-  <div class="sentence-item-actions"></div>
-  <div class="sentence-item-content"><div class="sentence-question">
-    <div class="sentence-line sentence-line--english" data-part="question"><p class="sentence-text">Long time no see!</p><button type="button" class="btn-mic" data-index="10" data-part="question" title="Fale esta pergunta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Quanto tempo!</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-16" data-sentence-index="10">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="10" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">Yes! How have you been?</p><button type="button" class="btn-mic" data-index="10" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Sim! Como você tem estado?</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-17" data-sentence-index="11">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="11" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">Good night. Sleep well.</p><button type="button" class="btn-mic" data-index="11" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Boa noite. Durma bem.</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-18" data-sentence-index="12">
-  <div class="sentence-item-actions"></div>
-  <div class="sentence-item-content"><div class="sentence-question">
-    <div class="sentence-line sentence-line--english" data-part="question"><p class="sentence-text">How do you do?</p><button type="button" class="btn-mic" data-index="12" data-part="question" title="Fale esta pergunta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Como vai?</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-19" data-sentence-index="12">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="12" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">I am doing well, thank you.</p><button type="button" class="btn-mic" data-index="12" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Vou bem, obrigado.</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-20" data-sentence-index="13">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="13" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">Welcome! Make yourself at home.</p><button type="button" class="btn-mic" data-index="13" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Bem-vindo! Fique à vontade.</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-21" data-sentence-index="14">
-  <div class="sentence-item-actions"></div>
-  <div class="sentence-item-content"><div class="sentence-question">
-    <div class="sentence-line sentence-line--english" data-part="question"><p class="sentence-text">What are you up to?</p><button type="button" class="btn-mic" data-index="14" data-part="question" title="Fale esta pergunta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">O que você está fazendo?</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-22" data-sentence-index="14">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="14" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">Just relaxing at home.</p><button type="button" class="btn-mic" data-index="14" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Só relaxando em casa.</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-23" data-sentence-index="15">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="15" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">Pleased to meet you.</p><button type="button" class="btn-mic" data-index="15" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Prazer em conhecê-lo.</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-24" data-sentence-index="16">
-  <div class="sentence-item-actions"></div>
-  <div class="sentence-item-content"><div class="sentence-question">
-    <div class="sentence-line sentence-line--english" data-part="question"><p class="sentence-text">How is your family?</p><button type="button" class="btn-mic" data-index="16" data-part="question" title="Fale esta pergunta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Como está sua família?</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-25" data-sentence-index="16">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="16" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">They are all doing well.</p><button type="button" class="btn-mic" data-index="16" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Todos estão bem.</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-26" data-sentence-index="17">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="17" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">Take care! See you soon.</p><button type="button" class="btn-mic" data-index="17" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Cuide-se! Até logo.</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-27" data-sentence-index="18">
-  <div class="sentence-item-actions"></div>
-  <div class="sentence-item-content"><div class="sentence-question">
-    <div class="sentence-line sentence-line--english" data-part="question"><p class="sentence-text">Good to see you!</p><button type="button" class="btn-mic" data-index="18" data-part="question" title="Fale esta pergunta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Que bom te ver!</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-28" data-sentence-index="18">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="18" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">You too!</p><button type="button" class="btn-mic" data-index="18" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Você também!</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-29" data-sentence-index="19">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="19" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">Hello! My name is Ana.</p><button type="button" class="btn-mic" data-index="19" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Olá! Meu nome é Ana.</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-30" data-sentence-index="20">
-  <div class="sentence-item-actions"></div>
-  <div class="sentence-item-content"><div class="sentence-question">
-    <div class="sentence-line sentence-line--english" data-part="question"><p class="sentence-text">How was your weekend?</p><button type="button" class="btn-mic" data-index="20" data-part="question" title="Fale esta pergunta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Como foi seu fim de semana?</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-31" data-sentence-index="20">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="20" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">It was great. I rested a lot.</p><button type="button" class="btn-mic" data-index="20" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Foi ótimo. Descansei muito.</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-32" data-sentence-index="21">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="21" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">Goodbye! Have a safe trip.</p><button type="button" class="btn-mic" data-index="21" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Tchau! Boa viagem.</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-33" data-sentence-index="22">
-  <div class="sentence-item-actions"></div>
-  <div class="sentence-item-content"><div class="sentence-question">
-    <div class="sentence-line sentence-line--english" data-part="question"><p class="sentence-text">Are you doing okay?</p><button type="button" class="btn-mic" data-index="22" data-part="question" title="Fale esta pergunta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Você está bem?</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-34" data-sentence-index="22">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="22" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">Yes, I am. Thanks for asking.</p><button type="button" class="btn-mic" data-index="22" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Sim, estou. Obrigado por perguntar.</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-35" data-sentence-index="23">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="23" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">Hey! What is new?</p><button type="button" class="btn-mic" data-index="23" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Ei! O que há de novo?</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-36" data-sentence-index="24">
-  <div class="sentence-item-actions"></div>
-  <div class="sentence-item-content"><div class="sentence-question">
-    <div class="sentence-line sentence-line--english" data-part="question"><p class="sentence-text">How is work going?</p><button type="button" class="btn-mic" data-index="24" data-part="question" title="Fale esta pergunta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Como está indo o trabalho?</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-37" data-sentence-index="24">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="24" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">It is going well, thanks.</p><button type="button" class="btn-mic" data-index="24" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Está indo bem, obrigado.</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-38" data-sentence-index="25">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="25" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">So glad you could come.</p><button type="button" class="btn-mic" data-index="25" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Que bom que você pôde vir.</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-39" data-sentence-index="26">
-  <div class="sentence-item-actions"></div>
-  <div class="sentence-item-content"><div class="sentence-question">
-    <div class="sentence-line sentence-line--english" data-part="question"><p class="sentence-text">Did you have a good trip?</p><button type="button" class="btn-mic" data-index="26" data-part="question" title="Fale esta pergunta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">A viagem foi boa?</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-40" data-sentence-index="26">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="26" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">Yes, it was smooth.</p><button type="button" class="btn-mic" data-index="26" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Sim, foi tranquila.</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-41" data-sentence-index="27">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="27" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">Cheers! See you tomorrow.</p><button type="button" class="btn-mic" data-index="27" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Até mais! Até amanhã.</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-42" data-sentence-index="28">
-  <div class="sentence-item-actions"></div>
-  <div class="sentence-item-content"><div class="sentence-question">
-    <div class="sentence-line sentence-line--english" data-part="question"><p class="sentence-text">How is your week going?</p><button type="button" class="btn-mic" data-index="28" data-part="question" title="Fale esta pergunta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Como está indo sua semana?</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-43" data-sentence-index="28">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="28" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">Busy but good.</p><button type="button" class="btn-mic" data-index="28" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Corrida mas boa.</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-44" data-sentence-index="29">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="29" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">I hope you feel better soon.</p><button type="button" class="btn-mic" data-index="29" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Espero que você melhore logo.</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-45" data-sentence-index="30">
-  <div class="sentence-item-actions"></div>
-  <div class="sentence-item-content"><div class="sentence-question">
-    <div class="sentence-line sentence-line--english" data-part="question"><p class="sentence-text">Nice weather today, right?</p><button type="button" class="btn-mic" data-index="30" data-part="question" title="Fale esta pergunta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Bom tempo hoje, não?</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-46" data-sentence-index="30">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="30" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">Yes, it is lovely.</p><button type="button" class="btn-mic" data-index="30" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Sim, está lindo.</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-47" data-sentence-index="31">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="31" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">Thanks for having me.</p><button type="button" class="btn-mic" data-index="31" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Obrigado por me receber.</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-48" data-sentence-index="32">
-  <div class="sentence-item-actions"></div>
-  <div class="sentence-item-content"><div class="sentence-question">
-    <div class="sentence-line sentence-line--english" data-part="question"><p class="sentence-text">How did the meeting go?</p><button type="button" class="btn-mic" data-index="32" data-part="question" title="Fale esta pergunta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Como foi a reunião?</p></div></div>
-</article>
-<article class="sentence-item" id="sentence-item-49" data-sentence-index="32">
-  <div class="sentence-item-actions"><button type="button" class="btn-play-sentence" data-index="32" data-part="answer" title="Ouvir" aria-label="Ouvir">▶</button></div>
-  <div class="sentence-item-content"><div class="sentence-answer">
-    <div class="sentence-line sentence-line--english" data-part="answer"><p class="sentence-text">It went well.</p><button type="button" class="btn-mic" data-index="32" data-part="answer" title="Fale esta resposta em inglês"><img src="./img/mic-icon.png" alt="Microfone" /></button><span class="speech-score hidden"></span></div>
-    <p class="sentence-text sentence-text--pt">Foi bem.</p></div></div>
-</article>
+      <section class="home-featured" aria-labelledby="home-featured-title">
+        <h2 class="home-section-title home-section-title--spaced" id="home-featured-title">Contextos populares</h2>
+        <p class="home-section-lead">Oito lições para começar hoje — clique para ir direto ao treino.</p>
+        <div class="home-context-grid home-context-grid--featured">
+        <a class="home-context-card home-context-card--featured" href="./contextos/greetings.html">
+          <h3 class="home-context-card-title">Saudações</h3>
+          <p class="home-context-card-desc">Saudações costumam ser a primeira coisa que você diz em inglês — em reuniões, viagens, e-mails rápidos ou ao conhecer alguém novo. Nesta lição você pratica…</p>
+          <span class="home-context-card-link">Praticar agora →</span>
+        </a>
+        <a class="home-context-card home-context-card--featured" href="./contextos/at-job-sentences.html">
+          <h3 class="home-context-card-title">No trabalho</h3>
+          <p class="home-context-card-desc">O inglês no ambiente profissional começa com frases curtas e funcionais: cumprimentar colegas, comentar o dia, pedir um minuto de atenção ou confirmar que…</p>
+          <span class="home-context-card-link">Praticar agora →</span>
+        </a>
+        <a class="home-context-card home-context-card--featured" href="./contextos/travel-and-vacations.html">
+          <h3 class="home-context-card-title">Viagens e férias</h3>
+          <p class="home-context-card-desc">Planejar viagens, contar férias passadas ou descrever o que você quer fazer num destino mobiliza vocabulário de transporte, hospedagem, passeios e clima. Este…</p>
+          <span class="home-context-card-link">Praticar agora →</span>
+        </a>
+        <a class="home-context-card home-context-card--featured" href="./contextos/daily-routines.html">
+          <h3 class="home-context-card-title">Rotina diária</h3>
+          <p class="home-context-card-desc">Falar da rotina em inglês aparece em entrevistas informais, conversas com colegas estrangeiros e descrições simples do seu dia. Este contexto cobre ações…</p>
+          <span class="home-context-card-link">Praticar agora →</span>
+        </a>
+        <a class="home-context-card home-context-card--featured" href="./contextos/ordering-food-restaurant.html">
+          <h3 class="home-context-card-title">Pedir comida no restaurante</h3>
+          <p class="home-context-card-desc">Em restaurantes no exterior — ou em cidades turísticas — você precisa reservar mesa, pedir pratos, perguntar sobre ingredientes e pedir a conta com educação.…</p>
+          <span class="home-context-card-link">Praticar agora →</span>
+        </a>
+        <a class="home-context-card home-context-card--featured" href="./contextos/introducing-yourself.html">
+          <h3 class="home-context-card-title">Apresentar-se</h3>
+          <p class="home-context-card-desc">Apresentar-se em inglês — nome, origem, profissão, interesses — é a base de entrevistas, networking, aulas e primeiros encontros sociais. Este contexto reúne…</p>
+          <span class="home-context-card-link">Praticar agora →</span>
+        </a>
+        <a class="home-context-card home-context-card--featured" href="./contextos/software-development-conversations.html">
+          <h3 class="home-context-card-title">Conversas sobre desenvolvimento de software</h3>
+          <p class="home-context-card-desc">Times de tecnologia falam inglês o tempo todo — pull requests, bugs, deploys, code review e alinhamentos técnicos. Este contexto reúne frases comuns em chats…</p>
+          <span class="home-context-card-link">Praticar agora →</span>
+        </a>
+        <a class="home-context-card home-context-card--featured" href="./contextos/present-perfect.html">
+          <h3 class="home-context-card-title">Presente perfeito</h3>
+          <p class="home-context-card-desc">O present perfect liga passado e presente: experiências, resultados recentes e situações que continuam valendo agora. Brasileiros costumam trobar essa…</p>
+          <span class="home-context-card-link">Praticar agora →</span>
+        </a>
         </div>
-      </div>
-    </main>
+      </section>
+
+      <section class="home-catalog" aria-labelledby="home-catalog-title">
+        <h2 class="home-section-title home-section-title--spaced" id="home-catalog-title">Catálogo completo de contextos</h2>
+        <p class="home-section-lead">
+          44 situações com frases, tradução e áudio. Escolha por tema e pratique no seu ritmo.
+        </p>
+      <section class="home-catalog-group" aria-labelledby="catalog-primeiros-passos-e-treino">
+        <h3 class="home-catalog-group-title" id="catalog-primeiros-passos-e-treino">Primeiros passos e treino</h3>
+        <ul class="home-catalog-list">
+          <li>
+            <a class="home-catalog-item" href="./contextos/greetings.html">
+              <span class="home-catalog-link">Saudações</span>
+              <p class="home-catalog-desc">Saudações costumam ser a primeira coisa que você diz em inglês — em reuniões, viagens, e-mails rápidos ou ao conhecer alguém novo. Nesta…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/ask-things.html">
+              <span class="home-catalog-link">Pedir coisas</span>
+              <p class="home-catalog-desc">Pedir informações, favores ou objetos em inglês exige tom educado e estruturas simples que funcionam em lojas, no trabalho e em casa. Este…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/introducing-yourself.html">
+              <span class="home-catalog-link">Apresentar-se</span>
+              <p class="home-catalog-desc">Apresentar-se em inglês — nome, origem, profissão, interesses — é a base de entrevistas, networking, aulas e primeiros encontros sociais.…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/training-sentences.html">
+              <span class="home-catalog-link">Treino de frases</span>
+              <p class="home-catalog-desc">Este módulo reúne frases variadas para aquecer o ouvido e a fala quando você quer praticar inglês sem um tema específico. É útil nos dias…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/training-verbs.html">
+              <span class="home-catalog-link">Treino de verbos</span>
+              <p class="home-catalog-desc">Verbos são o motor das frases em inglês — tempos, regularidade e pronúncia mudam o sentido de tudo. Este módulo foca em formas frequentes…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/present-perfect.html">
+              <span class="home-catalog-link">Presente perfeito</span>
+              <p class="home-catalog-desc">O present perfect liga passado e presente: experiências, resultados recentes e situações que continuam valendo agora. Brasileiros costumam…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/conditions.html">
+              <span class="home-catalog-link">Condicionais</span>
+              <p class="home-catalog-desc">Frases condicionais explicam o que acontece se uma condição for verdadeira — em acordos, avisos, negociações e conversas do dia a dia. O…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/past-experiences.html">
+              <span class="home-catalog-link">Experiências passadas</span>
+              <p class="home-catalog-desc">Contar o que você já fez — viagens, estudos, trabalhos, tentativas e conquistas — é essencial em entrevistas, encontros sociais e…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/talking-about-he-and-she.html">
+              <span class="home-catalog-link">Falando sobre ele e ela</span>
+              <p class="home-catalog-desc">Contar o que outra pessoa fez, pensa ou prefere exige pronomes e concordância corretos — he, she, his, her — além de verbos na terceira…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/wishes-and-desires.html">
+              <span class="home-catalog-link">Desejos e vontades</span>
+              <p class="home-catalog-desc">Falar de desejos, planos e coisas que você gostaria que fossem diferentes é comum em conversas pessoais e até em metas de carreira. Em…</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="home-catalog-group" aria-labelledby="catalog-rotina-e-cotidiano">
+        <h3 class="home-catalog-group-title" id="catalog-rotina-e-cotidiano">Rotina e cotidiano</h3>
+        <ul class="home-catalog-list">
+          <li>
+            <a class="home-catalog-item" href="./contextos/daily-routines.html">
+              <span class="home-catalog-link">Rotina diária</span>
+              <p class="home-catalog-desc">Falar da rotina em inglês aparece em entrevistas informais, conversas com colegas estrangeiros e descrições simples do seu dia. Este…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/morning-routines.html">
+              <span class="home-catalog-link">Rotina da manhã</span>
+              <p class="home-catalog-desc">Descrever a manhã em inglês — acordar, café, higiene, saída de casa — aparece em conversas casuais, diários de estudo e descrições de…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/night-routines.html">
+              <span class="home-catalog-link">Rotina da noite</span>
+              <p class="home-catalog-desc">Falar do fim do dia — jantar, relaxar, preparar-se para dormir — complementa a rotina matinal e aparece em conversas sobre bem-estar, sono…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/toddler-routines.html">
+              <span class="home-catalog-link">Rotina de crianças pequenas</span>
+              <p class="home-catalog-desc">Pais e cuidadores que falam inglês com crianças pequenas usam frases curtas, repetitivas e gentis — para hora de comer, dormir, brincar ou…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/house-chores.html">
+              <span class="home-catalog-link">Tarefas domésticas</span>
+              <p class="home-catalog-desc">Dividir tarefas em casa, pedir ajuda ou descrever o que você faz no fim de semana usa vocabulário de limpeza, cozinha, organização e…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/cooking.html">
+              <span class="home-catalog-link">Culinária</span>
+              <p class="home-catalog-desc">Na cozinha, o inglês aparece em receitas, vídeos, ingredientes importados e conversas com amigos ou família que cozinham junto. Este…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/talking-about-weather.html">
+              <span class="home-catalog-link">Falando sobre o tempo</span>
+              <p class="home-catalog-desc">O clima é um assunto clássico para quebrar gelo em inglês — em elevadores, filas, calls informais ou conversas com vizinhos. Frases curtas…</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="home-catalog-group" aria-labelledby="catalog-pessoas-e-convivência">
+        <h3 class="home-catalog-group-title" id="catalog-pessoas-e-convivência">Pessoas e convivência</h3>
+        <ul class="home-catalog-list">
+          <li>
+            <a class="home-catalog-item" href="./contextos/talking-about-family.html">
+              <span class="home-catalog-link">Falando sobre família</span>
+              <p class="home-catalog-desc">Falar da família em inglês aparece em apresentações informais, documentos de imigração básicos, conversas com colegas curiosos sobre sua…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/talking-about-friends.html">
+              <span class="home-catalog-link">Falando sobre amigos</span>
+              <p class="home-catalog-desc">Contar sobre amigos — como se conheceram, o que gostam de fazer juntos, há quanto tempo se falam — enriquece conversas sociais em inglês…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/talking-about-hobbies.html">
+              <span class="home-catalog-link">Falando sobre hobbies</span>
+              <p class="home-catalog-desc">Hobbies são um dos temas mais fáceis para manter conversa em inglês — todo mundo gosta de falar do que faz no tempo livre. Este contexto…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/talking-about-feelings.html">
+              <span class="home-catalog-link">Falando sobre sentimentos</span>
+              <p class="home-catalog-desc">Expressar como você se sente em inglês abre portas em conversas mais profundas — com amigos, parceiros, colegas de confiança ou em…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/talking-about-places.html">
+              <span class="home-catalog-link">Falando sobre lugares</span>
+              <p class="home-catalog-desc">Descrever cidades, bairros, viagens passadas ou lugares onde você morou é um dos temas mais fáceis para puxar conversa em inglês. Você usa…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/making-invitations.html">
+              <span class="home-catalog-link">Fazer convites</span>
+              <p class="home-catalog-desc">Convidar alguém em inglês — para café, jantar, evento ou call — pede clareza sobre data, hora e tom: casual entre amigos ou mais formal no…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/accepting-refusing-invitations.html">
+              <span class="home-catalog-link">Aceitar ou recusar convites</span>
+              <p class="home-catalog-desc">Responder a convites em inglês exige educação nos dois casos: aceitar com entusiasmo moderado ou recusar sem parecer rude. Expressões como…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/giving-advice.html">
+              <span class="home-catalog-link">Dar conselhos</span>
+              <p class="home-catalog-desc">Dar conselhos em inglês pede equilíbrio: você quer ajudar sem parecer mandão. Expressões como you should, why don&#x27;t you e it might be a…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/agreeing-and-disagreeing.html">
+              <span class="home-catalog-link">Concordar e discordar</span>
+              <p class="home-catalog-desc">Em discussões — reuniões, debates amigáveis, redes sociais — você precisa concordar, discordar ou parcialmente aceitar uma ideia sem gerar…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/apologizing.html">
+              <span class="home-catalog-link">Pedir desculpas</span>
+              <p class="home-catalog-desc">Pedir desculpas em inglês vai além de sorry: há níveis de formalidade, reconhecimento do erro e oferta de reparo. Situações como atraso,…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/bad-news.html">
+              <span class="home-catalog-link">Más notícias</span>
+              <p class="home-catalog-desc">Comunicar más notícias em inglês exige tom cuidadoso: directo o suficiente para ser claro, mas suave o bastante para não parecer frio.…</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="home-catalog-group" aria-labelledby="catalog-viagem,-compras-e-serviços">
+        <h3 class="home-catalog-group-title" id="catalog-viagem,-compras-e-serviços">Viagem, compras e serviços</h3>
+        <ul class="home-catalog-list">
+          <li>
+            <a class="home-catalog-item" href="./contextos/travel-and-vacations.html">
+              <span class="home-catalog-link">Viagens e férias</span>
+              <p class="home-catalog-desc">Planejar viagens, contar férias passadas ou descrever o que você quer fazer num destino mobiliza vocabulário de transporte, hospedagem,…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/asking-for-directions.html">
+              <span class="home-catalog-link">Pedir direções</span>
+              <p class="home-catalog-desc">Perdido em cidade estrangeira ou ajudando um turista — pedir e dar direções em inglês usa frases curtas com turn left, go straight, next…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/shopping-at-supermarket.html">
+              <span class="home-catalog-link">Compras no supermercado</span>
+              <p class="home-catalog-desc">No supermercado você precisa pedir ajuda para achar produtos, entender ofertas, usar self-checkout ou responder quando o caixa pergunta…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/ordering-food-restaurant.html">
+              <span class="home-catalog-link">Pedir comida no restaurante</span>
+              <p class="home-catalog-desc">Em restaurantes no exterior — ou em cidades turísticas — você precisa reservar mesa, pedir pratos, perguntar sobre ingredientes e pedir a…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/at-the-doctor.html">
+              <span class="home-catalog-link">No médico</span>
+              <p class="home-catalog-desc">Consultas médicas em inglês exigem descrever sintomas, duração, intensidade e histórico básico — mesmo em atendimentos simples no exterior…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/at-the-pharmacy.html">
+              <span class="home-catalog-link">Na farmácia</span>
+              <p class="home-catalog-desc">Na farmácia você pode pedir medicamentos de venda livre, perguntar posologia, relatar sintomas leves ou confirmar se um produto serve para…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/perform-presentation.html">
+              <span class="home-catalog-link">Fazer uma apresentação</span>
+              <p class="home-catalog-desc">Apresentar um tema em inglês — na escola, no trabalho ou em meetups — começa com frases de abertura, transição e encerramento que…</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="home-catalog-group" aria-labelledby="catalog-trabalho-e-tecnologia">
+        <h3 class="home-catalog-group-title" id="catalog-trabalho-e-tecnologia">Trabalho e tecnologia</h3>
+        <ul class="home-catalog-list">
+          <li>
+            <a class="home-catalog-item" href="./contextos/at-job-sentences.html">
+              <span class="home-catalog-link">No trabalho</span>
+              <p class="home-catalog-desc">O inglês no ambiente profissional começa com frases curtas e funcionais: cumprimentar colegas, comentar o dia, pedir um minuto de atenção…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/daily-standup-meeting.html">
+              <span class="home-catalog-link">Reunião de daily standup</span>
+              <p class="home-catalog-desc">A daily standup é um ritual comum em times de tecnologia: em poucos minutos cada pessoa resume o que fez ontem, o que fará hoje e se há…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/asking-help-at-work.html">
+              <span class="home-catalog-link">Pedir ajuda no trabalho</span>
+              <p class="home-catalog-desc">Pedir ajuda no trabalho em inglês sem parecer incompetente é uma habilidade prática: você precisa ser claro sobre o problema, mostrar o…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/giving-status-updates.html">
+              <span class="home-catalog-link">Dar atualizações de status</span>
+              <p class="home-catalog-desc">Atualizar colegas sobre o andamento de uma tarefa — por chat, e-mail ou reunião — exige frases objetivas: o que foi feito, o que falta e…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/project-discussions.html">
+              <span class="home-catalog-link">Discussões de projeto</span>
+              <p class="home-catalog-desc">Discutir projetos em inglês envolve alinhar escopo, prioridades, prazos e responsabilidades — em reuniões de kick-off, revisões semanais…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/problem-solving-at-work.html">
+              <span class="home-catalog-link">Resolução de problemas no trabalho</span>
+              <p class="home-catalog-desc">Quando algo dá errado no trabalho — prazo apertado, falha de comunicação, bloqueio técnico — você precisa explicar o problema, sugerir…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/talking-about-deadlines.html">
+              <span class="home-catalog-link">Falando sobre prazos</span>
+              <p class="home-catalog-desc">Prazos aparecem em quase todo ambiente profissional: combinar entregas, avisar atrasos, negociar extensões ou confirmar que algo sairá a…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/email-communication.html">
+              <span class="home-catalog-link">Comunicação por e-mail</span>
+              <p class="home-catalog-desc">E-mails em inglês pedem abertura educada, corpo objetivo e encerramento profissional — seja para colegas, clientes ou suporte. Este…</p>
+            </a>
+          </li>
+          <li>
+            <a class="home-catalog-item" href="./contextos/software-development-conversations.html">
+              <span class="home-catalog-link">Conversas sobre desenvolvimento de software</span>
+              <p class="home-catalog-desc">Times de tecnologia falam inglês o tempo todo — pull requests, bugs, deploys, code review e alinhamentos técnicos. Este contexto reúne…</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+      </section>
     </div>
 
-    <footer class="site-footer">
-      <nav class="policy-menu-links" aria-label="Policy links">
-        <a class="policy-menu-link" href="./about.html">Sobre</a>
-        <a class="policy-menu-link" href="./cookies.html">Política de cookies</a>
-        <a class="policy-menu-link" href="./privacy-policy.html">Política de privacidade</a>
-        <a class="policy-menu-link" href="./contact.html">Contato</a>
-        <a class="policy-menu-link" href="./terms.html">Termos de uso</a>
-      </nav>
+    <footer class="simple-page-footer home-footer" aria-label="Links do site">
+      <a href="./index.html">Início</a>
+      <a href="./privacy-policy.html">Política de privacidade</a>
+      <a href="./cookies.html">Política de cookies</a>
+      <a href="./terms.html">Termos</a>
+      <a href="./contact.html">Contato</a>
+      <a href="./about.html">Sobre</a>
     </footer>
-
-  </div>
+  </main>
 
   <div id="cookieConsentBanner" class="cookie-consent-banner hidden" role="dialog" aria-label="Consentimento de cookies">
     <p class="cookie-consent-text">
@@ -419,10 +430,11 @@
     <div class="cookie-consent-actions">
       <a href="./cookies.html" class="cookie-consent-link">Política de cookies</a>
       <a href="./privacy-policy.html" class="cookie-consent-link">Política de privacidade</a>
+      <button type="button" id="cookieConsentReject" class="cookie-consent-reject">Recusar</button>
       <button type="button" id="cookieConsentAccept" class="cookie-consent-accept">Aceitar</button>
     </div>
   </div>
   <script src="./cookie-consent.js"></script>
-  <script src="./main.js"></script>
 </body>
+
 </html>

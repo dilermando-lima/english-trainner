@@ -1,0 +1,312 @@
+{
+  "contexts": {
+    "greetings": {
+      "title": "Saudações",
+      "paragraphs": [
+        "Saudações costumam ser a primeira coisa que você diz em inglês — em reuniões, viagens, e-mails rápidos ou ao conhecer alguém novo. Nesta lição você pratica cumprimentos formais e informais, perguntas de cortesia e respostas naturais que aparecem no dia a dia, do bom dia à despedida educada.",
+        "As frases incluem variações para manhã, tarde e noite, além de expressões como nice to meet you e how have you been. Comece pelas mais curtas, preste atenção na entonação ao ouvir o áudio e tente responder em voz alta como se estivesse numa conversa real — isso fixa melhor do que só ler a tradução em português."
+      ]
+    },
+    "ask-things": {
+      "title": "Pedir coisas",
+      "paragraphs": [
+        "Pedir informações, favores ou objetos em inglês exige tom educado e estruturas simples que funcionam em lojas, no trabalho e em casa. Este contexto reúne perguntas diretas e formuladas com could you e can I, além de respostas que soam naturais quando você precisa de algo sem parecer rude.",
+        "Você encontrará frases para solicitar ajuda, confirmar detalhes e agradecer depois do pedido. Pratique alternando perguntas curtas e completas: primeiro ouça, repita em voz alta e só então tente usar a mesma estrutura mudando o objeto — por exemplo, trocar a pena por um copo d'água ou um documento."
+      ]
+    },
+    "training-sentences": {
+      "title": "Treino de frases",
+      "paragraphs": [
+        "Este módulo reúne frases variadas para aquecer o ouvido e a fala quando você quer praticar inglês sem um tema específico. É útil nos dias em que você tem pouco tempo, mas quer manter o ritmo: ouvir, repetir e ganhar confiança com estruturas que se repetem em vários contextos da vida real.",
+        "As sentenças misturam perguntas, respostas afirmativas e negações com vocabulário do cotidiano. Use o botão de sortear para variar a ordem e evitar decorar sequências fixas. Foque em pronunciar o final das frases com clareza — muitos erros de compreensão vêm de sílabas finais abafadas, não de vocabulário difícil."
+      ]
+    },
+    "present-perfect": {
+      "title": "Presente perfeito",
+      "paragraphs": [
+        "O present perfect liga passado e presente: experiências, resultados recentes e situações que continuam valendo agora. Brasileiros costumam trobar essa estrutura com o pretérito simples em português, por isso ouvir frases prontas ajuda a fixar quando usar have been, have done ou has just.",
+        "Aqui você pratica perguntas como Have you ever…?, respostas com already e yet, e frases que descrevem algo que acabou de acontecer. Antes de repetir, identifique o auxiliar have ou has e o particípio do verbo principal. Essa pausa consciente acelera a assimilação do tempo verbal em conversas reais."
+      ]
+    },
+    "daily-routines": {
+      "title": "Rotina diária",
+      "paragraphs": [
+        "Falar da rotina em inglês aparece em entrevistas informais, conversas com colegas estrangeiros e descrições simples do seu dia. Este contexto cobre ações repetidas — acordar, trabalhar, almoçar, descansar — com verbos no presente simples e expressões de frequência como usually e every day.",
+        "As frases ajudam a montar um mini-relato do seu dia sem precisar de vocabulário avançado. Ao praticar, tente encadear duas ou três atividades seguidas, como I wake up at seven and then I have breakfast. Isso simula melhor uma conversa do que repetir frases isoladas sem conexão entre elas."
+      ]
+    },
+    "cooking": {
+      "title": "Culinária",
+      "paragraphs": [
+        "Na cozinha, o inglês aparece em receitas, vídeos, ingredientes importados e conversas com amigos ou família que cozinham junto. Este contexto traz verbos de preparo, nomes de alimentos e instruções comuns como chop, mix, bake e season, além de frases para pedir ou oferecer ajuda enquanto o prato vai ficando pronto.",
+        "Muitas expressões aqui são imperativas ou sequenciais — first, then, finally — como numa receita real. Leia a tradução só depois de tentar adivinhar o sentido pelo áudio. Associar o som à ação física, mesmo imaginando os gestos na cozinha, torna o vocabulário mais fácil de lembrar depois."
+      ]
+    },
+    "at-job-sentences": {
+      "title": "No trabalho",
+      "paragraphs": [
+        "O inglês no ambiente profissional começa com frases curtas e funcionais: cumprimentar colegas, comentar o dia, pedir um minuto de atenção ou confirmar que entendeu uma instrução. Este contexto reúne situações típicas de escritório e equipes remotas, sem jargão excessivo, para quem já trabalha ou pretende trabalhar com times internacionais.",
+        "Você praticará tom cordial e objetivo — essencial em e-mails rápidos e calls informais. Preste atenção na diferença entre frases mais diretas e as suavizadas com could ou would. Repetir em voz alta com tom profissional, nem robótico nem informal demais, ajuda a soar natural em reuniões do dia a dia."
+      ]
+    },
+    "daily-standup-meeting": {
+      "title": "Reunião de daily standup",
+      "paragraphs": [
+        "A daily standup é um ritual comum em times de tecnologia: em poucos minutos cada pessoa resume o que fez ontem, o que fará hoje e se há algum impedimento. Saber essas três partes em inglês reduz ansiedade em reuniões diárias com clientes ou colegas de outros países.",
+        "As frases incluem verbos no passado para progresso recente, planos no presente ou futuro próximo e vocabulário como blocker ou waiting for. Monte seu próprio roteiro de 30 segundos usando a mesma estrutura das frases da lista — ontem, hoje, bloqueio — e pratique até fluir sem ler."
+      ]
+    },
+    "giving-advice": {
+      "title": "Dar conselhos",
+      "paragraphs": [
+        "Dar conselhos em inglês pede equilíbrio: você quer ajudar sem parecer mandão. Expressões como you should, why don't you e it might be a good idea aparecem o tempo todo em conversas entre amigos, família e colegas que pedem uma opinião sobre trabalho, saúde ou decisões do dia a dia.",
+        "Este contexto traz sugestões suaves e respostas para quando alguém agradece ou questiona sua recomendação. Ao praticar, varie o tom — mais firme para situações urgentes, mais leve para temas casuais. Ouvir a entonação no áudio ajuda a perceber essa diferença melhor do que ler só a tradução."
+      ]
+    },
+    "wishes-and-desires": {
+      "title": "Desejos e vontades",
+      "paragraphs": [
+        "Falar de desejos, planos e coisas que você gostaria que fossem diferentes é comum em conversas pessoais e até em metas de carreira. Em inglês, estruturas com would like, wish e hope permitem expressar vontade sem soar exigente — útil em viagens, compras, conversas com amigos e entrevistas informais.",
+        "As frases aqui cobrem desejos realistas e sonhos mais distantes, sempre com respostas que mantêm a conversa fluindo. Tente completar mentalmente cada frase com um desejo seu antes de ouvir a resposta em áudio. Personalizar o conteúdo assim torna o treino mais memorável do que repetir exemplos genéricos."
+      ]
+    },
+    "conditions": {
+      "title": "Condicionais",
+      "paragraphs": [
+        "Frases condicionais explicam o que acontece se uma condição for verdadeira — em acordos, avisos, negociações e conversas do dia a dia. O inglês usa padrões como if you…, I will… ou would… that…, e confundir esses tempos verbais é um dos erros mais comuns entre falantes de português.",
+        "Neste contexto você ouve situações reais: promessas, advertências gentis e hipóteses sobre trabalho ou rotina. Ao repetir cada frase, identifique a parte da condição (if) e a consequência (then). Separar mentalmente esses dois blocos facilita montar suas próprias frases condicionais depois."
+      ]
+    },
+    "talking-about-he-and-she": {
+      "title": "Falando sobre ele e ela",
+      "paragraphs": [
+        "Contar o que outra pessoa fez, pensa ou prefere exige pronomes e concordância corretos — he, she, his, her — além de verbos na terceira pessoa do singular. Este contexto ajuda quem já entende inglês básico, mas ainda troca pronomes ou esquece o -s em speaks e works ao falar de colegas, amigos ou familiares.",
+        "As frases descrevem rotinas, preferências e ações de terceiros em situações cotidianas. Pratique substituindo he por she mentalmente enquanto ouve, mantendo o restante da frase igual. Esse exercício simples acelera a automatização dos pronomes sem precisar de gramática pesada."
+      ]
+    },
+    "talking-about-feelings": {
+      "title": "Falando sobre sentimentos",
+      "paragraphs": [
+        "Expressar como você se sente em inglês abre portas em conversas mais profundas — com amigos, parceiros, colegas de confiança ou em atendimentos básicos. Adjetivos como anxious, excited, frustrated e relieved aparecem com estruturas simples: I feel…, I'm feeling… ou That makes me…",
+        "Este módulo traz frases para estados emocionais comuns e respostas empáticas de quem ouve. Não se preocupe em soar perfeito; foque em escolher a palavra certa para a intensidade do que sente. Ouvir e repetir em voz baixa, como numa conversa íntima, ajuda a fixar vocabulário emocional que livros raramente treinam."
+      ]
+    },
+    "talking-about-places": {
+      "title": "Falando sobre lugares",
+      "paragraphs": [
+        "Descrever cidades, bairros, viagens passadas ou lugares onde você morou é um dos temas mais fáceis para puxar conversa em inglês. Você usa there is, there are, preposições como in, near e next to, além de adjetivos para dizer se um lugar é quiet, crowded ou beautiful.",
+        "As frases aqui servem para recomendar destinos, comparar cidades e contar onde você esteve. Ao praticar, imagine um mapa ou uma foto mental do lugar descrito — associar imagem ao vocabulário fixa preposições difíceis. Depois, tente descrever sua própria cidade usando a mesma estrutura das frases da lista."
+      ]
+    },
+    "toddler-routines": {
+      "title": "Rotina de crianças pequenas",
+      "paragraphs": [
+        "Pais e cuidadores que falam inglês com crianças pequenas usam frases curtas, repetitivas e gentis — para hora de comer, dormir, brincar ou se vestir. Este contexto reúne instruções simples e perguntas carinhosas que aparecem em rotinas reais com bebês e toddlers em famílias bilíngues ou em creches internacionais.",
+        "O vocabulário é propositalmente básico e acolhedor: time to…, let's…, do you want… Repetir em voz clara e pausada imita o ritmo natural de quem fala com crianças. Se você não tem filhos pequenos, ainda assim vale praticar — frases curtas assim são excelentes para aquecer a pronúncia antes de contextos mais longos."
+      ]
+    },
+    "shopping-at-supermarket": {
+      "title": "Compras no supermercado",
+      "paragraphs": [
+        "No supermercado você precisa pedir ajuda para achar produtos, entender ofertas, usar self-checkout ou responder quando o caixa pergunta something else. Este contexto simula diálogos comuns em corredores, balcão e fila, com vocabulário de alimentos, quantidades e formas educadas de pedir informação.",
+        "Frases como Where can I find…?, Do you have…? e That's all, thank you aparecem com respostas realistas. Pratique em voz alta como se estivesse no mercado: tom claro, sem pressa. Trocar o nome do produto nas mesmas estruturas — leite, arroz, frutas — ajuda a generalizar o que aprendeu para a próxima compra de verdade."
+      ]
+    },
+    "past-experiences": {
+      "title": "Experiências passadas",
+      "paragraphs": [
+        "Contar o que você já fez — viagens, estudos, trabalhos, tentativas e conquistas — é essencial em entrevistas, encontros sociais e conversas de networking. O inglês usa past simple e present perfect de formas distintas, e ouvir frases prontas ajuda a escolher o tempo certo sem pensar na gramática a cada palavra.",
+        "Este contexto traz perguntas como Have you ever…? e respostas que descrevem experiências com detalhes úteis. Depois de ouvir cada par pergunta-resposta, conte a mesma história sobre você, mesmo que em frases mais curtas. Conectar o conteúdo à sua vida real é o que transforma lista de frases em fala espontânea."
+      ]
+    },
+    "bad-news": {
+      "title": "Más notícias",
+      "paragraphs": [
+        "Comunicar más notícias em inglês exige tom cuidadoso: directo o suficiente para ser claro, mas suave o bastante para não parecer frio. Situações como cancelamentos, atrasos, problemas no trabalho ou contratempos pessoais aparecem aqui com expressões como I'm afraid…, unfortunately e I have some bad news.",
+        "Você também pratica respostas empáticas de quem recebe a notícia. Preste atenção na entonação do áudio — muitas vezes ela importa mais que as palavras. Repita em voz calma e pausada; falar rápido demais nesse tipo de frase pode soar insensível em conversas reais."
+      ]
+    },
+    "perform-presentation": {
+      "title": "Fazer uma apresentação",
+      "paragraphs": [
+        "Apresentar um tema em inglês — na escola, no trabalho ou em meetups — começa com frases de abertura, transição e encerramento que organizam o que você vai dizer. Este contexto traz fórmulas para introduzir o assunto, passar para o próximo ponto e convidar a audiência a perguntas no final.",
+        "Frases como Today I'll talk about…, Moving on to… e Thank you for your attention soam naturais quando bem entoadas. Pratique em pé, se possível, olhando para um ponto fixo como se fosse a plateia. Simular o corpo da apresentação assim fixa estruturas que livros de gramática quase nunca treinam."
+      ]
+    },
+    "ordering-food-restaurant": {
+      "title": "Pedir comida no restaurante",
+      "paragraphs": [
+        "Em restaurantes no exterior — ou em cidades turísticas — você precisa reservar mesa, pedir pratos, perguntar sobre ingredientes e pedir a conta com educação. Este contexto cobre diálogos do garçom ao cliente, incluindo preferências, alergias simples e forma de pagamento, com frases que funcionam em lanchonetes e restaurantes casuais.",
+        "Expressões como I'd like…, Could we have…? e Is this dish spicy? aparecem com respostas típicas. Antes de viajar, percorra a lista inteira em ordem aleatória simulando um jantar do início ao fim. Esse fluxo narrativo prepara melhor do que decorar frases soltas fora de contexto."
+      ]
+    },
+    "talking-about-weather": {
+      "title": "Falando sobre o tempo",
+      "paragraphs": [
+        "O clima é um assunto clássico para quebrar gelo em inglês — em elevadores, filas, calls informais ou conversas com vizinhos. Frases curtas sobre sol, chuva, calor, frio e previsão do tempo abrem diálogos sem exigir vocabulário avançado, ideal para quem está retomando o idioma.",
+        "Aqui você pratica comentários como It's raining, It's quite hot today e perguntas sobre o fim de semana. Tente ligar cada frase ao clima da sua cidade no momento em que pratica — mesmo que fale sozinho. Essa associação imediata torna o vocabulário mais vivo do que repetir exemplos genéricos de manual."
+      ]
+    },
+    "morning-routines": {
+      "title": "Rotina da manhã",
+      "paragraphs": [
+        "Descrever a manhã em inglês — acordar, café, higiene, saída de casa — aparece em conversas casuais, diários de estudo e descrições de hábitos saudáveis. Verbos no presente simples e marcadores de tempo como at seven, before work e first thing in the morning estruturam frases fáceis de adaptar à sua rotina real.",
+        "As sentenças deste módulo seguem a ordem natural do início do dia. Pratique encadeando três ações seguidas sem pausa longa entre elas, como num relato rápido para um colega. Quanto mais fluida essa sequência, mais fácil será falar da sua manhã de verdade quando alguém perguntar how do you start your day."
+      ]
+    },
+    "night-routines": {
+      "title": "Rotina da noite",
+      "paragraphs": [
+        "Falar do fim do dia — jantar, relaxar, preparar-se para dormir — complementa a rotina matinal e aparece em conversas sobre bem-estar, sono e hábitos. Este contexto usa frases no presente simples e expressões como before bed, turn off e wind down, comuns em diários, apps de saúde e bate-papo informal.",
+        "Muitas frases descrevem ações calmas e repetitivas; a entonação tende a ser mais baixa e pausada. Imitar esse ritmo ao repetir em voz alta ajuda a fixar vocabulário noturno. Depois, descreva sua própria noite em duas ou três frases usando a mesma estrutura das que você ouviu."
+      ]
+    },
+    "travel-and-vacations": {
+      "title": "Viagens e férias",
+      "paragraphs": [
+        "Planejar viagens, contar férias passadas ou descrever o que você quer fazer num destino mobiliza vocabulário de transporte, hospedagem, passeios e clima. Este contexto reúne frases para aeroporto, hotel, city tours e conversas animadas sobre planos de férias com amigos ou colegas internacionais.",
+        "Você encontrará perguntas sobre when, where e what do you want to do, além de respostas que contam experiências positivas. Antes de uma viagem real, simule check-in e pedido de informação em voz alta com estas frases. Mesmo sem viajar agora, visualizar o destino enquanto ouve fixa o vocabulário com mais prazer e menos esforço."
+      ]
+    },
+    "asking-help-at-work": {
+      "title": "Pedir ajuda no trabalho",
+      "paragraphs": [
+        "Pedir ajuda no trabalho em inglês sem parecer incompetente é uma habilidade prática: você precisa ser claro sobre o problema, mostrar o que já tentou e agradecer o suporte. Frases com could you help me, I'm stuck on e do you have a minute aparecem em chats, e-mails e calls com colegas de outros países.",
+        "Este contexto inclui pedidos diretos e follow-ups educados quando alguém aceita ajudar. Ao praticar, imagine um bug, um documento ou um processo real que você já precisou destravar. Substituir o exemplo genérico por algo do seu dia a dia torna o tom mais convincente quando você precisar usar inglês de verdade no emprego."
+      ]
+    },
+    "giving-status-updates": {
+      "title": "Dar atualizações de status",
+      "paragraphs": [
+        "Atualizar colegas sobre o andamento de uma tarefa — por chat, e-mail ou reunião — exige frases objetivas: o que foi feito, o que falta e se há risco de atraso. Este contexto simula mensagens comuns em times ágeis e ambientes corporativos, sem depender de jargão técnico pesado.",
+        "Expressões como so far, still working on e expected by Friday organizam a informação de forma clara. Pratique ler cada frase como se fosse um status curto no Slack ou Teams: tom profissional, poucas palavras, foco no essencial. Essa brevidade é o que diferencia uma boa atualização de um texto longo que ninguém lê."
+      ]
+    },
+    "project-discussions": {
+      "title": "Discussões de projeto",
+      "paragraphs": [
+        "Discutir projetos em inglês envolve alinhar escopo, prioridades, prazos e responsabilidades — em reuniões de kick-off, revisões semanais ou conversas informais com stakeholders. Este contexto traz frases para propor ideias, pedir esclarecimentos e confirmar próximos passos com tom colaborativo.",
+        "Você praticará perguntas como What's the goal here? e What's the deadline?, além de respostas que movem o projeto adiante. Ao repetir, imagine um projeto real seu — mesmo pequeno — e troque o nome fictício pelo seu. Conectar linguagem a um caso concreto acelera muito a retenção em contextos profissionais."
+      ]
+    },
+    "problem-solving-at-work": {
+      "title": "Resolução de problemas no trabalho",
+      "paragraphs": [
+        "Quando algo dá errado no trabalho — prazo apertado, falha de comunicação, bloqueio técnico — você precisa explicar o problema, sugerir caminhos e combinar ações em inglês claro. Este módulo reúne frases para diagnosticar situações, propor soluções e confirmar quem faz o quê depois da conversa.",
+        "Tom calmo e vocabulário como root cause, workaround e let's figure this out aparecem em diálogos realistas. Pratique sem acelerar: falar rápido em momento de crise aumenta mal-entendidos. Pausas curtas entre ideias — como no áudio — transmitem controle e facilitam que o outro acompanhe."
+      ]
+    },
+    "talking-about-deadlines": {
+      "title": "Falando sobre prazos",
+      "paragraphs": [
+        "Prazos aparecem em quase todo ambiente profissional: combinar entregas, avisar atrasos, negociar extensões ou confirmar que algo sairá a tempo. Em inglês, expressões com by Friday, due date e need more time são frequentes em e-mails e reuniões rápidas com times distribuídos.",
+        "As frases deste contexto cobrem compromissos firmes, pedidos de extensão educados e confirmações de entrega. Ao praticar, associe cada frase a um prazo real da sua semana — relatório, reunião, tarefa doméstica. Essa ligação com o calendário torna o vocabulário imediato quando você precisar avisar alguém em inglês."
+      ]
+    },
+    "email-communication": {
+      "title": "Comunicação por e-mail",
+      "paragraphs": [
+        "E-mails em inglês pedem abertura educada, corpo objetivo e encerramento profissional — seja para colegas, clientes ou suporte. Este contexto traz frases para começar, pedir informação, confirmar recebimento, agradecer e fechar com tom adequado, evitando informalidade excessiva ou rigidez desnecessária.",
+        "Você verá fórmulas como I'm writing to…, Please find attached e Looking forward to your reply. Leia em voz baixa prestando atenção nas transições entre parágrafos. E-mail bom soa natural quando lido em voz alta; se travar na pronúncia, provavelmente a frase está longa demais para uso real."
+      ]
+    },
+    "introducing-yourself": {
+      "title": "Apresentar-se",
+      "paragraphs": [
+        "Apresentar-se em inglês — nome, origem, profissão, interesses — é a base de entrevistas, networking, aulas e primeiros encontros sociais. Este contexto reúne frases curtas e completas para dizer quem você é, o que faz e o que gosta, com respostas de quem recebe a apresentação de forma cordial.",
+        "Frases como My name is…, I'm from… e I work as… aparecem em variações formais e informais. Monte sua própria apresentação de 30 segundos usando a estrutura das frases da lista e grave mentalmente a ordem: nome, origem, trabalho, um detalhe pessoal. Repetir essa versão personalizada fixa mais do que copiar exemplos genéricos."
+      ]
+    },
+    "talking-about-hobbies": {
+      "title": "Falando sobre hobbies",
+      "paragraphs": [
+        "Hobbies são um dos temas mais fáceis para manter conversa em inglês — todo mundo gosta de falar do que faz no tempo livre. Este contexto traz frases sobre esportes, leitura, música, jogos e atividades ao ar livre, com perguntas do tipo What do you like to do? e respostas que convidam o outro a continuar o papo.",
+        "Ao praticar, substitua o hobby de cada frase pelo seu — running, cooking, watching series. A estrutura gramatical permanece igual; só muda o vocabulário central. Esse truque simples transforma a lista em treino personalizado e prepara você para small talk real em viagens ou calls informais."
+      ]
+    },
+    "talking-about-family": {
+      "title": "Falando sobre família",
+      "paragraphs": [
+        "Falar da família em inglês aparece em apresentações informais, documentos de imigração básicos, conversas com colegas curiosos sobre sua vida pessoal e encontros sociais. Você precisa de vocabulário para parentesco — parents, siblings, children — e frases simples para descrever quem mora com você e como estão.",
+        "Este módulo traz perguntas gentis e respostas que equilibram informação e privacidade. Nem toda cultura gosta de detalhes íntimos; observe o tom das respostas modelo — geralmente caloroso, mas sem excesso. Adapte ao seu conforto pessoal ao montar frases sobre a sua própria família."
+      ]
+    },
+    "talking-about-friends": {
+      "title": "Falando sobre amigos",
+      "paragraphs": [
+        "Contar sobre amigos — como se conheceram, o que gostam de fazer juntos, há quanto tempo se falam — enriquece conversas sociais em inglês sem exigir vocabulário técnico. Este contexto traz frases para elogiar amizades, marcar encontros e descrever relações próximas de forma natural e calorosa.",
+        "Expressões como we've known each other for… e we usually hang out… aparecem com perguntas de follow-up. Pratique contando de um amigo real usando a mesma estrutura; troque nomes e detalhes, mantendo conectores como since, usually e last weekend. Isso aproxima o treino de uma conversa de bar ou café."
+      ]
+    },
+    "making-invitations": {
+      "title": "Fazer convites",
+      "paragraphs": [
+        "Convidar alguém em inglês — para café, jantar, evento ou call — pede clareza sobre data, hora e tom: casual entre amigos ou mais formal no trabalho. Frases com would you like to, are you free e let's meet aparecem aqui com variações para aceitar, adiar ou sugerir outro horário.",
+        "Este contexto ajuda a evitar convites vagos que geram mal-entendidos. Ao repetir cada frase, inclua mentalmente um dia e horário específicos, mesmo que fictícios. Convite bom em inglês quase sempre ancora quando e onde — praticar com esses detalhes prepara você para mensagens reais no WhatsApp ou e-mail."
+      ]
+    },
+    "accepting-refusing-invitations": {
+      "title": "Aceitar ou recusar convites",
+      "paragraphs": [
+        "Responder a convites em inglês exige educação nos dois casos: aceitar com entusiasmo moderado ou recusar sem parecer rude. Expressões como I'd love to, Sorry, I can't e maybe another time aparecem com explicações breves e agradecimentos que mantêm a relação positiva.",
+        "As frases modelam tom cordial em situações sociais e profissionais leves. Pratique recusar com uma razão curta — não é obrigatório dar muitos detalhes — e aceitar confirmando logística. Ouvir a diferença de entonação entre yes e polite no ajuda a soar sincero, não automático, quando responder de verdade."
+      ]
+    },
+    "asking-for-directions": {
+      "title": "Pedir direções",
+      "paragraphs": [
+        "Perdido em cidade estrangeira ou ajudando um turista — pedir e dar direções em inglês usa frases curtas com turn left, go straight, next to e landmark. Este contexto simula interações na rua, metrô ou recepção de hotel, com vocabulário essencial para viagens sem depender só do GPS.",
+        "Pratique alternando o papel de quem pergunta e quem responde, mesmo sozinho. Depois de ouvir a resposta, repita os passos em ordem como se estivesse repetindo para alguém. Essa técnica fixa preposições de movimento, que quase nunca são traduzidas palavra por palavra do português."
+      ]
+    },
+    "at-the-doctor": {
+      "title": "No médico",
+      "paragraphs": [
+        "Consultas médicas em inglês exigem descrever sintomas, duração, intensidade e histórico básico — mesmo em atendimentos simples no exterior ou telemedicina internacional. Este contexto traz frases para dor, febre, alergias e medicamentos, com tom claro para o profissional entender sem ambiguidade.",
+        "Vocabulário como ache, rash, for three days e take this twice a day aparece em diálogos realistas. Ao praticar, evite sussurrar: em consulta real você precisa ser ouvido. Fale um pouco mais alto e pausado do que numa conversa casual — clareza importa mais que sotaque perfeito nesse contexto."
+      ]
+    },
+    "at-the-pharmacy": {
+      "title": "Na farmácia",
+      "paragraphs": [
+        "Na farmácia você pode pedir medicamentos de venda livre, perguntar posologia, relatar sintomas leves ou confirmar se um produto serve para criança ou adulto. Este contexto reúne frases práticas para balcão e self-service, com vocabulário comum em viagens e para quem mora temporariamente no exterior.",
+        "Expressões como over-the-counter, how often should I take e do you have something for… aparecem com respostas úteis. Leia o nome do medicamento ou sintoma em voz clara — farmacêuticos estão acostumados a sotaques diversos, mas precisam entender a palavra-chave. Repetir esses termos com confiança reduz ansiedade em situações reais."
+      ]
+    },
+    "agreeing-and-disagreeing": {
+      "title": "Concordar e discordar",
+      "paragraphs": [
+        "Em discussões — reuniões, debates amigáveis, redes sociais — você precisa concordar, discordar ou parcialmente aceitar uma ideia sem gerar conflito. Em inglês, I agree, I see your point, but… e I'm not sure about that permitem nuance que yes/no secos não transmitem.",
+        "Este contexto treina tom respeitoso em conversas de trabalho e vida pessoal. Pratique discordando sempre com uma razão curta depois do but — frases incompletas soam secas demais. Ouvir como o áudio suaviza a discordância ajuda a copiar entonação, não só palavras."
+      ]
+    },
+    "apologizing": {
+      "title": "Pedir desculpas",
+      "paragraphs": [
+        "Pedir desculpas em inglês vai além de sorry: há níveis de formalidade, reconhecimento do erro e oferta de reparo. Situações como atraso, esquecimento, mal-entendido no trabalho ou contratempo com amigos aparecem com frases que soam sinceras, não automáticas.",
+        "Expressões como I'm sorry for…, That was my mistake e How can I fix this? modelam responsabilidade sem drama excessivo. Evite repetir sorry dezenas de vezes — uma desculpa clara com contexto e ação costuma ser mais eficaz. Imitar o ritmo calmo das frases do áudio ajuda a transmitir seriedade."
+      ]
+    },
+    "house-chores": {
+      "title": "Tarefas domésticas",
+      "paragraphs": [
+        "Dividir tarefas em casa, pedir ajuda ou descrever o que você faz no fim de semana usa vocabulário de limpeza, cozinha, organização e manutenção. Este contexto é útil para famílias bilíngues, roommates internacionais ou conversas casuais sobre rotina doméstica e responsabilidades compartilhadas.",
+        "Frases com need to, could you and I already… aparecem em tom colaborativo, não reclamatório. Pratique como se estivesse combinando tarefas com alguém de convivência — tom neutro e objetivo. Isso prepara para diálogos reais sem transformar lista de vocabulário em lista de queixas."
+      ]
+    },
+    "software-development-conversations": {
+      "title": "Conversas sobre desenvolvimento de software",
+      "paragraphs": [
+        "Times de tecnologia falam inglês o tempo todo — pull requests, bugs, deploys, code review e alinhamentos técnicos. Este contexto reúne frases comuns em chats e calls de desenvolvimento, para quem já programa e quer participar de discussões sem travar nas palavras do dia a dia.",
+        "Você praticará pedidos de revisão, reporte de problemas e combinação de próximos passos com tom direto e colaborativo. Ao ouvir, identifique verbos de ação — fix, merge, deploy, investigate. Repetir esses verbos em frases completas acelera a fluência técnica mais do que memorizar glossários isolados."
+      ]
+    },
+    "training-verbs": {
+      "title": "Treino de verbos",
+      "paragraphs": [
+        "Verbos são o motor das frases em inglês — tempos, regularidade e pronúncia mudam o sentido de tudo. Este módulo foca em formas frequentes do dia a dia, incluindo terceira pessoa, passado simples e combinações com auxiliares, para quem quer automatizar conjugacões ouvidas em contexto, não só na tabela de gramática.",
+        "As frases são curtas e repetitivas de propósito, ideais para treino de ouvido e fala. Alterne velocidades no controle da página: primeiro mais devagar para captar terminações como -ed e -s, depois em ritmo normal. Essa progressão imita como crianças assimilam verbos — muita repetição significativa, pouca teoria."
+      ]
+    }
+  }
+}

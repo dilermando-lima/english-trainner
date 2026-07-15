@@ -1,0 +1,1365 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conversas sobre desenvolvimento de software — English Trainer</title>
+  <meta name="description" content="Pratique inglês no contexto Conversas sobre desenvolvimento de software com traduções em português e áudio." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://ingles.dev.br/contextos/software-development-conversations.html" />
+<link rel="stylesheet" href="../main.css" />
+</head>
+
+<body>
+  <div id="app">
+    <div id="trainer-view">
+      <header class="app-header">
+        <button id="sidebarToggle" class="sidebar-toggle" type="button" aria-label="Abrir menu de contextos" aria-expanded="false" aria-controls="contextSidebar">
+          <span aria-hidden="true">☰</span>
+        </button>
+        <div>
+          <a href="../index.html" class="brand-title brand-title-link">English Trainer</a>
+          <span class="brand-subtitle">Frases inglês para português</span>
+        </div>
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Alternar tema">
+          <span class="theme-icon theme-icon-sun" aria-hidden="true">☀</span>
+          <span class="theme-icon theme-icon-moon hidden" aria-hidden="true">🌙</span>
+        </button>
+      </header>
+
+      <div id="speechWarnToast" class="speech-warn-toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+
+      <main class="app-main">
+        <div id="sidebarBackdrop" class="sidebar-backdrop hidden" aria-hidden="true"></div>
+        <div class="page-layout">
+          <aside id="contextSidebar" class="context-sidebar" aria-label="Contextos">
+            <div class="context-sidebar-header">
+              <h2 class="context-nav-title">Contextos</h2>
+              <button id="sidebarClose" class="sidebar-close" type="button" aria-label="Fechar menu">
+                <span aria-hidden="true">✕</span>
+              </button>
+            </div>
+            <nav class="context-nav">
+              <ul class="context-nav-list">
+        <li><a class="context-nav-link" href="./greetings.html">Saudações</a></li>
+        <li><a class="context-nav-link" href="./ask-things.html">Perguntar coisas</a></li>
+        <li><a class="context-nav-link" href="./training-sentences.html">Frases de treino</a></li>
+        <li><a class="context-nav-link" href="./present-perfect.html">Present perfect</a></li>
+        <li><a class="context-nav-link" href="./daily-routines.html">Rotinas diárias</a></li>
+        <li><a class="context-nav-link" href="./cooking.html">Culinária</a></li>
+        <li><a class="context-nav-link" href="./at-job-sentences.html">No trabalho</a></li>
+        <li><a class="context-nav-link" href="./daily-standup-meeting.html">Reunião diária</a></li>
+        <li><a class="context-nav-link" href="./giving-advice.html">Dando conselhos</a></li>
+        <li><a class="context-nav-link" href="./wishes-and-desires.html">Desejos e vontades</a></li>
+        <li><a class="context-nav-link" href="./conditions.html">Condicionais</a></li>
+        <li><a class="context-nav-link" href="./talking-about-he-and-she.html">Falando sobre ele e ela</a></li>
+        <li><a class="context-nav-link" href="./talking-about-feelings.html">Falando sobre sentimentos</a></li>
+        <li><a class="context-nav-link" href="./talking-about-places.html">Falando sobre lugares</a></li>
+        <li><a class="context-nav-link" href="./toddler-routines.html">Rotina de crianças</a></li>
+        <li><a class="context-nav-link" href="./shopping-at-supermarket.html">Compras no supermercado</a></li>
+        <li><a class="context-nav-link" href="./past-experiences.html">Experiências passadas</a></li>
+        <li><a class="context-nav-link" href="./bad-news.html">Más notícias</a></li>
+        <li><a class="context-nav-link" href="./perform-presentation.html">Apresentação</a></li>
+        <li><a class="context-nav-link" href="./ordering-food-restaurant.html">Pedido em restaurante</a></li>
+        <li><a class="context-nav-link" href="./talking-about-weather.html">Falando sobre o tempo</a></li>
+        <li><a class="context-nav-link" href="./morning-routines.html">Rotinas da manhã</a></li>
+        <li><a class="context-nav-link" href="./night-routines.html">Rotinas da noite</a></li>
+        <li><a class="context-nav-link" href="./travel-and-vacations.html">Viagens e férias</a></li>
+        <li><a class="context-nav-link" href="./asking-help-at-work.html">Pedindo ajuda no trabalho</a></li>
+        <li><a class="context-nav-link" href="./giving-status-updates.html">Atualizações de status</a></li>
+        <li><a class="context-nav-link" href="./project-discussions.html">Discussão de projetos</a></li>
+        <li><a class="context-nav-link" href="./problem-solving-at-work.html">Resolvendo problemas no trabalho</a></li>
+        <li><a class="context-nav-link" href="./talking-about-deadlines.html">Falando sobre prazos</a></li>
+        <li><a class="context-nav-link" href="./email-communication.html">Comunicação por e-mail</a></li>
+        <li><a class="context-nav-link" href="./introducing-yourself.html">Apresentando-se</a></li>
+        <li><a class="context-nav-link" href="./talking-about-hobbies.html">Falando sobre hobbies</a></li>
+        <li><a class="context-nav-link" href="./talking-about-family.html">Falando sobre família</a></li>
+        <li><a class="context-nav-link" href="./talking-about-friends.html">Falando sobre amigos</a></li>
+        <li><a class="context-nav-link" href="./making-invitations.html">Fazendo convites</a></li>
+        <li><a class="context-nav-link" href="./accepting-refusing-invitations.html">Aceitar ou recusar convites</a></li>
+        <li><a class="context-nav-link" href="./asking-for-directions.html">Pedindo direções</a></li>
+        <li><a class="context-nav-link" href="./at-the-doctor.html">No médico</a></li>
+        <li><a class="context-nav-link" href="./at-the-pharmacy.html">Na farmácia</a></li>
+        <li><a class="context-nav-link" href="./agreeing-and-disagreeing.html">Concordando e discordando</a></li>
+        <li><a class="context-nav-link" href="./apologizing.html">Pedindo desculpas</a></li>
+        <li><a class="context-nav-link" href="./house-chores.html">Tarefas domésticas</a></li>
+        <li><a class="context-nav-link context-nav-link--active" href="./software-development-conversations.html">Conversas de desenvolvimento</a></li>
+        <li><a class="context-nav-link" href="./training-verbs.html">Treinando verbos</a></li>
+              </ul>
+            </nav>
+          </aside>
+
+          <div class="content-layout">
+            <header class="context-page-header">
+              <h1 class="context-page-title" data-context-name>Conversas sobre desenvolvimento de software</h1>
+            </header>
+            <section class="context-intro" aria-label="Sobre este contexto">
+              <p class="context-intro-text">Times de tecnologia falam inglês o tempo todo — pull requests, bugs, deploys, code review e alinhamentos técnicos. Este contexto reúne frases comuns em chats e calls de desenvolvimento, para quem já programa e quer participar de discussões sem travar nas palavras do dia a dia.</p>
+              <p class="context-intro-text">Você praticará pedidos de revisão, reporte de problemas e combinação de próximos passos com tom direto e colaborativo. Ao ouvir, identifique verbos de ação — fix, merge, deploy, investigate. Repetir esses verbos em frases completas acelera a fluência técnica mais do que memorizar glossários isolados.</p>
+            </section>
+
+
+            <section class="trainer-controls" aria-label="Controles de áudio">
+              <div class="speed-wrapper">
+                <label for="speedSelect" class="speed-label">Velocidade</label>
+                <select id="speedSelect" class="speed-select">
+                  <option value="0.4">0.4x</option>
+                  <option value="0.6">0.6x</option>
+                  <option value="0.8" selected>0.8x</option>
+                  <option value="1">1x</option>
+                  <option value="1.2">1.2x</option>
+                  <option value="1.4">1.4x</option>
+                </select>
+              </div>
+              <button id="accentToggle" class="btn-accent" type="button" title="Inglês americano (clique para britânico)" aria-label="Sotaque: inglês americano. Clique para alternar.">
+                🇺🇸 EUA
+              </button>
+              <div class="trainer-controls-actions">
+                <button id="shuffleBtn" class="btn-shuffle" type="button" title="Embaralhar frases" aria-label="Embaralhar frases">
+                  ⇄ Sortear
+                </button>
+                <button id="listenAllBtn" class="btn-listen-all" type="button">
+                  ▶ Ouvir todos
+                </button>
+              </div>
+            </section>
+            <div id="contextAdSlot" class="context-ad-slot" aria-label="Publicidade"></div>
+            <div id="sentencesList" class="sentences-list">
+<article class="sentence-item" id="sentence-item-0" data-sentence-index="0">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="0" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="0" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Have you pushed your changes?</p>
+        <button type="button" class="btn-mic" data-index="0" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Você deu push nas suas alterações?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Yes, I pushed to the feature branch.</p>
+        <button type="button" class="btn-mic" data-index="0" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Sim, dei push para a branch da feature.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-1" data-sentence-index="1">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="1" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="1" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">We need to refactor this module. It is too complex.</p>
+        <button type="button" class="btn-mic" data-index="1" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Precisamos refatorar este módulo. Está complexo demais.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-2" data-sentence-index="2">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="2" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="2" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Can you review my pull request?</p>
+        <button type="button" class="btn-mic" data-index="2" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Pode revisar meu pull request?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Sure. I will take a look this afternoon.</p>
+        <button type="button" class="btn-mic" data-index="2" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Claro. Darei uma olhada esta tarde.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-3" data-sentence-index="3">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="3" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="3" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="F">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">She fixed the bug. The build is green now.</p>
+        <button type="button" class="btn-mic" data-index="3" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ela corrigiu o bug. O build está verde agora.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-4" data-sentence-index="4">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="4" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="4" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">What is the status of the deployment?</p>
+        <button type="button" class="btn-mic" data-index="4" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Qual é o status do deploy?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">It is in progress. Should be done in ten minutes.</p>
+        <button type="button" class="btn-mic" data-index="4" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Está em andamento. Deve terminar em dez minutos.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-5" data-sentence-index="5">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="5" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="5" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">I am writing unit tests for the new API.</p>
+        <button type="button" class="btn-mic" data-index="5" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Estou escrevendo testes unitários para a nova API.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-6" data-sentence-index="6">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="6" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="6" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Did you run the tests locally?</p>
+        <button type="button" class="btn-mic" data-index="6" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Você rodou os testes localmente?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Yes, all tests pass. The pipeline should be fine.</p>
+        <button type="button" class="btn-mic" data-index="6" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Sim, todos passam. O pipeline deve estar ok.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-7" data-sentence-index="7">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="7" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="7" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">He suggested we use a different library.</p>
+        <button type="button" class="btn-mic" data-index="7" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ele sugeriu usar uma biblioteca diferente.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-8" data-sentence-index="8">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="8" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="8" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">How do we handle the migration?</p>
+        <button type="button" class="btn-mic" data-index="8" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Como lidamos com a migração?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">We will run it in stages. Rollback plan is ready.</p>
+        <button type="button" class="btn-mic" data-index="8" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Rodaremos em etapas. Plano de rollback pronto.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-9" data-sentence-index="9">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="9" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="9" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">The API is returning 500. We are investigating.</p>
+        <button type="button" class="btn-mic" data-index="9" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">A API está retornando 500. Estamos investigando.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-10" data-sentence-index="10">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="10" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="10" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Who owns the authentication service?</p>
+        <button type="button" class="btn-mic" data-index="10" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Quem é dono do serviço de autenticação?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">The platform team. We need to talk to them.</p>
+        <button type="button" class="btn-mic" data-index="10" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">A equipe de plataforma. Precisamos falar com eles.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-11" data-sentence-index="11">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="11" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="11" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="F">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">She merged the PR. It is in main now.</p>
+        <button type="button" class="btn-mic" data-index="11" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ela deu merge no PR. Está na main agora.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-12" data-sentence-index="12">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="12" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="12" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Do we have documentation for this?</p>
+        <button type="button" class="btn-mic" data-index="12" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Temos documentação para isso?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Not yet. I will add it before we ship.</p>
+        <button type="button" class="btn-mic" data-index="12" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ainda não. Adicionarei antes de enviarmos.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-13" data-sentence-index="13">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="13" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="13" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">We are moving to microservices. Phase one is done.</p>
+        <button type="button" class="btn-mic" data-index="13" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Estamos migrando para microsserviços. Fase um feita.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-14" data-sentence-index="14">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="14" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="14" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">What is the error in the logs?</p>
+        <button type="button" class="btn-mic" data-index="14" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Qual é o erro nos logs?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Null pointer in the user service. Line forty-two.</p>
+        <button type="button" class="btn-mic" data-index="14" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Null pointer no serviço de usuário. Linha quarenta e dois.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-15" data-sentence-index="15">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="15" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="15" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">He is pairing with someone on the frontend.</p>
+        <button type="button" class="btn-mic" data-index="15" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ele está fazendo par com alguém no frontend.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-16" data-sentence-index="16">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="16" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="16" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Can we ship this to production?</p>
+        <button type="button" class="btn-mic" data-index="16" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Podemos enviar isso para produção?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Not yet. We need one more approval.</p>
+        <button type="button" class="btn-mic" data-index="16" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ainda não. Precisamos de mais uma aprovação.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-17" data-sentence-index="17">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="17" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="17" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">I added logging. We can trace the issue now.</p>
+        <button type="button" class="btn-mic" data-index="17" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Adicionei logs. Podemos rastrear o problema agora.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-18" data-sentence-index="18">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="18" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="18" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">How do we scale this?</p>
+        <button type="button" class="btn-mic" data-index="18" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Como escalamos isso?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">We can add more instances. The load balancer is ready.</p>
+        <button type="button" class="btn-mic" data-index="18" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Podemos adicionar mais instâncias. O load balancer está pronto.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-19" data-sentence-index="19">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="19" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="19" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="F">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">She is debugging the performance issue.</p>
+        <button type="button" class="btn-mic" data-index="19" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ela está depurando o problema de performance.</p>
+    </div>
+  </div>
+</article>
+
+<div id="contextAdSlotMid" class="context-ad-slot context-ad-slot--mid" aria-label="Publicidade"></div>
+<article class="sentence-item" id="sentence-item-20" data-sentence-index="20">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="20" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="20" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Did you update the dependencies?</p>
+        <button type="button" class="btn-mic" data-index="20" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Você atualizou as dependências?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Yes. I ran npm update. No breaking changes.</p>
+        <button type="button" class="btn-mic" data-index="20" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Sim. Rodei npm update. Sem breaking changes.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-21" data-sentence-index="21">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="21" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="21" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">We need to add input validation.</p>
+        <button type="button" class="btn-mic" data-index="21" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Precisamos adicionar validação de entrada.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-22" data-sentence-index="22">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="22" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="22" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">What database are we using?</p>
+        <button type="button" class="btn-mic" data-index="22" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Qual banco estamos usando?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">PostgreSQL for main. Redis for cache.</p>
+        <button type="button" class="btn-mic" data-index="22" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">PostgreSQL para o principal. Redis para cache.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-23" data-sentence-index="23">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="23" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="23" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">He created a ticket for the tech debt.</p>
+        <button type="button" class="btn-mic" data-index="23" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ele criou um ticket para a dívida técnica.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-24" data-sentence-index="24">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="24" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="24" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Is the feature flag enabled?</p>
+        <button type="button" class="btn-mic" data-index="24" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">A feature flag está habilitada?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Yes, for ten percent of users. We will increase slowly.</p>
+        <button type="button" class="btn-mic" data-index="24" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Sim, para dez por cento dos usuários. Aumentaremos devagar.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-25" data-sentence-index="25">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="25" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="25" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">We are doing a code freeze until the release.</p>
+        <button type="button" class="btn-mic" data-index="25" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Estamos em code freeze até o release.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-26" data-sentence-index="26">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="26" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="26" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="M">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Who wrote this function?</p>
+        <button type="button" class="btn-mic" data-index="26" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Quem escreveu esta função?</p>
+    </div>
+    <div class="sentence-answer" data-ag="F">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">I think Maria did. Check git blame.</p>
+        <button type="button" class="btn-mic" data-index="26" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Acho que foi a Maria. Confira o git blame.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-27" data-sentence-index="27">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="27" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="27" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="F">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">She suggested we use TypeScript. I agree.</p>
+        <button type="button" class="btn-mic" data-index="27" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ela sugeriu usar TypeScript. Concordo.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-28" data-sentence-index="28">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="28" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="28" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Do we have a staging environment?</p>
+        <button type="button" class="btn-mic" data-index="28" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Temos ambiente de homologação?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Yes. We deploy there first. Then production.</p>
+        <button type="button" class="btn-mic" data-index="28" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Sim. Fazemos deploy lá primeiro. Depois produção.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-29" data-sentence-index="29">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="29" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="29" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">I am working on the database schema.</p>
+        <button type="button" class="btn-mic" data-index="29" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Estou trabalhando no schema do banco.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-30" data-sentence-index="30">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="30" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="30" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">What is the rollback plan?</p>
+        <button type="button" class="btn-mic" data-index="30" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Qual é o plano de rollback?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">We keep the previous version. One command to revert.</p>
+        <button type="button" class="btn-mic" data-index="30" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Mantemos a versão anterior. Um comando para reverter.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-31" data-sentence-index="31">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="31" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="31" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">He fixed the memory leak. We can deploy.</p>
+        <button type="button" class="btn-mic" data-index="31" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ele corrigiu o vazamento de memória. Podemos fazer deploy.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-32" data-sentence-index="32">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="32" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="32" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="M">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">How do we test this in production?</p>
+        <button type="button" class="btn-mic" data-index="32" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Como testamos isso em produção?</p>
+    </div>
+    <div class="sentence-answer" data-ag="F">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">We use canary releases. Small percentage first.</p>
+        <button type="button" class="btn-mic" data-index="32" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Usamos canary releases. Pequena porcentagem primeiro.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-33" data-sentence-index="33">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="33" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="33" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">We need to add error handling.</p>
+        <button type="button" class="btn-mic" data-index="33" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Precisamos adicionar tratamento de erros.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-34" data-sentence-index="34">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="34" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="34" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Did the CI pipeline pass?</p>
+        <button type="button" class="btn-mic" data-index="34" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">O pipeline de CI passou?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Yes, all stages passed. We are good to merge.</p>
+        <button type="button" class="btn-mic" data-index="34" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Sim, todas as etapas passaram. Podemos fazer merge.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-35" data-sentence-index="35">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="35" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="35" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="F">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">She is the tech lead for this project.</p>
+        <button type="button" class="btn-mic" data-index="35" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ela é a tech lead deste projeto.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-36" data-sentence-index="36">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="36" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="36" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">What is the API contract?</p>
+        <button type="button" class="btn-mic" data-index="36" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Qual é o contrato da API?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">We have an OpenAPI spec. I will share the link.</p>
+        <button type="button" class="btn-mic" data-index="36" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Temos uma spec OpenAPI. Compartilho o link.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-37" data-sentence-index="37">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="37" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="37" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">I am adding retry logic for the external call.</p>
+        <button type="button" class="btn-mic" data-index="37" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Estou adicionando lógica de retry para a chamada externa.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-38" data-sentence-index="38">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="38" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="38" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Do we need to update the frontend?</p>
+        <button type="button" class="btn-mic" data-index="38" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Precisamos atualizar o frontend?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Yes, the response shape changed. I will update the types.</p>
+        <button type="button" class="btn-mic" data-index="38" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Sim, o formato da resposta mudou. Atualizarei os tipos.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-39" data-sentence-index="39">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="39" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="39" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">He is doing a spike on the new architecture.</p>
+        <button type="button" class="btn-mic" data-index="39" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ele está fazendo um spike na nova arquitetura.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-40" data-sentence-index="40">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="40" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="40" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">What is the latency like?</p>
+        <button type="button" class="btn-mic" data-index="40" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Como está a latência?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Under two hundred milliseconds. We are within SLA.</p>
+        <button type="button" class="btn-mic" data-index="40" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Abaixo de duzentos milissegundos. Dentro do SLA.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-41" data-sentence-index="41">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="41" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="41" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">We are moving the repo to the new org.</p>
+        <button type="button" class="btn-mic" data-index="41" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Estamos movendo o repositório para a nova organização.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-42" data-sentence-index="42">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="42" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="42" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Can you add a comment to the code?</p>
+        <button type="button" class="btn-mic" data-index="42" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Pode adicionar um comentário no código?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Sure. I will explain the logic.</p>
+        <button type="button" class="btn-mic" data-index="42" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Claro. Explicarei a lógica.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-43" data-sentence-index="43">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="43" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="43" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="F">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">She raised a concern about security. We are addressing it.</p>
+        <button type="button" class="btn-mic" data-index="43" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ela levantou uma preocupação de segurança. Estamos tratando.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-44" data-sentence-index="44">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="44" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="44" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">How do we monitor this in production?</p>
+        <button type="button" class="btn-mic" data-index="44" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Como monitoramos isso em produção?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">We have dashboards and alerts. PagerDuty for critical.</p>
+        <button type="button" class="btn-mic" data-index="44" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Temos dashboards e alertas. PagerDuty para crítico.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-45" data-sentence-index="45">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="45" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="45" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">I am waiting for the design review.</p>
+        <button type="button" class="btn-mic" data-index="45" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Estou aguardando a revisão de design.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-46" data-sentence-index="46">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="46" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="46" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Did you run the linter?</p>
+        <button type="button" class="btn-mic" data-index="46" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Você rodou o linter?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Yes. I fixed all the issues.</p>
+        <button type="button" class="btn-mic" data-index="46" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Sim. Corrigi todos os problemas.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-47" data-sentence-index="47">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="47" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="47" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">We are considering moving to Kubernetes.</p>
+        <button type="button" class="btn-mic" data-index="47" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Estamos considerando migrar para Kubernetes.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-48" data-sentence-index="48">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="48" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="48" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">What is the branch strategy?</p>
+        <button type="button" class="btn-mic" data-index="48" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Qual é a estratégia de branches?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">We use GitFlow. Feature branches from develop.</p>
+        <button type="button" class="btn-mic" data-index="48" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Usamos GitFlow. Branches de feature a partir da develop.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-49" data-sentence-index="49">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="49" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="49" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">He is optimizing the query. It was too slow.</p>
+        <button type="button" class="btn-mic" data-index="49" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ele está otimizando a query. Estava lenta demais.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-50" data-sentence-index="50">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="50" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="50" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Do we have integration tests?</p>
+        <button type="button" class="btn-mic" data-index="50" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Temos testes de integração?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Yes, we run them in the pipeline. They take five minutes.</p>
+        <button type="button" class="btn-mic" data-index="50" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Sim, rodamos no pipeline. Levam cinco minutos.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-51" data-sentence-index="51">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="51" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="51" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="F">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">She proposed a new design. We are reviewing it.</p>
+        <button type="button" class="btn-mic" data-index="51" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ela propôs um novo design. Estamos revisando.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-52" data-sentence-index="52">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="52" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="52" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">What is the deadline for this sprint?</p>
+        <button type="button" class="btn-mic" data-index="52" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Qual é o prazo desta sprint?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Friday. We have three more days.</p>
+        <button type="button" class="btn-mic" data-index="52" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Sexta. Temos mais três dias.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-53" data-sentence-index="53">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="53" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="53" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">I need to rebase my branch. Main has changed.</p>
+        <button type="button" class="btn-mic" data-index="53" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Preciso dar rebase na minha branch. A main mudou.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-54" data-sentence-index="54">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="54" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="54" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Can we pair on this bug?</p>
+        <button type="button" class="btn-mic" data-index="54" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Podemos fazer par neste bug?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Sure. I am free after two. Let us screen share.</p>
+        <button type="button" class="btn-mic" data-index="54" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Claro. Estou livre depois das duas. Vamos compartilhar tela.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-55" data-sentence-index="55">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="55" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="55" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">We are doing a post-mortem tomorrow.</p>
+        <button type="button" class="btn-mic" data-index="55" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Faremos um post-mortem amanhã.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-56" data-sentence-index="56">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="56" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="56" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">What is the caching strategy?</p>
+        <button type="button" class="btn-mic" data-index="56" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Qual é a estratégia de cache?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">We cache for five minutes. Invalidate on write.</p>
+        <button type="button" class="btn-mic" data-index="56" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Cacheamos por cinco minutos. Invalidamos na escrita.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-57" data-sentence-index="57">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="57" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="57" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">He is writing the runbook for the new service.</p>
+        <button type="button" class="btn-mic" data-index="57" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ele está escrevendo o runbook do novo serviço.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-58" data-sentence-index="58">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="58" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="58" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Do we need to update the API version?</p>
+        <button type="button" class="btn-mic" data-index="58" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Precisamos atualizar a versão da API?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Yes, we are going to v2. Backward compatible.</p>
+        <button type="button" class="btn-mic" data-index="58" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Sim, vamos para v2. Retrocompatível.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-59" data-sentence-index="59">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="59" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="59" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="F">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">She is leading the architecture discussion.</p>
+        <button type="button" class="btn-mic" data-index="59" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ela está liderando a discussão de arquitetura.</p>
+    </div>
+  </div>
+</article>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <nav class="policy-menu-links" aria-label="Policy links">
+        <a class="policy-menu-link" href="../about.html">Sobre</a>
+        <a class="policy-menu-link" href="../cookies.html">Política de cookies</a>
+        <a class="policy-menu-link" href="../privacy-policy.html">Política de privacidade</a>
+        <a class="policy-menu-link" href="../contact.html">Contato</a>
+        <a class="policy-menu-link" href="../terms.html">Termos de uso</a>
+      </nav>
+    </footer>
+  </div>
+
+  <div id="cookieConsentBanner" class="cookie-consent-banner hidden" role="dialog" aria-label="Consentimento de cookies">
+    <p class="cookie-consent-text">
+      Usamos cookies para preferências e, ao aceitar, para publicidade (Google AdSense). Veja nossa
+      <a href="../cookies.html">Política de cookies</a> e <a href="../privacy-policy.html">Política de privacidade</a>.
+    </p>
+    <div class="cookie-consent-actions">
+      <a href="../cookies.html" class="cookie-consent-link">Política de cookies</a>
+      <a href="../privacy-policy.html" class="cookie-consent-link">Política de privacidade</a>
+      <button type="button" id="cookieConsentReject" class="cookie-consent-reject">Recusar</button>
+      <button type="button" id="cookieConsentAccept" class="cookie-consent-accept">Aceitar</button>
+    </div>
+  </div>
+  <script src="../cookie-consent.js"></script>
+  <script src="../ads.js"></script>
+  <script src="../main.js"></script>
+</body>
+</html>

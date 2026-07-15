@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Falando sobre o tempo — English Trainer</title>
+  <meta name="description" content="Pratique inglês no contexto Falando sobre o tempo com traduções em português e áudio." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://ingles.dev.br/contextos/talking-about-weather.html" />
+<link rel="stylesheet" href="../main.css" />
+</head>
+
+<body>
+  <div id="app">
+    <div id="trainer-view">
+      <header class="app-header">
+        <button id="sidebarToggle" class="sidebar-toggle" type="button" aria-label="Abrir menu de contextos" aria-expanded="false" aria-controls="contextSidebar">
+          <span aria-hidden="true">☰</span>
+        </button>
+        <div>
+          <a href="../index.html" class="brand-title brand-title-link">English Trainer</a>
+          <span class="brand-subtitle">Frases inglês para português</span>
+        </div>
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Alternar tema">
+          <span class="theme-icon theme-icon-sun" aria-hidden="true">☀</span>
+          <span class="theme-icon theme-icon-moon hidden" aria-hidden="true">🌙</span>
+        </button>
+      </header>
+
+      <div id="speechWarnToast" class="speech-warn-toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+
+      <main class="app-main">
+        <div id="sidebarBackdrop" class="sidebar-backdrop hidden" aria-hidden="true"></div>
+        <div class="page-layout">
+          <aside id="contextSidebar" class="context-sidebar" aria-label="Contextos">
+            <div class="context-sidebar-header">
+              <h2 class="context-nav-title">Contextos</h2>
+              <button id="sidebarClose" class="sidebar-close" type="button" aria-label="Fechar menu">
+                <span aria-hidden="true">✕</span>
+              </button>
+            </div>
+            <nav class="context-nav">
+              <ul class="context-nav-list">
+        <li><a class="context-nav-link" href="./greetings.html">Saudações</a></li>
+        <li><a class="context-nav-link" href="./ask-things.html">Perguntar coisas</a></li>
+        <li><a class="context-nav-link" href="./training-sentences.html">Frases de treino</a></li>
+        <li><a class="context-nav-link" href="./present-perfect.html">Present perfect</a></li>
+        <li><a class="context-nav-link" href="./daily-routines.html">Rotinas diárias</a></li>
+        <li><a class="context-nav-link" href="./cooking.html">Culinária</a></li>
+        <li><a class="context-nav-link" href="./at-job-sentences.html">No trabalho</a></li>
+        <li><a class="context-nav-link" href="./daily-standup-meeting.html">Reunião diária</a></li>
+        <li><a class="context-nav-link" href="./giving-advice.html">Dando conselhos</a></li>
+        <li><a class="context-nav-link" href="./wishes-and-desires.html">Desejos e vontades</a></li>
+        <li><a class="context-nav-link" href="./conditions.html">Condicionais</a></li>
+        <li><a class="context-nav-link" href="./talking-about-he-and-she.html">Falando sobre ele e ela</a></li>
+        <li><a class="context-nav-link" href="./talking-about-feelings.html">Falando sobre sentimentos</a></li>
+        <li><a class="context-nav-link" href="./talking-about-places.html">Falando sobre lugares</a></li>
+        <li><a class="context-nav-link" href="./toddler-routines.html">Rotina de crianças</a></li>
+        <li><a class="context-nav-link" href="./shopping-at-supermarket.html">Compras no supermercado</a></li>
+        <li><a class="context-nav-link" href="./past-experiences.html">Experiências passadas</a></li>
+        <li><a class="context-nav-link" href="./bad-news.html">Más notícias</a></li>
+        <li><a class="context-nav-link" href="./perform-presentation.html">Apresentação</a></li>
+        <li><a class="context-nav-link" href="./ordering-food-restaurant.html">Pedido em restaurante</a></li>
+        <li><a class="context-nav-link context-nav-link--active" href="./talking-about-weather.html">Falando sobre o tempo</a></li>
+        <li><a class="context-nav-link" href="./morning-routines.html">Rotinas da manhã</a></li>
+        <li><a class="context-nav-link" href="./night-routines.html">Rotinas da noite</a></li>
+        <li><a class="context-nav-link" href="./travel-and-vacations.html">Viagens e férias</a></li>
+        <li><a class="context-nav-link" href="./asking-help-at-work.html">Pedindo ajuda no trabalho</a></li>
+        <li><a class="context-nav-link" href="./giving-status-updates.html">Atualizações de status</a></li>
+        <li><a class="context-nav-link" href="./project-discussions.html">Discussão de projetos</a></li>
+        <li><a class="context-nav-link" href="./problem-solving-at-work.html">Resolvendo problemas no trabalho</a></li>
+        <li><a class="context-nav-link" href="./talking-about-deadlines.html">Falando sobre prazos</a></li>
+        <li><a class="context-nav-link" href="./email-communication.html">Comunicação por e-mail</a></li>
+        <li><a class="context-nav-link" href="./introducing-yourself.html">Apresentando-se</a></li>
+        <li><a class="context-nav-link" href="./talking-about-hobbies.html">Falando sobre hobbies</a></li>
+        <li><a class="context-nav-link" href="./talking-about-family.html">Falando sobre família</a></li>
+        <li><a class="context-nav-link" href="./talking-about-friends.html">Falando sobre amigos</a></li>
+        <li><a class="context-nav-link" href="./making-invitations.html">Fazendo convites</a></li>
+        <li><a class="context-nav-link" href="./accepting-refusing-invitations.html">Aceitar ou recusar convites</a></li>
+        <li><a class="context-nav-link" href="./asking-for-directions.html">Pedindo direções</a></li>
+        <li><a class="context-nav-link" href="./at-the-doctor.html">No médico</a></li>
+        <li><a class="context-nav-link" href="./at-the-pharmacy.html">Na farmácia</a></li>
+        <li><a class="context-nav-link" href="./agreeing-and-disagreeing.html">Concordando e discordando</a></li>
+        <li><a class="context-nav-link" href="./apologizing.html">Pedindo desculpas</a></li>
+        <li><a class="context-nav-link" href="./house-chores.html">Tarefas domésticas</a></li>
+        <li><a class="context-nav-link" href="./software-development-conversations.html">Conversas de desenvolvimento</a></li>
+        <li><a class="context-nav-link" href="./training-verbs.html">Treinando verbos</a></li>
+              </ul>
+            </nav>
+          </aside>
+
+          <div class="content-layout">
+            <header class="context-page-header">
+              <h1 class="context-page-title" data-context-name>Falando sobre o tempo</h1>
+            </header>
+            <section class="context-intro" aria-label="Sobre este contexto">
+              <p class="context-intro-text">O clima é um assunto clássico para quebrar gelo em inglês — em elevadores, filas, calls informais ou conversas com vizinhos. Frases curtas sobre sol, chuva, calor, frio e previsão do tempo abrem diálogos sem exigir vocabulário avançado, ideal para quem está retomando o idioma.</p>
+              <p class="context-intro-text">Aqui você pratica comentários como It&#x27;s raining, It&#x27;s quite hot today e perguntas sobre o fim de semana. Tente ligar cada frase ao clima da sua cidade no momento em que pratica — mesmo que fale sozinho. Essa associação imediata torna o vocabulário mais vivo do que repetir exemplos genéricos de manual.</p>
+            </section>
+
+
+            <section class="trainer-controls" aria-label="Controles de áudio">
+              <div class="speed-wrapper">
+                <label for="speedSelect" class="speed-label">Velocidade</label>
+                <select id="speedSelect" class="speed-select">
+                  <option value="0.4">0.4x</option>
+                  <option value="0.6">0.6x</option>
+                  <option value="0.8" selected>0.8x</option>
+                  <option value="1">1x</option>
+                  <option value="1.2">1.2x</option>
+                  <option value="1.4">1.4x</option>
+                </select>
+              </div>
+              <button id="accentToggle" class="btn-accent" type="button" title="Inglês americano (clique para britânico)" aria-label="Sotaque: inglês americano. Clique para alternar.">
+                🇺🇸 EUA
+              </button>
+              <div class="trainer-controls-actions">
+                <button id="shuffleBtn" class="btn-shuffle" type="button" title="Embaralhar frases" aria-label="Embaralhar frases">
+                  ⇄ Sortear
+                </button>
+                <button id="listenAllBtn" class="btn-listen-all" type="button">
+                  ▶ Ouvir todos
+                </button>
+              </div>
+            </section>
+            <div id="contextAdSlot" class="context-ad-slot" aria-label="Publicidade"></div>
+            <div id="sentencesList" class="sentences-list">
+<article class="sentence-item" id="sentence-item-0" data-sentence-index="0">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="0" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="0" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">How is the weather today?</p>
+        <button type="button" class="btn-mic" data-index="0" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Como está o tempo hoje?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">It is sunny and warm.</p>
+        <button type="button" class="btn-mic" data-index="0" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Está ensolarado e quente.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-1" data-sentence-index="1">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="1" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="1" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">It looks like it might rain later.</p>
+        <button type="button" class="btn-mic" data-index="1" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Parece que pode chover mais tarde.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-2" data-sentence-index="2">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="2" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="2" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Will it be hot tomorrow?</p>
+        <button type="button" class="btn-mic" data-index="2" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Amanhã vai estar quente?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Yes, they said it will be over thirty.</p>
+        <button type="button" class="btn-mic" data-index="2" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Sim, disseram que passa de trinta.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-3" data-sentence-index="3">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="3" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="3" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="F">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">She always checks the forecast in the morning.</p>
+        <button type="button" class="btn-mic" data-index="3" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ela sempre verifica a previsão de manhã.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-4" data-sentence-index="4">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="4" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="4" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Do you need an umbrella?</p>
+        <button type="button" class="btn-mic" data-index="4" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Você precisa de guarda-chuva?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Yes, it is going to rain.</p>
+        <button type="button" class="btn-mic" data-index="4" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Sim, vai chover.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-5" data-sentence-index="5">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="5" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="5" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="F">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">It has been cold all week.</p>
+        <button type="button" class="btn-mic" data-index="5" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Está frio a semana toda.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-6" data-sentence-index="6">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="6" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="6" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">What is the temperature?</p>
+        <button type="button" class="btn-mic" data-index="6" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Qual é a temperatura?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">It is twenty-two degrees.</p>
+        <button type="button" class="btn-mic" data-index="6" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Está vinte e dois graus.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-7" data-sentence-index="7">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="7" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="7" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">He loves this weather. Perfect for a walk.</p>
+        <button type="button" class="btn-mic" data-index="7" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ele adora este tempo. Perfeito para caminhar.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-8" data-sentence-index="8">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="8" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="8" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Is it going to snow?</p>
+        <button type="button" class="btn-mic" data-index="8" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Vai nevar?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Maybe tonight. The temperature is dropping.</p>
+        <button type="button" class="btn-mic" data-index="8" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Talvez hoje à noite. A temperatura está caindo.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-9" data-sentence-index="9">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="9" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="9" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">We had a storm last night.</p>
+        <button type="button" class="btn-mic" data-index="9" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Tivemos uma tempestade ontem à noite.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-10" data-sentence-index="10">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="10" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="10" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Nice day, is not it?</p>
+        <button type="button" class="btn-mic" data-index="10" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Bom dia, não é?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Yes, perfect. Not too hot.</p>
+        <button type="button" class="btn-mic" data-index="10" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Sim, perfeito. Não está quente demais.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-11" data-sentence-index="11">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="11" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="11" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">It is too humid. I cannot stand it.</p>
+        <button type="button" class="btn-mic" data-index="11" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Está muito úmido. Não aguento.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-12" data-sentence-index="12">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="12" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="12" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">What was the weather like on your trip?</p>
+        <button type="button" class="btn-mic" data-index="12" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Como estava o tempo na sua viagem?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">It was great. Sunny every day.</p>
+        <button type="button" class="btn-mic" data-index="12" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Estava ótimo. Sol todos os dias.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-13" data-sentence-index="13">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="13" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="13" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">There is a breeze. It feels nice.</p>
+        <button type="button" class="btn-mic" data-index="13" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Tem uma brisa. Está gostoso.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-14" data-sentence-index="14">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="14" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="14" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Do you prefer hot or cold weather?</p>
+        <button type="button" class="btn-mic" data-index="14" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Você prefere tempo quente ou frio?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">I prefer mild weather. Spring and fall.</p>
+        <button type="button" class="btn-mic" data-index="14" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Prefiro tempo ameno. Primavera e outono.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-15" data-sentence-index="15">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="15" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="15" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">It is freezing outside. Wear a coat.</p>
+        <button type="button" class="btn-mic" data-index="15" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Está congelante lá fora. Use um casaco.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-16" data-sentence-index="16">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="16" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="16" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Will the weather be good this weekend?</p>
+        <button type="button" class="btn-mic" data-index="16" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">O tempo vai estar bom neste fim de semana?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Saturday yes. Sunday might rain.</p>
+        <button type="button" class="btn-mic" data-index="16" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Sábado sim. Domingo pode chover.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-17" data-sentence-index="17">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="17" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="17" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="F">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">She does not like the heat.</p>
+        <button type="button" class="btn-mic" data-index="17" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ela não gosta do calor.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-18" data-sentence-index="18">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="18" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="18" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">How do you like this weather?</p>
+        <button type="button" class="btn-mic" data-index="18" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">O que você acha deste tempo?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">I love it. Ideal for the beach.</p>
+        <button type="button" class="btn-mic" data-index="18" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Adoro. Ideal para a praia.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-19" data-sentence-index="19">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="19" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="19" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">We had a drought last summer.</p>
+        <button type="button" class="btn-mic" data-index="19" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Tivemos seca no verão passado.</p>
+    </div>
+  </div>
+</article>
+
+<div id="contextAdSlotMid" class="context-ad-slot context-ad-slot--mid" aria-label="Publicidade"></div>
+<article class="sentence-item" id="sentence-item-20" data-sentence-index="20">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="20" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="20" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Is it going to clear up?</p>
+        <button type="button" class="btn-mic" data-index="20" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Vai abrir?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">The forecast says it will clear by noon.</p>
+        <button type="button" class="btn-mic" data-index="20" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">A previsão diz que abre ao meio-dia.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-21" data-sentence-index="21">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="21" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="21" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">He always complains about the weather.</p>
+        <button type="button" class="btn-mic" data-index="21" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ele sempre reclama do tempo.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-22" data-sentence-index="22">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="22" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="22" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">What is the best season here?</p>
+        <button type="button" class="btn-mic" data-index="22" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Qual é a melhor estação aqui?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Autumn. Not too hot, not too cold.</p>
+        <button type="button" class="btn-mic" data-index="22" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Outono. Nem quente nem frio demais.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-23" data-sentence-index="23">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="23" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="23" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">It is cloudy. Bring a jacket just in case.</p>
+        <button type="button" class="btn-mic" data-index="23" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Está nublado. Leve um casaco por precaução.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-24" data-sentence-index="24">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="24" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="24" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Did you hear about the hurricane?</p>
+        <button type="button" class="btn-mic" data-index="24" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Você soube do furacão?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Yes. I hope everyone is safe.</p>
+        <button type="button" class="btn-mic" data-index="24" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Sim. Espero que todos estejam bem.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-25" data-sentence-index="25">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="25" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="25" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">There was a lot of fog this morning.</p>
+        <button type="button" class="btn-mic" data-index="25" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Tinha muita neblina esta manhã.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-26" data-sentence-index="26">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="26" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="26" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Why is it so windy?</p>
+        <button type="button" class="btn-mic" data-index="26" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Por que está tão ventando?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">A front is moving in.</p>
+        <button type="button" class="btn-mic" data-index="26" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Uma frente está entrando.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-27" data-sentence-index="27">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="27" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="27" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="F">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">She checks the weather app every day.</p>
+        <button type="button" class="btn-mic" data-index="27" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ela verifica o app do tempo todo dia.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-28" data-sentence-index="28">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="28" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="28" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Do you think it will rain?</p>
+        <button type="button" class="btn-mic" data-index="28" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Você acha que vai chover?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">It might. The sky is getting dark.</p>
+        <button type="button" class="btn-mic" data-index="28" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Pode ser. O céu está escurecendo.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-29" data-sentence-index="29">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="29" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="29" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">We are in for a heat wave.</p>
+        <button type="button" class="btn-mic" data-index="29" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Vamos ter uma onda de calor.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-30" data-sentence-index="30">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="30" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="30" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">What is the weather like in your country?</p>
+        <button type="button" class="btn-mic" data-index="30" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Como é o tempo no seu país?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">It varies. Hot in summer, cold in winter.</p>
+        <button type="button" class="btn-mic" data-index="30" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Varia. Quente no verão, frio no inverno.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-31" data-sentence-index="31">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="31" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="31" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">It is scorching. Stay in the shade.</p>
+        <button type="button" class="btn-mic" data-index="31" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Está muito quente. Fique na sombra.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-32" data-sentence-index="32">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="32" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="32" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Is it safe to drive?</p>
+        <button type="button" class="btn-mic" data-index="32" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Está seguro dirigir?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">The roads might be icy. Drive slow.</p>
+        <button type="button" class="btn-mic" data-index="32" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">As estradas podem estar geladas. Vá devagar.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-33" data-sentence-index="33">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="33" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="33" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">He loves rainy days. He finds them cozy.</p>
+        <button type="button" class="btn-mic" data-index="33" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ele adora dias de chuva. Acha aconchegante.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-34" data-sentence-index="34">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="34" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="34" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">What do you do when it rains?</p>
+        <button type="button" class="btn-mic" data-index="34" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">O que você faz quando chove?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">I stay home and watch movies.</p>
+        <button type="button" class="btn-mic" data-index="34" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Fico em casa e assisto filmes.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-35" data-sentence-index="35">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="35" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="35" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">We had a beautiful sunset yesterday.</p>
+        <button type="button" class="btn-mic" data-index="35" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Tivemos um pôr do sol lindo ontem.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-36" data-sentence-index="36">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="36" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="36" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">How cold does it get in winter?</p>
+        <button type="button" class="btn-mic" data-index="36" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Quanto frio faz no inverno?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">It can go below zero sometimes.</p>
+        <button type="button" class="btn-mic" data-index="36" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Às vezes pode ficar abaixo de zero.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-37" data-sentence-index="37">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="37" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="37" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">It is muggy. I need air conditioning.</p>
+        <button type="button" class="btn-mic" data-index="37" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Está abafado. Preciso de ar-condicionado.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-38" data-sentence-index="38">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="38" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="38" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Do you like thunderstorms?</p>
+        <button type="button" class="btn-mic" data-index="38" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Você gosta de tempestades?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">I find them exciting but a bit scary.</p>
+        <button type="button" class="btn-mic" data-index="38" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Acho emocionante mas um pouco assustador.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-39" data-sentence-index="39">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="39" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="39" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">The weather has been unpredictable lately.</p>
+        <button type="button" class="btn-mic" data-index="39" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">O tempo está imprevisível ultimamente.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-40" data-sentence-index="40">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="40" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="40" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">What is the forecast for next week?</p>
+        <button type="button" class="btn-mic" data-index="40" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Qual é a previsão para a próxima semana?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Mostly sunny with a chance of rain Friday.</p>
+        <button type="button" class="btn-mic" data-index="40" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Maioria dos dias com sol, chance de chuva sexta.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-41" data-sentence-index="41">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="41" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="41" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="F">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">She forgot her umbrella and got soaked.</p>
+        <button type="button" class="btn-mic" data-index="41" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ela esqueceu o guarda-chuva e se molhou toda.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-42" data-sentence-index="42">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="42" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="42" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Is it going to be a nice day?</p>
+        <button type="button" class="btn-mic" data-index="42" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Vai ser um dia bonito?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Yes, no rain expected.</p>
+        <button type="button" class="btn-mic" data-index="42" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Sim, não há previsão de chuva.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-43" data-sentence-index="43">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="43" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="43" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">We need rain. The garden is dry.</p>
+        <button type="button" class="btn-mic" data-index="43" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Precisamos de chuva. O jardim está seco.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-44" data-sentence-index="44">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="44" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="44" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">What is your favorite weather?</p>
+        <button type="button" class="btn-mic" data-index="44" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Qual é seu tempo favorito?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">I love a cool, sunny autumn day.</p>
+        <button type="button" class="btn-mic" data-index="44" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Adoro um dia de outono fresco e ensolarado.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-45" data-sentence-index="45">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="45" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="45" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">It is drizzling. Do you have a hood?</p>
+        <button type="button" class="btn-mic" data-index="45" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Está chuviscando. Você tem capuz?</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-46" data-sentence-index="46">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="46" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="46" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Has the weather been strange this year?</p>
+        <button type="button" class="btn-mic" data-index="46" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">O tempo está estranho este ano?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Yes, very. Too much rain in summer.</p>
+        <button type="button" class="btn-mic" data-index="46" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Sim, muito. Chuva demais no verão.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-47" data-sentence-index="47">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="47" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="47" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">He does not go out when it is too hot.</p>
+        <button type="button" class="btn-mic" data-index="47" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ele não sai quando está muito quente.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-48" data-sentence-index="48">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="48" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="48" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Should I bring a sweater?</p>
+        <button type="button" class="btn-mic" data-index="48" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Devo levar um agasalho?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Yes, it might get cold tonight.</p>
+        <button type="button" class="btn-mic" data-index="48" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Sim, pode esfriar à noite.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-49" data-sentence-index="49">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="49" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="49" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">We had a white Christmas last year.</p>
+        <button type="button" class="btn-mic" data-index="49" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Tivemos um Natal com neve no ano passado.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-50" data-sentence-index="50">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="50" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="50" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">What is the humidity?</p>
+        <button type="button" class="btn-mic" data-index="50" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Qual é a umidade?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">It is around eighty percent. Very sticky.</p>
+        <button type="button" class="btn-mic" data-index="50" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Está em torno de oitenta por cento. Muito abafado.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-51" data-sentence-index="51">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="51" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="51" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">The sky is clear. Good day for a picnic.</p>
+        <button type="button" class="btn-mic" data-index="51" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">O céu está limpo. Bom dia para piquenique.</p>
+    </div>
+  </div>
+</article>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <nav class="policy-menu-links" aria-label="Policy links">
+        <a class="policy-menu-link" href="../about.html">Sobre</a>
+        <a class="policy-menu-link" href="../cookies.html">Política de cookies</a>
+        <a class="policy-menu-link" href="../privacy-policy.html">Política de privacidade</a>
+        <a class="policy-menu-link" href="../contact.html">Contato</a>
+        <a class="policy-menu-link" href="../terms.html">Termos de uso</a>
+      </nav>
+    </footer>
+  </div>
+
+  <div id="cookieConsentBanner" class="cookie-consent-banner hidden" role="dialog" aria-label="Consentimento de cookies">
+    <p class="cookie-consent-text">
+      Usamos cookies para preferências e, ao aceitar, para publicidade (Google AdSense). Veja nossa
+      <a href="../cookies.html">Política de cookies</a> e <a href="../privacy-policy.html">Política de privacidade</a>.
+    </p>
+    <div class="cookie-consent-actions">
+      <a href="../cookies.html" class="cookie-consent-link">Política de cookies</a>
+      <a href="../privacy-policy.html" class="cookie-consent-link">Política de privacidade</a>
+      <button type="button" id="cookieConsentReject" class="cookie-consent-reject">Recusar</button>
+      <button type="button" id="cookieConsentAccept" class="cookie-consent-accept">Aceitar</button>
+    </div>
+  </div>
+  <script src="../cookie-consent.js"></script>
+  <script src="../ads.js"></script>
+  <script src="../main.js"></script>
+</body>
+</html>

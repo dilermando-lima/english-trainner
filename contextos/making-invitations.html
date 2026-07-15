@@ -1,0 +1,1245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fazer convites — English Trainer</title>
+  <meta name="description" content="Pratique inglês no contexto Fazer convites com traduções em português e áudio." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://ingles.dev.br/contextos/making-invitations.html" />
+<link rel="stylesheet" href="../main.css" />
+</head>
+
+<body>
+  <div id="app">
+    <div id="trainer-view">
+      <header class="app-header">
+        <button id="sidebarToggle" class="sidebar-toggle" type="button" aria-label="Abrir menu de contextos" aria-expanded="false" aria-controls="contextSidebar">
+          <span aria-hidden="true">☰</span>
+        </button>
+        <div>
+          <a href="../index.html" class="brand-title brand-title-link">English Trainer</a>
+          <span class="brand-subtitle">Frases inglês para português</span>
+        </div>
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Alternar tema">
+          <span class="theme-icon theme-icon-sun" aria-hidden="true">☀</span>
+          <span class="theme-icon theme-icon-moon hidden" aria-hidden="true">🌙</span>
+        </button>
+      </header>
+
+      <div id="speechWarnToast" class="speech-warn-toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+
+      <main class="app-main">
+        <div id="sidebarBackdrop" class="sidebar-backdrop hidden" aria-hidden="true"></div>
+        <div class="page-layout">
+          <aside id="contextSidebar" class="context-sidebar" aria-label="Contextos">
+            <div class="context-sidebar-header">
+              <h2 class="context-nav-title">Contextos</h2>
+              <button id="sidebarClose" class="sidebar-close" type="button" aria-label="Fechar menu">
+                <span aria-hidden="true">✕</span>
+              </button>
+            </div>
+            <nav class="context-nav">
+              <ul class="context-nav-list">
+        <li><a class="context-nav-link" href="./greetings.html">Saudações</a></li>
+        <li><a class="context-nav-link" href="./ask-things.html">Perguntar coisas</a></li>
+        <li><a class="context-nav-link" href="./training-sentences.html">Frases de treino</a></li>
+        <li><a class="context-nav-link" href="./present-perfect.html">Present perfect</a></li>
+        <li><a class="context-nav-link" href="./daily-routines.html">Rotinas diárias</a></li>
+        <li><a class="context-nav-link" href="./cooking.html">Culinária</a></li>
+        <li><a class="context-nav-link" href="./at-job-sentences.html">No trabalho</a></li>
+        <li><a class="context-nav-link" href="./daily-standup-meeting.html">Reunião diária</a></li>
+        <li><a class="context-nav-link" href="./giving-advice.html">Dando conselhos</a></li>
+        <li><a class="context-nav-link" href="./wishes-and-desires.html">Desejos e vontades</a></li>
+        <li><a class="context-nav-link" href="./conditions.html">Condicionais</a></li>
+        <li><a class="context-nav-link" href="./talking-about-he-and-she.html">Falando sobre ele e ela</a></li>
+        <li><a class="context-nav-link" href="./talking-about-feelings.html">Falando sobre sentimentos</a></li>
+        <li><a class="context-nav-link" href="./talking-about-places.html">Falando sobre lugares</a></li>
+        <li><a class="context-nav-link" href="./toddler-routines.html">Rotina de crianças</a></li>
+        <li><a class="context-nav-link" href="./shopping-at-supermarket.html">Compras no supermercado</a></li>
+        <li><a class="context-nav-link" href="./past-experiences.html">Experiências passadas</a></li>
+        <li><a class="context-nav-link" href="./bad-news.html">Más notícias</a></li>
+        <li><a class="context-nav-link" href="./perform-presentation.html">Apresentação</a></li>
+        <li><a class="context-nav-link" href="./ordering-food-restaurant.html">Pedido em restaurante</a></li>
+        <li><a class="context-nav-link" href="./talking-about-weather.html">Falando sobre o tempo</a></li>
+        <li><a class="context-nav-link" href="./morning-routines.html">Rotinas da manhã</a></li>
+        <li><a class="context-nav-link" href="./night-routines.html">Rotinas da noite</a></li>
+        <li><a class="context-nav-link" href="./travel-and-vacations.html">Viagens e férias</a></li>
+        <li><a class="context-nav-link" href="./asking-help-at-work.html">Pedindo ajuda no trabalho</a></li>
+        <li><a class="context-nav-link" href="./giving-status-updates.html">Atualizações de status</a></li>
+        <li><a class="context-nav-link" href="./project-discussions.html">Discussão de projetos</a></li>
+        <li><a class="context-nav-link" href="./problem-solving-at-work.html">Resolvendo problemas no trabalho</a></li>
+        <li><a class="context-nav-link" href="./talking-about-deadlines.html">Falando sobre prazos</a></li>
+        <li><a class="context-nav-link" href="./email-communication.html">Comunicação por e-mail</a></li>
+        <li><a class="context-nav-link" href="./introducing-yourself.html">Apresentando-se</a></li>
+        <li><a class="context-nav-link" href="./talking-about-hobbies.html">Falando sobre hobbies</a></li>
+        <li><a class="context-nav-link" href="./talking-about-family.html">Falando sobre família</a></li>
+        <li><a class="context-nav-link" href="./talking-about-friends.html">Falando sobre amigos</a></li>
+        <li><a class="context-nav-link context-nav-link--active" href="./making-invitations.html">Fazendo convites</a></li>
+        <li><a class="context-nav-link" href="./accepting-refusing-invitations.html">Aceitar ou recusar convites</a></li>
+        <li><a class="context-nav-link" href="./asking-for-directions.html">Pedindo direções</a></li>
+        <li><a class="context-nav-link" href="./at-the-doctor.html">No médico</a></li>
+        <li><a class="context-nav-link" href="./at-the-pharmacy.html">Na farmácia</a></li>
+        <li><a class="context-nav-link" href="./agreeing-and-disagreeing.html">Concordando e discordando</a></li>
+        <li><a class="context-nav-link" href="./apologizing.html">Pedindo desculpas</a></li>
+        <li><a class="context-nav-link" href="./house-chores.html">Tarefas domésticas</a></li>
+        <li><a class="context-nav-link" href="./software-development-conversations.html">Conversas de desenvolvimento</a></li>
+        <li><a class="context-nav-link" href="./training-verbs.html">Treinando verbos</a></li>
+              </ul>
+            </nav>
+          </aside>
+
+          <div class="content-layout">
+            <header class="context-page-header">
+              <h1 class="context-page-title" data-context-name>Fazer convites</h1>
+            </header>
+            <section class="context-intro" aria-label="Sobre este contexto">
+              <p class="context-intro-text">Convidar alguém em inglês — para café, jantar, evento ou call — pede clareza sobre data, hora e tom: casual entre amigos ou mais formal no trabalho. Frases com would you like to, are you free e let&#x27;s meet aparecem aqui com variações para aceitar, adiar ou sugerir outro horário.</p>
+              <p class="context-intro-text">Este contexto ajuda a evitar convites vagos que geram mal-entendidos. Ao repetir cada frase, inclua mentalmente um dia e horário específicos, mesmo que fictícios. Convite bom em inglês quase sempre ancora quando e onde — praticar com esses detalhes prepara você para mensagens reais no WhatsApp ou e-mail.</p>
+            </section>
+
+
+            <section class="trainer-controls" aria-label="Controles de áudio">
+              <div class="speed-wrapper">
+                <label for="speedSelect" class="speed-label">Velocidade</label>
+                <select id="speedSelect" class="speed-select">
+                  <option value="0.4">0.4x</option>
+                  <option value="0.6">0.6x</option>
+                  <option value="0.8" selected>0.8x</option>
+                  <option value="1">1x</option>
+                  <option value="1.2">1.2x</option>
+                  <option value="1.4">1.4x</option>
+                </select>
+              </div>
+              <button id="accentToggle" class="btn-accent" type="button" title="Inglês americano (clique para britânico)" aria-label="Sotaque: inglês americano. Clique para alternar.">
+                🇺🇸 EUA
+              </button>
+              <div class="trainer-controls-actions">
+                <button id="shuffleBtn" class="btn-shuffle" type="button" title="Embaralhar frases" aria-label="Embaralhar frases">
+                  ⇄ Sortear
+                </button>
+                <button id="listenAllBtn" class="btn-listen-all" type="button">
+                  ▶ Ouvir todos
+                </button>
+              </div>
+            </section>
+            <div id="contextAdSlot" class="context-ad-slot" aria-label="Publicidade"></div>
+            <div id="sentencesList" class="sentences-list">
+<article class="sentence-item" id="sentence-item-0" data-sentence-index="0">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="0" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="0" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Would you like to come to my party?</p>
+        <button type="button" class="btn-mic" data-index="0" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Você gostaria de vir à minha festa?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Yes, I would love to. When is it?</p>
+        <button type="button" class="btn-mic" data-index="0" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Sim, adoraria. Quando é?</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-1" data-sentence-index="1">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="1" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="1" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">I am having a dinner on Saturday. Can you make it?</p>
+        <button type="button" class="btn-mic" data-index="1" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Vou dar um jantar no sábado. Você pode vir?</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-2" data-sentence-index="2">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="2" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="2" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Do you want to join us for lunch?</p>
+        <button type="button" class="btn-mic" data-index="2" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Quer se juntar a nós para o almoço?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Sure, that would be great. What time?</p>
+        <button type="button" class="btn-mic" data-index="2" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Claro, seria ótimo. Que horas?</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-3" data-sentence-index="3">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="3" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="3" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="F">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">She invited the whole team to her wedding.</p>
+        <button type="button" class="btn-mic" data-index="3" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ela convidou toda a equipe para o casamento.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-4" data-sentence-index="4">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="4" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="4" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Are you free this weekend?</p>
+        <button type="button" class="btn-mic" data-index="4" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Você está livre neste fim de semana?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">I think so. What did you have in mind?</p>
+        <button type="button" class="btn-mic" data-index="4" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Acho que sim. O que você tinha em mente?</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-5" data-sentence-index="5">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="5" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="5" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="F">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">We are throwing a surprise party for Maria.</p>
+        <button type="button" class="btn-mic" data-index="5" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Estamos dando uma festa surpresa para a Maria.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-6" data-sentence-index="6">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="6" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="6" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Can you come to my birthday?</p>
+        <button type="button" class="btn-mic" data-index="6" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Você pode vir ao meu aniversário?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Of course. I would not miss it.</p>
+        <button type="button" class="btn-mic" data-index="6" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Claro. Não perderia por nada.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-7" data-sentence-index="7">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="7" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="7" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">He sent out invitations last week.</p>
+        <button type="button" class="btn-mic" data-index="7" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ele enviou os convites na semana passada.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-8" data-sentence-index="8">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="8" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="8" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="M">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Would you like to have coffee sometime?</p>
+        <button type="button" class="btn-mic" data-index="8" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Você gostaria de tomar um café algum dia?</p>
+    </div>
+    <div class="sentence-answer" data-ag="F">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Yes, that would be nice. How about next week?</p>
+        <button type="button" class="btn-mic" data-index="8" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Sim, seria bom. Que tal na próxima semana?</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-9" data-sentence-index="9">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="9" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="9" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">I am inviting a few friends over. Casual.</p>
+        <button type="button" class="btn-mic" data-index="9" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Estou convidando alguns amigos. Casual.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-10" data-sentence-index="10">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="10" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="10" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Do you want to go to the movies with us?</p>
+        <button type="button" class="btn-mic" data-index="10" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Quer ir ao cinema conosco?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Sure. What are we watching?</p>
+        <button type="button" class="btn-mic" data-index="10" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Claro. O que vamos assistir?</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-11" data-sentence-index="11">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="11" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="11" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="F">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">She asked me to her graduation. I said yes.</p>
+        <button type="button" class="btn-mic" data-index="11" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ela me convidou para a formatura. Aceitei.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-12" data-sentence-index="12">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="12" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="12" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Are you doing anything on Friday night?</p>
+        <button type="button" class="btn-mic" data-index="12" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Você tem algum plano na sexta à noite?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Nothing yet. Why?</p>
+        <button type="button" class="btn-mic" data-index="12" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Nada ainda. Por quê?</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-13" data-sentence-index="13">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="13" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="13" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">We would like to invite you to our housewarming.</p>
+        <button type="button" class="btn-mic" data-index="13" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Gostaríamos de convidá-lo para nossa festa de inauguração.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-14" data-sentence-index="14">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="14" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="14" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Can you make it to the meeting?</p>
+        <button type="button" class="btn-mic" data-index="14" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Você pode vir à reunião?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Yes, I will be there. What time does it start?</p>
+        <button type="button" class="btn-mic" data-index="14" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Sim, estarei lá. A que horas começa?</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-15" data-sentence-index="15">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="15" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="15" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">He invited me to play soccer on Sunday.</p>
+        <button type="button" class="btn-mic" data-index="15" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ele me convidou para jogar futebol no domingo.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-16" data-sentence-index="16">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="16" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="16" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Would you be interested in joining our book club?</p>
+        <button type="button" class="btn-mic" data-index="16" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Você teria interesse em entrar no nosso clube do livro?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">I would love to. When do you meet?</p>
+        <button type="button" class="btn-mic" data-index="16" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Adoraria. Quando vocês se reúnem?</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-17" data-sentence-index="17">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="17" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="17" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">I am organizing a barbecue. You are invited.</p>
+        <button type="button" class="btn-mic" data-index="17" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Estou organizando um churrasco. Você está convidado.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-18" data-sentence-index="18">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="18" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="18" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Do you want to come over for dinner?</p>
+        <button type="button" class="btn-mic" data-index="18" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Quer vir jantar em casa?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">That sounds great. Should I bring something?</p>
+        <button type="button" class="btn-mic" data-index="18" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Parece ótimo. Devo levar algo?</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-19" data-sentence-index="19">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="19" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="19" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="F">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">She is having a baby shower. We are all going.</p>
+        <button type="button" class="btn-mic" data-index="19" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ela vai dar um chá de bebê. Todos vamos.</p>
+    </div>
+  </div>
+</article>
+
+<div id="contextAdSlotMid" class="context-ad-slot context-ad-slot--mid" aria-label="Publicidade"></div>
+<article class="sentence-item" id="sentence-item-20" data-sentence-index="20">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="20" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="20" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Are you coming to the concert?</p>
+        <button type="button" class="btn-mic" data-index="20" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Você vai ao show?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Yes, I already have my ticket.</p>
+        <button type="button" class="btn-mic" data-index="20" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Sim, já tenho meu ingresso.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-21" data-sentence-index="21">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="21" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="21" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">We sent formal invitations. RSVP by next Monday.</p>
+        <button type="button" class="btn-mic" data-index="21" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Enviamos convites formais. Confirmar até a próxima segunda.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-22" data-sentence-index="22">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="22" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="22" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Can I invite a plus-one?</p>
+        <button type="button" class="btn-mic" data-index="22" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Posso convidar um acompanhante?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Of course. Just let us know the name.</p>
+        <button type="button" class="btn-mic" data-index="22" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Claro. É só nos avisar o nome.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-23" data-sentence-index="23">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="23" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="23" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">He asked me to be his best man. I said yes.</p>
+        <button type="button" class="btn-mic" data-index="23" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ele me pediu para ser padrinho. Aceitei.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-24" data-sentence-index="24">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="24" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="24" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Would you like to attend the conference?</p>
+        <button type="button" class="btn-mic" data-index="24" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Você gostaria de participar da conferência?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Yes, if I can get the time off.</p>
+        <button type="button" class="btn-mic" data-index="24" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Sim, se eu puder conseguir o dia de folga.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-25" data-sentence-index="25">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="25" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="25" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">I am thinking of having people over. Maybe next month.</p>
+        <button type="button" class="btn-mic" data-index="25" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Estou pensando em receber pessoas. Talvez mês que vem.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-26" data-sentence-index="26">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="26" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="26" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Do you want to grab a drink after work?</p>
+        <button type="button" class="btn-mic" data-index="26" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Quer tomar um drink depois do trabalho?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Sure. Where do you want to go?</p>
+        <button type="button" class="btn-mic" data-index="26" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Claro. Onde você quer ir?</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-27" data-sentence-index="27">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="27" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="27" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="F">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">She invited us to her cabin for the weekend.</p>
+        <button type="button" class="btn-mic" data-index="27" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ela nos convidou para o chalé dela no fim de semana.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-28" data-sentence-index="28">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="28" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="28" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Are you available for a call tomorrow?</p>
+        <button type="button" class="btn-mic" data-index="28" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Você está disponível para uma call amanhã?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Yes, morning works best for me.</p>
+        <button type="button" class="btn-mic" data-index="28" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Sim, de manhã é melhor para mim.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-29" data-sentence-index="29">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="29" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="29" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">We are having a small gathering. Just close friends.</p>
+        <button type="button" class="btn-mic" data-index="29" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Vamos fazer uma reunião pequena. Só amigos próximos.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-30" data-sentence-index="30">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="30" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="30" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Can you join our team for the event?</p>
+        <button type="button" class="btn-mic" data-index="30" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Você pode se juntar à nossa equipe no evento?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">I would be happy to. What do you need?</p>
+        <button type="button" class="btn-mic" data-index="30" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ficaria feliz. O que vocês precisam?</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-31" data-sentence-index="31">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="31" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="31" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">He is inviting everyone from the office.</p>
+        <button type="button" class="btn-mic" data-index="31" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ele está convidando todo mundo do escritório.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-32" data-sentence-index="32">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="32" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="32" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Would you like to be my guest at the dinner?</p>
+        <button type="button" class="btn-mic" data-index="32" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Você gostaria de ser meu convidado no jantar?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Thank you. I would be honored.</p>
+        <button type="button" class="btn-mic" data-index="32" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Obrigado. Seria uma honra.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-33" data-sentence-index="33">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="33" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="33" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">I am planning a trip. Want to come?</p>
+        <button type="button" class="btn-mic" data-index="33" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Estou planejando uma viagem. Quer vir?</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-34" data-sentence-index="34">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="34" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="34" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="M">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Do you want to try that new restaurant?</p>
+        <button type="button" class="btn-mic" data-index="34" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Quer experimentar aquele restaurante novo?</p>
+    </div>
+    <div class="sentence-answer" data-ag="F">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Yes, let us go this weekend.</p>
+        <button type="button" class="btn-mic" data-index="34" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Sim, vamos neste fim de semana.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-35" data-sentence-index="35">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="35" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="35" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="F">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">She is having a going-away party. You should come.</p>
+        <button type="button" class="btn-mic" data-index="35" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ela vai dar uma festa de despedida. Você deveria ir.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-36" data-sentence-index="36">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="36" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="36" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Are you up for a game night?</p>
+        <button type="button" class="btn-mic" data-index="36" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Você topa uma noite de jogos?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Sure. I love game nights. When?</p>
+        <button type="button" class="btn-mic" data-index="36" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Claro. Adoro noite de jogos. Quando?</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-37" data-sentence-index="37">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="37" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="37" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">We need to confirm the guest list.</p>
+        <button type="button" class="btn-mic" data-index="37" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Precisamos confirmar a lista de convidados.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-38" data-sentence-index="38">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="38" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="38" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Can I invite my sister?</p>
+        <button type="button" class="btn-mic" data-index="38" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Posso convidar minha irmã?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Of course. The more the merrier.</p>
+        <button type="button" class="btn-mic" data-index="38" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Claro. Quanto mais, melhor.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-39" data-sentence-index="39">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="39" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="39" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">He handed me an invitation. It is next Saturday.</p>
+        <button type="button" class="btn-mic" data-index="39" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ele me entregou um convite. É no próximo sábado.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-40" data-sentence-index="40">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="40" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="40" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Would you like to speak at the event?</p>
+        <button type="button" class="btn-mic" data-index="40" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Você gostaria de falar no evento?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">I would need to prepare. What is the topic?</p>
+        <button type="button" class="btn-mic" data-index="40" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Precisaria me preparar. Qual é o tema?</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-41" data-sentence-index="41">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="41" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="41" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">I am sending out save-the-dates first.</p>
+        <button type="button" class="btn-mic" data-index="41" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Estou enviando primeiro os save-the-dates.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-42" data-sentence-index="42">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="42" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="42" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Do you want to come to the opening?</p>
+        <button type="button" class="btn-mic" data-index="42" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Quer vir à inauguração?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Yes, I would not miss it. Thanks for inviting me.</p>
+        <button type="button" class="btn-mic" data-index="42" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Sim, não perderia. Obrigado por me convidar.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-43" data-sentence-index="43">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="43" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="43" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="F">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">She invited me to her birthday. I need to get a gift.</p>
+        <button type="button" class="btn-mic" data-index="43" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ela me convidou para o aniversário. Preciso comprar um presente.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-44" data-sentence-index="44">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="44" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="44" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Are you free for lunch tomorrow?</p>
+        <button type="button" class="btn-mic" data-index="44" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Você está livre para almoçar amanhã?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">I have a meeting at noon. How about Thursday?</p>
+        <button type="button" class="btn-mic" data-index="44" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Tenho reunião ao meio-dia. Que tal quinta?</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-45" data-sentence-index="45">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="45" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="45" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">We are having a potluck. Everyone brings a dish.</p>
+        <button type="button" class="btn-mic" data-index="45" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Vamos fazer um potluck. Cada um traz um prato.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-46" data-sentence-index="46">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="46" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="46" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Can you come to the ceremony?</p>
+        <button type="button" class="btn-mic" data-index="46" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Você pode vir à cerimônia?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">I will try. I need to check my schedule.</p>
+        <button type="button" class="btn-mic" data-index="46" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Vou tentar. Preciso ver minha agenda.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-47" data-sentence-index="47">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="47" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="47" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">He is having a house party. It is going to be fun.</p>
+        <button type="button" class="btn-mic" data-index="47" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ele vai dar uma festa em casa. Vai ser divertido.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-48" data-sentence-index="48">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="48" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="48" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Would you like to be part of the committee?</p>
+        <button type="button" class="btn-mic" data-index="48" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Você gostaria de fazer parte do comitê?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">I would need to know the time commitment.</p>
+        <button type="button" class="btn-mic" data-index="48" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Precisaria saber o comprometimento de tempo.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-49" data-sentence-index="49">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="49" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="49" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">I invited everyone by email. Some have already replied.</p>
+        <button type="button" class="btn-mic" data-index="49" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Convidei todos por e-mail. Alguns já responderam.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-50" data-sentence-index="50">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="50" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="50" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Do you want to go for a walk?</p>
+        <button type="button" class="btn-mic" data-index="50" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Quer dar uma caminhada?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Sure. Let us go to the park.</p>
+        <button type="button" class="btn-mic" data-index="50" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Claro. Vamos ao parque.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-51" data-sentence-index="51">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="51" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="51" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="F">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">She is having a casual get-together. No need to dress up.</p>
+        <button type="button" class="btn-mic" data-index="51" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Ela vai fazer um encontro casual. Não precisa se arrumar.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-52" data-sentence-index="52">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence" data-index="52" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="52" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-question" data-qg="F">
+      <div class="sentence-line sentence-line--english" data-part="question">
+        <p class="sentence-text" data-field="QE">Are you coming to the reunion?</p>
+        <button type="button" class="btn-mic" data-index="52" data-part="question" title="Fale esta pergunta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="QP">Você vai à reunião?</p>
+    </div>
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">Yes, I already signed up.</p>
+        <button type="button" class="btn-mic" data-index="52" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Sim, já me inscrevi.</p>
+    </div>
+  </div>
+</article>
+<article class="sentence-item" id="sentence-item-53" data-sentence-index="53">
+  <div class="sentence-item-actions">
+    <button type="button" class="btn-play-sentence sentence-item__play--hidden" data-index="53" data-part="question" title="Play question" aria-label="Play question">▶</button>
+    <button type="button" class="btn-play-sentence" data-index="53" data-part="answer" title="Play" aria-label="Play">▶</button>
+  </div>
+  <div class="sentence-item-content">
+    <div class="sentence-answer" data-ag="M">
+      <div class="sentence-line sentence-line--english" data-part="answer">
+        <p class="sentence-text" data-field="AE">We would love to have you. Please say you will come.</p>
+        <button type="button" class="btn-mic" data-index="53" data-part="answer" title="Fale esta resposta em inglês"><img src="../img/mic-icon.png" alt="Microfone" /></button>
+        <span class="speech-score hidden"></span>
+      </div>
+      <p class="sentence-text sentence-text--pt" data-field="AP">Adoraríamos tê-lo. Por favor diga que virá.</p>
+    </div>
+  </div>
+</article>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <nav class="policy-menu-links" aria-label="Policy links">
+        <a class="policy-menu-link" href="../about.html">Sobre</a>
+        <a class="policy-menu-link" href="../cookies.html">Política de cookies</a>
+        <a class="policy-menu-link" href="../privacy-policy.html">Política de privacidade</a>
+        <a class="policy-menu-link" href="../contact.html">Contato</a>
+        <a class="policy-menu-link" href="../terms.html">Termos de uso</a>
+      </nav>
+    </footer>
+  </div>
+
+  <div id="cookieConsentBanner" class="cookie-consent-banner hidden" role="dialog" aria-label="Consentimento de cookies">
+    <p class="cookie-consent-text">
+      Usamos cookies para preferências e, ao aceitar, para publicidade (Google AdSense). Veja nossa
+      <a href="../cookies.html">Política de cookies</a> e <a href="../privacy-policy.html">Política de privacidade</a>.
+    </p>
+    <div class="cookie-consent-actions">
+      <a href="../cookies.html" class="cookie-consent-link">Política de cookies</a>
+      <a href="../privacy-policy.html" class="cookie-consent-link">Política de privacidade</a>
+      <button type="button" id="cookieConsentReject" class="cookie-consent-reject">Recusar</button>
+      <button type="button" id="cookieConsentAccept" class="cookie-consent-accept">Aceitar</button>
+    </div>
+  </div>
+  <script src="../cookie-consent.js"></script>
+  <script src="../ads.js"></script>
+  <script src="../main.js"></script>
+</body>
+</html>

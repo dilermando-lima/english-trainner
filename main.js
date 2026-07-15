@@ -1,118 +1,40 @@
-const contextsConfig = [
-  { id: 'greetings', displayName: 'Saudações' },
-  { id: 'ask-things', displayName: 'Perguntar coisas' },
-  { id: 'training-sentences', displayName: 'Frases de treino' },
-  { id: 'present-perfect', displayName: 'Present perfect' },
-  { id: 'daily-routines', displayName: 'Rotinas diárias' },
-  { id: 'cooking', displayName: 'Culinária' },
-  { id: 'at-job-sentences', displayName: 'No trabalho' },
-  { id: 'daily-standup-meeting', displayName: 'Reunião diária' },
-  { id: 'giving-advice', displayName: 'Dando conselhos' },
-  { id: 'wishes-and-desires', displayName: 'Desejos e vontades' },
-  { id: 'conditions', displayName: 'Condicionais' },
-  { id: 'talking-about-he-and-she', displayName: 'Falando sobre ele e ela' },
-  { id: 'talking-about-feelings', displayName: 'Falando sobre sentimentos' },
-  { id: 'talking-about-places', displayName: 'Falando sobre lugares' },
-  { id: 'toddler-routines', displayName: 'Rotina de crianças' },
-  { id: 'shopping-at-supermarket', displayName: 'Compras no supermercado' },
-  { id: 'past-experiences', displayName: 'Experiências passadas' },
-  { id: 'bad-news', displayName: 'Más notícias' },
-  { id: 'perform-presentation', displayName: 'Apresentação' },
-  { id: 'ordering-food-restaurant', displayName: 'Pedido em restaurante' },
-  { id: 'talking-about-weather', displayName: 'Falando sobre o tempo' },
-  { id: 'morning-routines', displayName: 'Rotinas da manhã' },
-  { id: 'night-routines', displayName: 'Rotinas da noite' },
-  { id: 'travel-and-vacations', displayName: 'Viagens e férias' },
-  { id: 'asking-help-at-work', displayName: 'Pedindo ajuda no trabalho' },
-  { id: 'giving-status-updates', displayName: 'Atualizações de status' },
-  { id: 'project-discussions', displayName: 'Discussão de projetos' },
-  { id: 'problem-solving-at-work', displayName: 'Resolvendo problemas no trabalho' },
-  { id: 'talking-about-deadlines', displayName: 'Falando sobre prazos' },
-  { id: 'email-communication', displayName: 'Comunicação por e-mail' },
-  { id: 'introducing-yourself', displayName: 'Apresentando-se' },
-  { id: 'talking-about-hobbies', displayName: 'Falando sobre hobbies' },
-  { id: 'talking-about-family', displayName: 'Falando sobre família' },
-  { id: 'talking-about-friends', displayName: 'Falando sobre amigos' },
-  { id: 'making-invitations', displayName: 'Fazendo convites' },
-  { id: 'accepting-refusing-invitations', displayName: 'Aceitar ou recusar convites' },
-  { id: 'asking-for-directions', displayName: 'Pedindo direções' },
-  { id: 'at-the-doctor', displayName: 'No médico' },
-  { id: 'at-the-pharmacy', displayName: 'Na farmácia' },
-  { id: 'agreeing-and-disagreeing', displayName: 'Concordando e discordando' },
-  { id: 'apologizing', displayName: 'Pedindo desculpas' },
-  { id: 'house-chores', displayName: 'Tarefas domésticas' },
-  { id: 'software-development-conversations', displayName: 'Conversas de desenvolvimento' },
-  { id: 'training-verbs', displayName: 'Treinando verbos' },
-];
-
-/** Cache: context id -> loaded context data (so we don't re-fetch) */
-const contextDataCache = {};
-
-/** Load context data: from cache or fetch JSON when the context is selected. */
-async function fetchContextData(id) {
-  if (contextDataCache[id]) return contextDataCache[id];
-  const url = `./context/${id}.json`;
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`Failed to load context: ${res.status}`);
-  const data = await res.json();
-  contextDataCache[id] = data;
-  return data;
-}
-
 let currentContext = null;
 let currentIndex = 0;
 let autoplay = false;
-let isPlayingSingle = false;
 let currentRate = 0.8;
-let currentPlayingSentenceIndex = null;
+let currentAccent = 'en-US';
 let speechSynthesisSupported = 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
 let speechRecognitionSupported = 'SpeechRecognition' in window || 'webkitSpeechRecognition' in window;
 let cachedVoices = [];
 let speechWarnHideTimeout = null;
 
 const elements = {
-  contextSelect: document.getElementById('contextSelect'),
-  contextLoadProgress: document.getElementById('contextLoadProgress'),
   sentencesList: document.getElementById('sentencesList'),
   listenAllBtn: document.getElementById('listenAllBtn'),
+  shuffleBtn: document.getElementById('shuffleBtn'),
+  accentToggle: document.getElementById('accentToggle'),
   speedSelect: document.getElementById('speedSelect'),
   themeToggle: document.getElementById('themeToggle'),
   themeIconSun: document.querySelector('.theme-icon-sun'),
   themeIconMoon: document.querySelector('.theme-icon-moon'),
-  trainerView: document.getElementById('trainer-view'),
-  policyMenuToggle: document.getElementById('policyMenuToggle'),
-  policyMenuModal: document.getElementById('policyMenuModal'),
-  policyMenuBackdrop: document.getElementById('policyMenuBackdrop'),
-  policyMenuClose: document.getElementById('policyMenuClose'),
   speechWarnToast: document.getElementById('speechWarnToast'),
+  sidebarToggle: document.getElementById('sidebarToggle'),
+  sidebarClose: document.getElementById('sidebarClose'),
+  contextSidebar: document.getElementById('contextSidebar'),
+  sidebarBackdrop: document.getElementById('sidebarBackdrop'),
 };
 
 const THEME_KEY = 'english-trainer-theme';
-const CONTEXT_KEY = 'english-trainer-last-context';
 const SPEED_KEY = 'english-trainer-last-speed';
-
-function renderRoute() {
-  if (elements.trainerView) elements.trainerView.classList.remove('hidden');
-  document.title = 'English Trainer — English Trainer';
-}
+const ACCENT_KEY = 'english-trainer-last-accent';
 
 function init() {
+  if (!elements.sentencesList) return;
+
   applySavedTheme();
-  renderRoute();
-
-  populateContextSelect();
   wireEvents();
+  initSentencesFromDom();
 
-  // Select last used context (if available) or default to 'Greetings'
-  const savedContextId = localStorage.getItem(CONTEXT_KEY);
-  let initialContextConfig =
-    contextsConfig.find((c) => c.id === savedContextId) || contextsConfig[0];
-
-  if (elements.contextSelect && initialContextConfig) {
-    elements.contextSelect.value = initialContextConfig.id;
-  }
-
-  // Apply last used speed (if available)
   const savedSpeed = localStorage.getItem(SPEED_KEY);
   if (savedSpeed) {
     const parsedSpeed = parseFloat(savedSpeed);
@@ -124,9 +46,13 @@ function init() {
     }
   }
 
-  loadContext(initialContextConfig).then(() => {
-    updateListenAllState();
-  });
+  const savedAccent = localStorage.getItem(ACCENT_KEY);
+  if (savedAccent === 'en-US' || savedAccent === 'en-GB') {
+    currentAccent = savedAccent;
+  }
+  updateAccentButton();
+
+  updateListenAllState();
 
   if (!speechSynthesisSupported) {
     if (elements.listenAllBtn) elements.listenAllBtn.disabled = true;
@@ -136,13 +62,109 @@ function init() {
   }
 }
 
-function populateContextSelect() {
-  contextsConfig.forEach((ctx) => {
-    const option = document.createElement('option');
-    option.value = ctx.id;
-    option.textContent = ctx.displayName;
-    elements.contextSelect.appendChild(option);
+function getFieldText(container, field) {
+  if (!container) return '';
+  const el = container.querySelector(`[data-field="${field}"]`);
+  if (!el) return '';
+  const text = el.textContent.trim();
+  return text === '—' ? '' : text;
+}
+
+function getGenderFromBlock(block, attrName, fallback) {
+  // data-qg="F" → female voice, data-qg="M" → male voice (same for data-ag)
+  return normalizeGender(block?.getAttribute(attrName), fallback);
+}
+
+function parseSentenceItem(item) {
+  const qBlock = item.querySelector('.sentence-question');
+  const aBlock = item.querySelector('.sentence-answer');
+  return {
+    QE: getFieldText(qBlock, 'QE'),
+    QP: getFieldText(qBlock, 'QP'),
+    AE: getFieldText(aBlock, 'AE'),
+    AP: getFieldText(aBlock, 'AP'),
+  };
+}
+
+function getSentenceGender(index, part) {
+  const item = document.getElementById('sentence-item-' + index);
+  const isQuestion = part === 'question';
+  const block = item?.querySelector(isQuestion ? '.sentence-question' : '.sentence-answer');
+  return getGenderFromBlock(block, isQuestion ? 'data-qg' : 'data-ag', isQuestion ? 'F' : 'M');
+}
+
+function initSentencesFromDom() {
+  if (!elements.sentencesList) return;
+
+  const items = elements.sentencesList.querySelectorAll('.sentence-item');
+  const sentences = Array.from(items).map(parseSentenceItem);
+
+  items.forEach((item, index) => {
+    item.id = 'sentence-item-' + index;
+    item.dataset.sentenceIndex = String(index);
+    item.querySelectorAll('[data-index]').forEach((el) => {
+      el.dataset.index = String(index);
+    });
   });
+
+  const contextName =
+    document.querySelector('[data-context-name]')?.textContent?.trim() || document.title;
+
+  currentContext = { name: contextName, sentences };
+  currentIndex = 0;
+}
+
+const MID_AD_AFTER_SENTENCE_COUNT = 20;
+
+function shuffleArray(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function placeMidAdSlot() {
+  const midAd = document.getElementById('contextAdSlotMid');
+  if (!midAd || !elements.sentencesList) return;
+
+  if (midAd.parentNode) {
+    midAd.parentNode.removeChild(midAd);
+  }
+
+  const items = elements.sentencesList.querySelectorAll('.sentence-item');
+  const insertAfterIndex = MID_AD_AFTER_SENTENCE_COUNT - 1;
+
+  if (items.length > insertAfterIndex) {
+    items[insertAfterIndex].insertAdjacentElement('afterend', midAd);
+    return;
+  }
+
+  elements.sentencesList.appendChild(midAd);
+}
+
+function shuffleSentences() {
+  if (!elements.sentencesList) return;
+
+  const items = Array.from(elements.sentencesList.querySelectorAll('.sentence-item'));
+  if (items.length <= 1) return;
+
+  if (autoplay) {
+    autoplay = false;
+    window.speechSynthesis.cancel();
+    if (elements.listenAllBtn) elements.listenAllBtn.textContent = 'Ouvir todos';
+    clearPlayingSentenceIndex();
+    updateListenAllState();
+  }
+
+  shuffleArray(items).forEach((item) => {
+    elements.sentencesList.appendChild(item);
+  });
+
+  placeMidAdSlot();
+  initSentencesFromDom();
+  currentIndex = 0;
 }
 
 function wireEvents() {
@@ -150,37 +172,31 @@ function wireEvents() {
     elements.themeToggle.addEventListener('click', toggleTheme);
   }
 
-  wirePolicyMenuEvents();
+  wireSidebarEvents();
 
-  elements.contextSelect.addEventListener('change', async (e) => {
-    const selectedId = e.target.value;
-    const config = contextsConfig.find((c) => c.id === selectedId);
-    if (!config) return;
-    localStorage.setItem(CONTEXT_KEY, selectedId);
-    autoplay = false;
-    isPlayingSingle = false;
-    if (elements.listenAllBtn) elements.listenAllBtn.textContent = 'Ouvir todos';
-    updateListenAllState();
+  if (elements.shuffleBtn) {
+    elements.shuffleBtn.addEventListener('click', shuffleSentences);
+  }
 
-    await loadContext(config);
-  });
+  if (elements.accentToggle) {
+    elements.accentToggle.addEventListener('click', toggleAccent);
+  }
 
   if (elements.listenAllBtn) {
     elements.listenAllBtn.addEventListener('click', () => {
-    if (!currentContext) return;
-    autoplay = !autoplay;
-    isPlayingSingle = false;
-    if (autoplay) {
-      elements.listenAllBtn.textContent = 'Parar autoplay';
-      setPlayingSentenceIndex(currentIndex);
-      speakCurrentSentence(currentRate);
-    } else {
-      elements.listenAllBtn.textContent = 'Ouvir todos';
-      window.speechSynthesis.cancel();
-      clearPlayingSentenceIndex();
-    }
-    updateListenAllState();
-  });
+      if (!currentContext) return;
+      autoplay = !autoplay;
+      if (autoplay) {
+        elements.listenAllBtn.textContent = 'Parar autoplay';
+        setPlayingSentenceIndex(currentIndex);
+        speakCurrentSentence(currentRate);
+      } else {
+        elements.listenAllBtn.textContent = 'Ouvir todos';
+        window.speechSynthesis.cancel();
+        clearPlayingSentenceIndex();
+      }
+      updateListenAllState();
+    });
   }
 
   if (elements.speedSelect) {
@@ -190,8 +206,6 @@ function wireEvents() {
         currentRate = value;
         localStorage.setItem(SPEED_KEY, String(value));
 
-        // If autoplay is currently running, restart the current sentence
-        // so playback continues immediately at the newly selected speed.
         if (autoplay && speechSynthesisSupported && currentContext && currentContext.sentences.length) {
           window.speechSynthesis.cancel();
           speakCurrentSentence(currentRate);
@@ -200,7 +214,6 @@ function wireEvents() {
     });
   }
 
-  // Delegated: play one sentence
   if (elements.sentencesList) {
     elements.sentencesList.addEventListener('click', (e) => {
       const playBtn = e.target.closest('.btn-play-sentence');
@@ -214,13 +227,8 @@ function wireEvents() {
             updateListenAllState();
           }
           const part = playBtn.dataset.part;
-          if (part === 'question' || part === 'answer') {
-            setPlayingSentenceIndex(idx);
-            speakSentencePartAtIndex(idx, part, currentRate);
-          } else {
-            setPlayingSentenceIndex(idx);
-            speakSentenceAtIndex(idx, currentRate);
-          }
+          setPlayingSentenceIndex(idx);
+          speakSentencePartAtIndex(idx, part, currentRate);
         }
         return;
       }
@@ -236,56 +244,68 @@ function wireEvents() {
   }
 }
 
-function isPolicyMenuOpen() {
-  return !!(elements.policyMenuModal && !elements.policyMenuModal.classList.contains('hidden'));
+function isSidebarOpen() {
+  return !!(elements.contextSidebar && elements.contextSidebar.classList.contains('context-sidebar--open'));
 }
 
-function openPolicyMenu() {
-  if (!elements.policyMenuModal) return;
-  elements.policyMenuModal.classList.remove('hidden');
-  document.body.style.overflow = 'hidden';
-  if (elements.policyMenuClose) {
-    elements.policyMenuClose.focus();
+function openSidebar() {
+  if (!elements.contextSidebar) return;
+  elements.contextSidebar.classList.add('context-sidebar--open');
+  if (elements.sidebarBackdrop) {
+    elements.sidebarBackdrop.classList.remove('hidden');
+    elements.sidebarBackdrop.setAttribute('aria-hidden', 'false');
   }
-}
-
-function closePolicyMenu() {
-  if (!elements.policyMenuModal) return;
-  elements.policyMenuModal.classList.add('hidden');
-  document.body.style.overflow = '';
-  if (elements.policyMenuToggle) {
-    elements.policyMenuToggle.focus();
+  if (elements.sidebarToggle) {
+    elements.sidebarToggle.setAttribute('aria-expanded', 'true');
   }
+  if (elements.sidebarClose) {
+    elements.sidebarClose.focus();
+  }
+  document.body.classList.add('sidebar-open');
 }
 
-function wirePolicyMenuEvents() {
-  if (!elements.policyMenuToggle || !elements.policyMenuModal) return;
+function closeSidebar() {
+  if (!elements.contextSidebar) return;
+  elements.contextSidebar.classList.remove('context-sidebar--open');
+  if (elements.sidebarBackdrop) {
+    elements.sidebarBackdrop.classList.add('hidden');
+    elements.sidebarBackdrop.setAttribute('aria-hidden', 'true');
+  }
+  if (elements.sidebarToggle) {
+    elements.sidebarToggle.setAttribute('aria-expanded', 'false');
+    elements.sidebarToggle.focus();
+  }
+  document.body.classList.remove('sidebar-open');
+}
 
-  elements.policyMenuToggle.addEventListener('click', () => {
-    if (isPolicyMenuOpen()) closePolicyMenu();
-    else openPolicyMenu();
+function wireSidebarEvents() {
+  if (!elements.sidebarToggle || !elements.contextSidebar) return;
+
+  elements.sidebarToggle.addEventListener('click', () => {
+    if (isSidebarOpen()) closeSidebar();
+    else openSidebar();
   });
 
-  if (elements.policyMenuBackdrop) {
-    elements.policyMenuBackdrop.addEventListener('click', closePolicyMenu);
+  if (elements.sidebarClose) {
+    elements.sidebarClose.addEventListener('click', closeSidebar);
   }
 
-  if (elements.policyMenuClose) {
-    elements.policyMenuClose.addEventListener('click', closePolicyMenu);
+  if (elements.sidebarBackdrop) {
+    elements.sidebarBackdrop.addEventListener('click', closeSidebar);
   }
 
-  elements.policyMenuModal.addEventListener('click', (e) => {
+  elements.contextSidebar.addEventListener('click', (e) => {
     const target = e.target;
     if (!(target instanceof HTMLElement)) return;
-    if (target.closest('a.policy-menu-link')) {
-      closePolicyMenu();
+    if (target.closest('a.context-nav-link')) {
+      closeSidebar();
     }
   });
 
   document.addEventListener('keydown', (e) => {
     if (e.key !== 'Escape') return;
-    if (!isPolicyMenuOpen()) return;
-    closePolicyMenu();
+    if (!isSidebarOpen()) return;
+    closeSidebar();
   });
 }
 
@@ -301,7 +321,6 @@ function normalizeForComparison(text) {
 }
 
 function pronunciationSimilarity(s1, s2) {
-  // New strategy: combine word-level and character bigram similarity.
   const a = normalizeForComparison(s1);
   const b = normalizeForComparison(s2);
   if (!a || !b) return 0;
@@ -340,14 +359,12 @@ function pronunciationSimilarity(s1, s2) {
   });
   const charSim = (2 * commonBi) / (aBi.length + bBi.length || 1);
 
-  // Final similarity: weighted average (still returns 0–1)
   return 0.6 * wordSim + 0.4 * charSim;
 }
 
 function showSpeechFeedWarn(message) {
   const toast = elements.speechWarnToast;
   if (!toast) {
-    // Fallback if element is missing
     alert(message);
     return;
   }
@@ -380,7 +397,11 @@ function handlePronunciationCheck(sentenceIndex, part) {
     return;
   }
 
-  const lineEl = elements.sentencesList && elements.sentencesList.querySelector(`.sentence-item[data-sentence-index="${sentenceIndex}"] .sentence-line[data-part="${part}"]`);
+  const lineEl =
+    elements.sentencesList &&
+    elements.sentencesList.querySelector(
+      `.sentence-item[data-sentence-index="${sentenceIndex}"] .sentence-line[data-part="${part}"]`
+    );
   const row = lineEl && lineEl.closest('.sentence-item');
   const activeBtn = row && row.querySelector(`.btn-mic[data-part="${part}"]`);
   const scoreElement = row && row.querySelector(`.sentence-line[data-part="${part}"] .speech-score`);
@@ -412,8 +433,8 @@ function handlePronunciationCheck(sentenceIndex, part) {
     try {
       const transcript = event.results[0][0].transcript || '';
       const score = pronunciationSimilarity(normalizedExpected, transcript);
-      const reduction = (Math.random() * 4 + 2);
-      const reducedScore = Math.max(0, (score * 100) - reduction);
+      const reduction = Math.random() * 4 + 2;
+      const reducedScore = Math.max(0, score * 100 - reduction);
       const percent = Math.round(reducedScore);
       const isGood = score >= 0.9;
 
@@ -462,262 +483,14 @@ function updateThemeIcons(isDark) {
   if (elements.themeIconMoon) elements.themeIconMoon.classList.toggle('hidden', !isDark);
 }
 
-function shuffleArray(arr) {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
-
-/** Show or hide the context loading progress indicator. */
-function showContextLoadProgress(show) {
-  if (!elements.contextLoadProgress) return;
-  elements.contextLoadProgress.classList.toggle('hidden', !show);
-  elements.contextLoadProgress.setAttribute('aria-hidden', show ? 'false' : 'true');
-  if (elements.contextSelect) {
-    elements.contextSelect.disabled = !!show;
-  }
-}
-
-async function loadContext(config) {
-  showContextLoadProgress(true);
-  removeSentencesListError();
-  let data;
-  try {
-    data = await fetchContextData(config.id);
-  } catch (err) {
-    console.error(err);
-    showContextLoadProgress(false);
-    showSentencesListError('Erro ao carregar contexto.');
-    if (elements.listenAllBtn) elements.listenAllBtn.disabled = true;
-    return;
-  }
-  showContextLoadProgress(false);
-  if (!data || !Array.isArray(data.sentences)) {
-    showSentencesListError('Dados inválidos.');
-    if (elements.listenAllBtn) elements.listenAllBtn.disabled = true;
-    return;
-  }
-
-  const shuffledSentences = shuffleArray(data.sentences);
-  currentContext = { ...data, sentences: shuffledSentences };
-  currentIndex = 0;
-
-  fillSentenceItems();
-
-  const hasSentences = currentContext.sentences.length > 0;
-  if (elements.listenAllBtn) {
-    elements.listenAllBtn.disabled = !hasSentences || !speechSynthesisSupported;
-  }
-  updateListenAllState();
-}
-
-function showSentencesListError(message) {
-  if (!elements.sentencesList) return;
-  removeSentencesListError();
-  const p = document.createElement('p');
-  p.className = 'sentences-error';
-  p.textContent = message;
-  elements.sentencesList.insertBefore(p, elements.sentencesList.firstChild);
-}
-
-function removeSentencesListError() {
-  if (!elements.sentencesList) return;
-  const err = elements.sentencesList.querySelector('.sentences-error');
-  if (err) err.remove();
-}
-
-const MIC_ICON_URL = './img/mic-icon.png';
-
-const SENTENCE_SLOTS_COUNT = 50;
-
-/** Ensure sentencesList has 50 sentence-item slots (created on first load). */
-function ensureSentenceListSlots() {
-  if (!elements.sentencesList) return;
-  for (let i = 0; i < SENTENCE_SLOTS_COUNT; i++) {
-    if (document.getElementById('sentence-item-' + i)) continue;
-    const article = document.createElement('article');
-    article.id = 'sentence-item-' + i;
-    article.className = 'sentence-item';
-    article.dataset.sentenceIndex = String(i);
-    const actions = document.createElement('div');
-    actions.className = 'sentence-item-actions';
-    const content = document.createElement('div');
-    content.className = 'sentence-item-content';
-    article.appendChild(actions);
-    article.appendChild(content);
-    elements.sentencesList.appendChild(article);
-  }
-}
-
-/** Ensure sentence-item-actions has two play buttons: question (English) first, then answer (English). */
-const PLAY_ICON = '▶';
-function ensureActionsHasPlayButtons(item, sentenceIndex) {
-  const actions = item.querySelector('.sentence-item-actions');
-  if (!actions) return;
-  actions.querySelectorAll('.btn-play-sentence').forEach((b) => b.remove());
-  const labels = { question: 'Play question', answer: 'Play' };
-  ['question', 'answer'].forEach((part) => {
-    const btn = document.createElement('button');
-    btn.type = 'button';
-    btn.className = 'btn-play-sentence';
-    btn.dataset.index = String(sentenceIndex);
-    btn.dataset.part = part;
-    btn.title = labels[part];
-    btn.setAttribute('aria-label', labels[part]);
-    btn.textContent = PLAY_ICON;
-    actions.appendChild(btn);
-  });
-}
-
-/** Ensure one sentence-item has both question and answer blocks; create missing block. */
-function ensureSentenceItemHasBothBlocks(item, sentenceIndex) {
-  const content = item.querySelector('.sentence-item-content');
-  if (!content) return;
-  const hasQuestion = content.querySelector('.sentence-question');
-  const hasAnswer = content.querySelector('.sentence-answer');
-  if (hasQuestion && hasAnswer) return;
-
-  function makeBlock(part) {
-    const block = document.createElement('div');
-    block.className = part === 'question' ? 'sentence-question' : 'sentence-answer';
-    const line = document.createElement('div');
-    line.className = 'sentence-line sentence-line--english';
-    line.dataset.part = part;
-    const en = document.createElement('p');
-    en.className = 'sentence-text';
-    const mic = document.createElement('button');
-    mic.type = 'button';
-    mic.className = 'btn-mic';
-    mic.dataset.index = String(sentenceIndex);
-    mic.dataset.part = part;
-    mic.title = part === 'question' ? 'Fale esta pergunta em inglês' : 'Fale esta resposta em inglês';
-    mic.innerHTML = '<img src="' + MIC_ICON_URL + '" alt="Microfone" />';
-    const score = document.createElement('span');
-    score.className = 'speech-score hidden';
-    line.appendChild(en);
-    line.appendChild(mic);
-    line.appendChild(score);
-    const pt = document.createElement('p');
-    pt.className = 'sentence-text sentence-text--pt';
-    block.appendChild(line);
-    block.appendChild(pt);
-    return block;
-  }
-
-  if (!hasQuestion) {
-    const qBlock = makeBlock('question');
-    content.insertBefore(qBlock, content.firstChild);
-  }
-  if (!hasAnswer) {
-    const aBlock = makeBlock('answer');
-    content.appendChild(aBlock);
-  }
-}
-
-/** Update the sentence-item slots from currentContext (shuffled). One phrase per item, both question and answer shown. */
-function fillSentenceItems() {
-  if (!elements.sentencesList || !currentContext || !currentContext.sentences.length) return;
-  ensureSentenceListSlots();
-  removeSentencesListError();
-  const sentences = currentContext.sentences;
-  const phraseCount = Math.min(SENTENCE_SLOTS_COUNT, sentences.length);
-  const micTitleQuestion = 'Fale esta pergunta em inglês';
-  const micTitleAnswer = 'Fale esta resposta em inglês';
-
-  for (let slotIndex = 0; slotIndex < SENTENCE_SLOTS_COUNT; slotIndex++) {
-    const item = document.getElementById('sentence-item-' + slotIndex);
-    if (!item) continue;
-
-    if (slotIndex >= phraseCount) {
-      item.classList.add('sentence-item--hidden');
-      continue;
-    }
-    item.classList.remove('sentence-item--hidden');
-
-    const sentence = sentences[slotIndex];
-    const sentenceIndex = slotIndex;
-    item.dataset.sentenceIndex = String(sentenceIndex);
-
-    ensureSentenceItemHasBothBlocks(item, sentenceIndex);
-
-    const hasQuestion = !!(String(sentence.QE || '').trim() && String(sentence.QP || '').trim());
-    ensureActionsHasPlayButtons(item, sentenceIndex);
-
-    const actions = item.querySelector('.sentence-item-actions');
-    if (actions) {
-      const playBtns = actions.querySelectorAll('.btn-play-sentence');
-      if (playBtns[0]) {
-        playBtns[0].dataset.part = 'question';
-        playBtns[0].classList.toggle('sentence-item__play--hidden', !hasQuestion);
-      }
-      if (playBtns[1]) {
-        playBtns[1].dataset.part = 'answer';
-      }
-    }
-
-    const content = item.querySelector('.sentence-item-content');
-    if (!content) continue;
-
-    const qBlock = content.querySelector('.sentence-question');
-    if (qBlock) {
-      qBlock.classList.toggle('sentence-item__question--hidden', !hasQuestion);
-      const qLine = qBlock.querySelector('.sentence-line[data-part="question"]');
-      if (qLine) {
-        const enEl = qLine.querySelector('.sentence-text:not(.sentence-text--pt)');
-        if (enEl) enEl.textContent = sentence.QE || '—';
-        const mic = qLine.querySelector('.btn-mic');
-        if (mic) {
-          mic.dataset.index = String(sentenceIndex);
-          mic.dataset.part = 'question';
-          mic.title = micTitleQuestion;
-        }
-        const scoreEl = qLine.querySelector('.speech-score');
-        if (scoreEl) {
-          scoreEl.textContent = '';
-          scoreEl.classList.add('hidden');
-        }
-      }
-      const qPt = qBlock.querySelector('.sentence-text--pt');
-      if (qPt) qPt.textContent = sentence.QP || '—';
-    }
-
-    const aBlock = content.querySelector('.sentence-answer');
-    if (aBlock) {
-      const aLine = aBlock.querySelector('.sentence-line[data-part="answer"]');
-      if (aLine) {
-        const enEl = aLine.querySelector('.sentence-text:not(.sentence-text--pt)');
-        if (enEl) enEl.textContent = sentence.AE || '—';
-        const mic = aLine.querySelector('.btn-mic');
-        if (mic) {
-          mic.dataset.index = String(sentenceIndex);
-          mic.dataset.part = 'answer';
-          mic.title = micTitleAnswer;
-        }
-        const scoreEl = aLine.querySelector('.speech-score');
-        if (scoreEl) {
-          scoreEl.textContent = '';
-          scoreEl.classList.add('hidden');
-        }
-      }
-      const aPt = aBlock.querySelector('.sentence-text--pt');
-      if (aPt) aPt.textContent = sentence.AP || '—';
-    }
-  }
-}
-
 function updateListenAllState() {
   if (!elements.listenAllBtn) return;
   const hasSentences = currentContext && currentContext.sentences.length > 0;
-  // Keep button enabled when autoplay is on so user can click "Parar autoplay" to stop
   elements.listenAllBtn.disabled = !hasSentences || !speechSynthesisSupported;
 }
 
 function setPlayingSentenceIndex(index) {
   if (!elements.sentencesList) return;
-  currentPlayingSentenceIndex = index;
   elements.sentencesList
     .querySelectorAll('.sentence-item--playing')
     .forEach((el) => el.classList.remove('sentence-item--playing'));
@@ -727,7 +500,6 @@ function setPlayingSentenceIndex(index) {
 
 function clearPlayingSentenceIndex() {
   if (!elements.sentencesList) return;
-  currentPlayingSentenceIndex = null;
   elements.sentencesList
     .querySelectorAll('.sentence-item--playing')
     .forEach((el) => el.classList.remove('sentence-item--playing'));
@@ -735,41 +507,168 @@ function clearPlayingSentenceIndex() {
 
 function refreshVoices() {
   cachedVoices = window.speechSynthesis.getVoices();
+  genderVoicePools = {};
 }
 
-function pickVoice(langCode) {
-  const voices = cachedVoices.length ? cachedVoices : window.speechSynthesis.getVoices();
-  if (!voices.length) return null;
-
-  const primary = voices.find((v) => v.lang.toLowerCase().startsWith(langCode.toLowerCase()));
-  if (primary) return primary;
-  return voices[0];
-}
-
-function pickVoiceFemale(langCode) {
-  const voices = cachedVoices.length ? cachedVoices : window.speechSynthesis.getVoices();
-  if (!voices.length) return null;
-  const langLower = langCode.toLowerCase();
-  const femaleHints = ['female', 'woman', 'zira', 'samantha', 'karen', 'victoria', 'moira', 'tessa', 'fiona', 'kate', 'alice', 'linda', 'susan'];
-  const byLang = voices.filter((v) => v.lang.toLowerCase().startsWith(langLower));
-  const female = (byLang.length ? byLang : voices).find((v) =>
-    femaleHints.some((h) => v.name.toLowerCase().includes(h))
+function updateAccentButton() {
+  if (!elements.accentToggle) return;
+  const isUS = currentAccent === 'en-US';
+  elements.accentToggle.textContent = isUS ? '🇺🇸 EUA' : '🇬🇧 UK';
+  elements.accentToggle.setAttribute(
+    'aria-label',
+    isUS
+      ? 'Sotaque: inglês americano. Clique para inglês britânico.'
+      : 'Sotaque: inglês britânico. Clique para inglês americano.'
   );
-  if (female) return female;
-  return pickVoice(langCode);
+  elements.accentToggle.title = isUS ? 'Inglês americano (clique para britânico)' : 'Inglês britânico (clique para americano)';
 }
 
-function pickVoiceMale(langCode) {
-  const voices = cachedVoices.length ? cachedVoices : window.speechSynthesis.getVoices();
-  if (!voices.length) return null;
-  const langLower = langCode.toLowerCase();
-  const maleHints = ['male', 'man', 'david', 'daniel', 'alex', 'mark', 'ralph', 'bruce', 'fred', 'paul', 'george', 'nick'];
-  const byLang = voices.filter((v) => v.lang.toLowerCase().startsWith(langLower));
-  const male = (byLang.length ? byLang : voices).find((v) =>
-    maleHints.some((h) => v.name.toLowerCase().includes(h))
-  );
-  if (male) return male;
-  return pickVoice(langCode);
+function toggleAccent() {
+  currentAccent = currentAccent === 'en-US' ? 'en-GB' : 'en-US';
+  localStorage.setItem(ACCENT_KEY, currentAccent);
+  updateAccentButton();
+  genderVoicePools = {};
+
+  if (autoplay && speechSynthesisSupported && currentContext && currentContext.sentences.length) {
+    window.speechSynthesis.cancel();
+    speakCurrentSentence(currentRate);
+  }
+}
+
+const FEMALE_VOICE_HINTS = [
+  'female', 'woman', 'girl', 'zira', 'samantha', 'karen', 'victoria', 'moira',
+  'tessa', 'fiona', 'kate', 'alice', 'linda', 'susan', 'hazel', 'serena', 'jenny',
+  'aria', 'sara', 'emma', 'michelle', 'joanna', 'ivy', 'kimberly', 'nicole', 'olivia',
+];
+
+const MALE_VOICE_HINTS = [
+  'male', 'man', 'boy', 'david', 'daniel', 'alex', 'mark', 'ralph', 'bruce', 'fred',
+  'paul', 'george', 'nick', 'james', 'tom', 'aaron', 'guy', 'ryan', 'christopher',
+  'matthew', 'joey', 'justin', 'kevin', 'michael', 'stephen', 'thomas', 'brian',
+];
+
+let genderVoicePools = {};
+
+function normalizeGender(value, fallback) {
+  const g = String(value || fallback).trim().toUpperCase();
+  return g === 'M' || g === 'F' ? g : fallback;
+}
+
+function getVoiceList() {
+  return cachedVoices.length ? cachedVoices : window.speechSynthesis.getVoices();
+}
+
+function getVoicesForAccent(accent = currentAccent) {
+  const voices = getVoiceList();
+  if (!voices.length) return [];
+
+  const isUS = accent === 'en-US';
+  const includeLang = isUS ? 'en-us' : 'en-gb';
+  const includeNameHints = isUS
+    ? ['us english', 'american', 'united states']
+    : ['uk english', 'british', 'england', 'united kingdom'];
+  const excludeLang = isUS ? 'en-gb' : 'en-us';
+  const excludeNameHints = isUS
+    ? ['uk english', 'british', 'england']
+    : ['us english', 'american'];
+
+  function isExcluded(voice) {
+    const lang = voice.lang.toLowerCase();
+    const name = voice.name.toLowerCase();
+    if (lang.startsWith(excludeLang)) return true;
+    return excludeNameHints.some((hint) => name.includes(hint));
+  }
+
+  const matched = voices.filter((voice) => {
+    if (isExcluded(voice)) return false;
+    const lang = voice.lang.toLowerCase();
+    const name = voice.name.toLowerCase();
+    if (lang.startsWith(includeLang)) return true;
+    return includeNameHints.some((hint) => name.includes(hint));
+  });
+
+  if (matched.length) return matched;
+
+  const englishVoices = voices.filter((v) => v.lang.toLowerCase().startsWith('en'));
+  return englishVoices.length ? englishVoices : voices;
+}
+
+function voiceMatchesHints(voice, hints) {
+  const name = voice.name.toLowerCase();
+  return hints.some((hint) => name.includes(hint));
+}
+
+function isFemaleVoice(voice) {
+  return voiceMatchesHints(voice, FEMALE_VOICE_HINTS);
+}
+
+function isMaleVoice(voice) {
+  return voiceMatchesHints(voice, MALE_VOICE_HINTS);
+}
+
+function buildGenderVoicePool(accent = currentAccent) {
+  const pool = getVoicesForAccent(accent);
+  if (!pool.length) {
+    genderVoicePools[accent] = { female: null, male: null };
+    return genderVoicePools[accent];
+  }
+
+  let female = pool.find((v) => isFemaleVoice(v) && !isMaleVoice(v)) || pool.find(isFemaleVoice) || null;
+  let male = pool.find((v) => isMaleVoice(v) && !isFemaleVoice(v)) || pool.find(isMaleVoice) || null;
+
+  if (!male) {
+    male =
+      pool.find((v) => !isFemaleVoice(v) && (!female || v.name !== female.name)) ||
+      pool.find((v) => !female || v.name !== female.name) ||
+      pool[0];
+  }
+  if (!female) {
+    female =
+      pool.find((v) => !isMaleVoice(v) && (!male || v.name !== male.name)) ||
+      pool.find((v) => !male || v.name !== male.name) ||
+      pool[0];
+  }
+
+  if (male && female && male.name === female.name && pool.length > 1) {
+    male = pool.find((v) => v.name !== female.name) || male;
+  }
+
+  genderVoicePools[accent] = { female, male };
+  return genderVoicePools[accent];
+}
+
+function ensureGenderVoicePool() {
+  if (!genderVoicePools[currentAccent] || !getVoiceList().length) {
+    return buildGenderVoicePool(currentAccent);
+  }
+  return genderVoicePools[currentAccent];
+}
+
+function getVoiceForGender(genderCode) {
+  const gender = normalizeGender(genderCode, 'F');
+  const pool = ensureGenderVoicePool();
+  // F → female voice, M → male voice
+  return gender === 'M' ? pool.male : pool.female;
+}
+
+function configureUtteranceGender(utterance, genderCode) {
+  const gender = normalizeGender(genderCode, 'F');
+  const voice = getVoiceForGender(gender);
+
+  if (voice) {
+    utterance.voice = voice;
+  }
+
+  utterance.lang = currentAccent;
+
+  const pool = ensureGenderVoicePool();
+  if (pool.female && pool.male && pool.female.name === pool.male.name) {
+    utterance.pitch = gender === 'M' ? 0.75 : 1.15;
+  } else if (gender === 'M') {
+    utterance.pitch = 0.9;
+  } else {
+    utterance.pitch = 1.05;
+  }
 }
 
 function speakCurrentSentence(rate) {
@@ -792,30 +691,10 @@ function speakCurrentSentence(rate) {
   doSpeakCurrentSentence(rate);
 }
 
-/** Speak a single sentence by index (for per-row play button). Does not advance autoplay. */
-function speakSentenceAtIndex(index, rate) {
-  if (!speechSynthesisSupported || !currentContext || !currentContext.sentences[index]) return;
-
-  if (!cachedVoices.length) {
-    refreshVoices();
-    if (cachedVoices.length) {
-      doSpeakSentenceAtIndex(index, rate);
-    } else {
-      window.speechSynthesis.onvoiceschanged = () => {
-        refreshVoices();
-        doSpeakSentenceAtIndex(index, rate);
-      };
-    }
-    return;
-  }
-  doSpeakSentenceAtIndex(index, rate);
-}
-
-/** Speak only the question or only the answer for one sentence (one sentence per row). */
 function speakSentencePartAtIndex(index, part, rate) {
   if (!speechSynthesisSupported || !currentContext || !currentContext.sentences[index]) return;
   const sentence = currentContext.sentences[index];
-  const text = part === 'question' ? (sentence.QE || '') : (sentence.AE || '');
+  const text = part === 'question' ? sentence.QE || '' : sentence.AE || '';
   if (!text) return;
   if (!cachedVoices.length) {
     refreshVoices();
@@ -835,14 +714,10 @@ function doSpeakSentencePartAtIndex(index, part, rate) {
   window.speechSynthesis.cancel();
   const sentence = currentContext.sentences[index];
   const isQuestion = part === 'question';
-  const text = isQuestion ? (sentence.QE || '') : (sentence.AE || '');
+  const text = isQuestion ? sentence.QE || '' : sentence.AE || '';
   if (!text) return;
   const utterance = new SpeechSynthesisUtterance(text);
-  const voice = isQuestion
-    ? (sentence.QG === 'M' ? pickVoiceMale('en-US') : sentence.QG === 'F' ? pickVoiceFemale('en-US') : pickVoiceFemale('en-US'))
-    : (sentence.AG === 'M' ? pickVoiceMale('en-US') : sentence.AG === 'F' ? pickVoiceFemale('en-US') : pickVoiceMale('en-US'));
-  if (voice) utterance.voice = voice;
-  utterance.lang = 'en-US';
+  configureUtteranceGender(utterance, getSentenceGender(index, part));
   utterance.rate = rate;
   utterance.onend = () => {
     if (!autoplay) {
@@ -850,44 +725,6 @@ function doSpeakSentencePartAtIndex(index, part, rate) {
     }
   };
   window.speechSynthesis.speak(utterance);
-}
-
-function doSpeakSentenceAtIndex(index, rate) {
-  if (!currentContext || !currentContext.sentences[index]) return;
-  window.speechSynthesis.cancel();
-
-  const sentence = currentContext.sentences[index];
-  const questionText = sentence.QE || '';
-  const answerText = sentence.AE || '';
-
-  function speakAnswer() {
-    if (!answerText) return;
-    const answerUtterance = new SpeechSynthesisUtterance(answerText);
-    let voice = sentence.AG === 'M' ? pickVoiceMale('en-US') : sentence.AG === 'F' ? pickVoiceFemale('en-US') : pickVoiceMale('en-US');
-    if (voice) answerUtterance.voice = voice;
-    answerUtterance.lang = 'en-US';
-    answerUtterance.rate = rate;
-    answerUtterance.onend = () => {
-      if (!autoplay) {
-        clearPlayingSentenceIndex();
-      }
-    };
-    window.speechSynthesis.speak(answerUtterance);
-  }
-
-  if (questionText) {
-    const questionUtterance = new SpeechSynthesisUtterance(questionText);
-    let voice = sentence.QG === 'M' ? pickVoiceMale('en-US') : sentence.QG === 'F' ? pickVoiceFemale('en-US') : pickVoiceFemale('en-US');
-    if (voice) questionUtterance.voice = voice;
-    questionUtterance.lang = 'en-US';
-    questionUtterance.rate = rate;
-    questionUtterance.onend = () => {
-      setTimeout(speakAnswer, 1000);
-    };
-    window.speechSynthesis.speak(questionUtterance);
-  } else {
-    speakAnswer();
-  }
 }
 
 function doSpeakCurrentSentence(rate) {
@@ -906,23 +743,13 @@ function doSpeakCurrentSentence(rate) {
       return;
     }
     const answerUtterance = new SpeechSynthesisUtterance(answerText);
-    let voice = null;
-    if (sentence.AG === 'M') {
-      voice = pickVoiceMale('en-US');
-    } else if (sentence.AG === 'F') {
-      voice = pickVoiceFemale('en-US');
-    } else {
-      voice = pickVoiceMale('en-US');
-    }
-    if (voice) answerUtterance.voice = voice;
-    answerUtterance.lang = 'en-US';
+    configureUtteranceGender(answerUtterance, getSentenceGender(currentIndex, 'answer'));
     answerUtterance.rate = rate;
     answerUtterance.onend = onBothEnded;
     window.speechSynthesis.speak(answerUtterance);
   }
 
   function onBothEnded() {
-    isPlayingSingle = false;
     updateListenAllState();
     if (!autoplay) {
       clearPlayingSentenceIndex();
@@ -946,16 +773,7 @@ function doSpeakCurrentSentence(rate) {
 
   if (questionText) {
     const questionUtterance = new SpeechSynthesisUtterance(questionText);
-    let voice = null;
-    if (sentence.QG === 'M') {
-      voice = pickVoiceMale('en-US');
-    } else if (sentence.QG === 'F') {
-      voice = pickVoiceFemale('en-US');
-    } else {
-      voice = pickVoiceFemale('en-US');
-    }
-    if (voice) questionUtterance.voice = voice;
-    questionUtterance.lang = 'en-US';
+    configureUtteranceGender(questionUtterance, getSentenceGender(currentIndex, 'question'));
     questionUtterance.rate = rate;
     questionUtterance.onend = () => {
       setTimeout(() => {
